@@ -72,20 +72,20 @@
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.gitignore) | Ignored | [Details](#4a6be79ee23699c14dbdae55a52db3b096d2cdcc0)
- [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.localization-config) | Ignored | [Details](#c58750fc0e90fb34ac1899182c210cc068f6d8b41)
- [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.openpublishing.build.mdproj) | Ignored | [Details](#ea7542a1cc208464193da9503160bbb41d54856c2)
- [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.openpublishing.publish.config.json) | Ignored | [Details](#8d82385b0d2a38e30f607bf841c712f023ee8d853)
- [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1215)
- [dsc\pullServerSMB.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/pullServerSMB.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070947)
- [dsc\pushMode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/pushMode.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070948)
- [dsc\retrieveNodeInfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/retrieveNodeInfo.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070952)
- [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/packages.config) | Ignored | [Details](#27554498f63fbe896c2dad68b61f4dde8478ba3162)
- [Tools\NuGet\Nuget.Config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/Tools/NuGet/Nuget.Config) | Ignored | [Details](#37d5a2d0c8a81313cf7e92800e699f2f86a9f9f964)
- [Tools\NuGet\nuget.exe](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/Tools/NuGet/nuget.exe) | Ignored | [Details](#7469c905e04001f8250137d2da57bbc7bec2d35865)
+ [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.gitignore) | Ignored | [Details](#4a6be79ee23699c14dbdae55a52db3b096d2cdcc0)
+ [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.localization-config) | Ignored | [Details](#36927766f77c346b771b2a8cdbc773ef715bf5011)
+ [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.openpublishing.build.mdproj) | Ignored | [Details](#ea7542a1cc208464193da9503160bbb41d54856c2)
+ [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.openpublishing.publish.config.json) | Ignored | [Details](#8d82385b0d2a38e30f607bf841c712f023ee8d853)
+ [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1215)
+ [dsc\pullServerSMB.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/pullServerSMB.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070947)
+ [dsc\pushMode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/pushMode.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070948)
+ [dsc\retrieveNodeInfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/retrieveNodeInfo.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070952)
+ [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/packages.config) | Ignored | [Details](#27554498f63fbe896c2dad68b61f4dde8478ba3162)
+ [Tools\NuGet\Nuget.Config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/Tools/NuGet/Nuget.Config) | Ignored | [Details](#37d5a2d0c8a81313cf7e92800e699f2f86a9f9f964)
+ [Tools\NuGet\nuget.exe](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/Tools/NuGet/nuget.exe) | Ignored | [Details](#7469c905e04001f8250137d2da57bbc7bec2d35865)
 
 ## Item Details
-##### <a name='4a6be79ee23699c14dbdae55a52db3b096d2cdcc0'></a> Source: [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.gitignore)
+##### <a name='4a6be79ee23699c14dbdae55a52db3b096d2cdcc0'></a> Source: [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.gitignore)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -95,7 +95,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='c58750fc0e90fb34ac1899182c210cc068f6d8b41'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.localization-config)
+##### <a name='36927766f77c346b771b2a8cdbc773ef715bf5011'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.localization-config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -105,7 +105,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='ea7542a1cc208464193da9503160bbb41d54856c2'></a> Source: [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.openpublishing.build.mdproj)
+##### <a name='ea7542a1cc208464193da9503160bbb41d54856c2'></a> Source: [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.openpublishing.build.mdproj)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -115,7 +115,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='8d82385b0d2a38e30f607bf841c712f023ee8d853'></a> Source: [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/.openpublishing.publish.config.json)
+##### <a name='8d82385b0d2a38e30f607bf841c712f023ee8d853'></a> Source: [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/.openpublishing.publish.config.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -235,7 +235,7 @@
 * Handoff Reason: Include
 * [Back to Top](#report-top)
 
-##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1215'></a> Source: [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/docfx.json)
+##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1215'></a> Source: [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -288,9 +288,9 @@
 ##### <a name='3e61149f7b05f74d662d3038233013ffdcbed1a320'></a> Source: [dsc\images\PartialConfig1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/PartialConfig1.jpg)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/5a059a4a98793dfd67b13bc8e0ca77b5d45777b8/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg)
+* Handoff File: [3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/d5b53c130253a3c4b252af5da14da0f382e21506/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg)
 * Handback File: 
-* Handoff Datetime: 2015-11-12 19:09:30
+* Handoff Datetime: 2015-11-12 19:33:45
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: IsDependency
 * Dependency From: dsc\partialConfigs.md
@@ -299,9 +299,9 @@
 ##### <a name='1ba842005c2b1ce80a3670429b3e010c7b1c1f5921'></a> Source: [dsc\images\PartialConfigPullServer.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/PartialConfigPullServer.jpg)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/5a059a4a98793dfd67b13bc8e0ca77b5d45777b8/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg)
+* Handoff File: [1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/d5b53c130253a3c4b252af5da14da0f382e21506/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg)
 * Handback File: 
-* Handoff Datetime: 2015-11-12 19:09:30
+* Handoff Datetime: 2015-11-12 19:33:45
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: IsDependency
 * Dependency From: dsc\partialConfigs.md
@@ -310,9 +310,9 @@
 ##### <a name='86d829b1fcdd41e648ed0594eaf337b3726c143c22'></a> Source: [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/Pull.png)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [86d829b1fcdd41e648ed0594eaf337b3726c143c.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/5a059a4a98793dfd67b13bc8e0ca77b5d45777b8/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/86d829b1fcdd41e648ed0594eaf337b3726c143c.png)
+* Handoff File: [86d829b1fcdd41e648ed0594eaf337b3726c143c.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/d5b53c130253a3c4b252af5da14da0f382e21506/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/86d829b1fcdd41e648ed0594eaf337b3726c143c.png)
 * Handback File: 
-* Handoff Datetime: 2015-11-12 19:09:30
+* Handoff Datetime: 2015-11-12 19:33:45
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: IsDependency
 * Dependency From: dsc\enactingConfigurations.md
@@ -321,9 +321,9 @@
 ##### <a name='d3008e3fe7da4c118c693d2b34a0b329780f8d8623'></a> Source: [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/Push.png)
 * Status: HandedOff
 * Target File: 
-* Handoff File: [d3008e3fe7da4c118c693d2b34a0b329780f8d86.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/5a059a4a98793dfd67b13bc8e0ca77b5d45777b8/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/d3008e3fe7da4c118c693d2b34a0b329780f8d86.png)
+* Handoff File: [d3008e3fe7da4c118c693d2b34a0b329780f8d86.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/d5b53c130253a3c4b252af5da14da0f382e21506/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/d3008e3fe7da4c118c693d2b34a0b329780f8d86.png)
 * Handback File: 
-* Handoff Datetime: 2015-11-12 19:09:30
+* Handoff Datetime: 2015-11-12 19:33:45
 * Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: IsDependency
 * Dependency From: dsc\enactingConfigurations.md
@@ -559,7 +559,7 @@
 * Handoff Reason: Include
 * [Back to Top](#report-top)
 
-##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070947'></a> Source: [dsc\pullServerSMB.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/pullServerSMB.md)
+##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070947'></a> Source: [dsc\pullServerSMB.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/pullServerSMB.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -569,7 +569,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070948'></a> Source: [dsc\pushMode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/pushMode.md)
+##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070948'></a> Source: [dsc\pushMode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/pushMode.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -609,7 +609,7 @@
 * Handoff Reason: Include
 * [Back to Top](#report-top)
 
-##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070952'></a> Source: [dsc\retrieveNodeInfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/dsc/retrieveNodeInfo.md)
+##### <a name='da39a3ee5e6b4b0d3255bfef95601890afd8070952'></a> Source: [dsc\retrieveNodeInfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/dsc/retrieveNodeInfo.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -709,7 +709,7 @@
 * Handoff Reason: Include
 * [Back to Top](#report-top)
 
-##### <a name='27554498f63fbe896c2dad68b61f4dde8478ba3162'></a> Source: [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/packages.config)
+##### <a name='27554498f63fbe896c2dad68b61f4dde8478ba3162'></a> Source: [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/packages.config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -729,7 +729,7 @@
 * Handoff Reason: Include
 * [Back to Top](#report-top)
 
-##### <a name='37d5a2d0c8a81313cf7e92800e699f2f86a9f9f964'></a> Source: [Tools\NuGet\Nuget.Config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/Tools/NuGet/Nuget.Config)
+##### <a name='37d5a2d0c8a81313cf7e92800e699f2f86a9f9f964'></a> Source: [Tools\NuGet\Nuget.Config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/Tools/NuGet/Nuget.Config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -739,7 +739,7 @@
 * Handoff Reason: Ignored
 * [Back to Top](#report-top)
 
-##### <a name='7469c905e04001f8250137d2da57bbc7bec2d35865'></a> Source: [Tools\NuGet\nuget.exe](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/414637d15df6927f455eee7150f79148ea47c023/Tools/NuGet/nuget.exe)
+##### <a name='7469c905e04001f8250137d2da57bbc7bec2d35865'></a> Source: [Tools\NuGet\nuget.exe](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/22bfa866f97834317f1d16100cc9f57ed7e802c1/Tools/NuGet/nuget.exe)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
