@@ -3,6 +3,7 @@
   "LastTranslatedCommit": null,
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
+      "FileHash": "c3b8854dbecd4ab03e46c51a23ac00461bdd7014",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "CONTRIBUTING.md",
       "TargetFileCommit": null,
@@ -15,9 +16,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "CONTRIBUTING.md"
+      ]
     },
     "d0d36cc79854de58e99c4984ef47dab41a4e7df4": {
+      "FileHash": "d0d36cc79854de58e99c4984ef47dab41a4e7df4",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\archiveResource.md",
       "TargetFileCommit": null,
@@ -30,9 +35,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\archiveResource.md"
+      ]
     },
     "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": {
+      "FileHash": "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResource.md",
       "TargetFileCommit": null,
@@ -45,9 +54,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResource.md"
+      ]
     },
     "565d71def9c15b19f10ec144ff29e82b9e205e31": {
+      "FileHash": "565d71def9c15b19f10ec144ff29e82b9e205e31",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResourceClass.md",
       "TargetFileCommit": null,
@@ -60,9 +73,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResourceClass.md"
+      ]
     },
     "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d": {
+      "FileHash": "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResourceComposite.md",
       "TargetFileCommit": null,
@@ -75,9 +92,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResourceComposite.md"
+      ]
     },
     "f64cbea29a1e9998b8ade46d69c1ef1c584bd633": {
+      "FileHash": "f64cbea29a1e9998b8ade46d69c1ef1c584bd633",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResourceMOF.md",
       "TargetFileCommit": null,
@@ -90,9 +111,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResourceMOF.md"
+      ]
     },
     "28a9448f7c815bc154612af16634435b6987b7fc": {
+      "FileHash": "28a9448f7c815bc154612af16634435b6987b7fc",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResourceMofCS.md",
       "TargetFileCommit": null,
@@ -105,9 +130,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResourceMofCS.md"
+      ]
     },
     "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": {
+      "FileHash": "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\authoringResourceMofDesigner.md",
       "TargetFileCommit": null,
@@ -120,9 +149,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\authoringResourceMofDesigner.md"
+      ]
     },
     "e3243caa7ec8682a4010e25a4ae0b2359c2d7866": {
+      "FileHash": "e3243caa7ec8682a4010e25a4ae0b2359c2d7866",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\builtInResource.md",
       "TargetFileCommit": null,
@@ -135,9 +168,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\builtInResource.md"
+      ]
     },
     "25ea7bc8b398577cb2916ec833d61c38af812637": {
+      "FileHash": "25ea7bc8b398577cb2916ec833d61c38af812637",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\configData.md",
       "TargetFileCommit": null,
@@ -150,9 +187,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\configData.md"
+      ]
     },
     "065f423b82d69a7c9dbc6384711d2135a3b7e5ec": {
+      "FileHash": "065f423b82d69a7c9dbc6384711d2135a3b7e5ec",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\configurations.md",
       "TargetFileCommit": null,
@@ -165,9 +206,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\configurations.md"
+      ]
     },
     "277d3032f45323050e140f466f639e5606fef53a": {
+      "FileHash": "277d3032f45323050e140f466f639e5606fef53a",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\enactingConfigurations.md",
       "TargetFileCommit": null,
@@ -180,9 +225,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\enactingConfigurations.md"
+      ]
     },
     "d3008e3fe7da4c118c693d2b34a0b329780f8d86": {
+      "FileHash": "d3008e3fe7da4c118c693d2b34a0b329780f8d86",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\images\\Push.png",
       "TargetFileCommit": null,
@@ -197,9 +246,13 @@
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "DependencyFrom": [
         "dsc\\enactingConfigurations.md"
+      ],
+      "FilePathList": [
+        "dsc\\images\\Push.png"
       ]
     },
     "86d829b1fcdd41e648ed0594eaf337b3726c143c": {
+      "FileHash": "86d829b1fcdd41e648ed0594eaf337b3726c143c",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\images\\Pull.png",
       "TargetFileCommit": null,
@@ -214,9 +267,13 @@
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "DependencyFrom": [
         "dsc\\enactingConfigurations.md"
+      ],
+      "FilePathList": [
+        "dsc\\images\\Pull.png"
       ]
     },
     "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": {
+      "FileHash": "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\environmentResource.md",
       "TargetFileCommit": null,
@@ -229,9 +286,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\environmentResource.md"
+      ]
     },
     "ce115dd79b0793718f8e79bb465f244b7cc725b1": {
+      "FileHash": "ce115dd79b0793718f8e79bb465f244b7cc725b1",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\fileResource.md",
       "TargetFileCommit": null,
@@ -244,9 +305,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\fileResource.md"
+      ]
     },
     "bc098355d65bff2203a212f2387be6f79fbb63e8": {
+      "FileHash": "bc098355d65bff2203a212f2387be6f79fbb63e8",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\groupResource.md",
       "TargetFileCommit": null,
@@ -259,9 +324,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\groupResource.md"
+      ]
     },
     "2e0a09a025bcee8fc97e417b21a51773904a0d2e": {
+      "FileHash": "2e0a09a025bcee8fc97e417b21a51773904a0d2e",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxArchiveResource.md",
       "TargetFileCommit": null,
@@ -274,9 +343,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxArchiveResource.md"
+      ]
     },
     "e4d20bc0f083c463514e2044ce86679041263075": {
+      "FileHash": "e4d20bc0f083c463514e2044ce86679041263075",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxBuiltInResources.md",
       "TargetFileCommit": null,
@@ -289,9 +362,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxBuiltInResources.md"
+      ]
     },
     "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b": {
+      "FileHash": "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxEnvironmentResource.md",
       "TargetFileCommit": null,
@@ -304,9 +381,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxEnvironmentResource.md"
+      ]
     },
     "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": {
+      "FileHash": "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxFileLineResource.md",
       "TargetFileCommit": null,
@@ -319,9 +400,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxFileLineResource.md"
+      ]
     },
     "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": {
+      "FileHash": "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxFileResource.md",
       "TargetFileCommit": null,
@@ -334,9 +419,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxFileResource.md"
+      ]
     },
     "ce17b7bb17435cd925f196e4736114982de4e056": {
+      "FileHash": "ce17b7bb17435cd925f196e4736114982de4e056",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxGettingStarted.md",
       "TargetFileCommit": null,
@@ -349,9 +438,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxGettingStarted.md"
+      ]
     },
     "9bda555be3a52c574eccfa66b114883e2f543c70": {
+      "FileHash": "9bda555be3a52c574eccfa66b114883e2f543c70",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxGroupResource.md",
       "TargetFileCommit": null,
@@ -364,9 +457,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxGroupResource.md"
+      ]
     },
     "37c34dfa85386e8d190a5cfd459c3a6885cca838": {
+      "FileHash": "37c34dfa85386e8d190a5cfd459c3a6885cca838",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxPackageResource.md",
       "TargetFileCommit": null,
@@ -379,9 +476,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxPackageResource.md"
+      ]
     },
     "056b0c86701cfd096c863560836dc129ecefc862": {
+      "FileHash": "056b0c86701cfd096c863560836dc129ecefc862",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxScriptResource.md",
       "TargetFileCommit": null,
@@ -394,9 +495,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxScriptResource.md"
+      ]
     },
     "3d766f5b9e2bb9284e717d5a998b1a7c291221fc": {
+      "FileHash": "3d766f5b9e2bb9284e717d5a998b1a7c291221fc",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxServiceResource.md",
       "TargetFileCommit": null,
@@ -409,9 +514,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxServiceResource.md"
+      ]
     },
     "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2": {
+      "FileHash": "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxSshAuthorizedKeysResource.md",
       "TargetFileCommit": null,
@@ -424,9 +533,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxSshAuthorizedKeysResource.md"
+      ]
     },
     "31eea97ab4912ca241557cddbf59929e085ebe80": {
+      "FileHash": "31eea97ab4912ca241557cddbf59929e085ebe80",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\lnxUserResource.md",
       "TargetFileCommit": null,
@@ -439,9 +552,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\lnxUserResource.md"
+      ]
     },
     "0f4922e1df8725aad839211dbe0dfc532692f606": {
+      "FileHash": "0f4922e1df8725aad839211dbe0dfc532692f606",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\logResource.md",
       "TargetFileCommit": null,
@@ -454,9 +571,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\logResource.md"
+      ]
     },
     "d7b3908ae670a7bcc976f2675834316862a25802": {
+      "FileHash": "d7b3908ae670a7bcc976f2675834316862a25802",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\metaConfig.md",
       "TargetFileCommit": null,
@@ -469,9 +590,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\metaConfig.md"
+      ]
     },
     "ef2664b6dd61bd55898971adf7e4a57f92be88cc": {
+      "FileHash": "ef2664b6dd61bd55898971adf7e4a57f92be88cc",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\metaConfig4.md",
       "TargetFileCommit": null,
@@ -484,9 +609,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\metaConfig4.md"
+      ]
     },
     "7f5f99f0f0befde13272221e376006dffbddb994": {
+      "FileHash": "7f5f99f0f0befde13272221e376006dffbddb994",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\overview.md",
       "TargetFileCommit": null,
@@ -499,9 +628,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\overview.md"
+      ]
     },
     "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": {
+      "FileHash": "9c9f1da0b560c44c9760583c4193bdf4eaee09f7",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\packageResource.md",
       "TargetFileCommit": null,
@@ -514,9 +647,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\packageResource.md"
+      ]
     },
     "3f1843e8a1335617c562084ce69fc82ae7c2c694": {
+      "FileHash": "3f1843e8a1335617c562084ce69fc82ae7c2c694",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\partialConfigs.md",
       "TargetFileCommit": null,
@@ -529,9 +666,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\partialConfigs.md"
+      ]
     },
     "3e61149f7b05f74d662d3038233013ffdcbed1a3": {
+      "FileHash": "3e61149f7b05f74d662d3038233013ffdcbed1a3",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\images\\PartialConfig1.jpg",
       "TargetFileCommit": null,
@@ -546,9 +687,13 @@
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "DependencyFrom": [
         "dsc\\partialConfigs.md"
+      ],
+      "FilePathList": [
+        "dsc\\images\\PartialConfig1.jpg"
       ]
     },
     "1ba842005c2b1ce80a3670429b3e010c7b1c1f59": {
+      "FileHash": "1ba842005c2b1ce80a3670429b3e010c7b1c1f59",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\images\\PartialConfigPullServer.jpg",
       "TargetFileCommit": null,
@@ -563,9 +708,13 @@
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "DependencyFrom": [
         "dsc\\partialConfigs.md"
+      ],
+      "FilePathList": [
+        "dsc\\images\\PartialConfigPullServer.jpg"
       ]
     },
     "4cb0a0836e56ca31f9e101be81e1427493cbbcd5": {
+      "FileHash": "4cb0a0836e56ca31f9e101be81e1427493cbbcd5",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\pullClient.md",
       "TargetFileCommit": null,
@@ -578,9 +727,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\pullClient.md"
+      ]
     },
     "54bb78b313c4f0c721862910496c5154ed5444ef": {
+      "FileHash": "54bb78b313c4f0c721862910496c5154ed5444ef",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\pullClientConfigID.md",
       "TargetFileCommit": null,
@@ -593,9 +746,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\pullClientConfigID.md"
+      ]
     },
     "3714670bd9ded38e54c1f2e3f64658950c6d3f40": {
+      "FileHash": "3714670bd9ded38e54c1f2e3f64658950c6d3f40",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\pullClientConfigID4.md",
       "TargetFileCommit": null,
@@ -608,9 +765,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\pullClientConfigID4.md"
+      ]
     },
     "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": {
+      "FileHash": "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\pullClientConfigNames.md",
       "TargetFileCommit": null,
@@ -623,9 +784,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\pullClientConfigNames.md"
+      ]
     },
     "2668c9aa8c36621eb9797e634354bc7fa285d3b8": {
+      "FileHash": "2668c9aa8c36621eb9797e634354bc7fa285d3b8",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\pullServer.md",
       "TargetFileCommit": null,
@@ -638,9 +803,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\pullServer.md"
+      ]
     },
     "fc1456c57ade6862957e54ee53f18f189785848a": {
+      "FileHash": "fc1456c57ade6862957e54ee53f18f189785848a",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\queryServerNodes.md",
       "TargetFileCommit": null,
@@ -653,9 +822,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\queryServerNodes.md"
+      ]
     },
     "44f3bb3bec83fd779c83d0326d55c88ead77cfba": {
+      "FileHash": "44f3bb3bec83fd779c83d0326d55c88ead77cfba",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\registryResource.md",
       "TargetFileCommit": null,
@@ -668,9 +841,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\registryResource.md"
+      ]
     },
     "df54abe3d92ffaff2998e9fb3157b42cf83143c2": {
+      "FileHash": "df54abe3d92ffaff2998e9fb3157b42cf83143c2",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\resources.md",
       "TargetFileCommit": null,
@@ -683,9 +860,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\resources.md"
+      ]
     },
     "b081337b68091f95498d23fecbc64701866b2cec": {
+      "FileHash": "b081337b68091f95498d23fecbc64701866b2cec",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\scriptResource.md",
       "TargetFileCommit": null,
@@ -698,9 +879,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\scriptResource.md"
+      ]
     },
     "14cf6c2005eb756200e7fd065b61e4120d84c02e": {
+      "FileHash": "14cf6c2005eb756200e7fd065b61e4120d84c02e",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\secureMOF.md",
       "TargetFileCommit": null,
@@ -713,9 +898,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\secureMOF.md"
+      ]
     },
     "2290a81a8dbc82b7881d2b6006d70a90578f9a56": {
+      "FileHash": "2290a81a8dbc82b7881d2b6006d70a90578f9a56",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\secureServer.md",
       "TargetFileCommit": null,
@@ -728,9 +917,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\secureServer.md"
+      ]
     },
     "ca609ad6055d8053e43e482ed2e57b3db41c3549": {
+      "FileHash": "ca609ad6055d8053e43e482ed2e57b3db41c3549",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\serviceResource.md",
       "TargetFileCommit": null,
@@ -743,9 +936,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\serviceResource.md"
+      ]
     },
     "66cefb1620ad412d3f4e041561ae1df356fdb1e6": {
+      "FileHash": "66cefb1620ad412d3f4e041561ae1df356fdb1e6",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\TOC.md",
       "TargetFileCommit": null,
@@ -758,9 +955,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\TOC.md"
+      ]
     },
     "2886767875ee6a9882ca050e34787cfa1fb64109": {
+      "FileHash": "2886767875ee6a9882ca050e34787cfa1fb64109",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\troubleshooting.md",
       "TargetFileCommit": null,
@@ -773,9 +974,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\troubleshooting.md"
+      ]
     },
     "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": {
+      "FileHash": "e4b793025b00cb3137eddc0e7ec437f03abdf3c4",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\userResource.md",
       "TargetFileCommit": null,
@@ -788,9 +993,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\userResource.md"
+      ]
     },
     "1484f03d1d80b73e3131095e3363b246929a0a35": {
+      "FileHash": "1484f03d1d80b73e3131095e3363b246929a0a35",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\windowsfeatureResource.md",
       "TargetFileCommit": null,
@@ -803,9 +1012,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\windowsfeatureResource.md"
+      ]
     },
     "47c387c525a58a88f18e61920736a6e0e7f2098d": {
+      "FileHash": "47c387c525a58a88f18e61920736a6e0e7f2098d",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "dsc\\windowsProcessResource.md",
       "TargetFileCommit": null,
@@ -818,9 +1031,13 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "dsc\\windowsProcessResource.md"
+      ]
     },
     "9abd5f2bd558706c03e2c0da58503ef914d08142": {
+      "FileHash": "9abd5f2bd558706c03e2c0da58503ef914d08142",
       "SourceFileCommit": "36b7625bf81bb4eac9d5c2cdcd410514dd367101",
       "SourceFilePath": "README.md",
       "TargetFileCommit": null,
@@ -833,7 +1050,10 @@
       "HandbackFileCommit": null,
       "HandbackDateTime": "0001-01-01T00:00:00",
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "DependencyFrom": null
+      "DependencyFrom": null,
+      "FilePathList": [
+        "README.md"
+      ]
     }
   }
 }
