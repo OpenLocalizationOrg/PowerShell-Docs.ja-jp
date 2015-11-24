@@ -1,20 +1,20 @@
-#Built-In Desired State Configuration Resources for Linux
+#組み込みでは、Linux のリソースの状態の構成が必要な
 
-Resources are building blocks that you can use to write a PowerShell Desired State Configuration (DSC) script. DSC for Linux comes with a set of built-in functionality for configuring resources such as files and folders, packages, environment variables, and services and processes.
+リソースは、PowerShell の必要な状態 Configuration (DSC) スクリプトを記述するのに使用できる構成要素です。 DSC Linux 用ファイルとフォルダー、パッケージ、環境変数、およびサービスおよびプロセスなどのリソースを構成するための組み込みの機能のセットが付属します。
 
-##Built-in resources
+##組み込みのリソース
 
-The following table provides a list of these resources and links to topics that describe them in detail.
+次の表では、これらのリソースや詳細を説明するトピックへのリンクの一覧を示します。
 
-* [nxArchive Resource](lnxArchiveResource.md)--Provides a mechanism to unpack archive (.tar, .zip) files at a specific path.
-* [nxEnvironment Resource](lnxEnvironmentResource.md)--Manages environment variables on target nodes.
-* [nxFile Resource](lnxFileResource.md)--Manages Linux files and directories.
-* [nxFileLine Resource](lnxFileLineResource.md)--Manages individual lines in a Linux file.
-* [nxGroup Resource](lnxGroupResource.md)--Manages local Linux groups.
-* [nxPackage Resource](lnxPackageResource.md)--Manages packages on Linux nodes.- [nxScript Resource](lnxScriptResource.md)--Runs scripts on target nodes.
-* [nxService Resource](lnxServiceResource.md)--Manages Linux services (daemons).
-* [nxSshAuthorizedKeys Resource](lnxSshAuthorizedKeysResource.md)--Manages public ssh keys for a Linux user.
-* [nxUser Resource](lnxUserResource.md)--Manages local Linux users.
+* [nxArchive リソース](lnxArchiveResource.md)-特定のパスでのアーカイブ (.tar、.zip) ファイルをアンパックするメカニズムを提供します。
+* [nxEnvironment リソース](lnxEnvironmentResource.md)-ターゲット ノード上の環境変数を管理します。
+* [nxFile リソース](lnxFileResource.md)-Linux の管理のファイルとディレクトリ。
+* [nxFileLine リソース](lnxFileLineResource.md)-Linux のファイルの 1 行ずつを管理します。
+* [nxGroup リソース](lnxGroupResource.md)-Linux のローカル グループを管理します。
+* [nxPackage リソース](lnxPackageResource.md)- Linux ノードでパッケージを管理する - [nxScript リソース](lnxScriptResource.md)-ターゲット ノードでスクリプトを実行します。
+* [nxService リソース](lnxServiceResource.md)-Linux の管理サービス (デーモン)。
+* [nxSshAuthorizedKeys リソース](lnxSshAuthorizedKeysResource.md)-パブリック ssh のキーを管理、Linux ユーザーです。
+* [nxUser リソース](lnxUserResource.md)--ローカルの Linux ユーザーを管理します。
 
 
 

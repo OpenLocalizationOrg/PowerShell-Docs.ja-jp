@@ -1,12 +1,12 @@
-#DSC User Resource
+#DSC ユーザー リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
-
-
-The __User__ resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local user accounts on the target node.
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
 
-##Syntax
+__ユーザー__ リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、ターゲット ノード上のローカル ユーザー アカウントを管理するメカニズムを提供します。
+
+
+##構文
 
 ```
 User [string] #ResourceName
@@ -24,22 +24,22 @@ User [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| UserName| Indicates the account name for which you want to ensure a specific state.|
-| Description| Indicates the description you want to use for the user account.|
-| Disabled| Indicates if the account is enabled.Set this property to __$true__ to ensure that this account is disabled, and set it to __$false__ to ensure that it is enabled.|
-| Ensure| Indicates if the account exists.Set this property to "Present" to ensure that the account exists, and set it to "Absent" to ensure that the account does not exist.|
-| FullName| Represents a string with the full name you want to use for the user account.|
-| Password| Indicates the password you want to use for this account.|
-| PasswordChangeNotAllowed| Indicates if the user can change the password.Set this property to __$true__ to ensure that the user cannot change the password, and set it to __$false__ to allow the user to change the password.The default value is __$false__.|
-| PasswordChangeRequired| Indicates if the user must change the password at the next sign in.Set this property to __$true__ if the user must change the password.The default value is __$true__.|
-| PasswordNeverExpires| Indicates if the password will expire.To ensure that the password for this account will never expire, set this property to __$true__, and set it to __$false__ if the password will expire.The default value is __$false__.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| UserName| 特定の状態を保証するアカウント名を示します。|
+| 説明| ユーザー アカウントを使用する場合の説明を示します。|
+| 無効になっています。| アカウントが有効になっているかどうかを示します。このプロパティを設定 __$true__ このアカウントが無効にするとに設定することを確認する __$false__ を有効になっていることを確認します。|
+| 確認します。| アカウントが存在するかどうかを示します。アカウントが存在することを確認するには、"Present"には、このプロパティを設定し、アカウントが存在しないことを確認する「ない」に設定します。|
+| FullName| ユーザー アカウントを使用する場合、完全名の文字列を表します。|
+| Password| このアカウントを使用するパスワードを示します。|
+| PasswordChangeNotAllowed| かどうか、ユーザーがパスワードを変更できることを示します。このプロパティを設定 __$true__ 、ユーザーがパスワードを変更できないかどうか、およびに設定ことを確認に __$false__ パスワードを変更するユーザーを許可します。既定値は __$false__です。|
+| PasswordChangeRequired| かどうか、ユーザーは次回のサインイン時にパスワードを変更する必要がありますを示します。このプロパティを設定 __$true__ 場合は、ユーザーがパスワードを変更する必要があります。既定値は __$true__です。|
+| PasswordNeverExpires| パスワードの有効期限が切れることを示します。パスワードのこのアカウントは有効期限が切れることはありません、このプロパティに設定する __$true__, に設定して __$false__ パスワードの有効期限が切れる場合。既定値は __$false__です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
 ```powershell
 User UserExample

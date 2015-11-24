@@ -1,10 +1,10 @@
-#DSC Group Resource
+#DSC グループ リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The Group resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on the target node.
+グループのリソースで Windows PowerShell 必要な状態 Configuration (DSC) では、ターゲット ノード上のローカル グループを管理するためのメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 Group [string] #ResourceName
@@ -20,22 +20,22 @@ Group [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| GroupName| Indicates the name of the group for which you want to ensure a specific state.|
-| Credential| Indicates the credentials required to access remote resources.**Note**: This account must have the appropriate Active Directory permissions to add all non-local accounts to the group; otherwise, an error will occur.
-| Description| Indicates the description of the group.|
-| Ensure| Indicates if the group exists.Set this property to "Absent" to ensure that the group does not exist.Setting it to "Present" (the default value) ensures that the group exists.|
-| Members| Indicates that you want to ensure these members form the group.|
-| MembersToExclude| Indicates the users who you want ensure are not members of this group.|
-| MembersToInclude| Indicates the users who you want to ensure are members of the group.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"``.|
+| グループ名| 特定の状態を確認するグループの名前を示します。|
+| Credential| リモート リソースにアクセスするために必要な資格情報を示します。**注**: このアカウントは、グループにすべての非ローカル アカウントを追加する適切な Active Directory のアクセス許可が必要があります。 それ以外の場合、エラーが発生します。
+| 説明| グループの説明を示します。|
+| 確認します。| グループが存在するかどうかを示します。「すべて」をグループが存在しないことを確認するには、このプロパティを設定します。(既定値) の「表示」するには、次のように設定とは、グループが存在することを確認します。|
+| メンバー| これらのメンバー グループを形成することを確認することを示します。|
+| MembersToExclude| データ型は、このグループのメンバーを確認しユーザーではないことを示します。|
+| MembersToInclude| 確認するユーザーには、グループのメンバーを示します。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は、' DependsOn ="[リソースの種類] ResourceName"' です。|
 
-##Example
+##例
 
-The following example shows how to ensure that a group called TestGroup is absent.
+次の例では、その後 TestGroup をという名前のグループが存在しないことを確認する方法を示します。
 
 ```powershell
 Group GroupExample

@@ -1,18 +1,18 @@
-#PowerShell Desired State Configuration partial configurations
+#PowerShell の必要な状態の構成部分の構成
 
-> Applies To: Windows PowerShell 5.0
+> 5.0 Windows PowerShell に適用されます。
 
-In PowerShell 5.0, Desired State Configuration (DSC) allows configurations to be delivered in fragments and from multiple sources. The Local Configuration Manager (LCM) on the target node puts the fragments together before applying them as a single configuration. This capability allows sharing control of configuration between teams or individuals. For example, if two or more teams of developers are collaborating on a service, they might each want to create configurations to manage their part of the service. Each of these configurations could be pulled from different pull servers, and they could be added at different stages of development. Partial configurations also allow different individuals or teams to control different aspects of configuring nodes without having to coordinate the editing of a single configuration document. For example, one team might be responsible for deploying a VM and operating system, while another team might deploy other applications and services on that VM. With partial configurations, each team can create its own configuration, without either of them being unnecessarily complicated.
+PowerShell の 5.0 では、必要な状態 Configuration (DSC) はフラグメントでは複数のソースからの配信に構成を使用できます。 ターゲット ノード上のローカル構成マネージャー (LCM) は、1 つの構成として適用する前にまとめて、フラグメントを配置します。 この機能により、チームまたは個人の間の構成の制御を共有します。 たとえば場合は、サービスでは、次の 2 つまたは複数の開発者のチームが共同作業、各作成することも、サービスの一部を管理するための構成。 プルの別のサーバーからプルされ、これらの構成の可能性があり、開発のさまざまな段階でそれらを追加することができます。 部分的な構成では、1 つの構成ドキュメントの編集を調整することがなく、ノードを構成するさまざまな側面を制御するには、さまざまな担当者やチームのこともできます。 たとえば、1 つのチーム別のチームが他のアプリケーションおよびその VM 上のサービス展開中に、VM とオペレーティング システムの展開を担当する場合があります。 部分的な構成では、各チームはされている、不必要に複雑なそれらのいずれかのことがなく、独自の構成を作成できます。
 
-You can use partial configurations in push mode, pull mode, or a combination of the two.
+プッシュ モード、プル モード、または 2 つの組み合わせで部分の構成を使用することができます。
 
-##Partial configurations in push mode
+##プッシュ モードでの部分の構成
 
-To use partial configurations in push mode, you configure the LCM on the target node to receive the partial configurations. Each partial configuration must be pushed to the target by using the Publish-DSCConfiguration cmdlet. The target node then combines the partial configuration into a single configuration, and you can apply the configuration by calling the [Start-DscConfigurationxt](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet.
+部分的な構成をプッシュ モードを使用するのには、一部の構成を受信するターゲット ノードで、LCM を構成します。 各部分の構成は、発行 DSCConfiguration コマンドレットを使用して、ターゲットにプッシュする必要があります。 ターゲット ノードがし、部分の構成には、1 つの構成を結合し、呼び出すことによって、構成を適用する、 [開始 DscConfigurationxt](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。
 
-###Configuring the LCM for push-mode partial configurations
+###部分の構成をプッシュ モード LCM を構成します。
 
-To configure the LCM for partial configurations in push mode, you create a **DSCLocalConfigurationManager** configuration with one **PartialConfiguration** block for each partial configuration. For more information about configuring the LCM, see [Windows Configuring the Local Configuration Manager](https://technet.microsoft.com/en-us/library/mt421188.aspx). The following example shows an LCM configuration that expects two partial configurations—one that deploys the OS, and one that deploys and configures SharePoint.
+作成する部分の構成の LCM をプッシュ モードを構成するのには **DSCLocalConfigurationManager** いずれかで構成 **PartialConfiguration** の各部分の構成ブロック。 LCM を構成する方法の詳細については、次を参照してください。 [Windows のローカルの Configuration Manager の構成](https://technet.microsoft.com/en-us/library/mt421188.aspx)です。 次の例では、2 つの部分的な構成が必要とする LCM 構成 —、OS を展開してする展開し、SharePoint を構成します。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -36,21 +36,21 @@ configuration PartialConfigDemo
 PartialConfigDemo 
 ```
 
-The **RefreshMode** for each partial configuration is set to "Push". The names of the **PartialConfiguration** blocks (in this case, "OSInstall" and "SharePointConfig") must match exactly the names of the configurations that are pushed to the target node.
+**RefreshMode** 各部分の構成を「プッシュ」に設定します。 名前、 **PartialConfiguration** (ここでは、"OSInstall"と"SharePointConfig") のブロックはターゲット ノードにプッシュするための構成の名前を正確に一致する必要があります。
 
-###Publishing and starting push-mode partial configurations
+###公開して、一部の構成をプッシュ モードの開始
 
-![PartialConfig folder structure](./images/PartialConfig1.jpg)
+![PartialConfig フォルダー構造](./images/PartialConfig1.jpg)
 
-You then call **Publish-DSCConfiguration** for each configuration, passing the folders that contain the configuration documents as the Path parameters. After publishing both configurations, you can call `Start-DSCConfiguration –UseExisting` on the target node.
+次に呼び出し、 **発行 DSCConfiguration** 構成ごとに、パスのパラメーターとして構成ドキュメントの格納フォルダーを渡します。 両方の構成を公開するには、後に呼び出すことができます `開始 DSCConfiguration – 既存` のターゲット ノード上。
 
-##Partial configurations in pull mode
+##プル モードでの部分の構成
 
-Partial configurations can be pulled from one or more pull servers (for more information about pull servers, see [Windows PowerShell Desired State Configuration Pull Servers](pullServer.md). To do this, you have to configure the LCM on the target node to pull the partial configurations, and name and locate the configuration documents properly on the pull servers.
+一部の構成は、1 つまたは複数のプル サーバーから取得できます (プル サーバーに関する詳細については、次を参照してください。 [Windows PowerShell 必要な状態の構成プル サーバー](pullServer.md)です。 これを行うには、ターゲット ノードが、一部の構成を取得し、名前をプル サーバーで正しく構成ドキュメントを見つけることで、LCM を構成する必要があります。
 
-###Configuring the LCM for pull node configurations
+###プル ノードの構成の LCM を構成します。
 
-To configure the LCM to pull partial configurations from a pull server, you define the pull server in either a **ConfigurationRepositoryWeb** (for an HTTP pull server) or **ConfigurationRepositoryShare** (for an SMB pull server) block. You then create **PartialConfiguration** blocks that refer to the pull server by using the **ConfigurationSource** property. You also need to create a Settings block to specify that the LCM uses pull mode, and to specify the ConfigurationID that the pull server and target node use to identify the configurations. The following meta-configuration defines an HTTP pull server named CONTOSO-PullSrv and two partial configurations that use that pull server.
+プル サーバーからの部分的な構成をプルする LCM を構成するには、いずれかでプルのサーバーを定義する、 **ConfigurationRepositoryWeb** (HTTP プル サーバーの場合は) 用または **ConfigurationRepositoryShare** (SMB プル サーバー) をブロックします。 次に、作成 **PartialConfiguration** ブロックを使用して、プル サーバーを参照している、 **ConfigurationSource** プロパティです。 また、LCM がプル モードを使用することを指定してプルのサーバーとリンク先ノードが、構成を識別するために使用する ConfigurationID を指定する設定のブロックを作成する必要があります。 次のメタ構成が CONTOSO PullSrv をという名前の HTTP プルのサーバーを定義し、2 つの部分的な構成を使用するサーバーを取得します。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -89,22 +89,22 @@ configuration PartialConfigDemo
 PartialConfigDemo 
 ```
 
-You can pull partial configurations from more than one pull server—you would just need to define each pull server, and then refer to the appropriate pull server in each PartialConfiguration block.
+プルの 2 つ以上のサーバーからの部分的な構成をプルすることができます: だけ必要になりますを各プルのサーバーを定義し、各 PartialConfiguration ブロックのプルを適切なサーバーを参照してください。
 
-After creating the meta-configuration, you must run it to create a configuration document (a MOF file), and then call [Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx) to configure the LCM.
+メタ構成を作成した後、構成のドキュメント (MOF ファイル) を作成し、[セット DscLocalConfigurationManager] (https://technet.microsoft.com/en-us/library/dn521621、LCM を構成するには、(v=wps.630).aspx) を呼び出すを実行する必要があります。
 
-###Naming and placing the configuration documents on the pull server
+###名前付けとプルのサーバー上の構成ドキュメントを配置します。
 
-The partial configuration documents must be placed in the folder specified as the **ConfigurationPath** in the `web.config` file for the pull server (typically `C:\Program Files\WindowsPowerShell\DscService\Configuration`). The configuration documents must be named as follows: _ConfigurationName_. _ConfigurationID_`.mof`, where _ConfigurationName_ is the name of the partial configuration and _ConfigurationID_ is the configuration ID defined in the LCM on the target node. For our example, the configuration documents should be names as follows.
-![PartialConfig names on pull server](images/PartialConfigPullServer.jpg)
+構成の部分的なドキュメントは、として指定されたフォルダーに配置する必要があります、 **ConfigurationPath** で、 `web.config` プル サーバーのファイル (通常 `C:\Program Files\WindowsPowerShell\DscService\Configuration`)。 構成のドキュメントを次のように名前必要があります。 _ConfigurationName_です。 _ConfigurationID_`.mof`, ここで、 _ConfigurationName_ 部分の構成の名前を指定し、 _ConfigurationID_ は、ターゲット ノードで LCM で定義された構成の ID。 例では、構成のドキュメントは次のように名前をする必要があります。
+![プル サーバー上の PartialConfig 名](images/PartialConfigPullServer.jpg)
 
-###Running partial configurations from a pull server
+###プル サーバーから部分的な構成を実行しています。
 
-After the LCM on the target node has been configured, and the configuration documents have been created and properly named on the pull server, the target node will pull the partial configurations, combine them, and apply the resulting configuration at regular intervals as specified by the **RefreshFrequencyMins** property of the LCM. If you want to force a refresh, you can call the Update-DscConfiguration cmdlet, to pull the configurations, and then `Start-DSCConfiguration –UseExisting` to apply them.
+ターゲット ノードの電源は部分の構成を取得いること、結合、および一定の間隔で指定したとおりで、結果の構成を適用のターゲット ノード上の LCM が構成されているを後の構成ドキュメントを作成およびプルのサーバーで正しくという名前の **RefreshFrequencyMins** 、LCM のプロパティです。 強制的に更新する場合を構成を取得して、更新 DscConfiguration コマンドレットを呼び出すことができ、 `開始 DSCConfiguration – 既存` に適用するようにします。
 
-##Partial configurations in mixed push and pull modes
+##プッシュおよびプルの混在モードでの部分の構成
 
-You can also mix push and pull modes for partial configurations. That is, you could have one partial configuration that is pulled from a pull server, while another partial configuration is pushed. Treat each partial configuration as you would, depending on its refresh mode as described in the previous sections. For example, the following meta-configuration describes the same example, with the operating system partial configuration in pull mode and the SharePoint partial configuration in push mode.
+プッシュを混在させるし、部分的な構成のモードを取得できます。 つまり、他の部分の構成がプッシュされたときに、プル サーバーからを取得する 1 つの部分的な構成ができます。 によっては、前のセクションで説明するように、更新モードのと同様に、各部分の構成を処理します。 たとえば、次のメタ構成では、同じ例では、プル モードでオペレーティング システムの一部の構成とプッシュ モードで SharePoint の部分的な構成について説明します。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -142,15 +142,15 @@ configuration PartialConfigDemo
 PartialConfigDemo 
 ```
 
-Note that the **RefreshMode** specified in the Settings block is "Pull", but the **RefreshMode** for the OSInstall partial configuration is "Push".
+なお、 **RefreshMode** 「プル」は、設定のブロックで指定しますが、 **RefreshMode** 、OSInstall 部分の構成は「プッシュ」です。
 
-You would name and locate the configuration documents as described above for their respective refresh modes. You would call **Publish-DSCConfiguration** to publish the SharePointInstall partial configuration, and either wait for the OSInstall configuration to be pulled from the pull server, or force a refresh by calling [Update-DscConfiguration](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx).
+名前をそれぞれの更新モードを上記のように構成ドキュメントを検索するとします。 呼び出します。 **発行 DSCConfiguration** 、SharePointInstall を発行すると部分的な構成では、待機するサーバーから取得した、プル、または、[更新 DscConfiguration] (https://technet.microsoft.com/en-us/library/mt143541 (v=wps.630).aspx) を呼び出すことによって強制的に更新するには、OSInstall 構成。
 
-##See Also
+##関連項目
 
-**Concepts**
-[Windows PowerShell Desired State Configuration Pull Servers](pullServer.md) 
-[Windows Configuring the Local Configuration Manager](https://technet.microsoft.com/en-us/library/mt421188.aspx)
+**概念**
+[Windows PowerShell の必要なプル サーバーの状態の構成](pullServer.md) 
+[Windows のローカルの Configuration Manager の構成](https://technet.microsoft.com/en-us/library/mt421188.aspx)
 
 
 

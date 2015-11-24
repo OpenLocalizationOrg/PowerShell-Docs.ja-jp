@@ -1,8 +1,8 @@
-#DSC for Linux nxGroup Resource
+#DSC Linux nxGroup リソース用
 
-The **nxGroup** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on a Linux node.
+**NxGroup** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux のノード上のローカル グループを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```powershell
 nxGroup <string> #ResourceName
@@ -16,21 +16,21 @@ nxGroup <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| GroupName| Specifies the name of the group for which you want to ensure a specific state.|
-| Ensure| Determines whether to check if the group exists.Set this property to "Present" to ensure the group exists.Set it to "Absent" to ensure the group does not exist.The default value is "Present".|
-| Members| Specifies the members that form the group.|
-| MembersToInclude| Specifies the users who you want to ensure are members of the group.|
-| MembersToExclude| Specifies the users who you want to ensure are not members of the group.|
-| PreferredGroupID| Sets the group id to the provided value if possible.If the group id is currently in use, the next available group id is used.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| グループ名| 特定の状態を確認するグループの名前を指定します。|
+| 確認します。| グループが存在するかどうかを確認するかどうかを判断します。グループが存在することを確認するには、"Present"には、このプロパティを設定します。グループが存在しないことを確認する「ない」に設定します。既定値は、"Present"です。|
+| メンバー| グループを形成するメンバーを指定します。|
+| MembersToInclude| 確認するユーザーには、グループのメンバーを指定します。|
+| MembersToExclude| データ型は、グループのメンバーを確認するユーザーではないことを指定します。|
+| PreferredGroupID| 可能であればグループ id を指定された値に設定します。グループ id は、現在使用中に、[次へ] の使用可能なグループの id が使用されます。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-The following example ensures that the user “monuser” exists and is a member of the group "DBusers".
+次の例では、"monuser"ユーザーが存在し、"DBusers"のグループのメンバーであることをようにします。
 
 ```
 Import-DSCResource -Module nx 

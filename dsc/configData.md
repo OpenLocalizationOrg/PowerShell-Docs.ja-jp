@@ -1,16 +1,16 @@
-#Separating Configuration and Environment Data
+#構成および環境データを分離すること
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-In Windows PowerShell Desired State Configuration (DSC), it is possible to separate configuration data from the logic of your configuration. Another way to look at this is to consider the structural configuration (for example, a configuration might require that IIS be installed) as separate from the environmental configuration (that is, whether the situation is a test environment vs. a production one—the node names would be different, but the configuration applied to them would be the same). This has the following advantages:
+Windows PowerShell 必要な状態 Configuration (DSC)、構成データを構成のロジックから分離することができます。 構造型の構成を検討するのには、これを確認する方法 (たとえば、構成必要があります IIS をインストールする) 環境の構成とは別に (つまり状況がいずれかの運用環境とテスト環境はかどうか、異なりますが、ノード名になりますが、それらに適用される構成は同じになります)。 これは、次の利点があります。
 
-* It allows you to reuse your configuration data for different resources, nodes, and configurations.
-* Configuration logic is more reusable if it does not contain hard-coded data. This is similar to good scripting guidelines for functions.
-* If some of the data needs to change, you can make the changes in one location, thereby saving time and reducing errors.
+* さまざまなリソース、ノード、および構成の構成データを再利用することができます。
+* 構成のロジックは、ハード コーディングされたデータが含まれていない場合は、再利用可能です。 これは、機能は、関数の適切なスクリプト作成のガイドラインに似ています。
+* データの一部を変更する必要がある場合、することができます、変更、1 つの場所に時間を節約し、エラーを減らすためです。
 
-##Basic concepts and examples
+##基本的な概念と例
 
-To specify the environmental part of the configuration, DSC uses the **ConfigurationData** parameter, which is a hash table (or it can take a .psd1 file which contains the hash table). This hash table must have at least one key **AllNodes**, which has a structured value. For example:
+DSC は、構成の環境の一部を指定する、 **ConfigurationData** パラメーター、これは、ハッシュ テーブル (または、ハッシュ テーブルを含む .psd1 ファイルがかかることができます)。 このハッシュ テーブルに少なくとも 1 つのキーが必要 **AllNodes**, を持つ、構造化された値。 たとえば、次のように入力します。
 
 ```powershell
 $MyData = 
@@ -20,7 +20,7 @@ $MyData =
 }
 ```
 
-Note the AllNodes key, whose value is an array. Each element of this array is also a hash table, which requires NodeName as a key:
+AllNodes キーは、ある値が配列に注意してください。 この配列の各要素は、キーとしてのノード名を必要とするハッシュ テーブルもです。
 
 ```powershell
 $MyData = 
@@ -46,7 +46,7 @@ $MyData =
 }
 ```
 
-Each hash table entry in AllNodes corresponds to configuration data to a node in the configuration. In addition to the required NodeName key, you can add other keys to the hash table as well, for example:
+AllNodes で各ハッシュ テーブルのエントリは、構成データを構成内のノードに対応します。 だけでなく、必要なノード名のキーを追加することも他のキー、ハッシュ テーブルの。
 
 ```powershell
 $MyData = 
@@ -75,9 +75,9 @@ $MyData =
 }
 ```
 
-DSC offers three special variables to use in the configuration script:
+DSC には、構成のスクリプトで使用する 3 つの特殊な変数が用意されています。
 
-* **$AllNodes**: Refers to all of the nodes. You can use filtering with **.Where()** and **.ForEach()**, so instead of hard-coding node names to select particular nodes for action, you could write something like this to select VM-1 and VM-3 in the above example:
+* **$AllNodes**: すべてのノードを参照します。 によるフィルター処理を行うこともできます **です。Where()** と **です。ForEach()**, ので、アクションの特定のノードを選択するハード コーディング ノード名の代わりに、上記の例では、VM および VM 3 を選択する次のように何かを記述できます。
 
 ```powershell
 configuration MyConfiguration
@@ -88,7 +88,7 @@ configuration MyConfiguration
 }
 ```
 
-* **$Node**: Once the set of nodes is filtered, you can use $Node to refer to the particular entry. For example:
+* **$Node**: 後、ノードのセットをフィルター選択すると、特定のエントリを参照する $Node を行うこともできます。 たとえば、次のように入力します。
 
 ```powershell
 configuration MyConfiguration
@@ -106,7 +106,7 @@ configuration MyConfiguration
 }
 ```
 
-To apply a property to all nodes, you can set NodeName = “*”. For example, to give every node the LogPath property, you could do this:
+すべてのノードには、プロパティを適用するには、ノード名を設定することができます ="*"です。 たとえばにすべてのノードを LogPath プロパティに与えるには、こうとでした。
 
 ```
 $MyData = 
@@ -143,7 +143,7 @@ $MyData =
 }
 ```
 
-* **$ConfigurationData**: You can use this variable inside a configuration to access the configuration data hash table passed as a parameter. For example:
+* **$ConfigurationData**: パラメーターとして渡された構成データのハッシュ テーブルにアクセスする、構成内には、この変数を使用することができます。 たとえば、次のように入力します。
 
 ```powershell
 $MyData = 
@@ -206,7 +206,7 @@ configuration MyConfiguration
 }
 ```
 
-You can find a full example included in the [xWebAdministration module](https://powershellgallery.com/packages/xWebAdministration).
+含まれる完全な例を見つけることができます、 [xWebAdministration モジュール](https://powershellgallery.com/packages/xWebAdministration)です。
 
 
 

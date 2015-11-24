@@ -1,12 +1,12 @@
-#Composite resources: Using a DSC configuration as a resource
+#複合リソース: リソースとして DSC 構成を使用します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-In real-world situations, configurations can become long and complex, calling many different resources and setting many different properties. To help address this complexity, you can use a Windows PowerShell Desired State Configuration (DSC) configuration as a resource for other configurations. We call this a composite resource. A composite resource is a DSC configuration that takes parameters. The parameters of the configuration act as the properties of the resource. The configuration is saved as a file with a **. schema.psm1** extension, and takes the place of both the MOF schema and the resource script in a typical DSC resource (for more information about DSC resources, see [Windows PowerShell Desired State Configuration Resources](resources.md).
+実際の状況では、構成は長くて複雑な場合は、多くのさまざまなリソースを呼び出すと、多くの異なるプロパティの設定になります。 このような複雑さに対処するには、その他の構成のリソースとして Windows PowerShell 必要な状態 Configuration (DSC) の構成を使用できます。 我々 はこれを複合リソースです。 複合リソースは、パラメーターを受け取る DSC 構成です。 構成のパラメーターは、リソースのプロパティとして機能します。 ファイルと構成を保存、* *。 schema.psm1** の拡張機能は、および標準的な DSC リソースで MOF のスキーマとリソースの両方の場所がスクリプトでは (DSC リソースに関する詳細については、次を参照してください。 [Windows PowerShell の必要な状態構成リソース](resources.md)です。
 
-##Creating the composite resource
+##複合のリソースの作成
 
-In our example, we create a configuration that invokes a number of existing resources to configure virtual machines. Instead of specifying the values to be set in configuration blocks, the configuration takes a number of parameters that are then used in the configuration blocks.
+この例では、多数の仮想マシンを構成する既存のリソースを起動するための構成を作成します。 構成ブロックで設定する値を指定するには、代わりには、構成は、さまざまな構成ブロックでために使用されるパラメータを受け取る。
 
 ```powershell
 Configuration xVirtualMachine
@@ -120,15 +120,15 @@ foreach($Name in $VMName)
 }
 ```
 
-###Saving the configuration as a composite resource
+###複合リソースとして構成を保存します。
 
-To use the parameterized configuration as a DSC resource, save it in a directory structure like that of any other MOF-based resource, and name it with a **.schema.psm1** extension. For this example, we’ll name the file **xVirtualMachine.schema.psm1**. You also need to create a manifest named **xVirtualMachine.psd1** that contains the following line. Note that this is in addition to **MyDscResources.psd1**, the module manifest for all resources under the **MyDscResources** folder.
+DSC リソースとしてには、パラメーター化された構成を使用するには、いずれかの他の MOF ベース リソース、そのようなディレクトリ構造に保存し、名前を使用して、 **. schema.psm1** 拡張機能です。 この例では、名前をファイル **xVirtualMachine.schema.psm1**です。 という名前のマニフェストを作成する必要があります **xVirtualMachine.psd1** を次の行が含まれています。 他に、これは **MyDscResources.psd1**, 、モジュールのマニフェストを下にあるすべてのリソースを **MyDscResources** フォルダーです。
 
 ```powershell
 RootModule = 'xVirtualMachine.schema.psm1'
 ```
 
-When you are done, the folder structure should be as follows.
+完了したら、ときに、フォルダー構造は次のようにする必要があります。
 
 ```
 $env: psmodulepath
@@ -140,11 +140,11 @@ $env: psmodulepath
                 |- xVirtualMachine.schema.psm1
 ```
 
-The resource is now discoverable by using the Get-DscResource cmdlet, and its properties are discoverable by either that cmdlet or by using **Ctrl+Space** auto-complete in the Windows PowerShell ISE.
+Get DscResource コマンドレットを使用して、リソースが探索可能なおよびそのプロパティがそのいずれかのコマンドレットによって、またはを使用して探索可能な **Ctrl キーを押しながら Space キー** Windows PowerShell ISE でオート コンプリートします。
 
-##Using the composite resource
+##複合のリソースを使用します。
 
-Next we create a configuration that calls the composite resource. This configuration calls the xVirtualMachine resource to create a virtual machine, and then calls the **xComputer** resource to rename it.
+次に複合のリソースを呼び出すの構成を作成します。 この構成は、仮想マシンを作成する xVirtualMachine リソースを呼び出すしを呼び出して、 **xComputer** リソース名を変更します。
 
 ```powershell
 configuration RenameVM
@@ -175,12 +175,12 @@ Node localhost
 } 
 ```
 
-##See Also
+##関連項目
 
-###Concepts
+###概念
 
-* [Writing a custom DSC resource with MOF](authoringResourceMOF.md)
-* [Get Started with Windows PowerShell Desired State Configuration](overview.md)
+* [MOF を持つカスタム DSC リソースの作成](authoringResourceMOF.md)
+* [Windows PowerShell の必要な状態構成を使ってみる](overview.md)
 
 
 

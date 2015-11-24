@@ -1,12 +1,12 @@
-#Setting up a pull client using configuration ID
+#構成の ID を使用してプル クライアントを設定します。
 
-> Applies To: Windows PowerShell 5.0
+> 5.0 Windows PowerShell に適用されます。
 
-Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations. To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information. To configure the LCM, you create a special type of configuration, derated with the **DSCLocalConfigurationManager** attribute. For more information about configuring the LCM, see [Configuring the Local Configuration Manager](metaConfig.md).
+対象の各ノードでは、プル モードを使用するように指示して、構成を取得するプルのサーバーと通信できる URL を指定します。 これを行うには、必要な情報を使用してローカルの Configuration Manager (LCM) を構成する必要があります。 LCM を構成するには、特殊な種類の場合は 300 の構成の作成、 **DSCLocalConfigurationManager** 属性です。 LCM を構成する方法の詳細については、次を参照してください。 [ローカルの Configuration Manager の構成](metaConfig.md)です。
 
-> **Note**: This topic applies to PowerShell 5.0. For information on setting up a pull client in PowerShell 4.0, see [Setting up a pull client using configuration ID in PowerShell 4.0](pullClientConfigID4.md)
+> **注**: このトピックは、PowerShell 5.0 に適用されます。 PowerShell 4.0 でプルのクライアントをセットアップする方法については、次を参照してください [プルを PowerShell 4.0 での構成の ID を使用してクライアントを設定](pullClientConfigID4.md)。
 
-The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".
+次のスクリプトでは、"CONTOSO PullSrv"をという名前のサーバーからプルの構成に、LCM を構成します。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -31,19 +31,19 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-In the script, the **ConfigurationRepositoryWeb** block defines the pull server. The **ServerURL**
+スクリプトでは、 **ConfigurationRepositoryWeb** ブロックは、プル サーバーを定義します。  **よう**
 
-After this script runs, it creates a new output folder named **PullClientConfigID** and puts a metaconfiguration MOF file there. In this case, the metaconfiguration MOF file will be named `localhost.meta.mof`.
+という名前の新しい出力フォルダーを作成した後、このスクリプトが実行される、 **PullClientConfigID** あります metaconfiguration の MOF ファイルを格納します。 Metaconfiguration MOF ファイルをという名前がここでは、 `localhost.meta.mof`です。
 
-To apply the configuration, call the **Set-DscLocalConfigurationManager** cmdlet, with the **Path** set to the location of the metaconfiguration MOF file. For example: `Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`
+構成を適用するには、呼び出し、 **セット DscLocalConfigurationManager** コマンドレットで、 **パス** metaconfiguration の MOF ファイルの場所に設定します。 例: `セット DSCLocalConfigurationManager localhost – パス \PullClientConfigID – Verbose。`。
 
-##Configuration ID
+##構成の ID
 
-The script sets the **ConfigurationID** property of LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the **New-Guid** cmdlet). The **ConfigurationID** is what the LCM uses to find the appropriate configuration on the pull server. The configuration MOF file on the pull server must be named _ConfigurationID_.mof, where _ConfigurationID_ is the value of the **ConfigurationID** property of the target node's LCM.
+スクリプトのセット、 **ConfigurationID** LCM をこの目的のために以前作成した GUID のプロパティ (を使用して GUID を作成することができます、 **新規 Guid** コマンドレット)。  **ConfigurationID** プル サーバー上の適切な構成を検索する、LCM の使用です。 プル サーバー上の構成の MOF ファイルを指定する必要があります _ConfigurationID_.mof、ここで _ConfigurationID_ の値には、 **ConfigurationID** 対象のノードの LCM のプロパティです。
 
-##SMB pull server
+##SMB プル サーバー
 
-To set up a client to pull configurations from an SMB server, use a **ConfigurationRepositoryShare** block. In a **ConfigurationRepositoryShare** block, you specify the path to the server by setting the **SourcePath** property. The following metaconfiguration configures the target node to pull from an SMB pull server named **SMBPullServer**.
+SMB サーバーからクライアントをプルの構成を設定するには、使用、 **ConfigurationRepositoryShare** ブロックします。  **ConfigurationRepositoryShare** ブロックを設定して、サーバーへのパスを指定する、 **SourcePath** プロパティです。 次の metaconfiguration から SMB プル サーバーという名前を取得する対象のノードを構成する **SMBPullServer**です。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -68,12 +68,12 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-##Resource and report servers
+##リソースとレポート サーバー
 
-By default, the client node gets required resources from and reports status to the configuration pull server. However, you can specify different pull servers for resources and reporting.
-To specify a resource server, you use either a **ResourceRepositoryWeb** (for a web pull server) or a **ResourceRepositoryShare** block (for an SMB pull server).
-To specify a report server, you use a **ReportRepositoryWeb** block. A report server cannot be an SMB server.
-The following metaconfiguration configures a pull client to get its configurations from **CONTOSO-PullSrv** and its resources from **CONTOSO-ResourceSrv**, and to send status reports to **CONTOSO-ReportSrv**.
+既定では、[クライアント] ノードは、構成のプル サーバーへから必要なリソースとレポートの状態を取得します。 ただし、リソース、およびレポート サーバーを別のプルを指定できます。
+いずれかのリソース サーバーを指定するには、使用する、 **ResourceRepositoryWeb** (用 web プル サーバーの場合) または **ResourceRepositoryShare** ブロック (SMB プル サーバーの場合)。
+使用するレポート サーバーを指定する、 **ReportRepositoryWeb** ブロックします。 レポート サーバーは、SMB サーバーにすることはできません。
+次 metaconfiguration からには、その構成を取得することをプルのクライアントを構成する **CONTOSO PullSrv** とそのリソースから **CONTOSO ResourceSrv**, とに、状態レポートを送信する **CONTOSO ReportSrv**です。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -109,9 +109,9 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-##See Also
+##関連項目
 
-* [Setting up a pull client with configuration names](pullClientConfigNames.md)
+* [構成名を使用するプル クライアントの設定](pullClientConfigNames.md)
 
 
 

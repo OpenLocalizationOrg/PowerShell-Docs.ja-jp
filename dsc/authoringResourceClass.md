@@ -1,18 +1,18 @@
-#Writing a custom DSC resource with PowerShell classes
+#PowerShell のクラスを持つカスタム DSC リソースの作成
 
-> Applies To: Windows Windows PowerShell 5.0
+> 5.0 に適用されます。 Windows Windows PowerShell
 
-With the introduction of PowerShell classes in Windows PowerShell 5.0, you can now define a DSC resource by creating a class. The class defines both the schema and the implementation of the resource, so there is no need to create a separate MOF file. The folder structure for a class-based resource is also simpler, because a **DSCResources** folder is not necessary.
+Windows PowerShell 5.0 PowerShell クラスの概要については、クラスを作成することで DSC リソースをここで定義できます。 クラスでは、個別の MOF ファイルを作成する必要はありませんので、スキーマと、リソースの実装の両方を定義します。 クラス ベースのリソース用のフォルダー構造はシンプルですもあるため、 **DSCResources** フォルダーが必要ではありません。
 
-In a class-based DSC resource, the schema is defined as properties of the class which can be modified with attributes to specify the property type.. The resource is implemented by **Get()**, **Set()**, and **Test()** methods (equivalent to the **Get-TargetResource**, **Set-TargetResource**, and **Test-TargetResource** functions in a script resource.
+クラスに基づく DSC リソースを使用して、スキーマはプロパティの種類を指定する属性を使用して変更できるクラスのプロパティとして定義されている. によって、リソースが実装される **Get()**, 、**Set()**, 、および **Test()** メソッド (に相当する、 **Get TargetResource**, 、**セット TargetResource**, 、および **テスト TargetResource** スクリプト リソース内の関数。
 
-In this topic, we will create a simple resource named **FileResource** that manages a file in a specified path.
+このトピックでは、という名前の単純なリソースを作成お **FileResource** 指定されたパス内のファイルを管理します。
 
-For more information about DSC resources, see [Build Custom Windows PowerShell Desired State Configuration Resources](authoringResource.md)
+DSC リソースに関する詳細については、次を参照してください [ビルド カスタム Windows PowerShell 必要な状態の構成に関するリソース](authoringResource.md)。
 
-##Folder structure for a class resource
+##クラス リソース用のフォルダー構造
 
-To implement a DSC custom resource with a PowerShell class, create the following folder structure. The class is defined in **MyDscResource.psm1** and the module manifest is defined in **MyDscResource.psd1**.
+PowerShell のクラスを使用して、DSC のカスタム リソースを実装するのには、次のフォルダー構造を作成します。 クラスが定義されている **MyDscResource.psm1** で、モジュール マニフェストが定義されていると **MyDscResource.psd1**です。
 
 ```
 $env: psmodulepath (folder)
@@ -21,9 +21,9 @@ $env: psmodulepath (folder)
            MyDscResource.psd1 
 ```
 
-##Create the class
+##クラスを作成します。
 
-You use the class keyword to create a PowerShell class. To specify that a class is a DSC resource, use the **DscResource()** attribute. The name of the class is the name of the DSC resource.
+PowerShell のクラスを作成するのにには、クラスのキーワードを使用します。 クラスが DSC リソースであることを指定するには、使用、 **DscResource()** 属性です。 クラスの名前は、DSC リソースの名前です。
 
 ```powershell
 [DscResource()]
@@ -31,9 +31,9 @@ class FileResource{
 }
 ```
 
-###Declare properties
+###プロパティを宣言します。
 
-The DSC resource schema is defined as properties of the class. We declare three properties as follows.
+DSC リソースのスキーマは、クラスのプロパティとして定義されます。 3 つのプロパティには、次のように宣言します。
 
 ```powershell
 [DscProperty(Key)]
@@ -51,23 +51,23 @@ The DSC resource schema is defined as properties of the class. We declare three 
 [Nullable[datetime]] $CreationTime
 ```
 
-Notice that the properties are modified by attributes. The attribues map to equivalent attributes used in MOF classes as follows.
+属性によって、プロパティを変更することに注意してください。 Attribues は、次のように、MOF クラスで使用される同等の属性にマップします。
 
-Property attribute in class MOF attribute   Description
+クラスの MOF の属性の説明のプロパティの属性
 DscProperty(Key)
-Key
-The property is required. The property is a key. The values of all properties marked as keys must combine to uniquely identify a resource instance within a configuration.
+キー
+プロパティが必要です。 プロパティは、キーです。 すべてのプロパティの値には、構成内のリソースのインスタンスを一意に識別するキーを組み合わせる必要がありますがマークされています。
 DscProperty(Mandatory)
-Required
-The property is required.
+必要な
+プロパティが必要です。
 DscProperty(NotConfigurable)
-read
-The property is read-only. Properties marked with this attribute cannot be set by a configuration, but are populated by the Get() method when present.
+読み取り
+プロパティとは、読み取り専用です。 この属性でマークされたプロパティでは、構成では、設定することはできませんが、存在する場合に、Get() メソッドによって設定されます。
 DscProperty()
-Write
-The property is configurable, but it is not required.
+書き込み
+プロパティが、構成可能なには、必須ではありません。
 
-The **$Path** and **$SourcePath** properties are both strings. The **$CreationTime** is a [DateTime](https://technet.microsoft.com/en-us/library/system.datetime.aspx) property. The **$Ensure** property is an enumeration type, defined as follows.
+**$Path** と **$SourcePath** プロパティは、両方の文字列。  **$CreationTime** は、 [DateTime](https://technet.microsoft.com/en-us/library/system.datetime.aspx) プロパティです。  **$Ensure** プロパティは、次のように定義されている列挙型の場合。
 
 ```powershell
 enum Ensure 
@@ -77,11 +77,11 @@ enum Ensure
 }
 ```
 
-###Implementing the methods
+###メソッドの実装
 
-The **Get()**, **Set()**, and **Test()** methods are analogous to the **Get-TargetResource**, **Set-TargetResource**, and **Test-TargetResource** functions in a script resource.
+**Get()**, 、**Set()**, 、および **Test()** メソッドに似ています。、 **Get TargetResource**, 、**セット TargetResource**, 、および **テスト TargetResource** スクリプト リソース内の関数。
 
-This code also includes the CopyFile() function, a helper function that copies the file from **$SourcePath** to **$Path**.
+このコードは、元のファイルをコピーするヘルパー関数である CopyFile() 関数も含まれています。 **$SourcePath** に **$Path**です。
 
 ```powershell
 <#
@@ -408,9 +408,9 @@ if($ensure -eq [Ensure]::Present)
     }
 ```
 
-###The complete file
+###完全なファイル
 
-The complete class file follows.
+完全なクラス ファイルに依存します。
 
 ```powershell
 enum Ensure
@@ -747,9 +747,9 @@ class FileResource{
 } 
 ```
 
-##Create a manifest
+##マニフェストを作成します。
 
-To make a class-based resource available to the DSC engine, you must include a **DscResourcesToExport** statement in the manifest file that instructs the module to export the resource. Our manifest looks like this:
+クラス ベースのリソースを DSC エンジンを使用できるようににする必要があります、 **DscResourcesToExport** を使用すると、リソースをエクスポートするのには、モジュール マニフェスト ファイル内のステートメント。 次のように、マニフェストにはなります。
 
 ```powershell
 @{
@@ -785,9 +785,9 @@ PowerShellVersion = '5.0'
 } 
 ```
 
-##Test the resource
+##リソースをテストします。
 
-After saving the class and manifest files in the folder structure as described earlier, you can create a configuration that uses the new resource. For information about how to run a DSC configuration, see [Enacting configurations](enactingConfigurations.md). The following configuration will check to see whether the file at `c:\test\test.txt` exists, and, if not, copies the file from `c:\test.txt` (you should create `c:\test.txt` before you run the configuration).
+クラスとマニフェスト ファイルで既に説明したように、フォルダー構造を保存した後は、新しいリソースを使用する構成を作成できます。 DSC 構成を実行する方法については、次を参照してください。 [構成を制定](enactingConfigurations.md)です。 次の構成が確認するかどうかにファイル `c:\test\test.txt` が存在し、そうでない場合からのファイルをコピー `c:\test.txt` (を作成する必要があります `c:\test.txt` 構成を実行する前に)。
 
 ```powershell
 Configuration Test
@@ -804,11 +804,11 @@ Test
 Start-DscConfiguration -Wait -Force Test
 ```
 
-##See Also
+##関連項目
 
-###Concepts
+###概念
 
-[Build Custom Windows PowerShell Desired State Configuration Resources](authoringResource.md)
+[カスタムの Windows PowerShell が必要な状態の構成のリソースを作成します。](authoringResource.md)
 
 
 

@@ -1,18 +1,18 @@
-#Authoring a DSC resource in C
+#C で DSC リソースの作成
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Typically, a Windows PowerShell Desired State Configuration (DSC) custom resource is implemented in a PowerShell script. However, you can also implement the functionality of a DSC custom resource by writing cmdlets in C#. For an introduction on writing cmdlets in C#, see [Writing a Windows PowerShell Cmdlet](https://technet.microsoft.com/en-us/library/dd878294.aspx).
+通常、Windows PowerShell 必要な状態 Configuration (DSC) のカスタム リソースは、PowerShell スクリプトに実装されます。 ただし、c# でのコマンドレットを作成することによって、DSC カスタム リソースの機能を実装することもできます。 C# でのコマンドレットの作成の概要については、次を参照してください。 [Windows PowerShell コマンドレットの書き込み](https://technet.microsoft.com/en-us/library/dd878294.aspx)です。
 
-Aside from implementing the resource in C# as cmdlets, the process of creating the MOF schema, creating the folder structure, importing and using your custom DSC resource are the same as described in [Writing a custom DSC resource with MOF](authoringResourceMOF.md).
+コマンドレットと c# では、リソースを実装することとは別の MOF のスキーマの作成、フォルダー構造を作成する、インポート、およびカスタム DSC リソースを使用して、プロセスは、同じです」の説明に従って [MOF を持つカスタム DSC リソースを記述する](authoringResourceMOF.md)です。
 
-##Writing a cmdlet-based resource
+##コマンドレット ベースのリソースを作成します。
 
-For this example, we will implement a simple resource that manages a text file and its contents.
+この例では、テキスト ファイルとその内容を管理する単純なリソースを実装します。
 
-###Writing the MOF schema
+###MOF のスキーマを作成します。
 
-The following is the MOF resource definition.
+MOF のリソース定義を次に示します。
 
 ```
 [ClassVersion("1.0.0"), FriendlyName("xDemoFile")]
@@ -24,20 +24,20 @@ class MSFT_XDemoFile : OMI_BaseResource
 };
 ```
 
-###Setting up the Visual Studio project
+###Visual Studio プロジェクトの設定
 
-####Setting up a cmdlet project
+####コマンドレットのプロジェクトの設定
 
-1. Open Visual Studio.
-1. Create a C# project and provide the name.
-1. Select **Class Library** from the available project templates.
-1. Click **Ok**.
-1. Add an assembly reference to System.Automation.Management.dll to your project.
-1. Change the assembly name to match the resource name. In this case, the assembly should be named **MSFT_XDemoFile**.
+1. Visual Studio を開きます。
+1. C# プロジェクトを作成し、名前を指定します。
+1. 選択 **クラス ライブラリ** 使用できるプロジェクト テンプレートからです。
+1. クリックして **Ok**です。
+1. アセンブリ System.Automation.Management.dll への参照をプロジェクトに追加します。
+1. リソース名と一致するアセンブリの名前を変更します。 アセンブリの名前を持つ必要がありますここでは、 **MSFT_XDemoFile**です。
 
-###Writing the cmdlet code
+###コマンドレットのコードの記述
 
-The following C# code implements the **Get-TargetResource**, **Set-TargetResource**, and **Test-TargetResource** cmdlets.
+次の c# コードを実装する、 **Get TargetResource**, 、**セット TargetResource**, 、および **テスト TargetResource** コマンドレットです。
 
 ```C#
 Get-TargetResource
@@ -145,9 +145,9 @@ Test-TargetResource
 }
 ```
 
-###Deploying the resource
+###リソースを展開します。
 
-The compiled dll file should be saved in a file structure similar to a script-based resource. The following is the folder structure for this resource.
+スクリプト ベースのリソースと同様のファイル構造では、コンパイル済み dll ファイルを保存する必要があります。 このリソースのフォルダー構造は、次のとおりです。
 
 ```
 $env: psmodulepath (folder)
@@ -159,14 +159,14 @@ $env: psmodulepath (folder)
                 |- MSFT_XDemoFile.schema.mof (file, required)
 ```
 
-###See Also
+###関連項目
 
-####Concepts
+####概念
 
-[Writing a custom DSC resource with MOF](authoringResourceMOF.md)
-####Other Resources
+[MOF を持つカスタム DSC リソースの作成](authoringResourceMOF.md)
+####その他のリソース
 
-[Writing a Windows PowerShell Cmdlet](https://msdn.microsoft.com/en-us/library/dd878294.aspx)
+[Windows PowerShell コマンドレットを作成します。](https://msdn.microsoft.com/en-us/library/dd878294.aspx)
 
 
 

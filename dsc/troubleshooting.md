@@ -1,21 +1,21 @@
-#Troubleshooting DSC
+#DSC のトラブルシューティング
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-This topic describes methods for getting your Desired State Configuration (DSC) scripts to run without error. By using logs effectively to track down errors, and understanding how to recycle the cache to see the immediate results of your resource changes, you’ll be able to troubleshoot DSC more effectively. These technics are discussed in two sections:
+このトピックでは、エラーなしで実行するように必要な状態 Configuration (DSC) スクリプトを取得するための方法を説明します。 ログを効果的に使用してエラー、および、リソースの変更の即時の結果を表示するキャッシュを再利用する方法を理解することを追跡することができます DSC をより効果的にトラブルシューティングを行う。 2 つのセクションでは、これらの技術がについて説明します。
 
-* My script won’t run: **Using DSC logs to diagnose script errors**
-* My resources won’t update: **How to reset the cache**
+* 私のスクリプトは実行されません **スクリプト エラーを診断するログに記録を使用して DSC**。
+* 自分のリソースを更新しません **、キャッシュをリセットする方法**。
 
-##My script won’t run: Using DSC logs to diagnose script errors
+##私のスクリプトは実行されませんスクリプトのエラーを診断する DSC を使用してログに記録。
 
-Like all Windows software, DSC records errors and events in [logs](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx) that can be viewed from the [Event Viewer](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer). Examining these logs can help you understand why a particular operation failed, and how to prevent failure in the future. Writing configuration scripts can be tricky, so to make tracking errors easier as you author, use the DSC Log resource to track the progress of your configuration in the DSC Analytic event log.
+エラーとイベントのすべての Windows ソフトウェアと同様に DSC を記録 [ログ](https://msdn.microsoft.com/library/windows/desktop/aa363632.aspx) から表示できますが、 [イベント ビューアー](http://windows.microsoft.com/windows/what-information-event-logs-event-viewer)です。 これらのログを確認すると、特定の操作が失敗した理由と、今後エラーを回避する方法を理解することができます。 構成スクリプトの記述は注意が必要で、これを行うために追跡エラー作成者を簡単に DSC 分析のイベント ログで、構成の進行状況を追跡するために、DSC ログ リソースを使用することはできます。
 
-##Where are DSC event logs?
+##DSC イベント ログを参照しているでしょうか。
 
-In Event Viewer, DSC events are in: **Applications and Services Logs/Microsoft/Windows/Desired State Configuration**
+DSC イベントが、イベント ビューアーで、: **アプリケーションとサービス ログ、Microsoft、Windows と望ましい状態の構成**
 
-The corresponding PowerShell cmdlet, [Get-WinEvent](https://technet.microsoft.com/library/hh849682.aspx), can also be run to view the event logs:
+対応する PowerShell コマンドレット、 [Get-winevent](https://technet.microsoft.com/library/hh849682.aspx), 、イベント ログの表示を実行することもできます。
 
 ```
 PS C:\Users> Get-WinEvent -LogName "Microsoft-Windows-Dsc/Operational"
@@ -25,15 +25,15 @@ TimeCreated                     Id LevelDisplayName Message
 11/17/2014 10:27:23 PM        4102 Information      Job {02C38626-D95A-47F1-9DA2-C1D44A7128E7} : 
 ```
 
-As shown above, DSC’s primary log name is **Microsoft->Windows->DSC** (other log names under Windows are not shown here for brevity). The primary name is appended to the channel name to create the complete log name. The DSC engine writes mainly into three types of logs: [Operational, Analytic, and Debug logs](https://technet.microsoft.com/library/cc722404.aspx). Since the analytic and debug logs are turned off by default, you should enable them in Event Viewer. To do this, open Event Viewer by typing eventvwr in Windows PowerShell; or, click the **Start** button, click **Control Panel**, click **Administrative Tools**, and then click **Event Viewer**. On the **View** menu in Event viewer, click **Show Analytic and Debug Logs**. The log name for the analytic channel is **Microsoft-Windows-Dsc/Analytic**, and the debug channel is **Microsoft-Windows-Dsc/Debug**. You could also use the [wevtutil](https://technet.microsoft.com/library/cc732848.aspx) utility to enable the logs, as shown in the following example.
+DSC のプライマリのログの名前は、上記のように **-> Windows の Microsoft DSC を ->** (Windows の下にある場合は、その他のログ名は表示されないここでは簡潔にするため)。 プライマリの名前は、完全なログ名を作成するチャネル名に追加されます。 DSC エンジンは、主に次の 3 つの種類のログに書き込みます。 [運用、分析、およびデバッグ ログ](https://technet.microsoft.com/library/cc722404.aspx)です。 以降、分析とデバッグ ログは、既定でオフになって、イベント ビューアーで有効にする必要があります。 これを行うには、Windows powershell。「eventvwr」と入力してイベント ビューアーを開きます。または、クリックして、 **開始** ] ボタン、[ **コントロール パネルの [**, 、] をクリックして **管理ツール**, 、順にクリック **イベント ビューアー**です。  **ビュー** イベント ビューアーで、メニューをクリックして **[分析およびデバッグ ログ**です。 分析のチャネルのログの名前は **Microsoft Windows-Dsc 分析/**, 、デバッグ チャネルは **Microsoft Windows-Dsc/デバッグ**です。 使用することも、 [wevtutil](https://technet.microsoft.com/library/cc732848.aspx) ユーティリティを次の例で示すように、ログを有効にします。
 
 ```powershell
 wevtutil.exe set-log “Microsoft-Windows-Dsc/Analytic” /q:true /e:true
 ```
 
-##What do DSC logs contain?
+##DSC ログの格納
 
-DSC logs are split over the three log channels based on the importance of the message. The operational log in DSC contains all error messages, and can be used to identify a problem. The analytic log has a higher volume of events, and can identify where error(s) occurred. This channel also contains verbose messages (if any). The debug log contains logs that can help you understand how the errors occurred. DSC event messages are structured such that every event message begins with a job ID that uniquely represents a DSC operation. The example below attempts to obtain the message from the first event logged into the operational DSC log.
+DSC ログは、メッセージの重要度に基づいて、次の 3 つのログ チャネル上で分割されます。 DSC での操作のログは、すべてのエラー メッセージが含まれています、問題を識別するために使用できます。 分析ログにはイベントのより高いボリュームがあり、エラーが発生するを特定できます。 このチャネルには詳細メッセージが含まれています (指定されている場合)。 デバッグ ログには、エラーが発生する方法を理解するのに役立つログが含まれています。 DSC イベント メッセージは、一意に、操作を表す DSC ジョブ ID を持つすべてのイベント メッセージを開始するように構成されています。 次の例は、運用 DSC ログに記録する最初のイベントからのメッセージを取得しようとします。
 
 ```powershell
 PS C:\Users> $AllDscOpEvents=get-winevent -LogName "Microsoft-Windows-Dsc/Operational"
@@ -43,14 +43,14 @@ Job {02C38626-D95A-47F1-9DA2-C1D44A7128E7} :
 Consistency engine was run successfully. 
 ```
 
-DSC events are logged in a particular structure that enables the user to aggregate events from one DSC job. The structure is as follows:
+DSC イベントは、集計のイベントに DSC の 1 つのジョブからのユーザーができる特定の構造体に記録されます。 構造は次のとおりです。
 
-**Job ID : \<Guid\>**
-**\<Event Message\>**
+**ジョブ ID: \ < Guid\ >**
+**\ < イベント Message\ >**
 
-##Gathering events from a single DSC operation
+##1 つの DSC 操作からのイベントの収集
 
-DSC event logs contain events generated by various DSC operations. However, you’ll usually be concerned with the detail about just one particular operation. All DSC logs can be grouped by the job ID property that is unique for every DSC operation. The job ID is displayed as the first property value in all DSC events. The following steps explain how to accumulate all events in a grouped array structure.
+DSC のイベント ログには、さまざまな DSC 操作によって生成されたイベントが含まれます。 ただし、通常おくの詳細に 1 つだけ特定の操作を懸念します。 DSC のすべてのログは、すべて DSC 操作には一意であるジョブの ID プロパティによってグループ化することができます。 ジョブの ID は、最初のプロパティ値が DSC のすべてのイベントとして表示されます。 次の手順では、すべてのイベントをグループ化された配列構造を積算する方法について説明します。
 
 ```powershell
 <##########################################################################
@@ -81,7 +81,7 @@ $DscEvents=[System.Array](Get-WinEvent "Microsoft-windows-dsc/operational") `
 $SeparateDscOperations=$DscEvents | Group {$_.Properties[0].value}  
 ```
 
-Here, the variable `$SeparateDscOperations` contains logs grouped by the job IDs. Each array element of this variable represents a group of events logged by a different DSC operation, allowing access to more information about the logs.
+ここでは、変数 `$SeparateDscOperations` ジョブ Id でグループ化されたログが含まれています。 この変数の場合は、各配列要素では、ログに関する詳細情報へのアクセスを許可する、別の DSC 操作によってログに記録するイベントのグループを表します。
 
 ```
 PS C:\> $SeparateDscOperations
@@ -111,11 +111,11 @@ TimeCreated                     Id LevelDisplayName Message
 12/2/2013 3:47:29 PM          4182 Information      Job {1A776B6A-5BAC-11E3-BF41-00155D553612} : ...       
 ```
 
-You can extract the data in the variable `$SeparateDscOperations` using [Where-Object](https://technet.microsoft.com/library/ee177028.aspx). Following are five scenarios in which you might want to extract data for troubleshooting DSC:
+変数内のデータを抽出する `$SeparateDscOperations` を使用して [Where-object](https://technet.microsoft.com/library/ee177028.aspx)です。 DSC をトラブルシューティングのためのデータを抽出する 5 つのシナリオを次に示します。
 
-###1: Operations failures
+###1: 操作のエラー
 
-All events have [severity levels](https://msdn.microsoft.com/library/dd996917(v=vs.85)). This information can be used to identify the error events:
+すべてのイベントには、[重大度レベル] が必要がある (https://msdn.microsoft.com/library/dd996917 (v=vs.85))。 この情報は、エラー イベントを識別するために使用できます。
 
 ```
 PS C:\> $SeparateDscOperations  | Where-Object {$_.Group.LevelDisplayName -contains "Error"}
@@ -124,9 +124,9 @@ Count Name                      Group
    38 {5BCA8BE7-5BB6-11E3-BF... {System.Diagnostics.Eventing.Reader.EventLogRecord, System.Diagnostics....
 ```
 
-###2: Details of operations run in the last half hour
+###2: 操作の詳細については、最後の 30 分で実行
 
-`TimeCreated`, a property of every Windows event, states the time the event was created. Comparing this property with a particular date/time object can be used to filter all events:
+`TimeCreated`, 、すべての Windows イベントのプロパティは、イベントが作成された時刻を示します。 特定の日付と時刻のオブジェクトには、このプロパティを比較することは、すべてのイベントをフィルター処理は使用できます。
 
 ```powershell
 PS C:\> $DateLatest=(Get-date).AddMinutes(-30)
@@ -136,9 +136,9 @@ Count Name                      Group
     1 {6CEC5B09-5BB0-11E3-BF... {System.Diagnostics.Eventing.Reader.EventLogRecord}   
 ```
 
-###3: Messages from the latest operation
+###3: 最新バージョンの操作からのメッセージ
 
-The latest operation is stored in the first index of the array group `$SeparateDscOperations`. Querying the group’s messages for index 0 returns all messages for the latest operation:
+最新バージョンの操作が、配列のグループの最初のインデックスに格納されている `$SeparateDscOperations`です。 インデックス 0 のグループのメッセージのクエリを実行するには、最新バージョンの操作のすべてのメッセージが返されます。
 
 ```powershelll
 PS C:\> $SeparateDscOperations[0].Group.Message
@@ -158,9 +158,9 @@ Displaying messages from built-in DSC resources:
  Message : [INCH-VM]:                            [] Consistency check completed. 
 ```
 
-###4: Error messages logged for recent failed operations
+###4: 最近の失敗した操作のログに記録するエラー メッセージ
 
-`$SeparateDscOperations[0].Group` contains a set of events for the latest operation. Run the `Where-Object` cmdlet to filter the events based on their level display name. Results are stored in the `$myFailedEvent` variable, which can be further dissected to get the event message:
+`$SeparateDscOperations [0]。グループ` 最新バージョンの操作のイベントのセットが含まれています。 実行、 `Where-object` イベントをフィルター処理するコマンドレットが、レベルの表示名に基づいています。 結果に格納されます、 `$myFailedEvent` イベント メッセージを取得する変数の場合、それ以上になることが分析します。
 
 ```powershell
 PS C:\> $myFailedEvent=($SeparateDscOperations[0].Group | Where-Object {$_.LevelDisplayName -eq "Error"})
@@ -173,9 +173,9 @@ rameter to specify a configuration file and create a current configuration first
 Error Code : 1 
 ```
 
-###5: All events generated for a particular job ID.
+###5: 特定のジョブ ID の生成されたすべてのイベント
 
-`$SeparateDscOperations` is an array of groups, each of which has the name as the unique job ID. By running the `Where-Object` cmdlet, you can extract those groups of events that have a particular job ID:
+`$SeparateDscOperations` それぞれが固有のジョブの ID と名前を持つグループの配列には 実行して、 `Where-object` コマンドレットでは、それらの特定のジョブ ID を持つイベントのグループを抽出することができます。
 
 ```powershell
 PS C:\> ($SeparateDscOperations | Where-Object {$_.Name -eq $jobX} ).Group
@@ -190,96 +190,96 @@ TimeCreated                     Id LevelDisplayName Message
 12/2/2013 4:33:24 PM          4120 Information      Job {847A5619-5BB2-11E3-BF41-00155D553612} : ...  
 ```
 
-##Using xDscDiagnostics to analyze DSC logs
+##ログに記録 xDscDiagnostics を使用して、DSC を分析するには
 
-**xDscDiagnostics** is a PowerShell module that consists of two simple operations that can help analyze DSC failures on your machine: `Get-xDscOperation` and `Trace-xDscOperation`. These functions can help you identify all local events from past DSC operations, or DSC events on remote computers (with valid credentials). Here, the term DSC Operation is used to define a single unique DSC execution from its start to its end. For example, `Test-DscConfiguration` would be a separate DSC Operation. Similarly, every other cmdlet in DSC (such as `Get-DscConfiguration`, `Start-DscConfiguration`, etc.) could each be identified as separate DSC operations. The two cmdlets are explained in [xDscDiagnostics](https://powershellgallery.com/packages/xDscDiagnostics) PowerShell Module (DSC Resource Kit) and in more detail below. Help is available by running `Get-Help <cmdlet name>`.
+**xDscDiagnostics** PowerShell モジュールは、コンピューター上の DSC 不具合を分析するのに役立つ 2 つの単純な操作で構成される: `Get xDscOperation` と `トレース xDscOperation`です。これらの関数は、(有効な資格情報は) の過去の DSC 操作からのすべてのローカル イベントまたはリモート コンピューター上の DSC イベントを識別するのに役立ちます。ここで、という用語は、DSC 操作を 1 回一意 DSC の実行の開始から最後までを定義します。たとえば、 `テスト DscConfiguration` DSC、別の操作になります。同様に、すべての他のコマンドレットが DSC (など `Get DscConfiguration`, 、`開始 DscConfiguration`, 」など) 各 DSC の個別の操作として識別できる可能性があります。2 つのコマンドレットの説明で [xDscDiagnostics](https://powershellgallery.com/packages/xDscDiagnostics) PowerShell モジュール (DSC リソース キット) と、詳細については、以下にします。実行して、ヘルプが利用可能な `Get-help < コマンドレット名 >`です。
 
-##Get-xDscOperation
+##Get xDscOperation
 
-This cmdlet lets you find the results of the DSC operations that run on one or multiple computers, and returns an object that contains the collection of events produced by each DSC operation. For example, in the following output, three commands were run. The first one passed, and the other two failed. These results are summarized in the output of `Get-xDscOperation`.
+このコマンドレットでは、1 つまたは複数のコンピューターで実行される DSC 操作の結果を見つけることができ、各 DSC 操作によって生成されたイベントのコレクションを格納しているオブジェクトを返します。 たとえば、次の出力に実行された 3 つのコマンドはします。 最初の 1 つが渡されると、し、[他の 2 つのできませんでした。 これらの結果の出力をまとめた `Get xDscOperation`です。
 
-TODO: Replace this image that shows Get-xDscOperation output
+TODO: Get xDscOperation 出力を示しています。 このイメージを置き換える
 
-###Parameters
+###パラメーター
 
-* **Newest**: Accepts an integer value to indicate the number of operations to be displayed. By default, it returns 10 newest operations. For instance,
-   TODO: Show Get-xDscOperation -Newest 5
-* **ComputerName**: Parameter that accepts an array of strings, each containing the name of a computer from where you’d like to collect DSC event log data. By default, it collects data from the host machine. To enable this feature, you must run the following command in the remote machines, in elevated mode so that the will allow collection of events
+* **昇順**: を表示する操作の数を示す整数値を受け取ります。 既定では、最新の 10 の操作を返します。 たとえば、
+   TODO: Get xDscOperation の表示-最新 5
+* **ComputerName**: パラメーターをそれぞれから DSC イベント ログのデータを収集するには、コンピューターの名前を含む文字列の配列を受け取る。 既定では、ホスト マシンからデータを収集します。 この機能を有効にするには、管理者特権モードでは、リモートの各コンピューターで次のコマンドを実行する必要がありますできるように、イベントのコレクションが許可されます
 ```powershell
   New-NetFirewallRule -Name "Service RemoteAdmin" -Action Allow
 ```
-* **Credential**: Parameter that is of type PSCredential, which can help access to the computers specified in the ComputerName parameter.
+* **資格情報**: であるパラメーターの型の PSCredential、ComputerName パラメーターで指定されているコンピューターにアクセスできることができます。
 
-###Returned object
+###返されるオブジェクト
 
-The cmdlet returns an array of objects each of type **Microsoft.PowerShell.xDscDiagnostics.GroupedEvents**. Each object in this array pertains to a different DSC operation. The default display for this object has the following properties
-* **SequenceID**: Specifies the incremental number assigned to the DSC operation based on time. For example, the last executed operation would have SequenceID as 1, the second to last DSC operation would have SequenceID of 2, and so on. This number is another identifier for each object in the returned array.
-* **TimeCreated**: A DateTime value that indicates when the DSC operation began.
-* **ComputerName**: The computer name from where the results are aggregated.
-* **Result**: A string with value **Failure** or **Success** that indicates if that DSC operation had an error or not, respectively.
-* **AllEvents**: An object that represents a collection of events produced by the DSC operation.
+コマンドレットは、返すオブジェクトの配列型の各 **Microsoft.PowerShell.xDscDiagnostics.GroupedEvents**です。 この配列内の各オブジェクトは、別の DSC 操作に関係します。 このオブジェクトの既定の表示には、次のプロパティ
+* **SequenceID**: 増分時間に基づいて DSC 操作に割り当てられている数を指定します。 たとえば、SequenceID 1 と、最後に実行された操作が必要があります、DSC 操作の最後から 2 番目は、2 の SequenceID されなどです。 この番号は、返される配列内の各オブジェクトのもう 1 つの識別子です。
+* **TimeCreated**: DSC 操作を開始したときに完了したことを示す A の DateTime 値。
+* **ComputerName**。 コンピューター名を、結果が集計されます。
+* **結果**: 値を持つ文字列 **エラー** または **成功** その DSC 操作が表示されていましたエラーかを示すそれぞれします。
+* **AllEvents**: DSC 操作によってイベントのコレクションを表すオブジェクトが生成されます。
 
-For example, the following output shows results of the last operation from multiple computers:
-  TODO: Replace picture for Get-xDscOperation to display remote computer logs
+たとえば、次の出力は、複数のコンピューターからの最後の操作の結果を示しています。
+  リモート コンピューターのログを表示するには、Get-xDscOperation TODO: 置換の画像
 
-##Trace-xDscOperation
+##トレース xDscOperation
 
-This cmdlet returns an object containing a collection of events, their event types, and the message output generated from a particular DSC operation. Typically, when you find a failure in any of the operations using `Get-xDscOperation`, you would trace that operation to find out which of the events caused a failure.
+このコマンドレットでは、イベント、そのイベントの種類、および特定の DSC 操作から生成されたメッセージの出力のコレクションを含むオブジェクトを返します。 通常、見つかった場合、エラーを使用して、操作のいずれかで `Get xDscOperation`, が、エラーが発生するイベントのことを確認するには、その操作をトレースします。
 
-###Parameters
+###パラメーター
 
-* **SequenceID**: This is the integer value assigned to any operation, pertaining to a specific computer. By specifying a sequence ID of say, 4, the trace for the DSC operation that was 4th from the last will be output
+* **SequenceID**。 これは、特定のコンピュータに関連するすべての操作に割り当てられている整数値です。 指定して、シーケンス ID は、4、最後の 4 番目のあった DSC 操作のトレースが出力にします。
 
-Trace-xDscOperation with sequence ID specified
-* **JobID**: This is the GUID value assigned by LCM xDscOperation to uniquely identify an operation. when a JobID is specified, the trace of the corresponding DSC operation is output.
-   TODO: Replace picture for Trace-xDscOperation taking JobID as a parameter
-* **ComputerName** and **Credential**: These parameters allow the trace to be collected from remote computers:
+シーケンス ID が指定された Trace-xDscOperation
+* **JobID**。 これは、操作を一意に識別するために、LCM xDscOperation によって割り当てられた GUID 値。 ジョブ Id を指定すると、対応する DSC 操作のトレースは出力を示します。
+   TODO: 置換の画像をトレース xDscOperation をパラメーターとしてのジョブ Id を取得します。
+* **ComputerName** と **資格情報**: これらのパラメーターは、リモート コンピューターから収集するトレースを許可します。
 ```powershell
 New-NetFirewallRule -Name "Service RemoteAdmin" -Action Allow
 ```
-  TODO: Replace picture for Trace-xDscOperation run on a different compute
+  TODO: トレース xDscOperation の異なるコンピューター上で実行の画像を置換します。
 
-Note that, since `Trace-xDscOperation` aggregates events from the Analytic, Debug, and operational logs, it will prompt you to enable these logs as described above.
+ので注意してください、 `トレース xDscOperation` 分析、デバッグ、および運用ログからイベントを集計、上記のように、これらのログを有効にするように求められます。
 
-###Returned object
+###返されるオブジェクト
 
-The cmdlet returns an array of objects, each of type `Microsoft.PowerShell.xDscDiagnostics.TraceOutput`. Each object in this array contains the following fields:
-* **ComputerName**: The name of the computer from where the logs are being collected.
-* **EventType**: This is an enumerator type field that contains information on the type of event. It could be any of the following:
-   - *Operational*: The event is from the operational log.
-   - *Analytic*: The event is from the analytic log.
-   - *Debug*: The event is from the debug log.
-   - *Verbose*: Events output as verbose messages during execution. The verbose messages make it easy to identify the sequence of events that are published.
-   - *Error*: Error events. By looking for the error events, you can usually quickly find the reason for the failure.
-* **TimeCreated**: A DateTime value indicating when the event was logged by DSC.
-* **Message**: The message that was logged by DSC into the event logs.
+コマンドレットは、それぞれの種類のオブジェクトの配列を返します `Microsoft.PowerShell.xDscDiagnostics.TraceOutput`です。 この配列内の各オブジェクトには、次のフィールドが含まれています。
+* **ComputerName**: ログの収集場所からコンピューターの名前。
+* **EventType**。 これはイベントの種類の情報を含む列挙子の種類のフィールドです。 次のいずれかの可能性があります。
+   - *運用*: イベントは、操作ログをします。
+   - *分析*: イベントは、分析ログをします。
+   - *デバッグ*: イベントは、デバッグ ログをします。
+   - *Verbose*: イベントの出力としての実行中に、詳細メッセージ。 詳細メッセージを簡単に公開されているイベントのシーケンスを識別するためにします。
+   - *エラー*: エラー イベントです。 エラー イベントを探しには、通常は、すばやくに、エラーの原因を検索することができます。
+* **TimeCreated**: A DSC によってイベントが記録されたときを示す値。
+* **メッセージ**: DSC によって、イベント ログに記録されたメッセージ。
 
-Following are fields in this object that can be used for more information about the event, but are not displayed by default:
+詳細については、イベントを使用できますが、既定では表示されませんが、このオブジェクト内のフィールドを次に示します。
 
-* **JobID**: The job ID (GUID format) specific to that DSC operation.
-* **SequenceID**: The SequenceID unique to that DSC operation in that computer.
-* **Event**: This is the actual event logged by DSC, of type `System.Diagnostics.Eventing.Reader.EventLogRecord`. This can also the obtained by running the cmdlet `Get-WinEvent`. It contains more information, such as the task, eventID, and level of the event.
+* **JobID**: その DSC 操作に固有ジョブ ID (GUID 形式)。
+* **SequenceID**: [SequenceID がそのコンピューターでは、その DSC 操作に固有です。
+* **イベント**。 これは、実際のイベントの種類の DSC によってログに記録 `System.Diagnostics.Eventing.Reader.EventLogRecord`です。 これも、取得したことが、コマンドレットを実行して `Get-winevent`です。 詳細についてには、タスク、eventID には、イベントのレベルなどが含まれています。
 
-Alternately, you can gather information on the events by saving the output of `Trace-xDscOperation` into a variable. You can use the following command to display all the events for a particular DSC operation:
+出力を保存することでは、イベント情報を収集する代わりに、 `トレース xDscOperation` を変数にします。 次のコマンドを使用するには、特定の DSC 操作のすべてのイベントを表示します。
 
 ```powershell
 (Trace-xDscOperation -SequenceID 3).Event
 ```
 
-This will display the same results as the `Get-WinEvent` cmdlet, such as in the output below:
-  TODO: What output?
+これと同じ結果が表示されます、 `Get-winevent` コマンドレットは、次に示す出力など。
+  TODO: どのような出力でしょうか。
 
-Ideally, you would first use `Get-xDscOperations` to list out the last few DSC configuration runs on your machines. Following this, you can examine any single operation (using its sequenceID or JobID) with `Trace-xDscOperation` to discover what it did behind the scenes.
+理想的には、まず用途 `Get xDscOperations` 、最後にいくつかの DSC を一覧表示する、構成は、マシンで実行します。 次を (その sequenceID またはジョブ Id を使用)、1 回の操作を調べることができます `トレース xDscOperation` をバック グラウンドで何を検出します。
 
-##My resources won’t update: How to reset the cache
+##自分のリソースを更新しませんキャッシュをリセットする方法。
 
-The DSC engine caches resources implemented as a PowerShell module for efficiency purposes. However, this can cause problems when you are authoring a resource and testing it simultaneously because DSC will load the cached version until the process is restarted. The only way to make DSC load the newer version is to explicitly kill the process hosting the DSC engine.
+DSC エンジンでは、効率を高めるのための PowerShell モジュールとして実装されているリソースをキャッシュします。 ただし、この問題が発生するリソースを作成し、DSC は、プロセスが再起動されるまで、キャッシュされたバージョンが読み込まため同時にテストする場合。 DSC を読み込み、新しいバージョンを作成する唯一の方法では、明示的に DSC エンジンをホストするプロセスを強制終了です。
 
-Similarly, when you run `Start-DSCConfiguration`, after adding and modifying a custom resource, the modification may not execute unless, or until, the computer is rebooted. This is because DSC runs in the WMI Provider Host Process (WmiPrvSE), and usually, there are many instances of WmiPrvSE running at once. When you reboot, the host process is restarted and the cache is cleared.
+同様に、実行 `開始 DSCConfiguration`, を追加して、カスタム リソースを変更した後、変更が実行されない限り、または、コンピューターを再起動するまで、します。 DSC は、WMI プロバイダーのホスト プロセス (WmiPrvSE) で実行され、通常は、同時に実行して WmiPrvSE の多くのインスタンスがあるためにです。 再起動すると、ホスト プロセスを再起動し、キャッシュをクリアします。
 
-To successfully recycle the configuration and clear the cache without rebooting, you must stop and then restart the host process. This can be done on a per instance basis, whereby you identify the process, stop it, and restart it. Or, you can use `DebugMode`, as demonstrated below, to reload the PowerShell DSC resource.
+正常に構成を再利用を再起動しなくても、キャッシュをクリアするには、停止して、し、ホスト プロセスを再起動する必要があります。 これは、プロセスを識別する、停止するか、および再起動でインスタンスごとの単位で行うことができます。 または、使用することができます `DebugMode`, PowerShell DSC リソースを再読み込みを以下に示すように、します。
 
-To identify which process is hosting the DSC engine and stop it on a per instance basis, you can list the process ID of the WmiPrvSE which is hosting the DSC engine. Then, to update the provider, stop the WmiPrvSE process using the commands below, and then run **Start-DscConfiguration** again.
+DSC エンジンをホストしているプロセスを識別され、インスタンスごとは DSC エンジンをホストしている WmiPrvSE のプロセス ID を一覧表示できます。 更新するには、プロバイダー、WmiPrvSE プロセスが、次のコマンドを使用してさらに実行を停止 **開始 DscConfiguration** もう一度です。
 
 ```powershell
 ###
@@ -295,11 +295,11 @@ Select-Object -ExpandProperty HostProcessIdentifier
 Get-Process -Id $dscProcessID | Stop-Process
 ```
 
-##Using DebugMode
+##Debugmode の使用
 
-You can configure the DSC Local Configuration Manager (LCM) to use `DebugMode` to always clear the cache when the host process is restarted. When set to **TRUE**, it causes the engine to always reload the PowerShell DSC resource. Once you are done writing your resource, you can set it back to **FALSE** and the engine will revert to its behavior of caching the modules.
+DSC ローカル Configuration Manager (LCM) を使用することができます `DebugMode` を常にホスト プロセスを再起動したときに、キャッシュをオフにします。 設定すると **TRUE**, 、常に、PowerShell DSC リソースを再読み込みするエンジンになります。 完了した時点、リソースを作成するには、設定できるに **FALSE** し、エンジンが、モジュールのキャッシュの動作に戻ります。
 
-Following is a demonstration to show how `DebugMode` can automatically refresh the cache. First, let’s look at the default configuration:
+次に、デモを表示する方法 `DebugMode` 、キャッシュを自動的に更新することができます。 最初に、既定の構成を見てみましょう。
 
 ```
 PS C:\Users\WinVMAdmin\Desktop> Get-DscLocalConfigurationManager
@@ -321,9 +321,9 @@ RefreshMode                    : PUSH
 PSComputerName                 :  
 ```
 
-You can see that `DebugMode` is set to **FALSE**.
+いることがわかります `DebugMode` に設定されている **FALSE**です。
 
-To set up the `DebugMode` demonstration, use the following PowerShell resource:
+設定する、 `DebugMode` デモについては、次の PowerShell のリソースを使用します。
 
 ```powershell
 function Get-TargetResource
@@ -355,7 +355,7 @@ function Test-TargetResource
 } 
 ```
 
-Now, author a configuration using the above resource called `TestProviderDebugMode`:
+呼ばれる上記のリソースを使用して構成を作成、 `TestProviderDebugMode`:
 
 ```powershell
 Configuration ConfigTestDebugMode
@@ -372,9 +372,9 @@ Configuration ConfigTestDebugMode
 ConfigTestDebugMode
 ```
 
-You will see that the contents of file: “**$env:SystemDrive\OutputFromTestProviderDebugMode.txt**” is **1**.
+ファイルの内容:"**$env:SystemDrive\OutputFromTestProviderDebugMode.txt**"は **1**です。
 
-Now, update the provider code using the following script:
+ここで、次のスクリプトを使用して、プロバイダー コードを更新します。
 
 ```powershell
 $newResourceOutput = Get-Random -Minimum 5 -Maximum 30
@@ -409,9 +409,9 @@ function Test-TargetResource
 "@ | Out-File -FilePath "C:\Program Files\WindowsPowerShell\Modules\MyPowerShellModules\DSCResources\TestProviderDebugMode\TestProviderDebugMode.psm1
 ```
 
-This script generates a random number and updates the provider cade accordingly. With `DebugMode` set to false, the contents of the file “**$env:SystemDrive\OutputFromTestProviderDebugMode.txt**” are never changed.
+このスクリプトでは、ランダムな数値を生成し、それに応じて cade のプロバイダーを更新します。  `DebugMode` ファイルの内容を false に設定"**$env:SystemDrive\OutputFromTestProviderDebugMode.txt**"が変更されたことはありません。
 
-Now, set `DebugMode` to **TRUE** in your configuration script:
+これで、設定 `DebugMode` に **TRUE** 構成スクリプトで。
 
 ```powershell
 LocalConfigurationManager
@@ -420,7 +420,7 @@ LocalConfigurationManager
 } 
 ```
 
-When you run the above script again, you will see that the content of the file is different every time. (You can run `Get-DscConfiguration` to check it). Below is the result of two additional runs (your results may be different when you run the script):
+上記のスクリプトを再実行するとき、毎回、ファイルのコンテンツが別であるが表示されます。 (実行することができます `Get DscConfiguration` 確認できるようにする)。 (結果を異なる場合があります、スクリプトを実行するときに) 2 つの追加の実行の結果を次に示します。
 
 ```powershell
 PS C:\Users\WinVMAdmin\Desktop> Get-DscConfiguration -CimSession (New-CimSession localhost)
@@ -436,19 +436,19 @@ onlyProperty                            PSComputerName
 14 
 ```
 
-##See Also
+##関連項目
 
-###Reference
+###参照
 
-* [DSC Log Resource](logResource.md)
+* [DSC ログのリソース](logResource.md)
 
-###Concepts
+###概念
 
-* [Build Custom Windows PowerShell Desired State Configuration Resources](authoringResource.md)
+* [カスタムの Windows PowerShell が必要な状態の構成のリソースを作成します。](authoringResource.md)
 
-###Other Resources
+###その他のリソース
 
-* [Windows PowerShell Desired State Configuration Cmdlets](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)
+* [Windows PowerShell には、状態の構成のコマンドレットが必要な](https://technet.microsoft.com/en-us/library/dn521624 (v=wps.630).aspx)
 
 
 

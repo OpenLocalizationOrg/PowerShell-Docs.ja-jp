@@ -1,8 +1,8 @@
-#DSC for Linux nxPackage Resource
+#DSC Linux nxPackage リソース用
 
-The **nxPackage** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage packages on a Linux node.
+**NxPackage** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux のノード上でパッケージを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxPackage <string> #ResourceName
@@ -19,22 +19,22 @@ nxPackage <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Name| The name of the package for which you want to ensure a specific state.|
-| Ensure| Determines whether to check if the package exists.Set this property to "Present" to ensure the package exists.Set it to "Absent" to ensure the package does not exist.The default value is "Present".|
-| PackageManager| Supported values are "yum", "apt", and "zypper".Specifies the package manager to use when installing packages.If **FilePath** is specified, the provided path will be used to install the package.Otherwise, a Package Manager will be used to install the package from a pre-configured repository.If neither **PackageManager** nor **FilePath** are provided, the default package manager for the system will be used.|
-| FilePath| The file path where the package resides|
-| PackageGroup| If **$true**, the **Name** is expected to be the name of a package group for use with a **PackageManager**.**PacakgeGroup** is not valid when providing a **FilePath**.|
-| Arguments| A string of arguments that will be passed to the package exactly as provided.|
-| ReturnCode| The expected return code.If the actual return code does not match the expected value provided here, the configuration will return an error.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| Name| 特定の状態を保証するパッケージの名前。|
+| 確認します。| パッケージが存在するかどうかを確認するかどうかを判断します。パッケージが存在することを確認するには、"Present"には、このプロパティを設定します。パッケージが存在しないことを確認する「ない」に設定します。既定値は、"Present"です。|
+| PackageManager| サポートされている値は"yum"、「適切」、および"zypper"です。パッケージをインストールするときに使用するパッケージ マネージャーを指定します。場合 **FilePath** が指定されている、指定したパスは、パッケージをインストールするために使用されます。それ以外の場合、パッケージ マネージャーが使用して事前に構成されているリポジトリからパッケージをインストールします。どちらの場合 **PackageManager** も **FilePath** 入力については、既定のパッケージ マネージャー、システムが使用されます。|
+| ファイル パス| パッケージが存在するファイルのパス|
+| PackageGroup| 場合 **$true**, 、 **名前** で使用するためのパッケージのグループの名前を指定する必要が、 **PackageManager**です。**PacakgeGroup** を提供する場合は無効にする **FilePath**です。|
+| 引数| 提供されたとおり、パッケージに渡される引数の文字列。|
+| リターン コード| 予期されるには、コードが返されます。実際にコードを返す場合に、予期される値の提供をここでは、構成には、エラーが返されますと一致しないはしません。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-The following example ensures that the package named "httpd" is installed on a Linux computer, using the “Yum” package manager.
+次の例では、"Yum"パッケージ マネージャーを使用して、Linux コンピューターで"httpd"をという名前のパッケージがインストールされていることを確認します。
 
 ```
 Import-DSCResource -Module nx 

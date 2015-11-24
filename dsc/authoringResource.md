@@ -1,18 +1,18 @@
-#Build Custom Windows PowerShell Desired State Configuration Resources
+#カスタムの Windows PowerShell が必要な状態の構成のリソースを作成します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Windows PowerShell Desired State Configuration (DSC) has built-in resources that you can use to configure your environment. (For more information, see [Built-In Windows PowerShell Desired State Configuration Resources](builtInResource.md).) This topic provides an overview of developing resources and links to topics with specific information and examples.
+Windows PowerShell 必要な状態 Configuration (DSC) には、環境を設定するのに使用できる組み込みのリソースがあります。 (詳細については、次を参照してください [組み込み Windows PowerShell 必要な状態の構成に関するリソース](builtInResource.md)。)。 このトピックでは、リソースおよび特定の情報と例を含むトピックへのリンクの開発の概要を示します。
 
-##DSC resource components
+##DSC リソースのコンポーネント
 
-A DSC resource is a Windows PowerShell module. The module contains both the schema (the definition of the configurable properties) and the implementation (the code that does the actual work specified by a configuration) for the resource. A DSC resource schema can be defined in a MOF file, and the implementation is performed by a script module. Beginning with the support of PowerShell classes in version 5, the schema and implementation can both be defined in a class. The following topics describe in more detail how to create DSC resources.
+DSC リソースとは、Windows PowerShell モジュールです。 モジュールには、リソースのスキーマ (構成可能なプロパティの定義) と実装 (の構成で指定する実際の処理を行うコード) の両方が含まれています。 DSC リソースのスキーマは、MOF ファイルに定義することができ、実装は、スクリプト モジュールによって実行します。 以降のバージョン 5 で PowerShell のクラスのサポートでは、スキーマと実装両方で定義できますクラスです。 以下のトピックは、さらに詳しく DSC リソースを作成する方法を説明します。
 
-* [Writing a custom DSC resource with MOF](authoringResourceMOF.md)
-* [Implementing a DSC resource in C#](authoringResourceMofCS.md)
-* [Writing a custom DSC resource with PowerShell classes](authoringResourceClass.md)
-* [Composite resources: Using a DSC configuration as a resource](authoringResourceComposite.md)
-* [Using the Resource Designer tool](authoringResourceMofDesigner.md)
+* [MOF を持つカスタム DSC リソースの作成](authoringResourceMOF.md)
+* [DSC リソースを実装する (C#)](authoringResourceMofCS.md)
+* [PowerShell のクラスを持つカスタム DSC リソースの作成](authoringResourceClass.md)
+* [複合リソース: リソースとして DSC 構成を使用します。](authoringResourceComposite.md)
+* [リソース デザイナー ツールを使用します。](authoringResourceMofDesigner.md)
 
 
 

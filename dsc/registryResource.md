@@ -1,10 +1,10 @@
-#DSC Registry Resource
+#DSC レジストリのリソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The **Registry** resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage registry keys and values on a target node.
+**レジストリ** リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、レジストリ キーとターゲット ノード上の値を管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 Registry [string] #ResourceName
@@ -20,28 +20,28 @@ Registry [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Key| Indicates the path of the registry key for which you want to ensure a specific state.This path must include the hive.|
-| ValueName| Indicates the name of the registry value.|
-| Ensure| Indicates if the key and value exist.To ensure that they do, set this property to "Present".To ensure that they do not exist, set the property to "Absent".The default value is "Present".|
-| Force| If the specified registry key is present, __Force__ overwrites it with the new value.|
-| Hex| Indicates if data will be expressed in hexadecimal format.If specified, the DWORD/QWORD value data is presented in hexadecimal format.Not valid for other types.The default value is __$false__.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| ValueData| The data for the registry value.|
-| ValueType| Indicates the type of the value.The supported types are:
+| キー| 特定の状態を確認するレジストリ キーのパスを示します。このパスは、hive を含める必要があります。|
+| 値名| レジストリ値の名前を示します。|
+| 確認します。| キーと値の存在を示します。"Present"には、このプロパティを設定を行うことを確認します。確実に存在しないことに「存在しない」プロパティを設定します。既定値は、"Present"です。|
+| Force| 指定されたレジストリ キーが存在する場合 __Force__ 新しい値で上書きします。|
+| 16 進数| 16 進形式でデータを表現するかどうかを示します。指定した場合、DWORD または QWORD 値のデータは 16 進数形式で表示されます。その他の種類では無効です。既定値は __$false__です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| セグ| レジストリ値のデータ。|
+| ValueType| 値の型を示します。サポートされている型は次のとおりです。
 
 <ul>
-            <li>String (REG_SZ)</li>
-<li>Binary (REG-BINARY)</li>
-<li>Dword 32-bit (REG_DWORD)</li>
-<li>Qword 64-bit (REG_QWORD)</li>
-<li>Multi-string (REG_MULTI_SZ)</li>
-<li>Expandable string (REG_EXPAND_SZ)</li></ul>
+            <li>文字列 (REG_SZ)</li>
+<li>バイナリ (REG バイナリ)</li>
+<li>Dword 32 ビット (REG_DWORD)</li>
+<li>Qword 64 ビット (REG_QWORD)</li>
+<li>複数行文字列 (REG_マルチ_SZ)</li>
+<li>展開可能な文字列 (REG_展開_SZ)</li></ul>
 
-##Example
+##例
 
 ```powershell
 Registry RegistryExample

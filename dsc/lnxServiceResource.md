@@ -1,8 +1,8 @@
-#DSC for Linux nxService Resource
+#DSC Linux nxService リソース用
 
-The **nxService** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage services on a Linux node.
+**NxService** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上のサービスを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxService <string> #ResourceName
@@ -16,24 +16,24 @@ nxService <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Name| The name of the service/daemon to configure.|
-| Controller| The type of service controller to use when configuring the service.|
-| Enabled| Indicates whether the service starts on boot.|
-| State| Indicates whether the service is running.Set this property to "Stopped" to ensure that the service is not running.Set it to "Running" to ensure that the service is not running.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| Name| 構成するサービス/デーモンの名前。|
+| コント ローラー| サービスを構成するときに使用するサービスのコント ローラーの型。|
+| Enabled| 起動時にサービスを開始するかどうかを示します。|
+| 状態| サービスが実行されているかどうかを示します。サービスが実行されていないことを確認するには、"Stopped"には、このプロパティを設定します。サービスが実行されていないことを確認するには「実行中」に設定します。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
 
-##Additional Information
+##追加情報
 
-The **nxService** resource will not create a service definition or script for the service if it does not exist. You can use the PowerShell Desired State Configuration **nxFile** Resource resource to manage the existence or contents of the service definition file or script.
+**NxService** リソースは作成できません、サービスの定義や、サービスのスクリプトが存在しない場合。 PowerShell の [状態の必要な構成を使用する **nxFile** 存在または、サービス定義ファイルまたはスクリプトの内容を管理するリソースです。
 
-##Example
+##例
 
-The following example shows configuration of the “httpd” service (for Apache HTTP Server), registered with the **SystemD** service controller.
+次の例では、サービスの構成、"httpd"(Apache HTTP Server) 用に登録されている、 **SystemD** サービス コント ローラーです。
 
 ```
 Import-DSCResource -Module nx 

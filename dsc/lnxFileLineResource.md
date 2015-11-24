@@ -1,8 +1,8 @@
-#DSC for Linux nxFileLine Resource
+#DSC Linux nxFileLine リソース用
 
-The **nxFileLine** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage lines within a configuration file on a Linux node.
+**NxFileLine** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上の構成ファイル内の行を管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxFileLine <string> #ResourceName
@@ -15,18 +15,18 @@ nxFileLine <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| FilePath| The full path to the file to manage lines in on the target node.|
-| ContainsLine| A line to ensure exists in the file.This line will be appended to the file if it does not exist in the file.**ContainsLine** is mandatory, but can be set to an empty string (`ContainsLine = ‘’``) if it is not needed.|
-| DoesNotContainPattern| A regular expression pattern for lines that should not exist in the file.For any lines that exist in the file that match this regular expression, the line will be removed from the file.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| ファイル パス| ターゲット ノード上での行を管理するファイルの完全パス。|
+| ContainsLine| 確認するための行は、ファイルに存在します。ファイルにも存在しない場合、この行がファイルに追加されます。**ContainsLine** は必須では、空の文字列に設定することができますが、('ContainsLine = ' ') は必要ない場合。|
+| DoesNotContainPattern| ファイル内に存在する必要がある行の正規表現パターン。ファイル内に存在したこの正規表現に一致する行、ファイルから、行は削除します。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-This example demonstrates using the **nxFileLine** resource to configure the `/etc/sudoers` file, ensuring that the user: monuser is configured to not requiretty.
+この例では、使用方法を示します、 **nxFileLine** を構成するのにはリソース、 `など/sudoers` ことを確認する、ユーザーのファイル: monuser がいない requiretty に構成されています。
 
 ```
 Import-DSCResource -Module nx 

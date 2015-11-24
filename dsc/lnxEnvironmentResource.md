@@ -1,8 +1,8 @@
-#DSC for Linux nxEnvironment Resource
+#DSC Linux nxEnvironment リソース用
 
-The **nxEnvironment** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage system environment variables on a Linux node.
+**NxEnvironment** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上のシステム環境変数を管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxEnvironment <string> #ResourceName
@@ -16,24 +16,24 @@ nxEnvironment <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Name| Indicates the name of the environment variable for which you want to ensure a specific state.|
-| Value| The value to assign to the environment variable.|
-| Ensure| Determines whether to check if the variable exists.Set this property to "Present" to ensure the variable exists.Set it to "Absent" to ensure the variable does not exist.The default value is "Present".|
-| Path| Defines the environment variable that is being configured.Set this property to **$true** if the variable is the **Path** variable; otherwise, set it to **$false**.The default is **$false**.If the variable being configured is the **Path** variable, the value provided through the **Value** property will be appended to the existing value.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| Name| 特定の状態を保証する環境変数の名前を示します。|
+| 値| 環境変数に代入する値。|
+| 確認します。| 変数が存在するかどうかを確認するかどうかを判断します。変数が存在することを確認するには、"Present"には、このプロパティを設定します。変数が存在しないことを確認するには「ない」に設定します。既定値は、"Present"です。|
+| パス| 構成されている環境変数を定義します。このプロパティを設定 **$true** 変数の場合、 **パス** 変数、それ以外に設定 **$false**です。既定値は **$false**です。変数のように構成されている場合は、 **パス** を通じて提供される値を変数、 **値** プロパティは、既存の値に追加されます。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Additional Information
+##追加情報
 
-* If **Path** is absent or set to **$false**, environment variables are managed in `/etc/environment`. Your programs or scripts may require configuration to source the `/etc/environment` file to access the managed environment variables.
-* If **Path** is set to **$true**, the environment variable is managed in the file `/etc/profile.d/DSCenvironment.sh`. This file will be created if it does not exist. If **Ensure** is set to "Absent" and **Path** is set to **$true**, an existing environment variable will only be removed from `/etc/profile.d/DSCenvironment.sh` and not from other files.
+* 場合 **パス** が存在しないかに設定 **$false**, 、環境変数がで管理される `など/環境`です。 プログラムまたはスクリプトには、ソースに構成を必要があります、 `など/環境` 管理対象の環境変数にアクセスするファイルです。
+* 場合 **パス** に設定されている **$true**, 、環境変数が、ファイルで管理されている `/etc/profile.d/DSCenvironment.sh`です。 存在しない場合、このファイルは作成されます。 場合 **を確認してください** 設定されている「存在しない」と **パス** に設定されている **$true**, 、既存の環境変数はからのみ削除されます `/etc/profile.d/DSCenvironment.sh` からその他のファイルではありません。
 
-##Example
+##例
 
-The following example shows how to use the **nxEnvironment** resource to ensure that **TestEnvironmentVariable** is present and has the value "Test-Value". If **TestEnvironmentVariable** is not present, it will be created.
+次の例では、使用する方法、 **nxEnvironment** いることを確認するリソース **TestEnvironmentVariable** が存在し、「テスト値」の値を持つファイルです。 場合 **TestEnvironmentVariable** が存在しない場合は、作成されます。
 
 ```
 Import-DSCResource -Module nx 

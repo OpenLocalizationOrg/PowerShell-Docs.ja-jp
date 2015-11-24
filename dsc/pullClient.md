@@ -1,13 +1,13 @@
-#Setting up a DSC pull client
+#DSC プル クライアントを設定します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations. The following topics explain how to set up pull clients:
+対象の各ノードでは、プル モードを使用するように指示して、構成を取得するプルのサーバーと通信できる URL を指定します。 次のトピックでは、クライアントのプルを設定する方法について説明します。
 
-* [Setting up a pull client using configuration names](pullClientConfigNames.md)
-* [Setting up a pull client using configuration ID](pullClientConfigID.md)
+* [構成名を使用してクライアントをプルの設定](pullClientConfigNames.md)
+* [構成の ID を使用してプル クライアントを設定します。](pullClientConfigID.md)
 
-> **Note**: These topics apply to PowerShell 5.0. To set up a pull client in PowerShell 4.0, see [Setting up a pull client using configuration ID in PowerShell 4.0](pullClientConfigID4.md).
+> **注**。 これらのトピックは、PowerShell 5.0 に適用します。 PowerShell 4.0 でプルのクライアントを設定するを参照してください。 [プルを PowerShell 4.0 での構成の ID を使用してクライアントを設定](pullClientConfigID4.md)です。
 
 
 

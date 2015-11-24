@@ -1,10 +1,10 @@
-#DSC WindowsFeature Resource
+#DSC WindowsFeature リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The **WindowsFeature** resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to ensure that roles and features are added or removed on a target node.
+**WindowsFeature** リソースで Windows PowerShell 必要な状態 Configuration (DSC) が、役割と機能が追加または削除対象のノードでのことを確認するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 WindowsFeature [string] #ResourceName
@@ -19,19 +19,19 @@ WindowsFeature [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Name| Indicates the name of the role or feature that you want to ensure is added or removed.This is the same as the __Name__ property from the [Get-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205469.aspx) cmdlet, and not the display name of the role or feature.|
-| Credential| Indicates the credentials to use to add or remove the role or feature.|
-| Ensure| Indicates if the role or feature is added.To ensure that the role or feature is added, set this property to "Present" To ensure that the role or feature is removed, set the property to "Absent".|
-| IncludeAllSubFeature| Set this property to __$true__ to ensure the state of all required subfeatures with the state of the feature you specify with the __Name__ property.|
-| LogPath| Indicates the path to a log file where you want the resource provider to log the operation.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| Source| Indicates the location of the source file to use for installation, if necessary.|
+| Name| 確認する役割または機能の名前を追加または削除することを示します。同じです。 これは、、 __名前__ プロパティから、 [Get-windowsfeature](https://technet.microsoft.com/en-us/library/jj205469.aspx) コマンドレットと役割または機能の表示名ではありません。|
+| Credential| 追加または削除、役割または機能を使用する資格情報を示します。|
+| 確認します。| 役割または機能が追加されたかどうかを示します。役割または機能があることを確認するには、追加され、設定、役割または機能が削除されるようにするには、"Present"には、このプロパティは「ない」にプロパティを設定します。|
+| IncludeAllSubFeature| このプロパティを設定 __$true__ でを指定する必要なすべてのサブ機能の状態での状態を保証する、 __名前__ プロパティです。|
+| LogPath| ログ ファイルが、操作を記録するリソース プロバイダーを先へのパスを示します。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| ソース| 必要な場合は、インストールに使用するソース ファイルの場所を示します。|
 
-##Example
+##例
 
 ```powershell
 WindowsFeature RoleExample

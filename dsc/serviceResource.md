@@ -1,11 +1,11 @@
-#DSC Service Resource
+#DSC サービス リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
 
-The **Service** resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage services on the target node.
+**サービス** リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、ターゲット ノード上のサービスを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 Service [string] #ResourceName
@@ -19,18 +19,18 @@ Service [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Name| Indicates the service name.Note that sometimes this is different from the display name.You can get a list of the services and their current state with the Get-Service cmdlet.|
-| BuiltInAccount| Indicates the sign-in account to use for the service.The values that are allowed for this property are: **LocalService**, **LocalSystem**, and **NetworkService**.|
-| Credential| Indicates credentials for the account that the service will run under.This property and the __BuiltinAccount__ property cannot be used together.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| StartupType| Indicates the startup type for the service.The values that are allowed for this property are: **Automatic**, **Disabled**, and **Manual**|
-| State| Indicates the state you want to ensure for the service.|
+| Name| サービス名を示します。場合によっては異なる表示名からに注意してください。サービスと、現在の状態とは、Get-service コマンドレットの一覧を取得することができます。|
+| BuiltInAccount| サインインに使用するアカウント、サービスを示します。このプロパティで許可されている値は、: **LocalService**, 、**LocalSystem**, 、および **NetworkService**です。|
+| Credential| サービスを実行するアカウントの資格情報を示します。このプロパティと __BuiltinAccount__ プロパティを一緒に使用することはできません。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| StartupType| サービスのスタートアップの種類を示します。このプロパティで許可されている値は、: **自動**, 、**無効になっている**, 、および **手動**|
+| 状態| サービスのことを確認する状態を示します。|
 
-##Example
+##例
 
 ```powershell
 Service ServiceExample

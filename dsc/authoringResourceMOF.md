@@ -1,16 +1,16 @@
-#Writing a custom DSC resource with MOF
+#MOF を持つカスタム DSC リソースの作成
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-In this topic, we will define the schema for a Windows PowerShell Desired State Configuration (DSC) custom resource in a MOF file, and implement the resource in a Windows PowerShell script file. This custom resource is for creating and maintaining a web site.
+このトピックでは、MOF ファイルでは、Windows PowerShell 必要な状態 Configuration (DSC) のカスタム リソースのスキーマを定義し、Windows PowerShell スクリプト ファイルにリソースを実装おはします。 このカスタムのリソースでは、作成、および web サイトを維持するためです。
 
-##Creating the MOF schema
+##MOF のスキーマの作成
 
-The schema defines the properties of your resource that can be configured by a DSC configuration script.
+スキーマでは、DSC 構成のスクリプトによって構成可能なリソースのプロパティを定義します。
 
-###Folder structure for a MOF resource
+###MOF リソース用のフォルダー構造
 
-To implement a DSC custom resource with a MOF schema, create the following folder structure. The MOF schema is defined in the file Demo_IISWebsite.schema.mof, and the resource script is defined in Demo_IISWebsite.ps1. Optionally, you can create a module manifest (psd1) file.
+MOF のスキーマを持つ DSC カスタム リソースを実装するのには、次のフォルダー構造を作成します。 ファイルのデモで MOF のスキーマが定義されている_IISWebsite.schema.mof、およびリソースのスクリプトがデモで定義されている_IISWebsite.ps1 です。 必要に応じて、モジュール マニフェスト (psd1) ファイルを作成することができます。
 
 ```
 $env: psmodulepath (folder)
@@ -22,11 +22,11 @@ $env: psmodulepath (folder)
                 |- Demo_IISWebsite.schema.mof (file, required)
 ```
 
-Note that it is necessary to create a folder named DSCResources under the top-level folder, and that the folder for each resource must have the same name as the resource.
+DSCResources を最上位のフォルダーの下にあるという名前のフォルダーを作成する必要があると、各リソースのフォルダーは、リソースと同じ名前である必要がありますに注意してください。
 
-###The contents of the MOF file
+###MOF ファイルの内容
 
-Following is an example MOF file that can be used for a custom website resource. To follow this example, save this schema to a file, and call the file *Demo_IISWebsite.schema.mof*.
+カスタム web サイトのリソースに対して使用できる MOF ファイルの例を次に示します。 この例に従って操作、このスキーマをファイルに保存し、ファイルを呼び出す *Demo_IISWebsite.schema.mof*です。
 
 ```
 [ClassVersion("1.0.0"), FriendlyName("Website")] 
@@ -43,24 +43,24 @@ class Demo_IISWebsite : OMI_BaseResource
 };
 ```
 
-Note the following about the previous code:
+前のコードについては、次に注意してください。
 
-* `FriendlyName` defines the name you can use to refer to this custom resource in DSC configuration scripts. In this example, `Website` is equivalent to the friendly name `Archive` for the built-in Archive resource.
-* The class you define for your custom resource must derive from `OMI_BaseResource`.
-* The type qualifier, `[Key]`, on a property indicates that this property will uniquely identify the resource instance. A `[Key]` property is also required.
-* The `[Required]` qualifier indicates that the property is required (a value must be specified in any configuration script that uses this resource).
-* The `[write]` qualifier indicates that this property is optional when using the custom resource in a configuration script. The `[read]` qualifier indicates that a property cannot be set by a configuration, and is for reporting purposes only.
-* `Values` restricts the values that can be assigned to the property to the list of values defined in `ValueMap`. For more information, see [ValueMap and Value Qualifiers](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx).
-* Including a property called `Ensure` in your resource is recommended as a way to maintain a consistent style with built-in DSC resources.
-* Name the schema file for your custom resource as follows: `classname.schema.mof`, where `classname` is the identifier that follows the `class` keyword in your schema definition.
+* `FriendlyName` DSC 構成スクリプトでこのカスタムのリソースを参照する際の名前を定義します。 この例で `web サイト` はフレンドリ名に相当 `アーカイブ` のアーカイブの組み込みのリソース。
+* クラス定義から、カスタムのリソースが派生する必要があります `OMI_BaseResource`です。
+* 型修飾子、 `[キー]`, のプロパティでは、このプロパティのリソースのインスタンスを一意に識別することを示します。 A `[キー]` プロパティも必要です。
+* `[必須]` 修飾子は、プロパティが必要であることを示します (このリソースを使用するすべての構成スクリプトの値を指定する必要があります)。
+* `[書き込み]` 修飾子では、このプロパティを構成スクリプトでカスタムのリソースを使用する場合は省略可能なことを示します。  `[読み取り]` 修飾子は、プロパティは構成では、設定することはできませんし、レポート目的でのみことを示します。
+* `値` で定義された値の一覧のプロパティに割り当てることができる値を制限して `ValueMap`です。 詳細については、次を参照してください。 [ValueMap と値の修飾子を組み合わせて](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)です。
+* 呼ばれるプロパティを含む `を確認してください` DSC の組み込みのリソースとの一貫性のあるスタイルを維持する方法として、リソースにはお勧めします。
+* 次のように、カスタムのリソースのスキーマ ファイルの名前を付けます: `classname.schema.mof`, ここで、 `classname` に続く識別子を指定します、 `クラス` 、スキーマ定義内のキーワードです。
 
-###Writing the resource script
+###リソースのスクリプトの記述
 
-The resource script implements the logic of the resource. In this module, you must include three functions called **Get-TargetResource**, **Set-TargetResource**, and **Test-TargetResource**. All three functions must take a parameter set that is identical to the set of properties defined in the MOF schema that you created for your resource. In this document, this set of properties is referred to as the “resource properties.” Store these three functions in a file called <ResourceName>.psm1. In the following example, the functions are stored in a file called Demo_IISWebsite.psm1.
+リソースのスクリプトでは、リソースのロジックを実装します。この章では、呼び出された 3 つの関数を含める必要があります **Get TargetResource**, 、**セット TargetResource**, 、および **テスト TargetResource**です。3 つの関数には、一連のプロパティは、リソースの作成した MOF スキーマで定義されているのと同じであるパラメーターのセットを考慮する必要があります。このドキュメントでは、このプロパティのセットと呼びます [リソースのプロパティ]これら 3 つの関数で、ファイルと呼ばれるストア <ResourceName>.psm1 します。次の例では、関数は Demo_IISWebsite.psm1 をという名前のファイルに格納されます。
 
-> **Note**: When you run the same configuration script on your resource more than once, you should receive no errors and the resource should remain in the same state as running the script once. To accomplish this, ensure that your **Get-TargetResource** and **Test-TargetResource** functions leave the resource unchanged, and that invoking the **Set-TargetResource** function more than once in a sequence with the same parameter values is always equivalent to invoking it once.
+> **注**: と、リソースで、同じ構成スクリプトを複数回実行し、エラーは発生しませんされ、リソースが、スクリプトを 1 回実行すると同じ状態に保持します。 これを実現することを確認、 **Get TargetResource** と **テスト TargetResource** 変更せずに、リソース、関数のままにし、その呼び出し、 **セット TargetResource** 1 回で同じパラメーターを持つ一連の値は常に、1 回の呼び出しに相当するよりも多くの機能です。
 
-In the **Get-TargetResource** function implementation, use the key resource property values that are provided as parameters to check the status of the specified resource instance. This function must return a hash table that lists all the resource properties as keys and the actual values of these properties as the corresponding values. The following code provides an example.
+**Get TargetResource** 実装の関数を指定したリソースのインスタンスの状態を確認する、パラメーターとして提供される主要なリソースのプロパティ値を使用します。 この関数では、キーと、対応する値としてこれらのプロパティの実際の値として、すべてのリソース プロパティを表示するハッシュ テーブルを返す必要があります。 次のコードでは、例を示します。
 
 ```powershell
 # DSC uses the Get-TargetResource function to fetch the status of the resource instance specified in the parameters for the target machine
@@ -111,13 +111,13 @@ function Get-TargetResource
 }
 ```
 
-Depending on the values that are specified for the resource properties in the configuration script, the **Set-TargetResource** must do one of the following:
+構成のスクリプトでは、リソースのプロパティで指定されている値によって、 **セット TargetResource** 、次のいずれかを実行する必要があります。
 
-* Create a new website
-* Update an existing website
-* Delete an existing website
+* 新しい web サイトを作成します。
+* 既存の web サイトを更新します。
+* 既存の web サイトを削除します。
 
-The following example illustrates this.
+次の例では、これを示しています。
 
 ```powershell
 # The Set-TargetResource function is used to create, delete or configure a website on the target machine. 
@@ -154,9 +154,9 @@ function Set-TargetResource
 }
 ```
 
-Finally, the **Test-TargetResource** function must take the same parameter set as **Get-TargetResource** and **Set-TargetResource**. In your implementation of **Test-TargetResource**, check the status of the resource instance that is specified in the key parameters. If the actual status of the resource instance does not match the values specified in the parameter set, return **$false**. Otherwise, return **$true**.
+最後に、 **テスト TargetResource** 関数として設定する同じパラメーターを受け取る必要があります **Get TargetResource** と **セット TargetResource**です。 実装で **テスト TargetResource**, 、キーのパラメーターで指定されているリソースのインスタンスの状態を確認します。 リソースのインスタンスの実際の状態で、パラメーター セットで指定された値が一致しない場合は、返す **$false**です。 それ以外の場合、返す **$true**です。
 
-The following code implements the **Test-TargetResource** function.
+次のコードを実装して、 **テスト TargetResource** 関数。
 
 ```powershell
 function Test-TargetResource
@@ -203,11 +203,11 @@ $result
 }
 ```
 
-**Note**: For easier debugging, use the **Write-Verbose** cmdlet in your implementation of the previous three functions. This cmdlet writes text to the verbose message stream. By default, the verbose message stream is not displayed, but you can display it by changing the value of the **$VerbosePreference** variable or by using the **Verbose** parameter in the DSC cmdlets = new.
+**注**。 簡単にデバッグでは、次のように使用します。、 **書き込み-詳細** 前の 3 つの関数の実装でのコマンドレットです。 このコマンドレットでは、詳細メッセージのストリームにテキストを書き込みます。 既定では、詳細メッセージのストリームが表示されないの値を変更することで、これを表示することが、 **$VerbosePreference** 変数またはを使用して、 **Verbose** DSC コマンドレットのパラメーター = new します。
 
-###Creating the module manifest
+###モジュール マニフェストを作成します。
 
-Finally, use the **New-ModuleManifest** cmdlet to define a <ResourceName>.psd1 file for your custom resource module. When you invoke this cmdlet, reference the script module (.psm1) file described in the previous section. Include **Get-TargetResource**, **Set-TargetResource**, and **Test-TargetResource** in the list of functions to export. Following is an example manifest file.
+最後に、使用して、 **New-modulemanifest** を定義するコマンドレット、 <ResourceName>、カスタムのリソース モジュール .psd1 ファイルです。このコマンドレットを呼び出すときは、前のセクションで説明されているスクリプト モジュール (.psm1) ファイルを参照します。含める **Get TargetResource**, 、**セット TargetResource**, と **テスト TargetResource** をエクスポートする関数の一覧にします。マニフェスト ファイルの例を次に示します。
 
 ```powershell
 # Module manifest for module 'Demo.IIS.Website'

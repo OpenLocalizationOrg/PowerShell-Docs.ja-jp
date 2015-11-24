@@ -1,30 +1,30 @@
-#Securing the MOF File
+#MOF ファイルをセキュリティで保護します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-DSC tells the target nodes what configuration they should have by sending a MOF file with that information to each node, where the Local Configuration Manager (LCM) implements the desired configuration. Because this file contains the details of the configuration, it’s important to keep it secure. To do this, you can set the Local Configuration Manager to check the credentials of a user. This topic describes how to transmit those credentials securely to the target node by encrypting them with certificates.
+DSC は、ローカルの Configuration Manager (LCM) が必要な構成を実装する各ノードにその情報を含む MOF ファイルを送信することでは、どのような構成を対象のノードに指示します。 このファイルには、構成の詳細が含まれている、ためには、安全に保つ必要があります。 これを行うには、ユーザーの資格情報を確認するのには、ローカル Configuration Manager を設定できます。 このトピックでは、証明書を暗号化したりすることで、ターゲット ノードを安全にこれらの資格情報を送信する方法について説明します。
 
-##Prerequisites
+##前提条件
 
-To successfully encrypt the credentials used to secure a DSC configuration, make sure you have the following:
+DSC 構成をセキュリティで保護するために使用する資格情報を正常に暗号化するには、次のようなメッセージがあるを確認します。
 
-* **Some means of issuing and distributing certificates**. This topic and its examples assume you are using Active Directory Certification Authority. For more background information on Active Directory Certificate Services, see [Active Directory Certificate Services Overview](https://technet.microsoft.com/library/hh831740.aspx) and [Active Directory Certificate Services in Windows Server 2008](https://technet.microsoft.com/windowsserver/dd448615.aspx).
-* **Administrative access to the target node or nodes**.
-* **Each target node has an encryption-capable certificate saved its Personal Store**. In Windows PowerShell, the path to the store is Cert:\LocalMachine\My. The examples in this topic use the “workstation authentication” template, which you can find (along with other certificate templates) at [Default Certificate Templates](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx).
-* If you will be running this configuration on a computer other than the target node, **export the public key of the certificate**, and then import it to the computer you will run the configuration from. Make sure that you export only the **public** key; keep the private key secure.
+* **何らかの発行し、証明書を配布する手段**です。 このトピックとその例については、Active Directory の証明機関を使用するいると仮定します。 Active Directory 証明書サービスの詳細な背景情報を参照してください。 [Active Directory 証明書サービスの概要](https://technet.microsoft.com/library/hh831740.aspx) と [Windows Server 2008 の Active Directory Certificate Services](https://technet.microsoft.com/windowsserver/dd448615.aspx)です。
+* **、対象のノードまたはノードへの管理者アクセス**です。
+* **対象の各ノードは、証明書が暗号化対応であることを個人用ストアの保存が**です。 Windows PowerShell では、ストアへのパスは、Cert: \LocalMachine\My です。 このトピックの例では、[既定の証明書のテンプレート] (https://technet.microsoft.com/library/cc740061 (v=WS.10).aspx) (およびその他の証明書テンプレートでは) 検索できる [ワークステーション認証] テンプレートを使用します。
+* この構成を実行する、ターゲット ノード以外のコンピューターで場合 **、証明書の公開キーをエクスポート**, から構成を実行するコンピューターにインポートするとします。 のみにエクスポートするかどうかを確認、 **パブリック** キーは、セキュリティで保護された秘密キーを保持します。
 
-##Overall process
+##全体的なプロセス
 
-1. Set up the certificates, keys, and thumbprints, making sure that each target node has copies of the certificate and the configuration computer has the public key and thumbprint.
-1. Create a configuration data block that contains the path and thumbprint of the public key.
-1. Create a configuration script that defines your desired configuration for the target node and sets up decryption on the target nodes by commanding the Local Configuration manager to decrypt the configuration data using the certificate and its thumbprint.
-1. Run the configuration, which will set the Local Configuration Manager settings and start the DSC configuration.
+1. 証明書、キー、および各ターゲット ノードには、証明書のコピーを構成のコンピューターが、公開キーと拇印を持つことを確認して、拇印を設定します。
+1. パスと公開キーの拇印を含む構成データのブロックを作成します。
+1. ターゲット ノードの望みどおりの構成を定義し、ローカルの構成のコマンドを実行して、ターゲット ノードでは、復号化を設定します構成スクリプトに、証明書と、その拇印を使用して、構成データの暗号化を解除するマネージャーを作成します。
+1. ローカルの Configuration Manager の設定を設定し、DSC 構成を開始すると、構成を実行します。
 
-##Configuration data
+##構成データ
 
-The configuration data block defines which target nodes to operate on, whether or not to encrypt the credentials, the means of encryption, and other information. For more information on the configuration data block, see [Separating Configuration and Environment Data](configData.md).
+構成データのブロックでは、操作するために、かどうか、または資格情報、暗号化の方法、およびその他の情報を暗号化しないようにする対象のノードを定義します。 構成データのブロックの詳細については、次を参照してください。 [構成を分離すること、および環境データ](configData.md)です。
 
-This example shows a configuration data block that specifies a target node to act on named targetNode, the path to the public key certificate file (named targetNode.cer), and the thumbprint for the public key.
+この例では、名前付きの targetNode へのパス (targetNode.cer という名前)、公開キー証明書のファイルと公開キーのサムプリントで機能するターゲット ノードを指定する構成データのブロックを使用します。
 
 ```powershell
 $ConfigData= @{ 
@@ -47,9 +47,9 @@ $ConfigData= @{
     }
 ```
 
-##Configuration script
+##構成スクリプト
 
-In the configuration script itself, use the `PsCredential` parameter to ensure that credentials are stored for the shortest possible time. When you run the supplied example, DSC will prompt you for credentials and then encrypt the MOF file using the CertificateFile that is associated with the target node in the configuration data block. This code example copies a file from a share that is secured to a user.
+構成スクリプトでは、使用して、 `PsCredential` パラメーターをできるだけ短時間の資格情報を保存することを確認します。 指定の例を実行すると、DSC は資格情報を要求して、構成データのブロックの対象ノードに関連付けられている CertificateFile を使用して MOF ファイルを暗号化します。 このコード例では、ユーザーにセキュリティ保護されている共有からファイルをコピーします。
 
 ```
 configuration CredentialEncryptionExample 
@@ -73,9 +73,9 @@ configuration CredentialEncryptionExample
 }
 ```
 
-##Setting up decryption
+##復号化の設定
 
-Before `Start-DscConfiguration` can work, you have to tell the Local Configuration Manager on each target node which certificate to use to decrypt the credentials, using the CertificateID resource to verify the certificate’s thumbprint. This example function will find the appropriate local certificate (you might have to customize it so it will find the exact certificate you want to use):
+前に `開始 DscConfiguration` 機能しますが、証明書 Id のリソースを使用して、証明書の拇印を確認する証明書を使用して、資格情報の暗号化を解除する各ターゲット ノード上のローカルの Configuration Manager を指示する必要です。 この例の関数には、(を使用する正確な証明書を検索するためにカスタマイズする必要があります)、適切なローカル証明書があります。
 
 ```powershell
 # Get the certificate that works for encryption 
@@ -91,7 +91,7 @@ function Get-LocalEncryptionCertificateThumbprint
 }
 ```
 
-With the certificate identified by its thumbprint, the configuration script can be updated to use the value:
+その拇印で識別された証明書が、値を使用する構成スクリプトを更新することができます。
 
 ```powershell
 configuration CredentialEncryptionExample 
@@ -120,14 +120,14 @@ configuration CredentialEncryptionExample
 }
 ```
 
-##Running the configuration
+##構成を実行しています。
 
-At this point, you can run the configuration, which will output two files:
+この時点で、構成では、2 つのファイルが出力を実行できます。
 
-* A *.meta.mof file that configures the Local Configuration Manager to decrypt the credentials using the certificate that is stored on the local machine store and identified by its thumbprint. Set-DscLocalConfigurationManager applies the *.meta.mof file.
-* A MOF file that actually applies the configuration. Start-DscConfiguration applies the configuration.
+* A *. ですが、ローカル コンピューターのストアに格納されているし、その拇印で識別された証明書を使用する資格情報の暗号化を解除するローカルの Configuration Manager を構成する meta.mof ファイルです。 セット DscLocalConfigurationManager の適用、*. meta.mof ファイルです。
+* 実際には、構成を適用するための MOF ファイルです。 開始 DscConfiguration には、構成が適用されます。
 
-These commands will accomplish those steps:
+これらのコマンドでは、これらの手順が実行されます。
 
 ```powershell
 Write-Host "Generate DSC Configuration..."
@@ -140,7 +140,7 @@ Write-Host "Starting Configuration..."
 Start-DscConfiguration .\CredentialEncryptionExample -wait -Verbose
 ```
 
-Here is a full example that incorporates all of these steps, plus a helper cmdlet that exports and copies the public keys:
+すべての次の手順とエクスポートし、公開キーのコピーをヘルパー コマンドレットが組み込まれている完全な例を次に示します。
 
 ```powershell
 # A simple example of using credentials

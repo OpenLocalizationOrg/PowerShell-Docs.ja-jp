@@ -1,8 +1,8 @@
-#DSC for Linux nxArchive Resource
+#DSC Linux nxArchive リソース用
 
-The **nxArchive** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.tar, .zip) files at a specific path on a Linux node.
+**NxArchive** リソース PowerShell 必要な状態 Configuration (DSC) では Linux ノードで、特定のパスでアーカイブ (.tar、.zip) ファイルをアンパックするメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxArchive <string> #ResourceName
@@ -16,20 +16,20 @@ nxArchive <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| SourcePath| Specifies the source path of the archive file.This should be a .tar, .zip, or .tar.gz file.|
-| DestinationPath| Specifies the location where you want to ensure the archive contents are extracted.|
-| Checksum| Defines the type to use when determining whether the source archive has been updated.Values are: "ctime", "mtime", or "md5".The default value is "md5".|
-| Force| Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.Using the **Force** property overrides such errors.The default value is **$false**.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| Ensure| Determines whether to check if the content of the archive exists at the **Destination**.Set this property to "Present" to ensure the contents exist.Set it to "Absent" to ensure they do not exist.The default value is "Present".|
+| SourcePath| アーカイブ ファイルのソース パスを指定します。.Tar があります、.zip または。. tar. gz ファイルです。|
+| DestinationPath| アーカイブの内容を抽出することを確認する場所を指定します。|
+| チェックサム| ソースのアーカイブが更新されたかどうかを決定するときに使用する型を定義します。値は、:"mtime"、"ctime"または"md5"です。既定値は、"md5"です。|
+| Force| 特定のファイル操作 (ファイルを上書きするが空でないディレクトリを削除するなど) すると、エラーが発生します。使用して、 **Force** プロパティには、このようなエラーがよりも優先されます。既定値は **$false**です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| 確認します。| 存在する場合、アーカイブの内容を確認するかどうか、 **送信先**です。このプロパティをコンテンツが存在することを確認するには、"Present"を設定します。存在しないことを確認するには「ない」に設定します。既定値は、"Present"です。|
 
-##Example
+##例
 
-The following example shows how to use the **nxArchive** resource to ensure that the contents of an archive file called `website.tar` exist and are extracted at a given destination.
+次の例では、使用する方法、 **nxArchive** アーカイブ ファイルの内容が呼び出されることを確認するリソース `website.tar` 存在し、特定の転送先に抽出されます。
 
 ```
 Import-DSCResource -Module nx 

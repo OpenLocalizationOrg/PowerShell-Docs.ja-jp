@@ -1,93 +1,93 @@
-#[Overview](overview.md)
+#[概要](overview.md)
 
-#[Configurations](configurations.md)
+#[構成](configurations.md)
 
-##[Enacting configurations](enactingConfigurations.md)
+##[構成を制定します。](enactingConfigurations.md)
 
-##[Configuration data](configData.md)
+##[構成データ](configData.md)
 
-##[Securing the configuration MOF file](secureMOF.md)
+##[構成の MOF ファイルをセキュリティで保護します。](secureMOF.md)
 
-#[Resources](resources.md)
+#[リソース](resources.md)
 
-##[Built-in resources](builtInResource.md)
+##[組み込みのリソース](builtInResource.md)
 
-###[Archive Resource](archiveResource.md)
+###[アーカイブのリソース](archiveResource.md)
 
-###[Environment Resource](environmentResource.md)
+###[環境のリソース](environmentResource.md)
 
-###[File Resource](fileResource.md)
+###[ファイルのリソース](fileResource.md)
 
-###[Group Resource](groupResource.md)
+###[グループのリソース](groupResource.md)
 
-###[Log Resource](logResource.md)
+###[ログのリソース](logResource.md)
 
-###[Package Resource](packageResource.md)
+###[パッケージのリソース](packageResource.md)
 
-###[Registry Resource](registryResource.md)
+###[レジストリのリソース](registryResource.md)
 
-###[Script Resource](scriptResource.md)
+###[スクリプト リソース](scriptResource.md)
 
-###[Service Resource](serviceResource.md)
+###[サービスのリソース](serviceResource.md)
 
-###[User Resource](userResource.md)
+###[ユーザー リソース](userResource.md)
 
-###[Windows Feature Resource](windowsfeatureResource.md)
+###[Windows の機能のリソース](windowsfeatureResource.md)
 
-###[WindowsProcess Resource](windowsProcessResource.md)
+###[WindowsProcess リソース](windowsProcessResource.md)
 
-##[Authoring custom resources](authoringResource.md)
+##[カスタム リソースの作成](authoringResource.md)
 
-###[MOF-based custom resources](authoringResourceMOF.md)
+###[MOF ベースのカスタム リソース](authoringResourceMOF.md)
 
-####[MOF-based resource in C#](authoringResourceMofCS.md)
+####[C# で MOF ベースのリソース](authoringResourceMofCS.md)
 
-###[Class-based custom resouces](authoringResourceClass.md)
+###[カスタム リソースのクラスに基づく](authoringResourceClass.md)
 
-###[Composite resources](authoringResourceComposite.md)
+###[複合のリソース](authoringResourceComposite.md)
 
-#[Configuring the Local Configuration Manager (LCM)](metaConfig.md)
+#[ローカルの Configuration Manager (LCM) の構成](metaConfig.md)
 
-##[Configuring the LCM in PowerShell 4.0](metaConfig4.md)
+##[PowerShell 4.0 で、LCM を構成します。](metaConfig4.md)
 
-#The DSC pull model
+#DSC プル モデル
 
-##[Setting up a web pull server](pullServer.md)
+##[プルの web サーバーの設定](pullServer.md)
 
-##[Setting up an SMB pull server](pullServerSMB.md)
+##[SMB のプル サーバーのセットアップ](pullServerSMB.md)
 
-##[Setting up a pull client](pullClient.md)
+##[プルのクライアントの設定](pullClient.md)
 
-###[Setting up a pull client using configuration names](pullClientConfigNames.md)
+###[構成名を使用してクライアントをプルの設定](pullClientConfigNames.md)
 
-###[Setting up a pull client using configuration ID](pullClientConfigID.md)
+###[構成の ID を使用してプル クライアントを設定します。](pullClientConfigID.md)
 
-##[Pull server best practices](secureServer.md)
+##[Server のベスト プラクティスを取得します。](secureServer.md)
 
-#[Troubleshooting DSC](troubleshooting.md)
+#[DSC のトラブルシューティング](troubleshooting.md)
 
-#DSC on Linux
+#Linux で DSC
 
-##[Getting started with DSC for Linux](lnxGettingStarted.md)
+##[Linux for DSC の概要](lnxGettingStarted.md)
 
-##[Built-in resorces for Linux](lnxBuiltInResources.md)
+##[Linux 用の組み込みのリソース](lnxBuiltInResources.md)
 
-###[nxArchive Resource](lnxArchiveResource.md)
+###[nxArchive リソース](lnxArchiveResource.md)
 
-###[nxEnvironment Resource](lnxEnvironmentResource.md)
+###[nxEnvironment リソース](lnxEnvironmentResource.md)
 
-###[nxFile Resource](lnxFileResource.md)
+###[nxFile リソース](lnxFileResource.md)
 
-###[nxFileLine Resource](lnxFileLineResource.md)
+###[nxFileLine リソース](lnxFileLineResource.md)
 
-###[nxGroup Resource](lnxGroupResource.md)
+###[nxGroup リソース](lnxGroupResource.md)
 
-###[nxPackage Resource](lnxPackageResource.md)
+###[nxPackage リソース](lnxPackageResource.md)
 
-###[nxService Resource](lnxServiceResource.md)
+###[nxService リソース](lnxServiceResource.md)
 
-###[nxSshAuthorizedKeys Resource](lnxSshAuthorizedKeysResource.md)
+###[nxSshAuthorizedKeys リソース](lnxSshAuthorizedKeysResource.md)
 
-###[nxUser Resource](lnxUserResource.md)
+###[nxUser リソース](lnxUserResource.md)
 
 

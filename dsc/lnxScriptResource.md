@@ -1,8 +1,8 @@
-#DSC for Linux nxScript Resource
+#DSC Linux nxScript リソース用
 
-The **nxScript** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to run Linux scripts on a Linux node.
+**NxScript** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux のノード上の Linux のスクリプトを実行するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxScript <string> #ResourceName
@@ -17,20 +17,20 @@ nxScript <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| GetScript| Provides a script that runs when you invoke the [Get-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521625.aspx) cmdlet.The script must begin with a shebang, such as #!/bin/bash.|
-| SetScript| Provides a script.When you invoke the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet, the **TestScript** runs first.If the **TestScript** block returns an exit code other than 0, the **SetScript** block will run.If the **TestScript** returns an exit code of 0, the **SetScript** will not run.The script must begin with a shebang, such as `#!/bin/bash`.|
-| TestScript| Provides a script.When you invoke the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet, this script runs.If it returns an exit code other than 0, the SetScript will run.If it returns an exit code of 0, the **SetScript** will not run.The **TestScript** also runs when you invoke the [Test-DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) cmdlet.However, in this case, the **SetScript** will not run, no matter what exit code is returned from the **TestScript**.The **TestScript** must return an exit code of 0 if the actual configuration matches the current desired state configuration, and an exit code other than 0 if it does not match.(The current desired state configuration is the last configuration enacted on the node that is using DSC).The script must begin with a shebang, such as 1#!/bin/bash.1|
-| User| The user to run the script as.|
-| Group| The group to run the script as.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| GetScript| 呼び出すときに実行されるスクリプトを提供する、 [Get DscConfiguration](https://technet.microsoft.com/en-us/library/dn521625.aspx) コマンドレットです。スクリプトは、# など、shebang を始める必要があります。/、ビン分割/bash します。|
+| SetScript| スクリプトを提供します。呼び出した場合、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレット、 **TestScript** は最初に実行します。場合、 **TestScript** ブロックには、0 以外の終了コードが返された、 **SetScript** ブロックが実行されます。場合、 **TestScript** 終了コードは 0 を返す、 **SetScript** は実行されません。スクリプトがなどの shebang で始まる必要があります `#!/、ビン分割/bash`です。|
+| TestScript| スクリプトを提供します。呼び出した場合、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットでは、このスクリプトを実行します。0 以外の終了コードが返された場合、SetScript が実行されます。0 の場合、終了コードが返された場合、 **SetScript** は実行されません。 **TestScript** を起動するときにも実行、 [テスト DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) コマンドレットです。ただし、ここでは、 **SetScript** からどのような終了コードが返されるも実行されず、 **TestScript**です。 **TestScript** 実際の構成は、現在の目的の状態の構成を一致し、が一致しない場合、終了コード 0 以外の場合は、終了コードは 0 を返す必要があります。(現在の目的の状態の構成は、前回の構成が DSC を使用しているノードで施行) です。スクリプトは、1#!/bin/bash.1 など、shebang を始める必要があります。|
+| ユーザー| としてスクリプトを実行するユーザー。|
+| グループ| としてスクリプトを実行するグループです。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-The following example demonstrates the use of the **nxScript** resource to perform additional configuration management.
+次の例では、使用、 **nxScript** リソースを追加の構成の管理を実行します。
 
 ```
 Import-DSCResource -Module nx 

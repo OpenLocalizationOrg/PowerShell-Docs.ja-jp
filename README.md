@@ -1,15 +1,15 @@
-#PowerShell Documentation
+#PowerShell のドキュメント
 
-Welcome to the PowerShell-Docs repository, housing the official PowerShell documentation [available on MSDN](https://msdn.microsoft.com/powershell/dsc/overview).
+PowerShell の公式のドキュメントを格納している PowerShell ドキュメント リポジトリへようこそ [MSDN で利用できる](https://msdn.microsoft.com/powershell/dsc/overview)です。
 
-> **Note**: right now, this repo is only intended for PowerShell Desired State Configuration (DSC) content. 
-> In the future, it may be expanded to include a greater set of PowerShell documentation.
+> **注**。 現在、このリポジトリは PowerShell の必要な状態 Configuration (DSC) コンテンツのみです。 
+> 今後、PowerShell のドキュメントのより多くの種類を含める展開する場合があります。
 
-##Contributing
+##原因となっています。
 
-We will be actively merging contributions into this repository via pull request. 
-Please note that before contributing, you must [sign a Contribution License Agreement](https://cla.microsoft.com/) to ensure that the community is free to use your contributions.
-For more information on contributing, read our [contributions guide](CONTRIBUTING.md).
+おがプルの要求では、このリポジトリに、アクティブに投稿をマージすることができます。 
+なお、原因となっている、前にする必要のある [投稿物の使用許諾契約書に署名](https://cla.microsoft.com/) 、コミュニティが自由にお客様の投稿物を使用することを確認します。
+原因となったの詳細については、「、 [投稿ガイド](CONTRIBUTING.md)です。
 
 
 

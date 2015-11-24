@@ -1,8 +1,8 @@
-#DSC for Linux nxSshAuthorizedKeys Resource
+#DSC Linux nxSshAuthorizedKeys リソース用
 
-The **nxAuthorizedKeys** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage authorized ssh keys for a specified user.
+**NxAuthorizedKeys** リソース PowerShell 必要な状態 Configuration (DSC) を管理するメカニズム承認 ssh 指定されたユーザーのキーを提供します。
 
-##Syntax
+##構文
 
 ```
 nxAuthorizedKeys <string> #ResourceName
@@ -16,19 +16,19 @@ nxAuthorizedKeys <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| KeyComment| A unique comment for the key.This is used to uniquely identify keys.|
-| Ensure| Specifies whether the key is defined.Set this property to "Absent" to ensure the key does not exist in the user’s authorized keys file.Set it to "Present" to ensure the key is defined in the user’s authorized key file.|
-| Username| The username to manage ssh authorized keys for.If not defined, the default user is "root".|
-| Key| The contents of the key.This is required if **Ensure** is set to "Present".|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| KeyComment| キーの一意のコメントです。これについては、キーを一意に識別するために使用されます。|
+| 確認します。| キーが定義されているかどうかを指定します。「ない」、キーが、ユーザーの承認済みキー ファイルには存在しないことを確認するには、このプロパティを設定します。ユーザーの承認済みキー ファイルで、キーが定義されていることを確認するには、"Present"に設定します。|
+| ユーザー名| Ssh を管理するユーザー名には、キーが承認されています。定義されていない場合は、既定のユーザーは"root"です。|
+| キー| キーの内容です。これは、必要な場合 **を確認してください** "Present"に設定されています。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-The following example defines a public ssh authorized key for the user "monuser".
+次の例では、パブリック ssh 承認されたユーザー"monuser"のキー。
 
 ```
 Import-DSCResource -Module nx 

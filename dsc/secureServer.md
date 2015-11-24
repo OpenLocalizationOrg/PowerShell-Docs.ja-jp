@@ -1,8 +1,8 @@
-#Pull server best practices
+#Server のベスト プラクティスを取得します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The examples provided throughout this documentation are meant to explain how PowerShell Desired State Configuration (DSC) pull servers work, and are not suitable for most real-world cases. For a more in-depth discussion of how to set up a pull server in a real-world deployment, see [Configuration Planning and Installation Guide](https://github.com/PowerShell/Whitepapers/blob/master/PullServerCPIG/PullServerCPIG.md).
+このドキュメント全体で提供される例については、PowerShell の必要な状態 Configuration (DSC) のサーバーの作業を取得および現実世界のほとんどの場合に適していないを説明するものです。 実際の展開でプル サーバーを設定する方法の詳細情報については、次を参照してください。 [構成の計画とインストール ガイド](https://github.com/PowerShell/Whitepapers/blob/master/PullServerCPIG/PullServerCPIG.md)です。
 
 
 

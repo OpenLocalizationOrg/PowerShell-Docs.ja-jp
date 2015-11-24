@@ -1,21 +1,21 @@
-#Built-In Windows PowerShell Desired State Configuration Resources
+#組み込みの Windows PowerShell の必要なリソースの状態の構成
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Windows PowerShell Desired State Configuration (DSC) comes with a set of built-in configuration resources. The following table provides an alphabetical list of these resources and links to topics that describe them in detail. If you need to create additional resources, see [Build Custom Windows PowerShell Desired State Configuration Resources](authoringResource.md)
+Windows PowerShell 必要な状態 Configuration (DSC) 一連の組み込みの構成のリソースが付属します。 次の表では、これらのリソースや詳細を説明するトピックへのリンクのアルファベット順の一覧を提供します。 その他のリソースを作成する必要がある場合は、次を参照してください [ビルド カスタム Windows PowerShell 必要な状態の構成に関するリソース](authoringResource.md)。
 
-* [Archive Resource](archiveResource.md)
-* [Environment Resource](environmentResource.md)
-* [File Resource](fileResource.md)
-* [Group Resource](groupResource.md)
-* [Log Resource](logResource.md)
-* [Package Resource](PackageResource.md)
-* [Registry Resource](registryResource.md)
-* [Script Resource](scriptResource.md)
-* [Service Resource](serviceResource.md)
-* [User Resource](userResource.md)
-* [Windows Feature Resource](windowsFeatureResource.md)
-* [Windows Process Resource](windowsProcessResource.md)
+* [アーカイブのリソース](archiveResource.md)
+* [環境のリソース](environmentResource.md)
+* [ファイルのリソース](fileResource.md)
+* [グループのリソース](groupResource.md)
+* [ログのリソース](logResource.md)
+* [パッケージのリソース](PackageResource.md)
+* [レジストリのリソース](registryResource.md)
+* [スクリプト リソース](scriptResource.md)
+* [サービスのリソース](serviceResource.md)
+* [ユーザー リソース](userResource.md)
+* [Windows の機能のリソース](windowsFeatureResource.md)
+* [Windows プロセスのリソース](windowsProcessResource.md)
 
 
 

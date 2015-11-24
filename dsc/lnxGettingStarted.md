@@ -1,66 +1,66 @@
-#Get started with Desired State Configuration (DSC) for Linux
+#Linux に必要な状態 Configuration (DSC) を開始します。
 
-This topic explains how to get started using PowerShell Desired State Configuration (DSC) for Linux. For general information about DSC, see [Get Started with Windows PowerShell Desired State Configuration](overview.md).
+このトピックでは、Linux 用の PowerShell の必要な状態 Configuration (DSC) を使用して開始する方法について説明します。 DSC に関する一般的な情報は、次を参照してください。 [Windows PowerShell 必要な状態の構成を使ってみる](overview.md)です。
 
-##Supported Linux operation system versions
+##サポートされている Linux 操作システムのバージョン
 
-The following Linux operating system versions are supported for DSC for Linux.
-- CentOS 5, 6, and 7 (x86/x64)
-- Debian GNU/Linux 6 and 7 (x86/x64)
-- Oracle Linux 5, 6 and 7 (x86/x64)
-- Red Hat Enterprise Linux Server 5, 6 and 7 (x86/x64)
-- SUSE Linux Enterprise Server 10, 11 and 12 (x86/x64)
-- Ubuntu Server 12.04 LTS and 14.04 LTS (x86/x64)
+次のバージョンの Linux オペレーティング システムは、Linux 用 DSC はサポートします。
+- CentOS 5、6、および 7 (x86 と x64)
+- Debian Gnu/linux 6 と 7 (x86 と x64)
+- Oracle Linux 5、6 および 7 (x86 と x64)
+- Red Hat Enterprise Linux Server 5、6 および 7 (x86 と x64)
+- 10、11、12 (x86 と x64)、SUSE Linux Enterprise Server
+- Ubuntu Server 12.04 LTS および 14.04 LTS (x86 と x64)
 
-The following table describes the required ackage dependencies for DSC for Linux.
+次の表には、Linux 用の DSC ackage の必要な依存関係がについて説明します。
 
-| Required package| Description| Minimum version|
+| 必要なパッケージ| 説明| 最小バージョン|
 |---|---|---|
-| glibc| GNU Library| 2…4 – 31.30|
+| glibc| GNU ライブラリ| 2…4 – 31.30|
 | python| Python| 2.4 – 3.4|
-| omiserver| Open Management Infrastructure| 1.0.8.1|
-| openssl| OpenSSL Libraries| 0.9.8 or 1.0|
-| ctypes| Python CTypes library| Must match Python version|
-| libcurl| cURL http client library| 7.15.1|
+| omiserver| インフラストラクチャの管理] を開きます| 1.0.8.1|
+| openssl| OpenSSL ライブラリ| 0.9.8 または 1.0|
+| ctypes| Python CTypes ライブラリ| Python バージョンに一致する必要があります。|
+| libcurl| cURL の http クライアント ライブラリ| 7.15.1|
 
-##Installing DSC for Linux
+##Linux 用 DSC をインストールします。
 
-You must install the [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/) before installing DSC for Linux.
+インストールする必要があります、 [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/) linux DSC をインストールする前にします。
 
-###Installing OMI
+###OMI をインストールします。
 
-Desired State Configuration for Linux requires the Open Management Infrastructure (OMI) CIM server, version 1.0.8.1. OMI can be downloaded from The Open Group: [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/).
+Linux の必要な状態の構成では、バージョン 1.0.8.1、Open Management Infrastructure (OMI) CIM サーバーが必要です。 OMI は、Open Group からダウンロードできます: [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/)です。
 
-To install OMI, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86). RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux. DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server. The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.
+OMI をインストールするには、Linux システムでも優れています (.deb) と OpenSSL のバージョンに適したパッケージをインストールします (ssl_098 または ssl_100)、およびアーキテクチャ (x64 または x86)。 RPM パッケージは、CentOS、Red Hat Enterprise Linux、SUSE Linux Enterprise Server、および Oracle Linux の操作に適しています。 DEB パッケージは、Debian Gnu/linux および Ubuntu Server の操作に適しています。 Ssl_098 のパッケージは、ssl の中にインストールされている 0.9.8 の OpenSSL を使用してコンピューターの適切な_100 のパッケージは、OpenSSL 1.0 がインストールされているとのコンピューターに適切です。
 
-> **Note**: To determine the installed OpenSSL version, run the command `openssl version`.
+> **注**: インストールされている OpenSSL のバージョンを確認するには、コマンドを実行 `openssl のバージョン`です。
 
-Run the following command to install OMI on a CentOS 7 x64 system.
+CentOS 7 x64 システム上の OMI をインストールするには、次のコマンドを実行します。
 
-`# sudo rpm -Uvh omiserver-1.0.8.ssl_100.rpm`
+`# sudo rpm か omiserver 1.0.8.ssl_100.rpm`
 
-###Installing DSC
+###DSC をインストールします。
 
-To install DSC, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86). RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux. DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server. The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.
+DSC をインストールするには、Linux システムでも優れています (.deb) と OpenSSL のバージョンに適したパッケージをインストールします (ssl_098 または ssl_100)、およびアーキテクチャ (x64 または x86)。 RPM パッケージは、CentOS、Red Hat Enterprise Linux、SUSE Linux Enterprise Server、および Oracle Linux の操作に適しています。 DEB パッケージは、Debian Gnu/linux および Ubuntu Server の操作に適しています。 Ssl_098 のパッケージは、ssl の中にインストールされている 0.9.8 の OpenSSL を使用してコンピューターの適切な_100 のパッケージは、OpenSSL 1.0 がインストールされているとのコンピューターに適切です。
 
-> **Note**: To determine the installed OpenSSL version, run the command openssl version.
+> **注**: インストールされている OpenSSL のバージョンを確認するにコマンド openssl のバージョンを実行します。
 
-Run the following command to install DSC on a CentOS 7 x64 system.
+DSC を CentOS 7 x64 システムにインストールするには、次のコマンドを実行します。
 
-`# sudo rpm -Uvh dsc-1.0.0-254.ssl_100.x64.rpm`
+`# sudo rpm か dsc-1.0.0-254.ssl_100.x64.rpm`
 
 
-##Using DSC for Linux
+##DSC を使用して、Linux 用
 
-The following sections explain how to create and run DSC configurations on Linux computers.
+次のセクションでは、作成、および Linux コンピューターで DSC 構成を実行する方法について説明します。
 
-###Creating a configuration MOF document
+###構成の MOF ドキュメントを作成します。
 
-The Windows PowerShell Configuration keyword is used to create a configuration for Linux computers, just like for Windows computers. The following steps describe the creation of a configuration document for a Linux computer using Windows PowerShell.
+Windows PowerShell の構成のキーワードを使用して、Windows コンピューターのと同じように、Linux、コンピューターの構成を作成します。 次の手順では、Windows PowerShell を使用して Linux コンピューターの構成ドキュメントの作成について説明します。
 
-1. Import the nx module. The nx Windows PowerShell module contains the schema for Built-In resources for DSC for Linux, and must be installed to your local computer and imported in the configuration.
+1. Nx モジュールをインポートします。 Nx の Windows PowerShell モジュールは DSC の linux の場合、スキーマ組み込みのリソースにはが含まれていますと、ローカル コンピューターにインストールされているおよび構成でインポートする必要があります。
    
-   -To install the nx module, copy the nx module directory to either `%UserProfile%\Documents\WindowsPowerShell\Modules\` or `C:\windows\system32\WindowsPowerShell\v1.0\Modules`. The nx module is included in the DSC for Linux installation package (MSI). To import the nx module in your configuration, use the __Import-DSCResource__ command:
+   -Nx モジュールをインストールするには nx モジュール ディレクトリをコピーするか、 `%UserProfile%\Documents\WindowsPowerShell\Modules\` または `C:\windows\system32\WindowsPowerShell\v1.0\Modules`です。 For Linux のインストール パッケージ (MSI) DSC には nx モジュールが含まれます。 構成で nx モジュールをインポートするには、使用、 __インポート DSCResource__ コマンド。
 
 ```powershell
 Configuration ExampleConfiguration{
@@ -69,7 +69,7 @@ Configuration ExampleConfiguration{
 
 }
 ```
-2. Define a configuration and generate the configuration document:
+2. 構成を定義し、構成ドキュメントを生成します。
 
 ```powershell
 Configuration ExampleConfiguration{
@@ -90,11 +90,11 @@ Configuration ExampleConfiguration{
 ExampleConfiguration -OutputPath:"C:\temp" 
 ```
 
-###Push the configuration to the Linux computer
+###Linux コンピューターに、構成をプッシュします。
 
-Configuration documents (MOF files) can be pushed to the Linux computer using the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet. In order to use this cmdlet, along with the [Get-DscConfiguration](https://technet.microsoft.com/en-us/library/dn407379).aspx, or [Test-DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) cmdlets, remotely to a Linux computer, you must use a CIMSession. The [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx) cmdlet is used to create a CIMSession to the Linux computer.
+(MOF ファイル) の構成に関するドキュメントを使用して Linux コンピューターにプッシュできます、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。 と共に、このコマンドレットを使用するのには、 [Get DscConfiguration](https://technet.microsoft.com/en-us/library/dn407379)、.aspx または [テスト DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) コマンドレット、リモートでするには、Linux コンピューターでは、使用、CIMSession します。  [New-cimsession](https://technet.microsoft.com/en-us/library/jj590760.aspx) コマンドレットは、Linux コンピューターへの CIMSession を作成するために使用します。
 
-The following code shows how to create a CIMSession for DSC for Linux.
+次のコードでは、Linux 用の DSC、CIMSession を作成する方法を示します。
 
 ```powershell
 $Node = "ostc-dsc-01"
@@ -109,66 +109,66 @@ $Sess=New-CimSession -Credential:$credential -ComputerName:$Node -Port:5986 -Aut
 ```
 
 > **Note**:
-* For “Push” mode, the user credential must be the root user on the Linux computer.
-* Only SSL/TLS connections are supported for DSC for Linux, the New-CimSession must be used with the –UseSSL parameter set to $true.
-* The SSL certificate used by OMI (for DSC) is specified in the file: `/opt/omi/etc/omiserver.conf` with the properties: pemfile and keyfile.
-   If this certificate is not trusted by the Windows computer that you are running the [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx) cmdlet on, you can choose to ignore certificate validation with the CIMSession Options: `-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`
+* 「プッシュ」モードでは、ユーザーの資格情報は、Linux コンピューターの root ユーザーである必要があります。
+* SSL や TLS 接続のみはサポートされて DSC – UseSSL パラメーターを $true に設定は、Linux、New-cimsession を使用する必要があります。
+* OMI (DSC) を使用する SSL 証明書は、ファイルで指定します。 `/opt/omi/etc/omiserver.conf` のプロパティを持つ: pemfile およびキー ファイルです。
+   実行している Windows コンピューターによっては、この証明書は信頼されていない場合、 [New-cimsession](https://technet.microsoft.com/en-us/library/jj590760.aspx) コマンドレット、CIMSession オプションを使用して証明書の検証を無視する選択できます `- SkipCACheck: $true サーバー: $true SkipRevocationCheck: $true`。
 
-Run the following command to push the DSC configuration to the Linux node.
+Linux のノードに DSC 構成をプッシュするには、次のコマンドを実行します。
 
-`Start-DSCConfiguration -Path:"C:\temp" -cimsession:$sess -wait -verbose`
+`開始 DSCConfiguration-パス:"C:\temp"cimsession: $sess-待機 - 詳細`
 
-###Distribute the configuration with a pull server
+###プル サーバーを使用して構成を配布します。
 
-Configurations can be distributed to a Linux computer with a pull server, just like for Windows computers. For guidance on using a pull server, see [Windows PowerShell Desired State Configuration Pull Servers](pullServer.md). For additional information and limitations related to using Linux computers with a pull server, see the Release Notes for Desired State Configuration for Linux.
+同じようには Windows コンピューターの構成をプルのサーバーと Linux コンピューターに配布できます。 プル サーバーの使用方法の詳細については、次を参照してください。 [Windows PowerShell 必要な状態の構成プル サーバー](pullServer.md)です。 追加情報とプルのサーバーでの Linux コンピューターの使用に関する制限事項は、Linux の状態の必要な構成のリリース ノートを参照します。
 
-###Working with configurations locally
+###構成をローカルでの操作
 
-DSC for Linux includes scripts to work with configuration from the local Linux computer. These scripts are locate in `/opt/microsoft/dsc/Scripts` and include the following:
+DSC Linux 用には、ローカルの Linux コンピューターから構成を使用するスクリプトが含まれています。 これらのスクリプト内で検索が `/opt/microsoft/dsc/Scripts` し、次に示します。
 * GetConfiguration.py
    
-   Returns the current configuration applied to the computer. Similar to the Windows PowerShell cmdlet Get-DscConfiguration cmdlet.
+   コンピューターに適用される現在の構成を返します。 Windows PowerShell のコマンドレット Get DscConfiguration コマンドレットと似ています。
 
-`# sudo ./GetConfiguration.py`
+`# sudo./GetConfiguration.py`
 
 * GetMetaConfiguration.py
    
-   Returns the current meta-configuration applied to the computer. Similar to the cmdlet [Get-DSCLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx) cmdlet.
+   コンピューターに適用される現在メタ構成を返します。 このコマンドレットのような [Get DSCLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx) コマンドレットです。
 
-`# sudo ./GetMetaConfiguration.py`
+`# sudo./GetMetaConfiguration.py`
 
 * InstallModule.py
    
-   Installs a custom DSC resource module. Requires the path to a .zip file containing the module shared object library and schema MOF files.
+   カスタム DSC リソース モジュールをインストールします。 モジュールの共有オブジェクト ライブラリを含む .zip ファイルとスキーマの MOF ファイルへのパスが必要です。
 
-`# sudo ./InstallModule.py /tmp/cnx_Resource.zip`
+`# sudo./InstallModule.py/tmp/cnx_Resource.zip`
 
 * RemoveModule.py
    
-   Removes a custom DSC resource module. Requires the name of the module to remove.
+   カスタム DSC リソース モジュールを削除します。 削除するのには、モジュールの名前が必要です。
 
-`# sudo ./RemoveModule.py cnx_Resource`
+`# sudo./RemoveModule.py cnx_Resource`
 
 * SendConfigurationApply.py
    
-   Applies a configuration MOF file to the computer. Similar to the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet. Requires the path to the configuration MOF to apply.
+   構成の MOF ファイルをコンピューターに適用します。 ような [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。 構成を適用する MOF のパスが必要です。
 
-`# sudo ./RemoveModule.py cnx_Resource`
+`# sudo./RemoveModule.py cnx_Resource`
 
 * SendMetaConfiguration.py
    
-   Applies a Meta Configuration MOF file to the computer. Similar to the [Set-DSCLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) cmdlet. Requires the path to the Meta Configuration MOF to apply.
+   メタ構成の MOF ファイルをコンピューターに適用します。 ような [セット DSCLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) コマンドレットです。 適用するメタ構成の MOF のパスが必要です。
 
-`# sudo ./SendMetaConfiguration.py –configurationmof /tmp/localhost.meta.mof`
+`# sudo./SendMetaConfiguration.py – configurationmof/tmp/localhost.meta.mof`
 
-##PowerShell Desired State Configuration for Linux Log Files
+##PowerShell の必要な Linux ログ ファイルの状態の構成
 
-The following log files are generated for DSC for Linux messages.
+DSC は、Linux のメッセージの次のログ ファイルが生成されます。
 
-| Log file| Directory| Description|
+| ログ ファイル| Directory| 説明|
 |---|---|---|
-| omiserver.log| /opt/omi/var/log/| Messages relating to the operation of the OMI CIM server.|
-| dsc.log| /opt/omi/var/log/| Messages relating to the operation of the Local Configuration Manager (LCM) and DSC resource operations.|
+| omiserver.log| /選択/omi/var/ログ/| OMI CIM サーバーの操作に関連するメッセージ。|
+| dsc.log| /選択/omi/var/ログ/| ローカル構成マネージャー (LCM) と DSC リソースの操作の操作に関連するメッセージ。|
 
 
 

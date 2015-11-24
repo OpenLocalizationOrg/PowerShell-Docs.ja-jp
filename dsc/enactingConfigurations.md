@@ -1,31 +1,31 @@
-#Enacting configurations
+#構成を制定します。
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-There are two ways to enact PowerShell Desired State Configuration (DSC) configurations: push mode and pull mode.
+PowerShell の必要な状態 Configuration (DSC) の構成を指定するのには 2 つの方法があります。 モードとプルのモードをプッシュします。
 
-##Push mode
+##プッシュ モード
 
-![Push mode](images/Push.png "How push mode works")
+![プッシュ モード](images/Push.png "How push mode works")
 
-Push mode refers to a user actively applying a configuration to a target node by calling the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet.
+プッシュ モードがアクティブにターゲット ノードに呼び出すことによって、構成を適用するユーザーを指す、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。
 
-After creating and compiling a configuration, you can enact it in push mode by calling the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located. For example, if the configuration MOF is locted at `C:\DSC\Configurations\localhost.mof`, you would apply it to the local machine with the following command:
-`Start-DscConfiguration -Path 'C:\DSC\Configurations'`
+作成し、構成をコンパイルするには、後にすることができます施行、プッシュ モードで呼び出すことによって、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) 設定のコマンドレットのコマンドレットでは、構成の MOF のパスを-path パラメーター。 たとえば、MOF の構成がで locted `C:\DSC\Configurations\localhost.mof`, 、次のコマンドを使用して、ローカル コンピューターに適用することは。
+`開始 DscConfiguration-'C:\DSC\Configurations' のパス`
 
-> __Note__: By default, DSC runs a configuration as a background job. To run the configuration interactively, call the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) with the __-Wait__ parameter.
+> __注__: 既定では、DSC はバック グラウンド ジョブとして、構成を実行します。 構成を対話的に実行するには、呼び出し、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) で、 __-待機__ パラメーター。
 
-##Pull mode
+##プル モード
 
-![Pull Mode](images/Pull.png "How pull mode works")
-In pull mode, pull clients are configured to get their desired state configurations from a remote pull server. Likewise, the pull server has been set up to host the DSC service, and has been provisioned with the configurations and resources that are required by the pull clients.
-Each one of the pull clients has a scheduled task that performs a periodic compliance check on the configuration of the node. When the event is triggered the first time, it causes the Local Configuration Manager (LCM) on the pull client to validate the configuration. If the pull client is configured as desired, nothing happens. Otherwise, the LCM makes a request to the pull server to get a given configuration. If that configuration exists on the pull server, and it passes initial validation checks, the configuration is transmitted to the pull client, where it is then executed by the LCM.
+![プル モード](images/Pull.png "How pull mode works")
+プル モードでは、リモートのプル サーバーからその構成を目的の状態を取得するプル クライアントは構成されます。 同様に、プル サーバーでは、ホスト、DSC サービスでは、するように設定されているしに、構成とプルのクライアントに必要なリソースが提供されてです。
+それぞれのプル クライアントが、ノードの構成のコンプライアンス対応の定期的なチェックを実行する、スケジュールされたタスク。 イベントには、最初の時間が開始されるとは、構成を検証するプル クライアント上ローカルの Configuration Manager (LCM) が行われます。 としてプルのクライアントが構成されている場合は、必要に応じて、何も起こりません。 それ以外の場合、LCM は、特定の構成を取得するプルのサーバーへの要求を作成します。 その構成が、プルのサーバー上に存在し、最初の検証チェックにパスしたこと、構成は、LCM によって実行される、プル クライアントに送信されます。
 
-The following topics explain how to set up pull servers and clients:
+次のトピックでは、プル サーバーとクライアントを設定する方法について説明します。
 
-- [Setting up a web pull server](pullServer.md)
-- [Setting up an SMB pull server](pullServerSMB.md)
-- [Configuring a pull client](pullClientConfigID.md)
+- [プルの web サーバーの設定](pullServer.md)
+- [SMB のプル サーバーのセットアップ](pullServerSMB.md)
+- [プル クライアントを構成します。](pullClientConfigID.md)
 
 
 

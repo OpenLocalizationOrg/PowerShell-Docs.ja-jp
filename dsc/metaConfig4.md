@@ -1,31 +1,31 @@
-#Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager (LCM)
+#Windows PowerShell 4.0 に必要な状態の構成ローカル Configuration Manager (LCM)
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Local Configuration Manager is the Windows PowerShell Desired State Configuration (DSC) engine. It runs on all target nodes, and it is responsible for calling the configuration resources that are included in a DSC configuration script. This topic lists the properties of Local Configuration Manager and describes how you can modify the Local Configuration Manager settings on a target node.
+ローカルの Configuration Manager は、Windows PowerShell 必要な状態 Configuration (DSC) エンジンです。 すべてのターゲット ノード上で実行されを DSC 構成のスクリプトに含まれている構成のリソースを呼び出しになります。 このトピックでは、ローカル Configuration Manager のプロパティを一覧表示し、ターゲット ノード上のローカルの Configuration Manager の設定を変更する方法について説明します。
 
-##Local Configuration Manager properties
+##ローカルの Configuration Manager のプロパティ
 
-The following lists the Local Configuration Manager properties that you can set or retrieve.
+設定するかを取得するローカルの Configuration Manager のプロパティを次に示します。
 
-* **AllowModuleOverwrite**: Controls whether new configurations downloaded from the configuration server are allowed to overwrite the old ones on the target node. Possible values are True and False.
-* **CertificateID**: GUID a certificate used to secure credentials for access to the configuration. For more information see [Want to secure credentials in Windows PowerShell Desired State Configuration?](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx).
-* **ConfigurationID**: Indicates a GUID which is used to get a particular configuration file from a server set up as a “pull” server. The GUID ensures that the correct configuration file is accessed.
-* **ConfigurationMode**: Specifies how the Local Configuration Manager actually applies the configuration to the target nodes. It can take the following values:
-   - **ApplyOnly**: With this option, DSC applies the configuration and does nothing further unless a new configuration is detected, either by you sending a new configuration directly to the target node (“push”) or if you have configured a “pull” server and DSC discovers a new configuration when it checks with the “pull” server. If the target node’s configuration drifts, no action is taken.
-   - **ApplyAndMonitor**: With this option (which is the default), DSC applies any new configurations, whether sent by you directly to the target node or discovered on a “pull” server. Thereafter, if the configuration of the target node drifts from the configuration file, DSC reports the discrepancy in logs. For more about DSC logging, see [Using Event Logs to Diagnose Errors in Desired State Configuration](http://blogs.msdn.com/b/powershell/archive/2014/01/03/using-event-logs-to-diagnose-errors-in-desired-state-configuration.aspx).
-   - **ApplyAndAutoCorrect**: With this option, DSC applies any new configurations, whether sent by you directly to the target node or discovered on a “pull” server. Thereafter, if the configuration of the target node drifts from the configuration file, DSC reports the discrepancy in logs, and then attempts to adjust the target node configuration to bring in compliance with the configuration file.
-* **ConfigurationModeFrequencyMins**: Represents the frequency (in minutes) at which the background application of DSC attempts to implement the current configuration on the target node. The default value is 15. This value can be set in conjunction with RefreshMode. When RefreshMode is set to PULL, the target node contacts the configuration server at an interval set by RefreshFrequencyMins and downloads the current configuration. Regardless of the RefreshMode value, at the interval set by ConfigurationModeFrequencyMins, the consistency engine applies the latest configuration that was downloaded to the target node. RefreshFrequencyMins should be set to an integer multiple of ConfigurationModeFrequencyMins.
-* **Credential**: Indicates credentials (as with Get-Credential) required to access remote resources, such as to contact the configuration server.
-* **DownloadManagerCustomData**: Represents an array that contains custom data specific to the download manager.
-* **DownloadManagerName**: Indicates the name of the configuration and module download manager.
-* **RebootNodeIfNeeded**: Certain configuration changes on a target node might require it to be restarted for the changes to be applied. With the value **True**, this property will restart the node as soon as the configuration has been completely applies, without further warning. If **False** (the default value), the configuration will be completed, but the node must be restarted manually for the changes to take effect.
-* **RefreshFrequencyMins**: Used when you have set up a “pull” server. Represents the frequency (in minutes) at which the Local Configuration Manager contacts a “pull” server to download the current configuration. This value can be set in conjunction with ConfigurationModeFrequencyMins. When RefreshMode is set to PULL, the target node contacts the “pull” server at an interval set by RefreshFrequencyMins and downloads the current configuration. At the interval set by ConfigurationModeFrequencyMins, the consistency engine then applies the latest configuration that was downloaded to the target node. If RefreshFrequencyMins is not set to an integer multiple of ConfigurationModeFrequencyMins, the system will round it up. The default value is 30.
-* **RefreshMode**: Possible values are **Push** (the default) and **Pull**. In the “push” configuration, you must place a configuration file on each target node, using any client computer. In the “pull” mode, you must set up a “pull” server for Local Configuration Manager to contact and access the configuration files.
+* **AllowModuleOverwrite**: のターゲット ノード上の古いファイルを上書きすることを許可する新しい構成が、構成サーバーからダウンロードするかどうかを制御します。 可能な値は True と false を指定します。
+* **証明書 Id**: GUID、証明書の構成にアクセスするための資格情報をセキュリティで保護するために使用します。 詳細については、次を参照してください [Windows PowerShell 必要な状態の設定での資格情報をセキュリティで保護するでしょうか。](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)。.
+* **ConfigurationID**:「プル」サーバーとして設定する、サーバーから特定の構成ファイルを取得するために使用する GUID のことを示します。 GUID は、適切な構成ファイルにアクセスするようにします。
+* **ConfigurationMode**: ローカルの Configuration Manager 実際に適用する方法、構成対象のノードを指定します。 次の値がかかることができます。
+   - **ApplyOnly**: このオプションで DSC は構成を適用し、は何もさらに、新しい構成が検出された場合を除き、新しい構成をターゲットに直接送信してノード (「プッシュ」) またはサーバーの「プル」と DSC を構成したかどうかは、検出、新しい構成「プル」サーバーをチェックし、ときにします。 対象のノードの構成は、次のしまいます、アクションは行われません。
+   - **ApplyAndMonitor**。 オプションではこの (これが既定です)、DSC によって、ターゲット ノードに直接送られたもの、または"プル"サーバー上で検出されたかどうか、新しい構成のいずれかが適用されます。 その後、ターゲット ノードの構成は、構成ファイルからしまいます、DSC はログの不一致を報告します。 詳細については、DSC のログ記録は、次を参照してください。 [状態の必要な構成でのエラーの診断にイベント ログを使用して](http://blogs.msdn.com/b/powershell/archive/2014/01/03/using-event-logs-to-diagnose-errors-in-desired-state-configuration.aspx)です。
+   - **ApplyAndAutoCorrect**: によって、ターゲット ノードに直接送られたもの、または「プル」サーバー上で検出されたかどうか、このオプションを DSC が新しい構成のいずれかを適用します。 その後、ターゲット ノードの構成は、構成ファイルからしまいます、DSC はログに不一致が報告し、構成ファイルに準拠するためのターゲット ノードの構成を調整するには、次のように試行します。
+* **ConfigurationModeFrequencyMins**: 分単位で DSC のバック グラウンド アプリケーションでのターゲット ノード上の現在の構成を実装しようとする頻度を表します。 既定値は、15 です。 RefreshMode と共に、この値を設定することができます。 RefreshMode がプルに設定されている場合、ターゲット ノードが RefreshFrequencyMins の設定間隔で構成サーバーに接続し、現在の構成をダウンロードします。 ConfigurationModeFrequencyMins、によって設定された間隔で、RefreshMode 値に関係なく、一貫性エンジンは適用対象のノードにダウンロードされた最新の構成します。 RefreshFrequencyMins を整数に設定する必要があります ConfigurationModeFrequencyMins の倍数です。
+* **資格情報**: (Get-credential) と同じ資格情報を示すようにリモート リソースにアクセスする構成のサーバーに接続するために必要です。
+* **DownloadManagerCustomData**: ダウンロード マネージャーに固有のカスタム データを含む配列を表します。
+* **DownloadManagerName**: 構成とモジュールのダウンロード マネージャーの名前を示します。
+* **RebootNodeIfNeeded**: ターゲット ノード上の特定の構成変更に変更を適用するのには再起動する必要があります。 値を持つ **True**, 、されましたが、構成するとすぐに、このプロパティは、ノードを再起動は警告メッセージを表示することがなく、完全に適用します。 場合 **False** (既定値) は、構成が完了しますが、変更を有効にするため、ノードを手動で再起動する必要があります。
+* **RefreshFrequencyMins**:「プル」サーバーをセットアップするときに使用します。 頻度 (分) をローカルの Configuration Manager が、現在の構成をダウンロードする「プル」サーバーに接続を表します。 ConfigurationModeFrequencyMins と共に、この値を設定することができます。 RefreshMode がプルに設定されている場合、ターゲット ノードが RefreshFrequencyMins の設定間隔で「プル」サーバーに接続し、現在の構成をダウンロードします。 ConfigurationModeFrequencyMins によって設定、間隔で一貫性のエンジンでは、ターゲット ノードにダウンロードされた最新の構成が、適用されます。 RefreshFrequencyMins が整数に設定されていない場合 ConfigurationModeFrequencyMins、システムの倍数を使用すると丸めるされます。 既定値は、30 です。
+* **RefreshMode**。 指定できる値は **プッシュ** (既定値) および **プル**です。 構成では、「プッシュ」には任意のクライアント コンピューターを使用して、各ターゲット ノード上の構成ファイル配置する必要があります。 「プル」モードでは、「プル」サーバーに連絡し、構成ファイルにアクセスするローカル Configuration Manager を設定する必要があります。
 
-###Example of updating Local Configuration Manager settings
+###ローカルの Configuration Manager の設定を更新する例
 
-You can update the Local Configuration Manager settings of a target node by including a **LocalConfigurationManager** block inside the node block in a configuration script, as shown in the following example.
+ターゲット ノードのローカルの Configuration Manager の設定を更新するには含めることによって、 **LocalConfigurationManager** の次の例に示すように、スクリプトでは、構成、ノードのブロックの内部ブロックします。
 
 ```powershell
 Configuration ExampleConfig
@@ -54,15 +54,15 @@ Configuration ExampleConfig
 ExampleConfig -OutputPath "c:\users\public\dsc"  
 ```
 
-Running the script in the previous example generates a MOF file that specifies and stores the desired settings. To apply the settings, you can use the **Set-DscLocalConfigurationManager** cmdlet, as shown in the following example.
+前の例で、スクリプトを実行するを指定して、目的の設定を格納するための MOF ファイルが生成されます。 設定を適用するには、使用することができます、 **セット DscLocalConfigurationManager** コマンドレットは、次の例で示すようにします。
 
 ```powershell
 Set-DscLocalConfigurationManager -Path "c:\users\public\dsc"
 ```
 
-> **Note**: For the **Path** parameter, you must specify the same path that you specified for the **OutputPath** parameter when you invoked the configuration in the previous example.
+> **注**: の **パス** パラメーターで指定した同じパスを指定する必要があります、 **OutputPath** パラメーターの前の例では、構成が呼び出されたときにします。
 
-To see the current Local Configuration Manager settings, you can use the **Get-DscLocalConfigurationManager** cmdlet. If you invoke this cmdlet with no parameters, by default it will get the Local Configuration Manager settings for the node on which you run it. To specify another node, use the **CimSession** parameter with this cmdlet.
+現在のローカルの Configuration Manager の設定を表示するには、使用することができます、 **Get DscLocalConfigurationManager** コマンドレットです。 パラメーターなしでは、このコマンドレットを呼び出すと、既定ではこれが発生を実行するノードのローカルの Configuration Manager 設定します。 別のノードを指定する、 **CimSession** パラメーターをこのコマンドレットを使用します。
 
 
 

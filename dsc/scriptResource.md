@@ -1,10 +1,10 @@
-#DSC Script Resource
+#DSC スクリプト リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The **Script** resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to run Windows PowerShell script blocks on target nodes.
+**スクリプト** リソースで Windows PowerShell 必要な状態 Configuration (DSC) が対象のノードで Windows PowerShell スクリプトのブロックを実行するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 Script [string] #ResourceName
@@ -17,17 +17,17 @@ Script [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| GetScript| Provides a block of Windows PowerShell script that runs when you invoke the [Get-DscConfiguration](https://technet.microsoft.com/en-us/library/dn407379.aspx) cmdlet.This block must return a hash table.|
-| SetScript| Provides a block of Windows PowerShell script.When you invoke the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet, the **TestScript** block runs first.If the **TestScript** block returns **$false**, the **SetScript** block will run.If the **TestScript** block returns **$true**, the **SetScript** block will not run.|
-| TestScript| Provides a block of Windows PowerShell script.When you invoke the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet, this block runs.If it returns **$false**, the SetScript block will run.If it returns **$true**, the SetScript block will not run.The **TestScript** block also runs when you invoke the [Test-DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) cmdlet.However, in this case, the **SetScript** block will not run, no matter what value the TestScript block returns.The **TestScript** block must return True if the actual configuration matches the current desired state configuration, and False if it does not match.(The current desired state configuration is the last configuration enacted on the node that is using DSC.)|
-| Credential| Indicates the credentials to use for running this script, if credentials are required.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.
+| GetScript| 起動するときに実行される Windows PowerShell スクリプトのブロックを提供、 [Get DscConfiguration](https://technet.microsoft.com/en-us/library/dn407379.aspx) コマンドレットです。このブロックには、ハッシュ テーブルを返す必要があります。|
+| SetScript| Windows PowerShell スクリプトのブロックを提供します。呼び出した場合、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレット、 **TestScript** ブロックは最初に実行します。場合、 **TestScript** ブロックを返します。 **$false**, 、 **SetScript** ブロックが実行されます。場合、 **TestScript** ブロックを返します。 **$true**, 、 **SetScript** ブロックは実行されません。|
+| TestScript| Windows PowerShell スクリプトのブロックを提供します。呼び出した場合、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットでは、このブロックを実行します。返された場合 **$false**, 、SetScript ブロックが実行されます。返された場合 **$true**, 、ブロックは SetScript を実行されません。 **TestScript** を呼び出すときにもブロックが実行される、 [テスト DscConfiguration](https://technet.microsoft.com/en-us/library/dn407382.aspx) コマンドレットです。ただし、ここでは、 **SetScript** いないはブロックの実行、TestScript がどのような値に関係なくのブロックを返します。 **TestScript** ブロックは実際の構成と一致する場合、現在の目的の状態の構成と False が一致しない場合は True を返す必要があります。(目的の状態の現在の構成とは、前回の構成が DSC を使用しているノードで施行です)。|
+| Credential| 資格情報が必要な場合、このスクリプトを実行するために使用する資格情報を示します。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。
 
-##Example
+##例
 
 ```powershell
 Script ScriptExample

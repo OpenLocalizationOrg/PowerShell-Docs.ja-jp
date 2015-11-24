@@ -1,10 +1,10 @@
-#DSC Archive Resource
+#DSC アーカイブのリソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The Archive resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.zip) files at a specific path.
+アーカイブのリソースで Windows PowerShell 必要な状態 Configuration (DSC) では、特定のパスでのアーカイブ (.zip) ファイルをアンパックするためのメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```MOF
 Archive [string] #ResourceName
@@ -19,21 +19,21 @@ Archive [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| Destination| Specifies the location where you want to ensure the archive contents are extracted.|
-| Path| Specifies the source path of the archive file.|
-| __Checksum__| Defines the type to use when determining whether two files are the same.If __Checksum__ is not specified, only the file or directory name is used for comparison.Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate, none (default).If you specify __Checksum__ without __Validate__, the configuration will fail.|
-| Ensure| Determines whether to check if the content of the archive exists at the __Destination__.Set this property to __Present__ to ensure the contents exist.Set it to __Absent__ to ensure they do not exist.The default value is __Present__.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is ResourceName and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| Validate| Uses the Checksum property to determine if the archive matches the signature.If you specify Checksum without Validate, the configuration will fail.If you specify Validate without Checksum, a SHA-256 checksum is used by default.|
-| Force| Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.Using the Force property overrides such errors.The default value is False.|
+| Destination| アーカイブの内容を抽出することを確認する場所を指定します。|
+| パス| アーカイブ ファイルのソース パスを指定します。|
+| __チェックサム__| 2 つのファイルが同じであるかどうかを決定するときに使用する型を定義します。場合 __チェックサム__ が指定されていない、比較のため、ファイルまたはディレクトリ名のみを使用します。有効な値には、:、sha-1、sha-256、SHA 512、createdDate、modifiedDate なし (既定)。指定した場合 __チェックサム__ せず __検証__, 、構成が失敗します。|
+| 確認します。| 存在する場合、アーカイブの内容を確認するかどうか、 __送信先__です。このプロパティを設定 __存在__ 内容がの存在を確認します。設定 __存在しない__ に存在しないことを確認します。既定値は __存在__です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。ResourceName とその型を実行するリソースの構成スクリプト ブロックの ID が最初がある場合は、たとえば、 __ResourceType__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| 検証| アーカイブに署名が一致するかどうかを判断するのにには、チェックサムのプロパティを使用します。チェックサム検証なしを指定する場合は、構成は失敗します。せず、チェックサムの検証を指定すると、既定では、sha-256 チェックサムが使用されます。|
+| Force| 特定のファイル操作 (ファイルを上書きするが空でないディレクトリを削除するなど) すると、エラーが発生します。Force プロパティを使用すると、このようなエラーがよりも優先します。既定値は False です。|
 
-##Example
+##例
 
-The following example shows how to use the Archive resource to ensure that the contents of an archive file called Test.zip exist and are extracted at a given destination.
+次の例では、アーカイブのリソースを使用して、Test.zip と呼ばれるアーカイブ ファイルの内容が存在し、特定の転送先に抽出されたことを確認する方法を示します。
 
 ```
 Archive ArchiveExample {

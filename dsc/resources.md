@@ -1,16 +1,16 @@
-#DSC Resources
+#DSC リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-Desired State Configuration (DSC) Resources provide the building blocks for a DSC configuration. A resource exposes properties that can be configured (schema) and contains the PowerShell script functions that the Local Configuration Manager (LCM) calls to "make it so".
+目的のリソースの状態の構成 (DSC) DSC 構成の構成要素を提供します。 リソースでは、構成されている (スキーマ) にすることができますし、PowerShell スクリプトの関数を「行うよう」ローカル Configuration Manager (LCM) を呼び出すを含むプロパティを公開します。
 
-A resource can model something as generic as a file or as specific as an IIS server setting. Groups of like resources are combined in to a DSC Module, which organizes all the required files in to a structure that is portable and includes metadata to identify how the resources are intended to be used.
+リソースを何かのファイルとしてジェネリックまたは具体的には、IIS のサーバー設定としてモデル化できます。 リソースと同様のグループを組み合わせる DSC モジュールの場合、すべての必要なファイルでの移植性がおよび、リソースが使用するものであるかを識別するためにメタデータが含まれています。 構造体を整理します。
 
-The following topics describe DSC resources:
+次のトピックでは、DSC リソースについて説明します。
 
-- [Built-In DSC resources](builtInResource.md)
-- [Build custom DSC resources](authoringResource.md)
-- [Built-In DSC resources for Linux](lnxBuiltInResources.md)
+- [DSC の組み込みのリソース](builtInResource.md)
+- [カスタムの DSC リソースを作成します。](authoringResource.md)
+- [Linux 用の組み込みの DSC リソース](lnxBuiltInResources.md)
 
 
 

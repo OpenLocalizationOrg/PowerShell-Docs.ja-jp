@@ -1,45 +1,45 @@
-#Windows PowerShell Desired State Configuration Overview
+#Windows PowerShell の必要な状態の構成の概要
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-This topic describes the Windows PowerShell Desired State Configuration (DSC) feature in Windows PowerShell. You can use this topic to get an overview of DSC and to find the documentation resources you need to understand and use DSC.
+このトピックでは、Windows PowerShell で Windows PowerShell 必要な状態 Configuration (DSC) の機能について説明します。 DSC の概要を説明し、理解し、DSC を使用する必要がありますドキュメント リソースを見つけるには、このトピックを使用することができます。
 
-##Feature description
+##機能の説明
 
-DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.
+DSC は、展開しソフトウェア サービスの構成データを管理、およびこれらのサービスが実行される環境を管理することができる Windows PowerShell での新しい管理プラットフォームです。
 
-DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured. It also provides a means to maintain and manage existing configurations.
+DSC は、Windows PowerShell 言語の拡張機能、新しい Windows PowerShell コマンドレット、およびソフトウェア環境を構成する方法を宣言によって指定に使用できるリソースのセットを提供します。 また、維持し、既存の構成を管理するための手段も提供します。
 
-##Practical applications
+##実際の適用
 
-Following are some example scenarios where you can use built-in DSC resources to configure and manage a set of computers (also known as target nodes) in an automated way:
+次に、いくつかのシナリオ例を構成および自動化された方法で一連のコンピューター (対象のノードとも呼ばれます) を管理する組み込みの DSC リソースを使用することができます。
 
-* Enabling or disabling server roles and features
-* Managing registry settings
-* Managing files and directories
-* Starting, stopping, and managing processes and services
-* Managing groups and user accounts
-* Deploying new software
-* Managing environment variables
-* Running Windows PowerShell scripts
-* Fixing a configuration that has drifted away from the desired state
-* Discovering the actual configuration state on a given node
+* 有効にするか、サーバーの役割と機能を無効にします。
+* レジストリ設定を管理します。
+* ファイルとディレクトリを管理します。
+* 開始、停止、およびプロセスやサービスを管理します。
+* グループとユーザー アカウントを管理します。
+* 新しいソフトウェアを展開します。
+* 環境変数を管理します。
+* Windows PowerShell スクリプトの実行
+* 目的の状態から離れたがある構成を修正する方法
+* 特定のノードで、実際の構成の状態を検出します。
 
-##Key Concepts
+##主要な概念
 
-DSC is a declarative platform used for configuration, deployment, and management of systems. It consists of three primary components:
+DSC は、構成、展開、およびシステムの管理に使用される宣言型のプラットフォームです。 次の 3 つの主要なコンポーネントで構成されます。
 
-* [Configurations](configurations.md) are declarative PowerShell scripts which define and configure instances of resources. Upon running the configuration, DSC (and the resources being called by the configuration) will simply “make it so”, ensuring that the system exists in the state laid out by the configuration. DSC configurations are also idempotent: the Local Configuration Manager (LCM) will continue to ensure that machines are configured in whatever state the configuration declares.
-* Resources are the imperative building blocks of DSC which are written to model the various components of a sub-system and implement the control flow of their changing states. They reside within PowerShell modules and can be written to model something as generic as a file or a Windows process or as specific as an IIS server or a VM running in Azure.
-* The Local Configuration Manager (LCM) is the engine by which DSC facilitates the interaction between resources and configurations. The LCM regularly polls the system using the control flow implemented by resources to ensure that the state laid out by a Configuration is maintained. If the system is out of state, the LCM uses more logic inside of the resources to “make it so” according to the Configuration declaration.
+* [構成](configurations.md) 定義およびリソースのインスタンスを構成する宣言型の PowerShell スクリプトを示します。 構成、DSC (および、リソースの構成によって呼び出される) を実行しているは単に「をできるように、」は、システムが、構成によってレイアウトの状態が存在することすることです。 DSC 構成はべき等でも。 ローカル構成マネージャー (LCM) は、構成がどのステート マシンが構成されていることを確認引き続きを宣言します。
+* リソースとは、命令型のビルド ブロック DSC サブ システムのさまざまなコンポーネントをモデル化し、変更の状態の制御フローの実装に書き込まれます。 PowerShell モジュール内に存在し、何か、ファイルまたは Windows プロセスとしてジェネリックまたは具体的には、IIS サーバーまたは Azure で実行されている仮想マシンとしてモデル化するように記述できます。
+* ローカル構成マネージャー (LCM) とは、DSC をするには、リソースの構成の間の相互作用を容易にするエンジンです。 LCM は、リソースによって実装される制御フローを使用して、構成によってレイアウトの状態が維持されていることを確認する、システムに定期的にポーリングを行います。 状態から、システムがある場合、LCM を「行うよう」構成宣言に従ってリソース内の複数のロジックを使用します。
 
-DSC also includes a number of new language keywords, cmdlets and tools that allow creation of configurations, help build DSC resources, invoke configurations, and manage the LCM. Many of these cmdlets can be found in Windows 8.1 as part of the PsDesiredStateConfig module (including `Start-DscConfiguration`, `Set-DscLocalConfigurationManager`, and `Get-DscResource`). The xDscResourceDesigner (found in the [PowerShell Gallery](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)) is a collection of cmdlets that simplify the development of DSC resources.
+DSC には、さまざまな新しい言語キーワード、コマンドレット、および DSC リソースの構成では、ヘルプのビルドの作成を許可する、構成を呼び出す、および、LCM を管理するツールも含まれています。 PsDesiredStateConfig モジュールの一部として、Windows 8.1 でのこれらのコマンドレットの多く見つかんだことができます (など `開始 DscConfiguration`, 、`セット DscLocalConfigurationManager`, 、および `Get DscResource`)。 XDscResourceDesigner (で見つかった、 [PowerShell ギャラリー](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)) を DSC リソースの開発を簡略化するためのコマンドレットのコレクションです。
 
-##See Also
+##関連項目
 
-* [DSC Configurations](configurations.md)
-* [DSC Resources](resources.md)
-* [Configuring The Local Configuration Manager](metaconfig.md)
+* [DSC の構成](configurations.md)
+* [DSC リソース](resources.md)
+* [ローカルの Configuration Manager の構成](metaconfig.md)
 
 
 

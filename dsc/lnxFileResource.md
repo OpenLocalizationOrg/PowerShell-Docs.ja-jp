@@ -1,8 +1,8 @@
-#DSC for Linux nxFile Resource
+#DSC Linux nxFile リソース用
 
-The **nxFile** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage files and directories on a Linux node.
+**NxFile** リソース PowerShell 必要な状態 Configuration (DSC) ではファイルおよび Linux のノード上のディレクトリを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxFile <string> #ResourceName
@@ -24,28 +24,28 @@ nxFile <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| DestinationPath| Specifies the location where you want to ensure the state for a file or directory.|
-| SourcePath| Specifies the path from which to copy the file or folder resource.This path may be a local path, or an `http/https/ftp` URL.Remote `http/https/ftp` URLs are only supported when the value of the **Type** property is file.|
-| Ensure| Determines whether to check if the file exists.Set this property to "Present" to ensure the file exists.Set it to "Absent" to ensure the file does not exist.The default value is "Present".|
-| Type| Specifies whether the resource being configured is a directory or a file.Set this property to "directory" to indicate that the resource is a directory.Set it to "file" to indicate that the resource is a file.The default value is "file"|
-| Contents| Specifies the contents of a file, such as a particular string.|
-| Checksum| Defines the type to use when determining whether two files are the same.If **Checksum** is not specified, only the file or directory name is used for comparison.Values are: "ctime", "mtime", or "md5".|
-| Recurse| Indicates if subdirectories are included.Set this property to **$true** to indicate that you want subdirectories to be included.The default is **$false**.**Note:** This property is only valid when the **Type** property is set to directory.|
-| Force| Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.Using the **Force** property overrides such errors.The default value is **$false**.|
-| Links| Specifies the desired behavior for symbolic links.Set this property to "follow" to follow symbolic links and act on the links target (for example.copy the file instead of the link).Set this property to "manage" to act on the link (for example.copy the link itself).Set this property to "ignore" to ignore symbolic links.|
-| Group| The name of the **Group** to own the file or directory.|
-| Mode| Specifies the desired permissions for the resource, in octal or symbolic notation.(for example, 777 or rwxrwxrwx).If using symbolic notation, do not provide the first character which indicates directory or file.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the **ID** of the resource configuration script block that you want to run first is **ResourceName** and its type is **ResourceType**, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| DestinationPath| ファイルまたはディレクトリの状態を保証する場所を指定します。|
+| SourcePath| ファイルまたはフォルダーのリソースのコピー元のパスを指定します。このパスがローカル パスでは、あります。 または、 `http、https、ftp` URL。リモート `http、https、ftp` Url でのみはされたときにサポートの値、 **型** プロパティは、ファイルです。|
+| 確認します。| ファイルが存在するかどうかを確認するかどうかを判断します。ファイルが存在することを確認するには、"Present"には、このプロパティを設定します。ファイルが存在しないことを確認する「ない」に設定します。既定値は、"Present"です。|
+| 種類| 構成されているリソースは、ディレクトリまたはファイルかどうかを指定します。リソースがディレクトリであることを示すには、「ディレクトリ」には、このプロパティを設定します。リソースが、ファイルであることを示すには、[ファイル] に設定します。既定値は、[ファイル]|
+| 内容| 特定の文字列など、ファイルの内容を指定します。|
+| チェックサム| 2 つのファイルが同じであるかどうかを決定するときに使用する型を定義します。場合 **チェックサム** が指定されていない、比較のため、ファイルまたはディレクトリ名のみを使用します。値は、:"mtime"、"ctime"または"md5"です。|
+| 再帰的に検索します。| サブディレクトリが含まれるかどうかを示します。このプロパティを設定 **$true** にサブディレクトリを含めるように指定します。既定値は **$false**です。**注:** ときにこのプロパティは有効なのみ、 **型** をディレクトリにプロパティを設定します。|
+| Force| 特定のファイル操作 (ファイルを上書きするが空でないディレクトリを削除するなど) すると、エラーが発生します。使用して、 **Force** プロパティには、このようなエラーがよりも優先されます。既定値は **$false**です。|
+| リンク| シンボリック リンクの目的の動作を指定します。このプロパティは、シンボリック リンクをたどるし、(たとえば、リンクのターゲットで機能するには、「フォロー」に設定リンクの代わりに、ファイルをコピー) します。(たとえば、リンクで機能するには、「管理」するには、このプロパティを設定します。リンク自体をコピー) します。シンボリック リンクを無視するには、「無視」するには、このプロパティを設定します。|
+| グループ| 名前、 **グループ** をファイルまたはディレクトリを所有します。|
+| モード| 8 進数、シンボルの表記法では、リソースの必要なアクセス許可を指定します。(たとえば、777 または rwxrwxrwx など)。シンボルの表記を使用している場合は、ディレクトリまたはファイルを示す最初の文字を提供してください。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Additional Information
+##追加情報
 
-Linux and Windows use different line break characters in text files by default, and this can cause unexpected results when configuring some files on a Linux computer with __nxFile__. There are multiple ways to manage the content of a Linux file while avoiding issues caused by unexpected line break characters:
+Linux、Windows、テキスト ファイルでさまざまな改行文字を使用して、既定では、および Linux コンピューターでいくつかのファイルを構成するときに予期しない結果が生じる __nxFile__です。 予期しない改行文字によって引き起こされる問題を回避しながら、Linux のファイルのコンテンツを管理する複数の方法はあります。
 
-Step 1: Copy the file from a remote source (http, https, or ftp): create a file on Linux with the desired contents, and stage it on a web or ftp server accessible the node(s) you will configure. Define the __SourcePath__ property in the __nxFile__ resource with the web or ftp URL to the file.
+手順 1: (http、https、または ftp) のリモート ソースからファイルをコピーします。 目的の内容を Linux 上のファイルを作成し、ノードを構成するアクセスできる web または ftp サーバーでステージングします。 定義する、 __SourcePath__ 内のプロパティ、 __nxFile__ ファイルへの web または ftp の URL を使用してリソースです。
 
 ```
 Import-DSCResource -Module nx
@@ -64,7 +64,7 @@ nxFile resolvConf
 ```
 
 
-Step 2: Read the file contents in the PowerShell script with [Get-Content](https://technet.microsoft.com/en-us/library/hh849787.aspx) after setting the __$OFS__ property to use the Linux line-break character.
+手順 2: は、PowerShell スクリプトのファイルの内容を読み取る [Get-content](https://technet.microsoft.com/en-us/library/hh849787.aspx) 設定した後、 __$OFS__ Linux の改行文字を使用するプロパティです。
 
 
 ```
@@ -86,7 +86,7 @@ nxFile resolvConf
 ```
 
 
-Step 3: Use a PowerShell function to replace Windows line breaks with Linux line-break characters.
+手順 3: では、PowerShell 関数を使用して、Windows の改行を Linux 改行文字に置き換えます。
 
 ```
 Function LinuxString($inputStr){
@@ -118,9 +118,9 @@ nxFile resolvConf
 }
 ```
 
-##Example
+##例
 
-The following example ensures that the directory `/opt/mydir` exists, and that a file with specified contents exists this directory.
+次の例により、ディレクトリ `/選択/mydir` が存在する場合、指定した内容を持つファイルがこのディレクトリが存在することがあるとします。
 
 ```
 Import-DSCResource -Module nx 

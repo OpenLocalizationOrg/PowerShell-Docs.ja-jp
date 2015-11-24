@@ -1,4 +1,4 @@
-#DSC function to query node information from pull server.
+#DSC プル サーバーからには、ノードの情報を照会する関数。
 
 ```powershell
 function QueryNodeInformation
@@ -27,9 +27,9 @@ Param (
 }
 ```
 
-Replace the `Uri` parameter with the URI for your pull server. If you want the node information in XML format, set `ContentType` to `application/xml`.
+置換、 `Uri` プル サーバーの URI を持つパラメーター。 XML 形式でノードの情報を実行する場合に、設定 `ContentType` に `アプリケーションおよび xml`です。
 
-To retrieve the node information from the `$json` parameter, use the following:
+ノード情報を取得する、 `$json` パラメーターでは、次を使用します。
 
 ```powershell
 $json = QueryNodeInformation –Uri http://localhost:7070/PSDSCComplianceServer.svc/Status 

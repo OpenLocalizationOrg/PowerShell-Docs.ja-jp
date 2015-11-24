@@ -1,8 +1,8 @@
-#DSC for Linux nxUser Resource
+#DSC Linux nxUser リソース用
 
-The **nxUser** resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage local users on a Linux node.
+**NxUser** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上のローカル ユーザーを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 nxUser <string> #ResourceName
@@ -22,24 +22,24 @@ nxUser <string> #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Indicates the account name for which you want to ensure a specific state.|
+| プロパティ| 特定の状態を保証するアカウント名を示します。|
 |---|---|
-| UserName| Specifies the location where you want to ensure the state for a file or directory.|
-| Ensure| Specifies whether the account exists.Set this property to "Present" to ensure that the account exists, and set it to "Absent" to ensure that the account does not exist.|
-| FullName| A string that contains the full name to use for the user account.|
-| Description| The description for the user account.|
-| Password| The hash of the users password in the appropriate form for the Linux computer.Typically, this is a salted SHA-256, or SHA-512 hash.On Debian and Ubuntu Linux, this value can be generated with the mkpasswd command.For other Linux distros, the crypt method of Python’s Crypt library can be used to generate the hash.|
-| Disabled| Indicates whether the account is enabled.Set this property to **$true** to ensure that this account is disabled, and set it to **$false** to ensure that it is enabled.|
-| PasswordChangeRequired| Indicates whether the user can change the password.Set this property to **$true** to ensure that the user cannot change the password, and set it to **$false** to allow the user to change the password.The default value is **$false**.This property is only evaluated if the user account did not exist previously and is being created.|
-| HomeDirectory| The home directory for the user.|
-| GroupID| The primary group ID for the user.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is "ResourceName" and its type is "ResourceType", the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
+| UserName| ファイルまたはディレクトリの状態を保証する場所を指定します。|
+| 確認します。| アカウントが存在するかどうかを指定します。アカウントが存在することを確認するには、"Present"には、このプロパティを設定し、アカウントが存在しないことを確認する「ない」に設定します。|
+| FullName| ユーザー アカウントを使用する完全な名前を文字列。|
+| 説明| ユーザー アカウントの説明です。|
+| Password| Linux コンピューター用の適切な形式でユーザーのパスワードのハッシュです。通常、これは、sha-256 ソルト処理、または sha-512 ハッシュです。Debian および Ubuntu Linux では、この値は、mkpasswd コマンドを使用して生成できます。その他の Linux ディストリビューションでは、Python の Crypt ライブラリの crypt メソッドはハッシュの生成に使用できます。|
+| 無効になっています。| アカウントが有効になっているかどうかを示します。このプロパティを設定 **$true** このアカウントが無効にするとに設定することを確認する **$false** を有効になっていることを確認します。|
+| PasswordChangeRequired| ユーザーがパスワードを変更するかどうかを示します。このプロパティを設定 **$true** 、ユーザーがパスワードを変更できないかどうか、およびに設定ことを確認に **$false** パスワードを変更するユーザーを許可します。既定値は **$false**です。このプロパティは、ユーザー アカウントは、以前に存在しなかったし、が作成される場合にのみ評価されます。|
+| HomeDirectory| ユーザーのホーム ディレクトリ。|
+| GroupID| ユーザーのプライマリ グループの ID です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば、実行するリソースの構成スクリプト ブロックの ID は、「リソース名」を最初は、その型は、「リソースの種類」場合は、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
 
-##Example
+##例
 
-The following example ensures that the user "monuser" exists and is a member of the group "DBusers".
+次の例では、"monuser"ユーザーが存在し、"DBusers"のグループのメンバーであることをようにします。
 
 ```
 Import-DSCResource -Module nx 

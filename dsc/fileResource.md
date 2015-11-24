@@ -1,10 +1,10 @@
-#DSC File Resource
+#DSC ファイル リソース
 
-> Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0
+> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
 
-The File resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage files and folders on the target node.
+ファイルのリソースで Windows PowerShell 必要な状態 Configuration (DSC) では、ターゲット ノードのファイルとフォルダーを管理するメカニズムを提供します。
 
-##Syntax
+##構文
 
 ```
 File [string] #ResourceName
@@ -24,26 +24,26 @@ File [string] #ResourceName
 }
 ```
 
-##Properties
+##プロパティ
 
-| Property| Description|
+| プロパティ| 説明|
 |---|---|
-| DestinationPath| Indicates the location where you want to ensure the state for a file or directory.|
-| Attributes| Specifies the desired state of the attributes for the targeted file or directory.|
-| Checksum| Indicates the checksum type to use when determining whether two files are the same.If __Checksum__ is not specified, only the file or directory name is used for comparison.Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate.|
-| Contents| Specifies the contents of a file, such as a particular string.|
-| Credential| Indicates the credentials that are required to access resources, such as source files, if such access is required.|
-| Ensure| Indicates if the file or directory exists.Set this property to "Absent" to ensure that the file or directory does not exist.Set it to "Present" to ensure that the file or directory does exist.The default is "Present".|
-| Force| Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.Using the Force property overrides such errors.The default value is __$false__.|
-| Recurse| Indicates if subdirectories are included.Set this property to __$true__ to indicate that you want subdirectories to be included.The default is __$false__.**Note**: This property is only valid when the Type property is set to Directory.|
-| DependsOn| Indicates that the configuration of another resource must run before this resource is configured.For example, if the ID of the resource configuration script block that you want to run first is __ResourceName__ and its type is __ResourceType__, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`.|
-| SourcePath| Indicates the path from which to copy the file or folder resource.|
-| Type| Indicates if the resource being configured is a directory or a file.Set this property to "Directory" to indicate that the resource is a directory.Set it to "File" to indicate that the resource is a file.The default value is “File”.|
-| MatchSource| If set to the default value of __$false__, then any files on the source (say, files A, B, and C) will be added to the destination the first time the configuration is applied.If a new file (D) is added to the source, it will not be added to the destination, even when the configuration is re-applied later.If the value is __$true__, then each time the configuration is applied, new files subsequently found on the source (such as file D in this example) are added to the destination.|
+| DestinationPath| ファイルまたはディレクトリの状態を保証する場所を示します。|
+| 属性| 対象となるファイルまたはディレクトリの属性の目的の状態を指定します。|
+| チェックサム| 2 つのファイルが同じであるかどうかを決定するときに使用するチェックサムの種類を示します。場合 __チェックサム__ が指定されていない、比較のため、ファイルまたはディレクトリ名のみを使用します。有効な値が含まれます。 sha-1、sha-256、SHA 512、createdDate、modifiedDate します。|
+| 内容| 特定の文字列など、ファイルの内容を指定します。|
+| Credential| このようなアクセスが必要な場合は、ソース ファイルなど、リソースにアクセスするには、必要な資格情報を示します。|
+| 確認します。| ファイルまたはディレクトリが存在するかどうかを示します。「すべて」をファイルまたはディレクトリが存在しないことを確認するには、このプロパティを設定します。ファイルまたはディレクトリが存在することを確認するには、"Present"に設定します。既定では"Present です"。|
+| Force| 特定のファイル操作 (ファイルを上書きするが空でないディレクトリを削除するなど) すると、エラーが発生します。Force プロパティを使用すると、このようなエラーがよりも優先します。既定値は __$false__です。|
+| 再帰的に検索します。| サブディレクトリが含まれるかどうかを示します。このプロパティを設定 __$true__ にサブディレクトリを含めるように指定します。既定値は __$false__です。**注**。 このプロパティは、ディレクトリに、Type プロパティが設定されている場合にのみ有効です。|
+| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| SourcePath| ファイルまたはフォルダーのリソースのコピー元のパスを示します。|
+| 種類| 構成されているリソースが、ディレクトリまたはファイルのかどうかを示します。リソースがディレクトリであることを示すには、「ディレクトリ」には、このプロパティを設定します。リソースが、ファイルであることを示すには、"File"に設定します。既定値は、「ファイル」です。|
+| MatchSource| 場合の既定値に設定 __$false__, 、ソース (たとえば、ファイル A、B、および C) 上のファイルに追加されます、変換先、構成が適用される初めてします。ソースには、新しいファイル (D) を追加する場合に追加されません先の構成は後で再適用している場合でもです。値が場合 __$true__, 、(この例ではファイル D) などのソースで検出された、その後、新しいファイルが、構成が適用されるたびに、変換先に追加します。|
 
-##Example
+##例
 
-The following example shows how to use the File resource to ensure that a directory with the path `C:\Users\Public\Documents\DSCDemo\DemoSource` on a source computer (such as the “pull” server) is also present (along with all subdirectories) on the target node. It also writes a confirmatory message to the log when complete and includes a statement to ensure that the file-checking operation runs prior to the logging operation.
+次の例は、ファイル リソースを使用して、ディレクトリのパスがあることを確認する方法を示しています。 `C:\Users\Public\Documents\DSCDemo\DemoSource` で、ソース コンピューター ("プル"サーバーなど) が存在 (およびすべてのサブディレクトリ) のターゲット ノード上。 また、confirmatory メッセージを完了すると、ログに書き込み、ログ記録操作の前に、ファイルの確認操作を実行することを確認するステートメントが含まれています。
 
 ```powershell
 Configuration FileResourceDemo

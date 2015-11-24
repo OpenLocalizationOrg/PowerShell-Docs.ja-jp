@@ -1,21 +1,21 @@
-#Configuring the Local Configuration Manager
+#ローカルの Configuration Manager の構成
 
-> Applies To: Windows PowerShell 5.0
+> 5.0 Windows PowerShell に適用されます。
 
-The Local Configuration Manager (LCM) is the engine of Windows PowerShell Desired State Configuration (DSC). The LCM runs on every target node, and is responsible for parsing and enacting configurations that are sent to the node. It is also responsible for a number of other aspects of DSC, including the following.
+ローカル構成マネージャー (LCM) は、エンジンの Windows PowerShell 必要な状態 Configuration (DSC) です。 LCM では、すべてのターゲット ノードで実行され、解析と、ノードに送信される構成の施行を担当します。 いくつかの DSC、以下の他の側面を担当します。
 
-* Determining refresh mode (push or pull).
-* Specifying how often a node pulls and enacts configurations.
-* Associating the node with pull servers.
-* Specifying partial configurations.
+* 更新モード (プッシュまたはプル) を決定します。
+* ノードがどのくらいの頻度をプルし、構成の施行を指定します。
+* プル サーバーと、ノードを関連付けます。
+* 部分的な構成を指定します。
 
-You use a special type of configuration to configure the LCM to specify each of these behaviors. The following sections describe how to configure the LCM.
+特殊な種類の構成を使用すると、これらの動作のそれぞれを指定するのに LCM を構成できます。 次のセクションでは、LCM を構成する方法について説明します。
 
-> **Note**: This topic applies to the LCM introduced in Windows PowerShell 5.0. For information about configuring the LCM in Windows PowerShell 4.0, see Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager.
+> **注**: このトピックは、Windows PowerShell 5.0 で導入された LCM に適用されます。 Windows PowerShell 4.0 で、LCM を構成する方法の詳細については、Windows PowerShell 4.0 必要な状態構成ローカル構成マネージャーを参照してください。
 
-##Writing and enacting an LCM configuration
+##作成と、LCM 構成を制定します。
 
-To configure the LCM, you create and run a special type of configuration. To specify an LCM configuration, you use the DscLocalConfigurationManager attribute. The following shows a simple configuration that sets the LCM to push mode.
+LCM を構成するのには、作成し、特殊な種類の構成を実行します。 LCM は、構成を指定するには、DscLocalConfigurationManager 属性を使用します。 LCM をプッシュ モードに設定する単純な構成を次に示します。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -31,122 +31,122 @@ configuration LCMConfig
 } 
 ```
 
-You call and run the configuration to create the configuration MOF, just as you would a normal configuration (for information on creating the configuration MOF, see Get Started with Windows PowerShell Desired State Configuration). Unlike normal configurations, you do not enact an LCM configuration by calling the [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) cmdlet. Instead, you call the Set-DscLocalConfigurationManager cmdlet, supplying the path to the configuration MOF as a parameter. After you enact the configuration, you can see the properties of the LCM by calling the [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx) cmdlet.
+呼び出すし、標準的な構成と同様に、MOF の構成を作成する構成を実行する (MOF の構成を作成する方法の詳細についてを参照して Windows PowerShell 必要な状態の構成を使ってみる)。 通常の構成とは異なりするはいない施行 LCM の構成が呼び出すことによって、 [開始 DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。 代わりに、パラメーターとして MOF の構成へのパスを指定してセット DscLocalConfigurationManager コマンドレットを呼び出します。 呼び出して、LCM のプロパティを表示することができます、構成を適用した後、 [Get DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx) コマンドレットです。
 
-An LCM configuration can contain blocks only for a limited set of resources. In the previous example, the only resource called is **Settings**. The other available resources are:
+LCM は、構成では、限定されたリソースのセットに対してのみのブロックを含めることができます。 呼ばれる唯一のリソースは、前の例では、 **設定**です。 使用できるその他のリソースは次のとおりです。
 
-* **ConfigurationRepositoryWeb**: specifies an HTTP pull server for configurations.
-* **ConfigurationRepositoryShare**: specifies an SMB pull server for configurations.
-* **ResourceRepositoryWeb**: specifies an HTTP pull server for modules.
-* **ResourceRepositoryShare**: specifies an SMB pull server for modules.
-* **ReportServerWeb**: specifies an HTTP pull server to which reports are sent.
-* **PartialConfiguration**: specifies partial configurations.
+* **ConfigurationRepositoryWeb**: HTTP プル サーバーの構成を指定します。
+* **ConfigurationRepositoryShare**: SMB プル サーバーの構成を指定します。
+* **ResourceRepositoryWeb**: HTTP モジュールのプル サーバーを指定します。
+* **ResourceRepositoryShare**: モジュールの SMB プル サーバーを指定します。
+* **ReportServerWeb**: レポートを送信する HTTP プル サーバーを指定します。
+* **PartialConfiguration**: 部分的な構成を指定します。
 
-##Basic settings
+##基本設定
 
-Other than specifying pull servers and partial configurations, all of the properties of the LCM are configured in a **Settings** block. The following properties are available in a **Settings** block.
+構成されたすべてのプロパティ、LCM のプル サーバーと一部の構成を指定する以外、 **設定** ブロックします。 次のプロパティはで使用できる、 **設定** ブロックします。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |--- |--- |---|
-| ConfigurationModeFrequencyMins| UInt32| How often, in minutes, the current configuration is checked and applied.This property is ignored if the ConfigurationMode property is set to ApplyOnly.The default value is 15.__Note__: Either the value of this property must be a multiple of the value of the __RefreshFrequencyMins__ property, or the value of the __RefreshFrequencyMins__ property must be a multiple of the value of this property.|
-| RebootNodeIfNeeded| bool| Set this to __$true__ to automatically reboot the node after a configuration that requires reboot is applied.Otherwise, you will have to manually reboot the node for any configuration that requires it.The default value is __$false__.|
-| ConfigurationMode| string| Specifies how the LCM actually applies the configuration to the target nodes.It can take the following values: __"ApplyOnly"__: DSC applies the configuration and does nothing further unless a new configuration is pushed to the target node or when a new configuration is pulled from a server.After initial application of a new configuration, DSC does not check for drift from a previously configured state.__"ApplyAndMonitor"__: This is the default value.The LCM applies any new configurations.After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs __"ApplyAndAutoCorrect"__: DSC applies any new configurations.After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs, and then re-applies the current configuration.|
-| ActionAfterReboot| string| Specifies what happens after a reboot during the application of a configuration.The possible values are as follows: __"ContuinueConfiguration"__: Continue applying the current configuration.__"StopConfiguraiton"__: Stop the current configuration.|
-| RefreshMode| string| Specifies how the LCM gets configurations.The possible values are as follows: __"Disabled"__: DSC configurations are disabled for this node.__"Push"__: Configurations are initiated by calling the Start-DscConfiguration cmdlet.The configuration is applied immediately to the node.This is the default value.__Pull:__ The node is configured to regularly check for configurations from a pull server.If this property is set to Pull, you must specify a pull server in a __ConfigurationRepositoryWeb__ or __ConfigurationRepositoryShare__ block.For more information about pull servers, see [Setting up a DSC pull server](pullServer.md).|
-| CertificateID| string| A GUID that specifies a certificate used to secure credentials for access to the configuration.For more information see [Want to secure credentials in Windows PowerShell Desired State Configuration](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)?.|
-| ConfigurationID| string| A GUID that identifies the configuration file to get from a pull server in pull mode.The node will pull configurations on the pull sever if the name of the configuration MOF is named ConfigurationID.mof.__Note:__ If you set this property, registering the node with a pull server by using __RegistryKeys__ and does not work.For more information, see [Setting up a pull client with configuration names](pullClientConfigNames.md).|
-| RefreshFrequencyMins| Uint32| The time interval, in minutes, at which the LCM checks a pull server to get updated configurations.This value is ignored if the LCM is not configured in pull mode.The default value is 30.__Note:__  Either the value of this property must be a multiple of the value of the __ConfigurationModeFrequencyMins__ property, or the value of the __ConfigurationModeFrequencyMins__ property must be a multiple of the value of this property.|
-| AllowModlueOverwrite| bool| __$TRUE__ if new configurations downloaded from the configuration server are allowed to overwrite the old ones on the target node.Otherwise, $FALSE.|
-| DebugMode| bool| If set to __$TRUE__, this causes the LCM to reload any DSC resources, even if they have been previously cached.Set to $FALSE to use cached resources.Typically you would set this property to __$TRUE__ while debugging a resource, and to __$FALSE__ for production.The default value is __$FALSE__.|
-| ConfigurationDownloadManagers| CimInstance[]| Obsolete.Use __ConfigurationRepositoryWeb__ and __ConfigurationRepositoryShare__ blocks to define configuration pull servers.|
-| ResourceModuleManagers| CimInstance[]| Obsolete.Use __ResourceRepositoryWeb__ and __ResourceRepositoryShare__ blocks to define resource pull servers.|
-| ReportManagers| CimInstance[]| Obsolete.Use __ReportServerWeb__ blocks to define report pull servers.|
-| PartialConfigurations| CimInstance| Not implemented.Do not use.|
-| StatusRetentionTimeInDays| UInt32| The number of days the LCM keeps the status of the current configuration.|
+| ConfigurationModeFrequencyMins| UInt32| 頻度を分単位で、現在の構成がチェックされ適用。ApplyOnly を ConfigurationMode プロパティが設定されている場合、このプロパティは無視されます。既定値は、15 です。__注__。 このプロパティの値のいずれかの値の倍数でなければなりません、 __RefreshFrequencyMins__ プロパティ、またはの値、 __RefreshFrequencyMins__ プロパティは、このプロパティの値の倍数を指定する必要があります。|
+| RebootNodeIfNeeded| bool| これを設定 __$true__ 自動的に再起動の適用が必要な構成した後に、ノードを再起動します。それ以外の場合、それを必要とする任意の構成にノードを手動で再起動する必要があります。既定値は __$false__です。|
+| ConfigurationMode| string| 方法、LCM 実際に適用される、構成対象のノードを指定します。次の値がかかることができます: __"ApplyOnly"__: DSC は構成を適用し、ターゲット ノードに、または新しい構成がサーバーから取得したときに、新しい構成がプッシュされた場合を除きはさらに何もしません。最初のアプリケーションの新しい構成では、後に DSC をチェックしません以前に構成した状態からの誤差を列挙します。__"ApplyAndMonitor"__。 これは、既定値です。LCM には、新しい構成のいずれかが適用されます。最初のアプリケーションの新しい構成では後から目的の状態では、ターゲット ノードがしまいます DSC レポート ログの不一致 __"ApplyAndAutoCorrect"__: DSC に新しい構成のいずれかが適用されます。最初のアプリケーションの新しい構成では後から目的の状態では、ターゲット ノードがしまう場合、DSC がのログに不一致が報告し、現在の構成を再適用します。|
+| ActionAfterReboot| string| 構成の適用中に、再起動後の動作を指定します。有効な値は次のように、: __"ContuinueConfiguration"__: 現在の構成の適用を続行__"。StopConfiguraiton"__: 現在の構成を停止します。|
+| RefreshMode| string| LCM が構成を取得する方法を指定します。値には次のように。 __"Disabled"__。 このノードの DSC 構成が無効になっています。__「プッシュ」__: 開始 DscConfiguration コマンドレットを呼び出すことによって構成を開始します。構成は、ノードにすぐに適用されます。これは、既定値です。__プル:__ プル サーバーからの構成を定期的にチェックするノードを構成します。このプロパティがプルに設定されている場合は、プルのサーバーでを指定する必要があります、 __ConfigurationRepositoryWeb__ または __ConfigurationRepositoryShare__ ブロックします。プルのサーバーの詳細については、次を参照してください。 [DSC プル サーバーをセットアップする](pullServer.md)です。|
+| 証明書 Id| string| 構成にアクセスするための資格情報をセキュリティで保護するために使用する証明書を指定する GUID です。詳細については、次を参照してください。 [Windows PowerShell 必要な状態の設定での資格情報をセキュリティで保護する](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)ですか。|
+| ConfigurationID| string| プル モードでのプル サーバーから取得する構成ファイルを識別する GUID です。ノードがプルされます MOF の構成の名前が ConfigurationID.mof をという名前の場合、プル上の構成がサーバーです。__注:__ このプロパティを設定する場合は、プル サーバーと、ノードを使用して登録する __RegistryKeys__ は機能しません。詳細については、次を参照してください。 [構成名を使用するプル クライアント セットアップ](pullClientConfigNames.md)です。|
+| RefreshFrequencyMins| Uint32| 時間の間隔 (分) を LCM が更新された構成を取得するには、プル サーバーを確認します。この値には、プル モードで、LCM が構成されていない場合は無視されます。既定値は、30 です。__注:__  このプロパティの値のいずれかの値の倍数でなければなりません、 __ConfigurationModeFrequencyMins__ プロパティ、またはの値、 __ConfigurationModeFrequencyMins__ プロパティは、このプロパティの値の倍数を指定する必要があります。|
+| AllowModlueOverwrite| bool| __$TRUE__ 構成のサーバーからダウンロードする新しい構成がターゲット ノード上の古いファイルを上書きできるようにするかどうか。以外の場合は、$FALSE です。|
+| DebugMode| bool| 場合に設定 __$TRUE__, 、既にキャッシュされている場合でもこれにより、すべての DSC リソースを再読み込みする LCM です。キャッシュされたリソースを使用するの $FALSE に設定します。このプロパティを設定する通常 __$TRUE__ のリソースのデバッグ中に、 __$FALSE__ 実稼働用です。既定値は __$FALSE__です。|
+| ConfigurationDownloadManagers| CimInstance| 廃止されたとします。使用して __ConfigurationRepositoryWeb__ と __ConfigurationRepositoryShare__ プル サーバーの構成を定義するブロック。|
+| ResourceModuleManagers| CimInstance| 廃止されたとします。使用して __ResourceRepositoryWeb__ と __ResourceRepositoryShare__ ブロックをリソースを定義するのには、サーバーを取得します。|
+| ReportManagers| CimInstance| 廃止されたとします。使用して __ReportServerWeb__ ブロックをレポートを定義するのには、サーバーを取得します。|
+| PartialConfigurations| CimInstance| 実装されていません。使用しません。|
+| StatusRetentionTimeInDays| UInt32| LCM、現在の構成の状態を保持する日数を指定します。|
 
-##Pull servers
+##サーバーを取得します。
 
-A pull server is either an OData web service or an SMB share that is used as a central location for DSC files. LCM configuration supports defining the following types of pull servers:
+プル サーバーは、OData web サービスまたは DSC ファイルの中央の場所として使用される SMB 共有のいずれかです。 LCM 構成では、プル サーバーの次の種類の定義がサポートされています。
 
-* **Configuration server**: A repository for DSC configurations. Define configuration severs by using **ConfigurationRepositoryWeb** (for web-based servers) and **ConfigurationRepositoryShare** (for SMB-based servers) blocks.
-* Resource server—A repository for DSC resources, packaged as PowerShell modules. Define resource severs by using **ResourceRepositoryWeb** (for web-based servers) and **ResourceRepositoryShare** (for SMB-based servers) blocks.
-* Report server—A service that DSC sends report data to. Define report servers by using **ReportServerWeb** blocks. A report server must be a web service.
+* **構成サーバー**: DSC 構成を格納するリポジトリです。 定義する構成のサーバーを使用して **ConfigurationRepositoryWeb** (web ベースのサーバーの) および **ConfigurationRepositoryShare** (SMB ベースのサーバーの) ブロックします。
+* リソース サーバー-PowerShell モジュールとしてパッケージ化、DSC リソースを格納するリポジトリです。 定義するリソースがサーバーを使用して **ResourceRepositoryWeb** (web ベースのサーバーの) および **ResourceRepositoryShare** (SMB ベースのサーバーの) ブロックします。
+* レポート サーバー: DSC は、レポートのデータを送信するサービスです。 使用してレポート サーバーを定義する **ReportServerWeb** ブロックします。 レポート サーバーは、web サービスである必要があります。
 
-For information about setting up and using pull servers, see [Setting up a DSC pull server](pullServer.md).
+セットアップとプルのサーバーを使用する方法については、次を参照してください。 [DSC プル サーバーをセットアップする](pullServer.md)です。
 
-##Configuration server blocks
+##構成のサーバーのブロック
 
-To define a web-based configuration sever, you create a **ConfigurationRepositoryWeb** block. A **ConfigurationRepositoryWeb** defines the following properties.
+Web ベースの構成を定義するサーバーは、作成、 **ConfigurationRepositoryWeb** ブロックします。 A **ConfigurationRepositoryWeb** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| AllowUnsecureConnection| bool| Set to **$TRUE** to allow connections from the node to the server without authentication.Set to **$FALSE** to require authentication.|
-| CertificateID| string| A GUID that represents the certificate used to authenticate to the server.|
-| ConfigurationNames| String[]| An array of names of configurations to be pulled by the target node.These are used only if the node is registered with the pull server by using a **RegistrationKey**.For more information, see [Setting up a pull client with configuration names](pullClientConfigNames.md).|
-| RegistrationKey| string| A GUID that registers the node with the pull server.For more information, see [Setting up a pull client with configuration names](pullClientConfigNames.md).|
-| ServerURL| string| The URL of the configuration server.|
+| AllowUnsecureConnection| bool| 設定 **$TRUE** 認証なしでサーバーに、ノードからの接続を許可します。設定 **$FALSE** 認証を要求します。|
+| 証明書 Id| string| サーバーに対する認証に使用する証明書を表す GUID です。|
+| ConfigurationNames| String[]| ターゲット ノードによってプルされる構成の名前の配列です。使用して、ノードがプル サーバーに登録されている場合にのみ、これらは使用、 **RegistrationKey**です。詳細については、次を参照してください。 [構成名を使用するプル クライアント セットアップ](pullClientConfigNames.md)です。|
+| RegistrationKey| string| プルのサーバーに、ノードを登録するための GUID です。詳細については、次を参照してください。 [構成名を使用するプル クライアント セットアップ](pullClientConfigNames.md)です。|
+| よう| string| 構成のサーバーの URL。|
 
-To define an SMB-based configuration server, you create a **ConfigurationRepositoryShare** block. A **ConfigurationRepositoryShare** defines the following properties.
+作成する、SMB ベースの構成のサーバーを定義するのには **ConfigurationRepositoryShare** ブロックします。 A **ConfigurationRepositoryShare** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| Credential| MSFT_Credential| The credential used to authenticate to the SMB share.|
-| SourcePath| string| The path of the SMB share.|
+| Credential| MSFT_Credential| SMB 共有に対する認証に使用する資格情報です。|
+| SourcePath| string| SMB 共有のパス。|
 
-##Resource server blocks
+##リソースのサーバーのブロック
 
-To define a web-based resource sever, you create a **ResourceRepositoryWeb** block. A **ResourceRepositoryWeb** defines the following properties.
+Web ベースのリソースを定義するサーバーは、作成、 **ResourceRepositoryWeb** ブロックします。 A **ResourceRepositoryWeb** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| AllowUnsecureConnection| bool| Set to **$TRUE** to allow connections from the node to the server without authentication.Set to **$FALSE** to require authentication.|
-| CertificateID| string| A GUID that represents the certificate used to authenticate to the server.|
-| RegistrationKey| string| A GUID that identifies the node to the pull server.For more information, see How to register a node with a DSC pull server.|
-| ServerURL| string| The URL of the configuration server.|
+| AllowUnsecureConnection| bool| 設定 **$TRUE** 認証なしでサーバーに、ノードからの接続を許可します。設定 **$FALSE** 認証を要求します。|
+| 証明書 Id| string| サーバーに対する認証に使用する証明書を表す GUID です。|
+| RegistrationKey| string| プルのサーバーにノードを識別する GUID です。詳細については、ノードを DSC プルのサーバーに登録する方法を参照してください。|
+| よう| string| 構成のサーバーの URL。|
 
-To define an SMB-based resource server, you create a **ResourceRepositoryShare** block. **ResourceRepositoryShare** defines the following properties.
+作成する、リソースの SMB ベースのサーバーを定義するのには **ResourceRepositoryShare** ブロックします。 **ResourceRepositoryShare** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| Credential| MSFT_Credential| The credential used to authenticate to the SMB share.|
-| SourcePath| string| The path of the SMB share.|
+| Credential| MSFT_Credential| SMB 共有に対する認証に使用する資格情報です。|
+| SourcePath| string| SMB 共有のパス。|
 
-##Report server blocks
+##レポート サーバーのブロック
 
-A report server must be an OData web service. To define a report server, you create a **ReportServerWeb** block. **ReportServerWeb** defines the following properties.
+レポート サーバーは、OData web サービスである必要があります。 作成するレポート サーバーを定義するのには **ReportServerWeb** ブロックします。 **ReportServerWeb** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| AllowUnsecureConnection| bool| Set to **$TRUE** to allow connections from the node to the server without authentication.Set to **$FALSE** to require authentication.|
-| CertificateID| string| A GUID that represents the certificate used to authenticate to the server.|
-| RegistrationKey| string| A GUID that identifies the node to the pull server.For more information, see How to register a node with a DSC pull server.|
-| ServerURL| string| The URL of the configuration server.|
+| AllowUnsecureConnection| bool| 設定 **$TRUE** 認証なしでサーバーに、ノードからの接続を許可します。設定 **$FALSE** 認証を要求します。|
+| 証明書 Id| string| サーバーに対する認証に使用する証明書を表す GUID です。|
+| RegistrationKey| string| プルのサーバーにノードを識別する GUID です。詳細については、ノードを DSC プルのサーバーに登録する方法を参照してください。|
+| よう| string| 構成のサーバーの URL。|
 
-##Partial configurations
+##一部の構成
 
-To define a partial configuration, you create a **PartialConfiguration** block. For more information about partial configurations, see [DSC Partial configurations](partialConfigs.md). **PartialConfiguration** defines the following properties.
+部分的な構成を定義するには、作成する、 **PartialConfiguration** ブロックします。 部分的な構成の詳細については、次を参照してください。 [DSC 部分構成](partialConfigs.md)です。 **PartialConfiguration** 次のプロパティを定義します。
 
-| Property| Type| Description|
+| プロパティ| 種類| 説明|
 |---|---|---|
-| ConfigurationSource| string[]| An array of names of configuration servers, previously defined in **ConfiguratoinRepositoryWeb** and **ConfigurationRepositoryShare** blocks, where the partial configuration is pulled from.|
-| DependsOn| string{}| A list of names of other configurations that must be completed before this partial configuration is applied.|
-| Description| string| Text used to describe the partial configuration.|
-| ExclusiveResources| string[]| An array of resources exclusive to this partial configuration.|
-| RefreshMode| string| Specifies how DCS gets this partial configuration..The possible values are as follows: **Disabled**: This partial configuration is disabled.**Push**: The partial configuration is pushed to the node by calling the [Publish-DscConfiguration](https://technet.microsoft.com/en-us/library/mt517875.aspx) cmdlet.After all partial configurations for the node are either pushed or pulled from a server, the configuration can be started by calling `Start-DscConfiguration –UseExisting`.This is the default value.**Pull**: The node is configured to regularly check for the partial configuration from a pull server.If this property is set to "Pull", you must specify a pull server by setting the **ConfigurationSource** property.For more information about pull servers, see [Setting up a DSC pull server](pullServer.md).|
-| ResourceModlueSource| string[]| An array of the names of resource servers from which to download required resources for this partial configuration.These names must refer to resource servers previously defined in **ResourceRepositoryWeb** and **ResourceRepositoryShare** blocks.|
+| ConfigurationSource| string[]| 定義した、構成のサーバーの名前の配列 **ConfiguratoinRepositoryWeb** と **ConfigurationRepositoryShare** ブロックでは、部分的な構成がから取得されます。|
+| DependsOn| 文字列の {}| この部分の構成を適用する前に完了する必要がありますが、その他の構成の名前の一覧。|
+| 説明| string| 一部の構成について説明するために使用するテキストです。|
+| ExclusiveResources| string[]| この部分の構成に排他的なリソースの配列です。|
+| RefreshMode| string| ドメイン コント ローラーがこの部分の構成を取得する方法を指定するには.値は、次のように: **無効になっている**。 この部分の構成が無効になっています。**プッシュ**: 部分の構成が呼び出すことによって、ノードにプッシュ、 [発行 DscConfiguration](https://technet.microsoft.com/en-us/library/mt517875.aspx) コマンドレットです。呼び出して、構成を開始できます、ノードのすべての部分の構成は、プッシュまたは、サーバーから取得した後に `開始 DscConfiguration – 既存`です。これは、既定値です。**プル**: プル サーバーから部分的な構成を定期的にチェックするノードを構成します。このプロパティが「プル」に設定されている場合は、設定して、プル サーバーを指定する必要があります、 **ConfigurationSource** プロパティです。プルのサーバーの詳細については、次を参照してください。 [DSC プル サーバーをセットアップする](pullServer.md)です。|
+| ResourceModlueSource| string[]| この部分の構成の必要なリソースのダウンロード元のリソース サーバーの名前の配列です。これらの名前は必要がありますで以前に定義されているリソース サーバーを参照してください。 **ResourceRepositoryWeb** と **ResourceRepositoryShare** ブロックします。|
 
-##See Also
+##関連項目
 
-###Concepts
+###概念
 
-Get Started with Windows PowerShell Desired State Configuration 
-[Setting up a DSC pull server](pullServer.md) 
-[Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager](metaConfig4.md)
+Windows PowerShell の必要な状態構成を使ってみる 
+[DSC プル サーバーのセットアップ](pullServer.md) 
+[Windows PowerShell 4.0 に必要な構成ローカル Configuration Manager の状態](metaConfig4.md)
 
-###Other Resources
+###その他のリソース
 
-[Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) 
-[Setting up a pull client with configuration names](pullClientConfigNames.md)
+[セット DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) 
+[構成名を使用するプル クライアントの設定](pullClientConfigNames.md)
 
 
 

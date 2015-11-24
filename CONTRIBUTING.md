@@ -1,62 +1,62 @@
-#Contributing to PowerShell Documentation
+#PowerShell のドキュメントを原因となっています。
 
-##Sign a CLA
+##干渉を署名します。
 
-Before you can contribute to any PowerShell repositories, you must [sign a Microsoft Contribution Licensing Agreement (CLA)](https://cla.microsoft.com/). 
-If you've already contributed to PowerShell repostories in the past, congratulations! You've already completed this step.
+PowerShell の任意のリポジトリに投稿して、前にする必要があります [サインイン、Microsoft 投稿物に関するライセンス契約 (干渉)](https://cla.microsoft.com/)です。 
+以前では、これは、PowerShell repostories を既に原因した場合! この手順を既に完了しました。
 
-##Writing PowerShell documentation
+##PowerShell のドキュメントの作成
 
-One of the easiest ways to contribute to PowerShell is by helping to write and edit documentation. 
-All of our documentation hosted on GitHub is written using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+PowerShell に貢献する最も簡単な方法の 1 つは、作成したり、ドキュメントを編集することによりです。 
+使用してすべての GitHub でホストされているドキュメントが書き込まれる [GitHub のフレーバー Markdown](https://help.github.com/articles/github-flavored-markdown/)です。
 
-To [edit an existing file](https://help.github.com/articles/editing-files-in-another-user-s-repository/), simply navigate to it and click the "Edit" button. 
-GitHub will automatically create your own fork of our repository where you can make your changes. 
-Once you're finished, save your edits and submit a pull request to get your changes merged upstream. 
-After your pull request is created,
+[既存ファイルを編集](https://help.github.com/articles/editing-files-in-another-user-s-repository/), 、単にそれに移動し、[編集] ボタンをクリックします。 
+GitHub では、変更をすることができます、リポジトリの独自の分岐が自動的に作成します。 
+完了したら後、は、編集内容を保存し、アップ ストリームにマージ、変更を取得するプル要求を送信します。 
+要求の作成後、プル
 
-If you want to contribute new documentation, first check for [issues tagged as "in progress"](https://github.com/PowerShell/PowerShell-Docs/labels/in%20progress) to make sure you're not duplicating efforts.
-If no one seems to be working on what you have planned:
-* Open a new issue tagged as "in progress" to tell others what you're working on
-* Create a fork of our repository and start adding new Markdown-based documentation to it
-* When you're ready to contribute your documentation, submit a pull request to the *master* branch
+新しいドキュメントを投稿する場合をチェックしてから [の問題は、"in progress"としてタグ付けされた](https://github.com/PowerShell/PowerShell-Docs/labels/in%20progress) 作業を複製しないしているかどうかを確認します。
+動作するいないと思われる場合に、どのような予定になっています。
+* "In progress"としてタグ付けされた新しい懸案事項を開いてで作業する他のユーザーに指示するには
+* リポジトリから分岐したプロジェクトを作成しして Markdown ベースの新しいドキュメントの追加を開始
+* ドキュメントを提出する準備ができたら、要求を送信するプルする、 *マスター* 分岐
 
-####GitHub Flavored Markdown (GFM)
+####GitHub のフレーバー Markdown (GFM)
 
-All of the articles in this repository use [GitHub Flavored Markdown (GFM)](https://help.github.com/articles/github-flavored-markdown/).
+すべての記事では、このリポジトリの使用は、 [GitHub フレーバー Markdown (GFM)](https://help.github.com/articles/github-flavored-markdown/)です。
 
-If you are looking for a good editor, try [Markdown Pad](http://markdownpad.com/) or 
-GitHub also provides a web interface for Markdown editing with syntax highlighting and the ability to preview changes.
+適切なエディターを探している場合は、 [Markdown パッド](http://markdownpad.com/) または 
+GitHub も web インターフェイスを提供 Markdown 構文の強調表示と変更をプレビューすることで編集します。
 
-Some of the more basic GFM syntax includes:
+一部のより基本的な GFM 構文が含まれています。
 
-* **Line breaks vs. paragraphs:** In Markdown there is no HTML `<br />` or `<p />` element. 
-   Instead, a new paragraph is designated by an empty line between two blocks of text.
+* **と段落改行:** で Markdown 存在には、HTML がない `< br/>` または `< p/>` 要素。 
+   代わりに、新しい段落では、次の 2 つのテキスト ブロックの間で空の行で指定されます。
 
-> **Note**: Please add a single newline after each sentence to simplify the command-line output of diffs and history.
-> This is not currently adopted across all of PowerShell-Docs, but we will be working towards it over time. Feel free to help out.
+> **注**。 相違点と履歴のコマンドライン出力を簡略化するには、各文の後の 1 つの改行を追加してください。
+> これは、現在採用していません PowerShell ドキュメントには、全体が使用されることに時間の経過と共に。 使用すればもかまいません。
 
-* **Italics:** The HTML `<em>some text</em>` is written as `*some text*`
-* **Bold:** The HTML `<strong>some text</strong>` element is written as `**some text**`
-* **Headings:** HTML headings are designated using `#` characters at the start of the line. 
-   The number of `#` characters corresponds to the hierarchical level of the heading (for example, `#` = `<h1>` and `###` = `<h3>`).
-* **Numbered lists:** To make a numbered (ordered) list start the line with `1. `.  
-   If you want multiple elements within a single list element, format your list as follows:
+* **斜体:** HTML `< em > </em > テキスト` として記述される `* いくつかテキスト *`
+* **太字:** HTML `< 強力な > テキスト </strong >` として要素が書き込まれます `* * いくつかテキスト * *`
+* **見出し:** を使用して HTML の見出しが指定された `#` 、行の先頭の文字です。 
+   数 `#` 文字は、見出しの階層のレベルに相当します (たとえば、 `#` = `< h1 >` と `###` = `< h3 >`)。
+* **箇条書き:** で ' 1 行を開始し、番号付き (順序付けられた) 一覧を作成します。 `.  
+   1 つのリスト要素内で複数の要素を実行する場合に、次のように、リストを書式します。
 ```        
 1.  For the first element (like this one), insert a tab stop after the 1. 
 
     To include a second element (like this one), insert a line break after the first and align indentations.
 ```
-to get this output:
+この出力を取得します。
 
-1.  For the first element (like this one), insert a tab stop after the 1.
+1.  (次のような) 最初の要素の後、1 タブ ストップを挿入します。
    
-   To include a second element (like this one), insert a line break after the first and align indentations.
+   (次のような) の 2 番目の要素を含めるにはするには、は、1 つ目後の改行を挿入し、インデントを配置します。
    
-   * **Bulleted lists:** Bulleted (unordered) lists are almost identical to ordered lists except that the `1. ` is replaced with either `* `, `- `, or `+ `. 
-      Multiple element lists work the same way as with ordered lists.
-   * **Links:** The syntax for a hyperlink is `[visible link text](link url)`.
-      Links can also have references, which will be discussed in the "Link and Image References" section below.
+   * **箇条書き:** (順序付けられていない) の箇条書きは順序付けされたのとほぼ同じことを除いて ' 1 が一覧表示します。 ` はいずれかに置き換えられます `* `, 、`- `, 、または `+ ' です。 
+      順序付きリストと同じように動作する複数の要素のリスト。
+   * **へのリンク:** ハイパーリンクの構文は、 `[リンクの表示テキスト](link url)`です。
+      リンクには、参照では、以下の「リンクとイメージの参照」セクションで説明することもできます。
 
 
 
