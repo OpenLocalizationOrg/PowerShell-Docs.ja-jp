@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "22bfa866f97834317f1d16100cc9f57ed7e802c1",
+  "LastProcessedCommit": "856812d67956331c4bb552ec572192134ad477be",
   "LastTranslatedCommit": "f4149b4343be335b5007664aa1d513f00a5ec380",
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
@@ -1274,6 +1274,29 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "2015-11-24T23:39:08.7336288Z"
+    },
+    "8c1262cca40e2a1f72254cf349d163ee2a4bcebe": {
+      "FileHash": "8c1262cca40e2a1f72254cf349d163ee2a4bcebe",
+      "SourceFileCommit": "856812d67956331c4bb552ec572192134ad477be",
+      "SourceFilePath": "README.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "FilePathList": [
+        "README.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf",
+      "HandoffFileCommit": "416aff32aa01e640527d8a258ba9c355fec3fa01",
+      "HandoffDateTime": "2016-01-05T07:26:19.5805448Z",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00"
     }
   }
 }
