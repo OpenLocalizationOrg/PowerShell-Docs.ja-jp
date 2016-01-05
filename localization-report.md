@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 66
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 55
+[ Handoff Success Files ](#handoff-success-list)| 54
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 11
+[ Ignored Files ](#ignored-list)| 12
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -70,7 +70,6 @@
  [dsc\userResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/9a43f1261204b8d1577ec78786f8f7cee724668a/dsc/userResource.md) | HandedOffSuccess | [Details](#e4b793025b00cb3137eddc0e7ec437f03abdf3c459)
  [dsc\windowsfeatureResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/9a43f1261204b8d1577ec78786f8f7cee724668a/dsc/windowsfeatureResource.md) | HandedOffSuccess | [Details](#1484f03d1d80b73e3131095e3363b246929a0a3560)
  [dsc\windowsProcessResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/9a43f1261204b8d1577ec78786f8f7cee724668a/dsc/windowsProcessResource.md) | HandedOffSuccess | [Details](#47c387c525a58a88f18e61920736a6e0e7f2098d61)
- [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/9a43f1261204b8d1577ec78786f8f7cee724668a/README.md) | HandedOffSuccess | [Details](#9abd5f2bd558706c03e2c0da58503ef914d0814263)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -90,6 +89,7 @@
  [dsc\pushMode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/dsc/pushMode.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070948)
  [dsc\retrieveNodeInfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/dsc/retrieveNodeInfo.md) | Ignored | [Details](#da39a3ee5e6b4b0d3255bfef95601890afd8070952)
  [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/packages.config) | Ignored | [Details](#27554498f63fbe896c2dad68b61f4dde8478ba3162)
+ [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/README.md) | Ignored | [Details](#8c1262cca40e2a1f72254cf349d163ee2a4bcebe63)
  [Tools\NuGet\Nuget.Config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/Tools/NuGet/Nuget.Config) | Ignored | [Details](#37d5a2d0c8a81313cf7e92800e699f2f86a9f9f964)
  [Tools\NuGet\nuget.exe](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/Tools/NuGet/nuget.exe) | Ignored | [Details](#7469c905e04001f8250137d2da57bbc7bec2d35865)
 
@@ -728,12 +728,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9abd5f2bd558706c03e2c0da58503ef914d0814263'></a> Source: [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/9a43f1261204b8d1577ec78786f8f7cee724668a/README.md)
-* Status: HandedOffSuccess
+##### <a name='8c1262cca40e2a1f72254cf349d163ee2a4bcebe63'></a> Source: [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/accdf18815dbb189bc109a6833487479fe8435eb/README.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/1d538e4ecca9e2123899873a8ed3144f8c8c936b/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/live/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf)
-* Handoff Datetime: 2015-11-06 03:05:12
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
