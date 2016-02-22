@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "856812d67956331c4bb552ec572192134ad477be",
-  "LastTranslatedCommit": "868a88b0663ff1c8cbde1bba752151b232aa3955",
+  "LastTranslatedCommit": "939e6c4ccf374665a9c489445cd95234a0e631c9",
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
       "FileHash": "c3b8854dbecd4ab03e46c51a23ac00461bdd7014",
@@ -359,7 +359,7 @@
       "TargetFilePath": "dsc\\images\\Push.png",
       "HandbackFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\d3008e3fe7da4c118c693d2b34a0b329780f8d86.png",
       "HandbackFileCommit": "cb532d8461e807cb3a716f20667466cdeb143db4",
-      "HandbackDateTime": "2016-02-22T08:54:18.7650142Z",
+      "HandbackDateTime": "2016-02-22T08:58:28.6648242Z",
       "HandbackException": {
         "internal_error_code": "handback_type_is_mismatch_with_handoff_type",
         "internal_error_message": "The handback type archive is not match with handoff type null.",
@@ -369,7 +369,7 @@
         "stack_trace": null,
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2015-11-16T23:32:01.2609282Z",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
@@ -397,7 +397,7 @@
       "TargetFilePath": "dsc\\images\\Pull.png",
       "HandbackFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\86d829b1fcdd41e648ed0594eaf337b3726c143c.png",
       "HandbackFileCommit": "cb532d8461e807cb3a716f20667466cdeb143db4",
-      "HandbackDateTime": "2016-02-22T08:54:18.7650142Z",
+      "HandbackDateTime": "2016-02-22T08:58:28.6648242Z",
       "HandbackException": {
         "internal_error_code": "handback_type_is_mismatch_with_handoff_type",
         "internal_error_message": "The handback type archive is not match with handoff type null.",
@@ -407,7 +407,7 @@
         "stack_trace": null,
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2015-11-16T23:32:01.2609282Z",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
@@ -1023,7 +1023,7 @@
       "TargetFilePath": "dsc\\images\\PartialConfig1.jpg",
       "HandbackFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg",
       "HandbackFileCommit": "cb532d8461e807cb3a716f20667466cdeb143db4",
-      "HandbackDateTime": "2016-02-22T08:54:18.7650142Z",
+      "HandbackDateTime": "2016-02-22T08:58:28.6648242Z",
       "HandbackException": {
         "internal_error_code": "handback_type_is_mismatch_with_handoff_type",
         "internal_error_message": "The handback type archive is not match with handoff type null.",
@@ -1033,7 +1033,7 @@
         "stack_trace": null,
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2015-11-16T23:32:01.2609282Z",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
@@ -1061,7 +1061,7 @@
       "TargetFilePath": "dsc\\images\\PartialConfigPullServer.jpg",
       "HandbackFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg",
       "HandbackFileCommit": "cb532d8461e807cb3a716f20667466cdeb143db4",
-      "HandbackDateTime": "2016-02-22T08:54:18.7650142Z",
+      "HandbackDateTime": "2016-02-22T08:58:28.6648242Z",
       "HandbackException": {
         "internal_error_code": "handback_type_is_mismatch_with_handoff_type",
         "internal_error_message": "The handback type archive is not match with handoff type null.",
@@ -1071,7 +1071,7 @@
         "stack_trace": null,
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2015-11-16T23:32:01.2609282Z",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
