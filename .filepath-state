@@ -2,14 +2,23 @@
   "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": [
     "CONTRIBUTING.md"
   ],
+  "81efeb79a70df604ef8c126c0ebd17b4f4711a44": [
+    "dsc\\archiveResource.md"
+  ],
   "d0d36cc79854de58e99c4984ef47dab41a4e7df4": [
     "dsc\\archiveResource.md"
   ],
   "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": [
     "dsc\\authoringResource.md"
   ],
+  "ebda397e0970e90e3fcf33218565919bd7e6eb40": [
+    "dsc\\authoringResourceClass.md"
+  ],
   "565d71def9c15b19f10ec144ff29e82b9e205e31": [
     "dsc\\authoringResourceClass.md"
+  ],
+  "4af3a1c0d7491552cfa1d22daa6718803e762698": [
+    "dsc\\authoringResourceComposite.md"
   ],
   "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d": [
     "dsc\\authoringResourceComposite.md"
@@ -121,6 +130,9 @@
   ],
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
+  ],
+  "f775047bb73ea56ac124df5e1b0c2baa736c9526": [
+    "dsc\\pullServer.md"
   ],
   "2668c9aa8c36621eb9797e634354bc7fa285d3b8": [
     "dsc\\pullServer.md"
