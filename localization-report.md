@@ -168,8 +168,8 @@
 * Handoff File: [archiveResource.b4701b9fe5acf94be3fabf470371d8e47dd154d4.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/97327e5cf906f65ff061450672db8314b4b44b8a/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archiveResource.b4701b9fe5acf94be3fabf470371d8e47dd154d4.ja-jp.xlf)
 * Handoff Datetime: 2016-02-23 18:15:50
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [archiveResource.b4701b9fe5acf94be3fabf470371d8e47dd154d4.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d70b2f44a37a304d7babe0c5cb03ad1a70113971/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archive/archiveResource.b4701b9fe5acf94be3fabf470371d8e47dd154d4.ja-jp.xlf)
+* Archive Datetime: 2016-02-26 16:52:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [dsc\archiveResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/archiveResource.md)
@@ -195,8 +195,8 @@
 * Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/97327e5cf906f65ff061450672db8314b4b44b8a/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf)
 * Handoff Datetime: 2016-02-23 18:15:50
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d70b2f44a37a304d7babe0c5cb03ad1a70113971/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archive/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.ja-jp.xlf)
+* Archive Datetime: 2016-02-26 16:52:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [dsc\authoringResourceClass.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/authoringResourceClass.md)
@@ -210,8 +210,8 @@
 * Handoff File: [authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/97327e5cf906f65ff061450672db8314b4b44b8a/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf)
 * Handoff Datetime: 2016-02-23 18:15:50
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d70b2f44a37a304d7babe0c5cb03ad1a70113971/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archive/authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf)
+* Archive Datetime: 2016-02-26 16:52:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [dsc\authoringResourceComposite.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/authoringResourceComposite.md)
@@ -677,8 +677,8 @@
 * Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/97327e5cf906f65ff061450672db8314b4b44b8a/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/pullServer.4b925b277da29998394af746bdbdd508fda48909.ja-jp.xlf)
 * Handoff Datetime: 2016-02-23 18:15:50
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d70b2f44a37a304d7babe0c5cb03ad1a70113971/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archive/pullServer.4b925b277da29998394af746bdbdd508fda48909.ja-jp.xlf)
+* Archive Datetime: 2016-02-26 16:52:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [dsc\pullServer.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/pullServer.md)
@@ -884,8 +884,8 @@
 * Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/416aff32aa01e640527d8a258ba9c355fec3fa01/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf)
 * Handoff Datetime: 2016-01-05 07:26:19
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/d70b2f44a37a304d7babe0c5cb03ad1a70113971/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archive/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf)
+* Archive Datetime: 2016-02-26 16:52:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/README.md)
