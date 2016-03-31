@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "236bc54973de7c2e18912c4f7a958aed284e3ce8",
+  "LastProcessedCommit": "6f3a78ffa2f31cb639f0a5c20ab0ed15c6d4ccac",
   "LastTranslatedCommit": "939e6c4ccf374665a9c489445cd95234a0e631c9",
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
@@ -1882,6 +1882,35 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\SonjaTest.bab99385ac372c3ae450ecdd8e590c3ad3219939.ja-jp.xlf",
       "HandoffFileCommit": "fff8459e292f11514e9b34d400938614cc283868",
       "HandoffDateTime": "2016-03-31T00:22:54.9653682Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "6c6311c3d6bdafefa766356266b6aa934c84f4c9": {
+      "FileHash": "6c6311c3d6bdafefa766356266b6aa934c84f4c9",
+      "SourceFileCommit": "6f3a78ffa2f31cb639f0a5c20ab0ed15c6d4ccac",
+      "SourceFilePath": "dsc\\Test1\\SonjaFileToo.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\Test1\\SonjaFileToo.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\SonjaFileToo.200fe5c96e02b06bc5f8a666c8090d57bedd4415.ja-jp.xlf",
+      "HandoffFileCommit": "598786d5efdd4e48bbb6d319055f31d86a2fd948",
+      "HandoffDateTime": "2016-03-31T00:52:27.0109573Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
