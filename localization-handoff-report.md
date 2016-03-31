@@ -1,19 +1,32 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\Test1\OpenLoc is cool.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/1484542add670a571a8154b31d35bf9e889d10de/dsc/Test1/OpenLoc is cool.md) | HandedOffSuccess | [Details](#c4a946b282c0ccb777becad09f30c4be2b9b1aab54)
+ [dsc\Test1\OpenLoc is cool.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/236bc54973de7c2e18912c4f7a958aed284e3ce8/dsc/Test1/OpenLoc is cool.md) | HandedOffSuccess | [Details](#0e5e26f8c14790ce9de7c2c788c80a895dddb47d54)
+ [dsc\Test1\SonjaTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/236bc54973de7c2e18912c4f7a958aed284e3ce8/dsc/Test1/SonjaTest.md) | HandedOffSuccess | [Details](#91b5eedfa30db98ae6b92251819037478fcc297d55)
 
 ## Item Details
-##### <a name='c4a946b282c0ccb777becad09f30c4be2b9b1aab54'></a> Source: [dsc\Test1\OpenLoc is cool.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/1484542add670a571a8154b31d35bf9e889d10de/dsc/Test1/OpenLoc is cool.md)
+##### <a name='0e5e26f8c14790ce9de7c2c788c80a895dddb47d54'></a> Source: [dsc\Test1\OpenLoc is cool.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/236bc54973de7c2e18912c4f7a958aed284e3ce8/dsc/Test1/OpenLoc is cool.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [OpenLoc is cool.e253b4bff54b0434cc180a6770a453af141b2a53.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/3693f58df4c663e490109f39934b149d9bddcb85/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/OpenLoc is cool.e253b4bff54b0434cc180a6770a453af141b2a53.ja-jp.xlf)
-* Handoff Datetime: 2016-03-28 22:33:03
+* Handoff File: [OpenLoc is cool.e253b4bff54b0434cc180a6770a453af141b2a53.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/fff8459e292f11514e9b34d400938614cc283868/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/OpenLoc is cool.e253b4bff54b0434cc180a6770a453af141b2a53.ja-jp.xlf)
+* Handoff Datetime: 2016-03-31 00:22:54
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='91b5eedfa30db98ae6b92251819037478fcc297d55'></a> Source: [dsc\Test1\SonjaTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/236bc54973de7c2e18912c4f7a958aed284e3ce8/dsc/Test1/SonjaTest.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [SonjaTest.bab99385ac372c3ae450ecdd8e590c3ad3219939.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/fff8459e292f11514e9b34d400938614cc283868/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/SonjaTest.bab99385ac372c3ae450ecdd8e590c3ad3219939.ja-jp.xlf)
+* Handoff Datetime: 2016-03-31 00:22:54
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
