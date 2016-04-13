@@ -125,6 +125,9 @@
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
   ],
+  "da410bf1b10ae360fda5734aecb19f33331aea47": [
+    "dsc\\partialConfigs.md"
+  ],
   "4d60df7ffda430acb6b5a48baf09cfa0dc9fc2b8": [
     "dsc\\partialConfigs.md"
   ],
@@ -208,5 +211,8 @@
   ],
   "2b29976a764a8377742da0a7204dff32f89ef99f": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
+  ],
+  "a20dd5927999cbb3c1125bd4ff8944954abc84a9": [
+    "dsc\\images\\Pull1.png"
   ]
 }
