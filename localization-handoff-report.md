@@ -1,11 +1,42 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\test1\archiveResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/326b2c80ae714f96ea7bdec987d4e468ca263440/dsc/test1/archiveResource.md) | HandedOffSuccess | [Details](#e04310b8654bab21ba61cb46b1b110b9791b9ffd53)
+ [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/eabfe8b0e2acbb3b9d01b2934f1df7b55730e2cb/dsc/troubleshooting.md) | OutofSyncHandedBackSuccess | [Details](#5ccc3e7d7e0616822fead2254b5393cba068803958)
 
 ## Item Details
+##### <a name='e04310b8654bab21ba61cb46b1b110b9791b9ffd53'></a> Source: [dsc\test1\archiveResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/326b2c80ae714f96ea7bdec987d4e468ca263440/dsc/test1/archiveResource.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [archiveResource.9f32c8aa8982eaf123d5f16d5ad76459150e3e62.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/81dbd9a2c6632acb29905d572dae850da5f2efb0/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/archiveResource.9f32c8aa8982eaf123d5f16d5ad76459150e3e62.ja-jp.xlf)
+* Handoff Datetime: 2016-04-16 02:22:37
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='5ccc3e7d7e0616822fead2254b5393cba068803958'></a> Source: [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/eabfe8b0e2acbb3b9d01b2934f1df7b55730e2cb/dsc/troubleshooting.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/81dbd9a2c6632acb29905d572dae850da5f2efb0/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Handoff Datetime: 2016-04-16 02:22:37
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/troubleshooting.md)
+* Current Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Current Handback Datetime: 2015-11-24 23:39:08
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
