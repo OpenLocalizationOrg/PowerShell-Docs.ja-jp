@@ -1,10 +1,10 @@
 {
-  "LastProcessedCommit": "5a3f23e2da4ffaf8a2b8e93ecdf7f525239100ad",
+  "LastProcessedCommit": "185015567e363b3ef9855aa1391dadecd3727348",
   "LastTranslatedCommit": null,
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
       "FileHash": "c3b8854dbecd4ab03e46c51a23ac00461bdd7014",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "b9602cbbae4e194c33a3983e83909f21c2c53766",
       "SourceFilePath": "CONTRIBUTING.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -62,7 +62,7 @@
     },
     "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": {
       "FileHash": "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\authoringResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -91,7 +91,7 @@
     },
     "565d71def9c15b19f10ec144ff29e82b9e205e31": {
       "FileHash": "565d71def9c15b19f10ec144ff29e82b9e205e31",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\authoringResourceClass.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -120,7 +120,7 @@
     },
     "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d": {
       "FileHash": "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\authoringResourceComposite.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -149,7 +149,7 @@
     },
     "f64cbea29a1e9998b8ade46d69c1ef1c584bd633": {
       "FileHash": "f64cbea29a1e9998b8ade46d69c1ef1c584bd633",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "2eee65490810662705adc461a433bd5e2a42b556",
       "SourceFilePath": "dsc\\authoringResourceMOF.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -178,7 +178,7 @@
     },
     "28a9448f7c815bc154612af16634435b6987b7fc": {
       "FileHash": "28a9448f7c815bc154612af16634435b6987b7fc",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d5b8f57256688164a7f04a081e63bf6b8a3ebf1a",
       "SourceFilePath": "dsc\\authoringResourceMofCS.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -207,7 +207,7 @@
     },
     "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": {
       "FileHash": "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\authoringResourceMofDesigner.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -236,7 +236,7 @@
     },
     "e3243caa7ec8682a4010e25a4ae0b2359c2d7866": {
       "FileHash": "e3243caa7ec8682a4010e25a4ae0b2359c2d7866",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "2eee65490810662705adc461a433bd5e2a42b556",
       "SourceFilePath": "dsc\\builtInResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -265,7 +265,7 @@
     },
     "25ea7bc8b398577cb2916ec833d61c38af812637": {
       "FileHash": "25ea7bc8b398577cb2916ec833d61c38af812637",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\configData.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -294,7 +294,7 @@
     },
     "065f423b82d69a7c9dbc6384711d2135a3b7e5ec": {
       "FileHash": "065f423b82d69a7c9dbc6384711d2135a3b7e5ec",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "aa4cb66e64873ec46740129bb559393bf8b08c8b",
       "SourceFilePath": "dsc\\configurations.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -323,7 +323,7 @@
     },
     "277d3032f45323050e140f466f639e5606fef53a": {
       "FileHash": "277d3032f45323050e140f466f639e5606fef53a",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\enactingConfigurations.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -352,7 +352,7 @@
     },
     "d3008e3fe7da4c118c693d2b34a0b329780f8d86": {
       "FileHash": "d3008e3fe7da4c118c693d2b34a0b329780f8d86",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "187b255bf024685c90c5c49affeff660aa887653",
       "SourceFilePath": "dsc\\images\\Push.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -383,7 +383,7 @@
     },
     "86d829b1fcdd41e648ed0594eaf337b3726c143c": {
       "FileHash": "86d829b1fcdd41e648ed0594eaf337b3726c143c",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "187b255bf024685c90c5c49affeff660aa887653",
       "SourceFilePath": "dsc\\images\\Pull.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -414,7 +414,7 @@
     },
     "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": {
       "FileHash": "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\environmentResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -443,7 +443,7 @@
     },
     "ce115dd79b0793718f8e79bb465f244b7cc725b1": {
       "FileHash": "ce115dd79b0793718f8e79bb465f244b7cc725b1",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d5b8f57256688164a7f04a081e63bf6b8a3ebf1a",
       "SourceFilePath": "dsc\\fileResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -472,7 +472,7 @@
     },
     "bc098355d65bff2203a212f2387be6f79fbb63e8": {
       "FileHash": "bc098355d65bff2203a212f2387be6f79fbb63e8",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\groupResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -501,7 +501,7 @@
     },
     "2e0a09a025bcee8fc97e417b21a51773904a0d2e": {
       "FileHash": "2e0a09a025bcee8fc97e417b21a51773904a0d2e",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxArchiveResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -530,7 +530,7 @@
     },
     "e4d20bc0f083c463514e2044ce86679041263075": {
       "FileHash": "e4d20bc0f083c463514e2044ce86679041263075",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxBuiltInResources.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -559,7 +559,7 @@
     },
     "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b": {
       "FileHash": "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxEnvironmentResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -588,7 +588,7 @@
     },
     "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": {
       "FileHash": "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxFileLineResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -617,7 +617,7 @@
     },
     "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": {
       "FileHash": "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "f70cc6819a596cfc86f314b2a4afdb1cccb67d46",
       "SourceFilePath": "dsc\\lnxFileResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -646,7 +646,7 @@
     },
     "ce17b7bb17435cd925f196e4736114982de4e056": {
       "FileHash": "ce17b7bb17435cd925f196e4736114982de4e056",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "6d3bd18e3954f8ff87cd4c721dd058d0dd805076",
       "SourceFilePath": "dsc\\lnxGettingStarted.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -675,7 +675,7 @@
     },
     "9bda555be3a52c574eccfa66b114883e2f543c70": {
       "FileHash": "9bda555be3a52c574eccfa66b114883e2f543c70",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxGroupResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -704,7 +704,7 @@
     },
     "37c34dfa85386e8d190a5cfd459c3a6885cca838": {
       "FileHash": "37c34dfa85386e8d190a5cfd459c3a6885cca838",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "14a81cc856e30ccc4873b5c9dfe07dac6cbee49c",
       "SourceFilePath": "dsc\\lnxPackageResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -733,7 +733,7 @@
     },
     "056b0c86701cfd096c863560836dc129ecefc862": {
       "FileHash": "056b0c86701cfd096c863560836dc129ecefc862",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxScriptResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -762,7 +762,7 @@
     },
     "3d766f5b9e2bb9284e717d5a998b1a7c291221fc": {
       "FileHash": "3d766f5b9e2bb9284e717d5a998b1a7c291221fc",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxServiceResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -791,7 +791,7 @@
     },
     "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2": {
       "FileHash": "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\lnxSshAuthorizedKeysResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -820,7 +820,7 @@
     },
     "31eea97ab4912ca241557cddbf59929e085ebe80": {
       "FileHash": "31eea97ab4912ca241557cddbf59929e085ebe80",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "14a81cc856e30ccc4873b5c9dfe07dac6cbee49c",
       "SourceFilePath": "dsc\\lnxUserResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -849,7 +849,7 @@
     },
     "0f4922e1df8725aad839211dbe0dfc532692f606": {
       "FileHash": "0f4922e1df8725aad839211dbe0dfc532692f606",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "f70cc6819a596cfc86f314b2a4afdb1cccb67d46",
       "SourceFilePath": "dsc\\logResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -878,7 +878,7 @@
     },
     "d7b3908ae670a7bcc976f2675834316862a25802": {
       "FileHash": "d7b3908ae670a7bcc976f2675834316862a25802",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\metaConfig.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -907,7 +907,7 @@
     },
     "ef2664b6dd61bd55898971adf7e4a57f92be88cc": {
       "FileHash": "ef2664b6dd61bd55898971adf7e4a57f92be88cc",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\metaConfig4.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -936,7 +936,7 @@
     },
     "7f5f99f0f0befde13272221e376006dffbddb994": {
       "FileHash": "7f5f99f0f0befde13272221e376006dffbddb994",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "376a59211c53f9c416931ef8601db3ade2f24bd8",
       "SourceFilePath": "dsc\\overview.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -965,7 +965,7 @@
     },
     "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": {
       "FileHash": "9c9f1da0b560c44c9760583c4193bdf4eaee09f7",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "ed88bb5bf00e243a019d59dbcb038a6c485c141a",
       "SourceFilePath": "dsc\\packageResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -994,7 +994,7 @@
     },
     "3f1843e8a1335617c562084ce69fc82ae7c2c694": {
       "FileHash": "3f1843e8a1335617c562084ce69fc82ae7c2c694",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\partialConfigs.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1023,7 +1023,7 @@
     },
     "3e61149f7b05f74d662d3038233013ffdcbed1a3": {
       "FileHash": "3e61149f7b05f74d662d3038233013ffdcbed1a3",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "187b255bf024685c90c5c49affeff660aa887653",
       "SourceFilePath": "dsc\\images\\PartialConfig1.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -1054,7 +1054,7 @@
     },
     "1ba842005c2b1ce80a3670429b3e010c7b1c1f59": {
       "FileHash": "1ba842005c2b1ce80a3670429b3e010c7b1c1f59",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "187b255bf024685c90c5c49affeff660aa887653",
       "SourceFilePath": "dsc\\images\\PartialConfigPullServer.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -1085,7 +1085,7 @@
     },
     "4cb0a0836e56ca31f9e101be81e1427493cbbcd5": {
       "FileHash": "4cb0a0836e56ca31f9e101be81e1427493cbbcd5",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d38c872c4066242ee22cd4855b9b37adb934e8d5",
       "SourceFilePath": "dsc\\pullClient.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1114,7 +1114,7 @@
     },
     "54bb78b313c4f0c721862910496c5154ed5444ef": {
       "FileHash": "54bb78b313c4f0c721862910496c5154ed5444ef",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "f70cc6819a596cfc86f314b2a4afdb1cccb67d46",
       "SourceFilePath": "dsc\\pullClientConfigID.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1143,7 +1143,7 @@
     },
     "3714670bd9ded38e54c1f2e3f64658950c6d3f40": {
       "FileHash": "3714670bd9ded38e54c1f2e3f64658950c6d3f40",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\pullClientConfigID4.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1172,7 +1172,7 @@
     },
     "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": {
       "FileHash": "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "51f5a907d57306e56777408deaf29a9cf3661b30",
       "SourceFilePath": "dsc\\pullClientConfigNames.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1201,7 +1201,7 @@
     },
     "2668c9aa8c36621eb9797e634354bc7fa285d3b8": {
       "FileHash": "2668c9aa8c36621eb9797e634354bc7fa285d3b8",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "91d0fdf580ec7356c13839cf9374062bdd57af94",
       "SourceFilePath": "dsc\\pullServer.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1230,7 +1230,7 @@
     },
     "fc1456c57ade6862957e54ee53f18f189785848a": {
       "FileHash": "fc1456c57ade6862957e54ee53f18f189785848a",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "dd66f72a36b2c919f0428d7c505e15fd78a2a1b4",
       "SourceFilePath": "dsc\\queryServerNodes.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1259,7 +1259,7 @@
     },
     "44f3bb3bec83fd779c83d0326d55c88ead77cfba": {
       "FileHash": "44f3bb3bec83fd779c83d0326d55c88ead77cfba",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "3666fa303c4cae18b65d03db019576dc5aa5c798",
       "SourceFilePath": "dsc\\registryResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1288,7 +1288,7 @@
     },
     "df54abe3d92ffaff2998e9fb3157b42cf83143c2": {
       "FileHash": "df54abe3d92ffaff2998e9fb3157b42cf83143c2",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "aa4cb66e64873ec46740129bb559393bf8b08c8b",
       "SourceFilePath": "dsc\\resources.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1317,7 +1317,7 @@
     },
     "b081337b68091f95498d23fecbc64701866b2cec": {
       "FileHash": "b081337b68091f95498d23fecbc64701866b2cec",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "3666fa303c4cae18b65d03db019576dc5aa5c798",
       "SourceFilePath": "dsc\\scriptResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1346,7 +1346,7 @@
     },
     "14cf6c2005eb756200e7fd065b61e4120d84c02e": {
       "FileHash": "14cf6c2005eb756200e7fd065b61e4120d84c02e",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\secureMOF.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1375,7 +1375,7 @@
     },
     "2290a81a8dbc82b7881d2b6006d70a90578f9a56": {
       "FileHash": "2290a81a8dbc82b7881d2b6006d70a90578f9a56",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "0e70f841ada858e2ad29c834ae360af80a81b114",
       "SourceFilePath": "dsc\\secureServer.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1404,7 +1404,7 @@
     },
     "ca609ad6055d8053e43e482ed2e57b3db41c3549": {
       "FileHash": "ca609ad6055d8053e43e482ed2e57b3db41c3549",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\serviceResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1433,7 +1433,7 @@
     },
     "66cefb1620ad412d3f4e041561ae1df356fdb1e6": {
       "FileHash": "66cefb1620ad412d3f4e041561ae1df356fdb1e6",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "49cb259ea5d66cef2a85e6245c0dec7332f8b150",
       "SourceFilePath": "dsc\\TOC.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1462,7 +1462,7 @@
     },
     "2886767875ee6a9882ca050e34787cfa1fb64109": {
       "FileHash": "2886767875ee6a9882ca050e34787cfa1fb64109",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "d7ec284f9478e6fc9104f1700f587d313bc53e8b",
       "SourceFilePath": "dsc\\troubleshooting.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1491,7 +1491,7 @@
     },
     "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": {
       "FileHash": "e4b793025b00cb3137eddc0e7ec437f03abdf3c4",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "3666fa303c4cae18b65d03db019576dc5aa5c798",
       "SourceFilePath": "dsc\\userResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1520,7 +1520,7 @@
     },
     "1484f03d1d80b73e3131095e3363b246929a0a35": {
       "FileHash": "1484f03d1d80b73e3131095e3363b246929a0a35",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "3666fa303c4cae18b65d03db019576dc5aa5c798",
       "SourceFilePath": "dsc\\windowsfeatureResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1549,7 +1549,7 @@
     },
     "47c387c525a58a88f18e61920736a6e0e7f2098d": {
       "FileHash": "47c387c525a58a88f18e61920736a6e0e7f2098d",
-      "SourceFileCommit": "9a43f1261204b8d1577ec78786f8f7cee724668a",
+      "SourceFileCommit": "db670ed85152b9005b1f6175658890e1bb8ca47d",
       "SourceFilePath": "dsc\\windowsProcessResource.md",
       "HandoffReason": 1,
       "DependencyFrom": null,
@@ -1618,6 +1618,35 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\live\\README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ja-jp.xlf",
       "HandoffFileCommit": "3cd6992c06dfa371499cf75379dd6d92d0bd9a03",
       "HandoffDateTime": "2016-01-05T07:32:10.5183253Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "4da61995a6b849dedc3ac8ec8ab3edbbdccb28c8": {
+      "FileHash": "4da61995a6b849dedc3ac8ec8ab3edbbdccb28c8",
+      "SourceFileCommit": "185015567e363b3ef9855aa1391dadecd3727348",
+      "SourceFilePath": "dsc\\archiveResource.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\archiveResource.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\live\\archiveResource.b4701b9fe5acf94be3fabf470371d8e47dd154d4.ja-jp.xlf",
+      "HandoffFileCommit": "21b4490e6f0ac59af0f94f1e421d9a275a706b4e",
+      "HandoffDateTime": "2016-04-18T21:20:25.42227Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
