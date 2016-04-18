@@ -161,9 +161,6 @@
   "66cefb1620ad412d3f4e041561ae1df356fdb1e6": [
     "dsc\\TOC.md"
   ],
-  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
-    "dsc\\troubleshooting.md"
-  ],
   "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": [
     "dsc\\userResource.md"
   ],
@@ -199,5 +196,8 @@
   ],
   "a20dd5927999cbb3c1125bd4ff8944954abc84a9": [
     "dsc\\images\\Pull1.png"
+  ],
+  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
+    "dsc\\move\\rename_troubleshooting.md"
   ]
 }
