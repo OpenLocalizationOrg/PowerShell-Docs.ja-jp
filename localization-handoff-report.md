@@ -1,37 +1,47 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\authoringResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/122d2440049bf8526daced2cb9932209a6ef15bc/dsc/authoringResource.md) | OutofSyncHandedBackSuccess | [Details](#74269f85cf83aab7301e3e2638b3f58ff383aa385)
- [dsc\Test1\MoraviaDemo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/b55a68d179ab003b414a0ab6459fdd2923ab108c/dsc/Test1/MoraviaDemo.md) | HandedOffFailed | [Details](#e60976865fe9b1b0115509c66b9973dea16992ec55)
+ [albina1\Include.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/5f388d72477a9864b18c30b1a09db315f0423452/albina1/Include.md) | HandedOffSuccess | [Details](#571e8662abd7ee81907d4982e0cac3398a4eda106)
+ [dsc\Sonja_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/4d7c513d661eecaff9ae3435358d6fc66dc420ce/dsc/Sonja_in_dsc_folder.md) | HandedOffSuccess | [Details](#b94ed3942916030f8c3115c0f7c5baf217dbae4c57)
+ [dsc\Test1\MoraviaDemo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/b55a68d179ab003b414a0ab6459fdd2923ab108c/dsc/Test1/MoraviaDemo.md) | HandedOffFailed | [Details](#e60976865fe9b1b0115509c66b9973dea16992ec59)
 
 ## Item Details
-##### <a name='74269f85cf83aab7301e3e2638b3f58ff383aa385'></a> Source: [dsc\authoringResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/122d2440049bf8526daced2cb9932209a6ef15bc/dsc/authoringResource.md)
-* Status: OutofSyncHandedBackSuccess
+##### <a name='571e8662abd7ee81907d4982e0cac3398a4eda106'></a> Source: [albina1\Include.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/5f388d72477a9864b18c30b1a09db315f0423452/albina1/Include.md)
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [authoringResource.106f1f4d77068b2b95f1927b611b5f405ec7a317.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/768e0cf52acb93b30ffd59811b4f1808c819055c/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/authoringResource.106f1f4d77068b2b95f1927b611b5f405ec7a317.ja-jp.xlf)
-* Handoff Datetime: 2016-04-20 18:42:10
+* Handoff File: [Include.d5d7a7cbff1647794600448b37e1772193fdeb6e.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/39eef83488a244085c391df2922f50e9890ecfcd/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Include.d5d7a7cbff1647794600448b37e1772193fdeb6e.ja-jp.xlf)
+* Handoff Datetime: 2016-05-07 00:09:19
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\authoringResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/f4149b4343be335b5007664aa1d513f00a5ec380/dsc/authoringResource.md)
-* Current Handback File: [authoringResource.106f1f4d77068b2b95f1927b611b5f405ec7a317.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/authoringResource.106f1f4d77068b2b95f1927b611b5f405ec7a317.ja-jp.xlf)
-* Current Handback Datetime: 2015-11-24 23:39:08
 * [Back to Top](#report-top)
 
-##### <a name='e60976865fe9b1b0115509c66b9973dea16992ec55'></a> Source: [dsc\Test1\MoraviaDemo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/b55a68d179ab003b414a0ab6459fdd2923ab108c/dsc/Test1/MoraviaDemo.md)
+##### <a name='b94ed3942916030f8c3115c0f7c5baf217dbae4c57'></a> Source: [dsc\Sonja_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/4d7c513d661eecaff9ae3435358d6fc66dc420ce/dsc/Sonja_in_dsc_folder.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [Sonja_in_dsc_folder.9fced11a4d3bd93bff93f7067a2b176a308a36ce.ja-jp.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/39eef83488a244085c391df2922f50e9890ecfcd/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Sonja_in_dsc_folder.9fced11a4d3bd93bff93f7067a2b176a308a36ce.ja-jp.xlf)
+* Handoff Datetime: 2016-05-07 00:09:19
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='e60976865fe9b1b0115509c66b9973dea16992ec59'></a> Source: [dsc\Test1\MoraviaDemo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/b55a68d179ab003b414a0ab6459fdd2923ab108c/dsc/Test1/MoraviaDemo.md)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
 * Handoff Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Ignored
-* Handoff Error: [handoff_transform_failed](#e60976865fe9b1b0115509c66b9973dea16992ec55handoff_transform_failed)
+* Handoff Error: [handoff_transform_failed](#e60976865fe9b1b0115509c66b9973dea16992ec59handoff_transform_failed)
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -40,7 +50,7 @@
 
 
 ## Error Details
-##### <a name='e60976865fe9b1b0115509c66b9973dea16992ec55handoff_transform_failed'></a> Source: [dsc\Test1\MoraviaDemo.md](#e60976865fe9b1b0115509c66b9973dea16992ec55)
+##### <a name='e60976865fe9b1b0115509c66b9973dea16992ec59handoff_transform_failed'></a> Source: [dsc\Test1\MoraviaDemo.md](#e60976865fe9b1b0115509c66b9973dea16992ec59)
 * Error Code: handoff_transform_failed
 * Error Message: Handoff source file: dsc\Test1\MoraviaDemo.md transformed failed.
 * Retriable: False
