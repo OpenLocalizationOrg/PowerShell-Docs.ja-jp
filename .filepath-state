@@ -2,6 +2,9 @@
   "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": [
     "CONTRIBUTING.md"
   ],
+  "abd70c1285a5f33e209692e746b7971926f54a58": [
+    "dsc\\authoringResource.md"
+  ],
   "74269f85cf83aab7301e3e2638b3f58ff383aa38": [
     "dsc\\authoringResource.md"
   ],
@@ -113,6 +116,9 @@
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
   ],
+  "17c9149903fd6a7ce6904b03a76619795944554e": [
+    "dsc\\partialConfigs.md"
+  ],
   "da410bf1b10ae360fda5734aecb19f33331aea47": [
     "dsc\\partialConfigs.md"
   ],
@@ -193,6 +199,9 @@
   ],
   "d4e485c4e2461db1b7cca67d12d1a7dd331996a6": [
     "dsc\\testmove2\\overview-test2.md"
+  ],
+  "1e97e7496cbb66ff8b8a10b1412383cf9f3f4c34": [
+    "dsc\\Test1\\OpenLoc ROCKS.md"
   ],
   "2b29976a764a8377742da0a7204dff32f89ef99f": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
