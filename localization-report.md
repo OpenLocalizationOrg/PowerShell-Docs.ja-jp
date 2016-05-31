@@ -356,11 +356,11 @@
 * Handoff File: [3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/3cd6992c06dfa371499cf75379dd6d92d0bd9a03/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/live/3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg)
 * Handoff Datetime: 2016-01-05 07:32:10
 * Handoff Reason: IsDependency
+* Dependency From: dsc\partialConfigs.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: dsc\partialConfigs.md
 * [Back to Top](#report-top)
 
 ##### <a name='1ba842005c2b1ce80a3670429b3e010c7b1c1f5922'></a> Source: [dsc\images\PartialConfigPullServer.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/187b255bf024685c90c5c49affeff660aa887653/dsc/images/PartialConfigPullServer.jpg)
@@ -369,11 +369,11 @@
 * Handoff File: [1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg](https://github.com/OpenLocalizationOrg/olhandoff/blob/3cd6992c06dfa371499cf75379dd6d92d0bd9a03/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/live/1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg)
 * Handoff Datetime: 2016-01-05 07:32:10
 * Handoff Reason: IsDependency
+* Dependency From: dsc\partialConfigs.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: dsc\partialConfigs.md
 * [Back to Top](#report-top)
 
 ##### <a name='86d829b1fcdd41e648ed0594eaf337b3726c143c23'></a> Source: [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/187b255bf024685c90c5c49affeff660aa887653/dsc/images/Pull.png)
@@ -382,11 +382,11 @@
 * Handoff File: [86d829b1fcdd41e648ed0594eaf337b3726c143c.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/3cd6992c06dfa371499cf75379dd6d92d0bd9a03/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/live/86d829b1fcdd41e648ed0594eaf337b3726c143c.png)
 * Handoff Datetime: 2016-01-05 07:32:10
 * Handoff Reason: IsDependency
+* Dependency From: dsc\enactingConfigurations.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: dsc\enactingConfigurations.md
 * [Back to Top](#report-top)
 
 ##### <a name='d3008e3fe7da4c118c693d2b34a0b329780f8d8624'></a> Source: [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/187b255bf024685c90c5c49affeff660aa887653/dsc/images/Push.png)
@@ -395,11 +395,11 @@
 * Handoff File: [d3008e3fe7da4c118c693d2b34a0b329780f8d86.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/3cd6992c06dfa371499cf75379dd6d92d0bd9a03/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/live/d3008e3fe7da4c118c693d2b34a0b329780f8d86.png)
 * Handoff Datetime: 2016-01-05 07:32:10
 * Handoff Reason: IsDependency
+* Dependency From: dsc\enactingConfigurations.md
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: dsc\enactingConfigurations.md
 * [Back to Top](#report-top)
 
 ##### <a name='2e0a09a025bcee8fc97e417b21a51773904a0d2e25'></a> Source: [dsc\lnxArchiveResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/d38c872c4066242ee22cd4855b9b37adb934e8d5/dsc/lnxArchiveResource.md)
