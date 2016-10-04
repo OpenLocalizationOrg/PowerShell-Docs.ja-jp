@@ -1,16 +1,29 @@
 {
-    "build_entry_point": "",
-    "docsets_to_publish": [
-        {
-            "docset_name": "PowerShell_PowerShell-docs_dsc",
-            "build_output_subfolder": "dsc",
-            "locale": "ja-jp",
-            "version": 0,
-            "open_to_public_contributors": "true",
-            "type_mapping": { 
-                "Conceptual": "Content"
-            } 
-        }
-    ],
-    "notification_subscribers": ["fenxu@microsoft.com", "alsobole@microsoft.com"]
+  "build_entry_point": "",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "PowerShell_PowerShell-docs_dsc",
+      "build_source_folder": "dsc",
+      "build_output_subfolder": "dsc",
+      "locale": "ja-jp",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    }
+  ],
+  "notification_subscribers": [
+    "fenxu@microsoft.com",
+    "alsobole@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "master-oldev",
+    "live-oldev"
+  ],
+  "skip_source_output_uploading": false,
+  "dependent_repositories": []
 }
