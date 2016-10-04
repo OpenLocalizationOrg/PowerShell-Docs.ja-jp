@@ -1,6 +1,6 @@
 {
-  "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": [
-    "CONTRIBUTING.md"
+  "1ada9b4a2f68bd37190ee6f46fb01996893115e3": [
+    "dsc\\authoringResource.md"
   ],
   "abd70c1285a5f33e209692e746b7971926f54a58": [
     "dsc\\authoringResource.md"
@@ -53,12 +53,6 @@
   "277d3032f45323050e140f466f639e5606fef53a": [
     "dsc\\enactingConfigurations.md"
   ],
-  "d3008e3fe7da4c118c693d2b34a0b329780f8d86": [
-    "dsc\\images\\Push.png"
-  ],
-  "86d829b1fcdd41e648ed0594eaf337b3726c143c": [
-    "dsc\\images\\Pull.png"
-  ],
   "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": [
     "dsc\\environmentResource.md"
   ],
@@ -68,8 +62,14 @@
   "bc098355d65bff2203a212f2387be6f79fbb63e8": [
     "dsc\\groupResource.md"
   ],
+  "e961fa9fbc9022952ee31b5225dfe5cdd73b3583": [
+    "dsc\\lnxArchiveResource.md"
+  ],
   "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
     "dsc\\lnxArchiveResource.md"
+  ],
+  "7e91f5b7b1fd993e6826f8c6a5d55604ffe4e536": [
+    "dsc\\lnxBuiltInResources.md"
   ],
   "e4d20bc0f083c463514e2044ce86679041263075": [
     "dsc\\lnxBuiltInResources.md"
@@ -79,6 +79,9 @@
   ],
   "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": [
     "dsc\\lnxFileLineResource.md"
+  ],
+  "334b98afff951cf26494bd07258bb847df727d44": [
+    "dsc\\lnxFileResource.md"
   ],
   "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
     "dsc\\lnxFileResource.md"
@@ -91,6 +94,9 @@
   ],
   "37c34dfa85386e8d190a5cfd459c3a6885cca838": [
     "dsc\\lnxPackageResource.md"
+  ],
+  "7dfbf1a64124900dc17f1c33bada7a3cfae517d9": [
+    "dsc\\lnxScriptResource.md"
   ],
   "056b0c86701cfd096c863560836dc129ecefc862": [
     "dsc\\lnxScriptResource.md"
@@ -182,12 +188,6 @@
   "47c387c525a58a88f18e61920736a6e0e7f2098d": [
     "dsc\\windowsProcessResource.md"
   ],
-  "8c1262cca40e2a1f72254cf349d163ee2a4bcebe": [
-    "README.md"
-  ],
-  "9abd5f2bd558706c03e2c0da58503ef914d08142": [
-    "README.md"
-  ],
   "a659f12ae049937714da659dd95d40ea9774222c": [
     "dsc\\Test1\\SonjaFileToo.md"
   ],
@@ -206,12 +206,6 @@
   "2b29976a764a8377742da0a7204dff32f89ef99f": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
   ],
-  "e04310b8654bab21ba61cb46b1b110b9791b9ffd": [
-    "dsc\\test1\\archiveResource.md"
-  ],
-  "a20dd5927999cbb3c1125bd4ff8944954abc84a9": [
-    "dsc\\images\\Pull1.png"
-  ],
   "5ccc3e7d7e0616822fead2254b5393cba0688039": [
     "dsc\\move\\rename_troubleshooting.md"
   ],
@@ -223,5 +217,635 @@
   ],
   "b94ed3942916030f8c3115c0f7c5baf217dbae4c": [
     "dsc\\Sonja_in_dsc_folder.md"
+  ],
+  "7bebdfcb59f464b7ec3e8cc43ea117d631abb9c2": [
+    "albina\\Exclude.md"
+  ],
+  "cab70a9dd40b81e9f4a46dbba873c2bcfe75ffc6": [
+    "albina\\Garbage.md"
+  ],
+  "a9ddb1ddcf96b6e5d6c79ef33df841c8bd54a771": [
+    "ATADocsTest\\ata-architecture.md"
+  ],
+  "81fb50ee2e1d4841e391a1a0c6f4d3aa02c02618": [
+    "ATADocsTest\\ata-capacity-planning.md"
+  ],
+  "a6de5f463da5906910470ca54c9bceb4e2954ba8": [
+    "ATADocsTest\\ata-database-management.md"
+  ],
+  "2829b11b9d43ad933d08262159f8202bc4cc924d": [
+    "ATADocsTest\\ata-health-center.md"
+  ],
+  "4e4c455f09d5f14e48bcd84c33f375dce325d60b": [
+    "ATADocsTest\\ata-prerequisites.md"
+  ],
+  "b61fda76181a72287d3290dc093732d35164ed96": [
+    "ATADocsTest\\ata-release-notes.md"
+  ],
+  "d4b8e27b2d120d8b01289af1acd903f12f5cc019": [
+    "ATADocsTest\\ata-role-groups.md"
+  ],
+  "60c22df4e152a452471d2067cbcda32d739e4497": [
+    "ATADocsTest\\ata-silent-installation.md"
+  ],
+  "97a1ceae8453bfd305efeae7cc4760282c962c4c": [
+    "ATADocsTest\\ata-technical-faq.md"
+  ],
+  "f260740089794b024554d64eeb43477cc1a183d9": [
+    "ATADocsTest\\ata-threats.md"
+  ],
+  "0ef0b75bc59206390657bdfb923c8462f8a6b786": [
+    "ATADocsTest\\ata-update-1.5-migration-guide.md"
+  ],
+  "cfe7756144a7d9a6a9f225048df620cfe55b4b81": [
+    "ATADocsTest\\ata-update-1.6-migration-guide.md"
+  ],
+  "cf22e9bd54699344c478ab4d169220c93e053f5b": [
+    "ATADocsTest\\ata-update-1.7-migration-guide.md"
+  ],
+  "691c336ddaccfa6ec4e569e74eb799f56f1b5732": [
+    "ATADocsTest\\configure-event-collection.md"
+  ],
+  "9e2f383153bffe521b776962d4be5cb7b0b12066": [
+    "ATADocsTest\\configure-port-mirroring.md"
+  ],
+  "a05f2536897cd7d9e3534c0c58165817e0138d45": [
+    "ATADocsTest\\index.md"
+  ],
+  "3cfc426c089bbf859d0eb603d6a5373e23602c3b": [
+    "ATADocsTest\\install-ata.md"
+  ],
+  "80256eee6e1f7ca899a07d6475836c0e53ef4263": [
+    "ATADocsTest\\install-ata-step1.md"
+  ],
+  "de6ea38e89f37364320c250722f7b96781b1629f": [
+    "ATADocsTest\\install-ata-step2.md"
+  ],
+  "c39a9ca7698b6e59529d6fe630866469a843f6ff": [
+    "ATADocsTest\\install-ata-step3.md"
+  ],
+  "0c61b2b322e3b91dcb02f0f400ce94c6d232fb89": [
+    "ATADocsTest\\install-ata-step4.md"
+  ],
+  "25989a6f75058cbd919b12a3e7c05771b164887d": [
+    "ATADocsTest\\install-ata-step5.md"
+  ],
+  "58135cf04e740998fb837bfbb03a68faeaaf79ed": [
+    "ATADocsTest\\install-ata-step6.md"
+  ],
+  "18556032aa7ec7a0f5ae25f1504b31d024f5b52b": [
+    "ATADocsTest\\manage-telemetry-settings.md"
+  ],
+  "880403aa83c470eac15c92a2ec25897a471700f3": [
+    "ATADocsTest\\modifying-ata-config-centercert.md"
+  ],
+  "137e5feb9e36046193acaf81e7e493a3850a750e": [
+    "ATADocsTest\\modifying-ata-config-centerip.md"
+  ],
+  "80ef404fcbea9bd1deea509e3fbb78b2928054a7": [
+    "ATADocsTest\\modifying-ata-config-consoleurl.md"
+  ],
+  "ab209972f0870d05f4e0645c1ab8a4571696d812": [
+    "ATADocsTest\\modifying-ata-config-dcpassword.md"
+  ],
+  "ed5d084509d718c83b93427000582be54241366e": [
+    "ATADocsTest\\modifying-ata-configuration.md"
+  ],
+  "36d0690d47544db542666f785d43ee2a1e7d98d7": [
+    "ATADocsTest\\operate-ata.md"
+  ],
+  "b40ffb0a1f8991f40d4f70f8053f2b97323aacdb": [
+    "ATADocsTest\\placeholder.md"
+  ],
+  "a61d9b776eab87a4005c2b0ad4f33d1f17470fee": [
+    "ATADocsTest\\preinstall-ata.md"
+  ],
+  "7568c15906fbdcc2c861cb45d72a49ca6eebe8e3": [
+    "ATADocsTest\\setting-ata-alerts.md"
+  ],
+  "a76874be9009cc6ea0880e6dc79ae69369591943": [
+    "ATADocsTest\\setting-syslog-email-server-settings.md"
+  ],
+  "24b9e0d9bde0e8d7ff9e85f132134c52861b500c": [
+    "ATADocsTest\\TOC.md"
+  ],
+  "82e79752689029abd1319aedd1a4b1370e9321bd": [
+    "ATADocsTest\\troubleshooting-ata-known-errors.md"
+  ],
+  "aac9d5e74c540c7b28d94235966b06be992153e3": [
+    "ATADocsTest\\troubleshooting-ata-using-ata-database.md"
+  ],
+  "7b8805d39c588dc6f680f334af9372a6ed2fec46": [
+    "ATADocsTest\\troubleshooting-ata-using-logs.md"
+  ],
+  "75646ac1e1c6c11769510119045cd3b20fd01818": [
+    "ATADocsTest\\troubleshooting-ata-using-perf-counters.md"
+  ],
+  "ea660dbcdf27df63717258136b01e4ba0118542d": [
+    "ATADocsTest\\validate-port-mirroring.md"
+  ],
+  "c83ab31ead73015aa95bf2f252d0a706def0fbab": [
+    "ATADocsTest\\what-is-ata.md"
+  ],
+  "c3ce91d8d53105e8dae6c437596d6c2b8326f253": [
+    "ATADocsTest\\whats-new-version-1.4.md"
+  ],
+  "6f443269d36d97fb5f7dae51f6a58890b64e2105": [
+    "ATADocsTest\\whats-new-version-1.5.md"
+  ],
+  "a2b431308e80dd85e93436a97429f194ae833d27": [
+    "ATADocsTest\\whats-new-version-1.6.md"
+  ],
+  "2b1b8f2c41a9b07992ebcafc8c2daeccf6738ead": [
+    "ATADocsTest\\whats-new-version-1.7.md"
+  ],
+  "78430b2743930ec6c5ea66e8ed9eedbd22324870": [
+    "ATADocsTest\\working-with-ata-console.md"
+  ],
+  "f53ed05e169391b0049b4d108177297e99909113": [
+    "ATADocsTest\\working-with-detection-settings.md"
+  ],
+  "6d488e9956c3ce6f130f00dc3c439fc2c6d460a3": [
+    "ATADocsTest\\working-with-suspicious-activities.md"
+  ],
+  "538a8730a50b0dbe928c79c4620c946ac23f95cd": [
+    "OsmondTest\\art\\a.md"
+  ],
+  "2b6eeb0c78b71e6819dfa9edf89c53fcc1f803e0": [
+    "OsmondTest\\art\\b.md"
+  ],
+  "8edb22eef9b3f1e77a48089a6189110b4c0d82c7": [
+    "OsmondTest\\rename\\2.md"
+  ],
+  "fb40b052dd944c3e57a373f4c3681a783fdf51e9": [
+    "OsmondTest\\rename\\3.md"
+  ],
+  "c34920d6f1dcb400130ef47986f7dd7daf1f6044": [
+    "OsmondTest\\rename1\\1111.md"
+  ],
+  "189b5407eb7fa9e21901c1e8197a9b969b8301d9": [
+    "OsmondTest\\rename1\\4.md"
+  ],
+  "de5315ca20afe8b44d4fc75fdd4220fb36b0fc6c": [
+    "OsmondTest\\rename1\\7.md"
+  ],
+  "a60301c98d57790675de409614cde11025cdab81": [
+    "OsmondTest\\rename1\\yuweitest.md"
+  ],
+  "dd71038f3463f511ee7403dbcbc87195302d891c": [
+    "OsmondTest\\same\\1.md"
+  ],
+  "152011552060bd4ec01738a399e284ac94f43e0e": [
+    "OsmondTest\\same\\4.md"
+  ],
+  "f1ee5a4e953dd54e61459666b0120354e099f4e7": [
+    "OsmondTest\\same\\6.md"
+  ],
+  "52c92a4abf7ca87ca8f3f9bc60cc6a50c236870f": [
+    "OsmondTest\\test1.md"
+  ],
+  "aebd0387d240dca9ff57538cd85d8e4f4e3b1752": [
+    "OsmondTest\\test2.md"
+  ],
+  "0b5755ab12bc76368d62fe26ed909903963a58d7": [
+    "OsmondTest\\test3.md"
+  ],
+  "c97577dee9f517e6c4e444d869aa7542d0418b34": [
+    "OsmondTest\\test4.md"
+  ],
+  "9a6a6a4ea14ff7a5444d702d73827375dc77d44e": [
+    "OsmondTest\\test5.md"
+  ],
+  "a839fcccf62e9fe680c9a0c2256ed89b9e4d02fb": [
+    "OsmondTest\\token\\a.md"
+  ],
+  "b1d7a9ff98b6862856884f5ca6904660d59f90cd": [
+    "OsmondTest\\token\\includes\\b-token.md"
+  ],
+  "e48f51fab58bf4ad5822617eec045a671b740548": [
+    "Sonja\\account-portal-merged-with-Office-365.md"
+  ],
+  "93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d": [
+    "Sonja\\add-apps.md"
+  ],
+  "0951a8c8ae635fed089e7bbf87018282a73daf74": [
+    "Sonja\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  ],
+  "33ef6a417c38ab04095afc8fb7573ea92253f229": [
+    "Sonja\\add-apps-for-windows-pcs-in-microsoft-intune.md"
+  ],
+  "cf1fde5b5ed55552e573c724b6165203033683da": [
+    "Sonja\\android-compliance-policy-settings-in-microsoft-intune.md"
+  ],
+  "652f3aac9bd0925bd8e8718df04c0eb4b5629902": [
+    "Sonja\\android-mam-policy-settings.md"
+  ],
+  "870d735644f08e3eca8c72bca2b156947d798cb5": [
+    "Sonja\\android-policy-settings-in-microsoft-intune.md"
+  ],
+  "1ddb7a30a6f23a3f3d754bd18975c50f32662578": [
+    "Sonja\\azure-portal-for-microsoft-intune-mam-policies.md"
+  ],
+  "ad63978de4b9fdcacc0046fc05202ac7d7e5edd6": [
+    "Sonja\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
+  ],
+  "9ef18ee054928fcfb12a36fe8ac3ad3c2909f6c1": [
+    "Sonja\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
+  ],
+  "629836ef006e1c33c240f9daa373817a685c14bc": [
+    "Sonja\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md"
+  ],
+  "c43104ff199e1800bfded35154d2be0cfd0c40f3": [
+    "Sonja\\configure-and-deploy-lookout-for-work-apps.md"
+  ],
+  "1584022db4b312919f88ef39dd3912c47b859099": [
+    "Sonja\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
+  ],
+  "da988778ab1156597fe19ac40bab155be6046d75": [
+    "Sonja\\Configure-certificate-infrastructure-for-pfx.md"
+  ],
+  "adef720c31eea978dc899f62e1eef60af2812a3d": [
+    "Sonja\\Configure-certificate-infrastructure-for-scep.md"
+  ],
+  "e383b39493a7113d4e7c50b16df01d291b45036e": [
+    "Sonja\\Configure-Intune-certificate-profiles.md"
+  ],
+  "c7fe00828108ac3f84e91a0eeb3ed4c344228588": [
+    "Sonja\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
+  ],
+  "c2c2774dd85d8ce9c056248f801220e06f17063b": [
+    "Sonja\\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md"
+  ],
+  "1059aae1c90e3623201281d4cf14d9db442e3f20": [
+    "Sonja\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
+  ],
+  "2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2": [
+    "Sonja\\create-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
+  "686610249b35f81e9ad7a87fe20d736a32eafb43": [
+    "Sonja\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
+  "6f6a18318070aa9e7d6dfc27a820d9d8f2054069": [
+    "Sonja\\Custom-configurations-for-VPN-profiles.md"
+  ],
+  "937e291f193f61329598395baa63c24d7fefa25f": [
+    "Sonja\\custom-policy-to-allow-and-block-samsung-knox-apps.md"
+  ],
+  "0e5761859f4c0c30f1bd818c968bba3a3c6c60b6": [
+    "Sonja\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
+  ],
+  "8658df1fb9932fb2cab984a13557aad684569df5": [
+    "Sonja\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  ],
+  "ef042e24af2300250cf2bd1bf9803678e252b773": [
+    "Sonja\\deploy-apps.md"
+  ],
+  "904b89a92cef870f4672e5f40e6ac91ece10d3b7": [
+    "Sonja\\deploy-apps-in-microsoft-intune.md"
+  ],
+  "45130e3e12968d9df579a7a9d0cade0343b7c165": [
+    "Sonja\\edition-upgrade-policy-settings-in-microsoft-intune.md"
+  ],
+  "e5ae5a1d5cb077b88fa73cd2b58cd84144e4a9d3": [
+    "Sonja\\enable-access-to-company-resources-with-microsoft-intune.md"
+  ],
+  "761372b2c8b81699bc2584ab1ef8d0f9d523abe9": [
+    "Sonja\\enable-device-threat-protection-rule-in-compliance-policy.md"
+  ],
+  "4ae7d6c571f69c0cc51dc15355e50325afb88694": [
+    "Sonja\\enable-lookout-mtp-connection-in-intune.md"
+  ],
+  "48783b21c64c9031b0fbbd58afb8aa0eb911ed6b": [
+    "Sonja\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
+  ],
+  "585ce92b0f0159060d9a8f1960b4c7b05eafdee7": [
+    "Sonja\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
+  ],
+  "7fb28509d78159fa9bec8d12a1cab534a039f328": [
+    "Sonja\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
+  ],
+  "4dbf5123fc909d5372a0ca29c22d0df6d0eef26b": [
+    "Sonja\\enroll-devices-in-microsoft-intune.md"
+  ],
+  "c40978080967e3fb92aeb905218fd875e61e7efe": [
+    "Sonja\\exchange-access-rules-for-mobile-devices.md"
+  ],
+  "21f4e16787a3f5aa1970fbf7d22214018bc8c69c": [
+    "Sonja\\exchange-activesync-policy-settings-in-microsoft-intune.md"
+  ],
+  "194e6e2b20c90cce5adcc684a4674e972d0cdc1b": [
+    "Sonja\\find-a-pfn-for-per-app-vpn.md"
+  ],
+  "da881ccb5ed26fbec77e1964ff85f7adccb48d53": [
+    "Sonja\\get-notified-by-alerts.md"
+  ],
+  "aeaa64124384a71126eeca7339416b80d395d07d": [
+    "Sonja\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
+  "3a58e11c78c25fb2b34c581f3605cbf51e6c1143": [
+    "Sonja\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  ],
+  "5cc03b724f8b9b00feb6bf693bd9b420c02e4ed3": [
+    "Sonja\\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md"
+  ],
+  "3fde6fb88bd929956d18e4dda502071901e4c4b4": [
+    "Sonja\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
+  ],
+  "8bcc70ba6451f13f80319229b191b6feb2d5664e": [
+    "Sonja\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
+  ],
+  "d34bdc9839ea7785a429bc70cba15cc85da56ee1": [
+    "Sonja\\how-your-android-users-get-their-apps.md"
+  ],
+  "e53a94a9da3162908b9bbb3714d64db917c8174b": [
+    "Sonja\\how-your-ios-users-get-their-apps.md"
+  ],
+  "3a7ce952923ff69323edd1b3e2a4f6e8a2d4547b": [
+    "Sonja\\how-your-windows-users-get-their-apps.md"
+  ],
+  "d59a0a08b6d72d2b2cb9462d99fc8e435fe0fba8": [
+    "Sonja\\install-the-windows-pc-client-with-microsoft-intune.md"
+  ],
+  "476f44df54fbea5c0fcfe8cf0e3ce4a61bd7c0a0": [
+    "Sonja\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+  ],
+  "18614cc272323b8031c94b8e582f80aa5c06d9d3": [
+    "Sonja\\intune-on-premises-exchange-connector.md"
+  ],
+  "1aabf820170483eacc83bec5e2b275e84dc07ffd": [
+    "Sonja\\intune-service-to-service-exchange-connector.md"
+  ],
+  "a2f98bbd34cf8b0c86531ae6ff40b1044c15d8bd": [
+    "Sonja\\ios-compliance-policy-settings-in-microsoft-intune.md"
+  ],
+  "fa02292c2cd6a8b627428752d97cf8a04dcc19b0": [
+    "Sonja\\ios-device-enrollment-program-in-microsoft-intune.md"
+  ],
+  "17836bc826bc89e3f041f7b369be09c1cce9ea4f": [
+    "Sonja\\ios-direct-enrollment-in-microsoft-intune.md"
+  ],
+  "ba258bfb3140ffc79aa38ef2f46497346cdc6bfa": [
+    "Sonja\\ios-mam-policy-settings.md"
+  ],
+  "77b318fc6670fbda59d0cdcac1b0661f6d910142": [
+    "Sonja\\ios-mobile-app-provisioning-profiles.md"
+  ],
+  "24540a74ce98adbf3f908cbea401328f027867ca": [
+    "Sonja\\ios-policy-settings-in-microsoft-intune.md"
+  ],
+  "1260001be3e5479ff0758178dc161260d31dcc3e": [
+    "Sonja\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
+  ],
+  "e26786066b98adf187a6cf3ccbf172e919871f50": [
+    "Sonja\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
+  ],
+  "c6b010e49b4e581dad056aa6e8bb17123030f7b0": [
+    "Sonja\\mac-os-x-policy-settings-in-microsoft-intune.md"
+  ],
+  "9578d58be2101a2013d5f687800245d5a8b53e01": [
+    "Sonja\\manage-alerts-in-microsoft-intune.md"
+  ],
+  "077029a962797a18fab27c3f1f5340eae6edfe04": [
+    "Sonja\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
+  ],
+  "6c8a658532ba9e7367c12c62581486399ff77840": [
+    "Sonja\\manage-corporate-owned-devices.md"
+  ],
+  "1d212dddc1d5665b7badf6cc27b41e012f74d96c": [
+    "Sonja\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
+  ],
+  "a8cf580a7df1d9c5240fc702107563bc965ce6ad": [
+    "Sonja\\manage-internet-access-using-managed-browser-policies.md"
+  ],
+  "a5c37c470f937c682d9138a636d1211f641da784": [
+    "Sonja\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
+  ],
+  "4af08b38716e04766175e2ab55db1a0dba788c20": [
+    "Sonja\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
+  ],
+  "0dc10ea029d078840a584424f7900f340189b960": [
+    "Sonja\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  ],
+  "c1d85b399cd78f24d5a08979e11da7fb16c3fb1f": [
+    "Sonja\\manage-volume-purchased-apps-in-microsoft-intune.md"
+  ],
+  "1df2507df6bd3fc7748c10c1f398fbfdb8958a18": [
+    "Sonja\\manage-windows-pcs-with-microsoft-intune.md"
+  ],
+  "f02400a423e579f89f3b06b17ede83190635592c": [
+    "Sonja\\microsoft-intune-policy-reference.md"
+  ],
+  "b2e4e606327a452a49cd2066a13e030db808836c": [
+    "Sonja\\migrate-to-intune.md"
+  ],
+  "3e8ca71a8a7011eb4d2e34c61ef869dbf0abe3b7": [
+    "Sonja\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
+  ],
+  "04dec6046a54550070b4fec4622d134ec9ff94b3": [
+    "Sonja\\mobile-device-security-policy-settings-in-microsoft-intune.md"
+  ],
+  "d9b0f5ec429ff8da8c6c91109b2ddd2184586763": [
+    "Sonja\\monitor-apps-in-microsoft-intune.md"
+  ],
+  "9ba4e31ebfb852ca9c35fdac9ca92791a5b56fd3": [
+    "Sonja\\monitoring-and-reports-with-microsoft-intune.md"
+  ],
+  "e530960268e8ef7d9c7f5419e7221bec61c0e6ef": [
+    "Sonja\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
+  "05ae9ad7f4ed13f4fbcdd3ff7d9ad2c22cc8c0ba": [
+    "Sonja\\multi-factor-auth-azure-ad.md"
+  ],
+  "90f05f63e5df7776d6c6fde4de60731ccf1cddf0": [
+    "Sonja\\multi-factor-authentication-azure-active-directory.md"
+  ],
+  "c93efd43a85c8046c7cfd6aa8341352b75ab0cfd": [
+    "Sonja\\overview-of-app-lifecycle-in-microsoft-intune.md"
+  ],
+  "686dc048c8a582ea188c5ab742e94328405f3a29": [
+    "Sonja\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+  ],
+  "8e769d5912de0a821add180053034ed14eb58537": [
+    "Sonja\\overview-of-device-lifecycle-in-microsoft-intune.md"
+  ],
+  "4d5e10ecc50387350eb7f1746603b7b7602190a4": [
+    "Sonja\\overview-of-the-microsoft-intune-app-sdk.md"
+  ],
+  "743e6734e36c6f9bcfa1a594f46356b96fe0a77e": [
+    "Sonja\\per-app-vpn-for-android-pulse-secure.md"
+  ],
+  "9fc92c7724a9e1f256faa8b028bcf93e354e7997": [
+    "Sonja\\plan-your-user-and-device-groups.md"
+  ],
+  "f613bacf3505f2a18965e5fa5586acb2aa512aa9": [
+    "Sonja\\policies-to-protect-windows-pcs-in-microsoft-intune.md"
+  ],
+  "ea1a6ef60b6a9cdd64559f67276280a4f491e30e": [
+    "Sonja\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
+  ],
+  "a94754404b9ee135642e5683ffa0e4a6351e6830": [
+    "Sonja\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
+  ],
+  "5e94e4efa5a3ecb055ce416c3ee8dd21e56bad65": [
+    "Sonja\\prerequisites-for-enrollment.md"
+  ],
+  "14e43dadc0d7bc20238ec87447f311fdc864d891": [
+    "Sonja\\pre-shared-key-wi-fi-profile.md"
+  ],
+  "996198a2525dc830d229e7143afda3c71f4276b8": [
+    "Sonja\\previous-intune-releases.md"
+  ],
+  "6163f2b2a1c562e5315785b8b4c486fe2347f89d": [
+    "Sonja\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+  ],
+  "4f2127f50750f5b483bd5d9fa2bed31a63b9d65f": [
+    "Sonja\\protect-apps-and-data-with-microsoft-intune.md"
+  ],
+  "eb04f0e7b9627ad1869ef677f1b32380db868490": [
+    "Sonja\\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md"
+  ],
+  "00d63fa55cd29c938dd082e2eff240f08319e01a": [
+    "Sonja\\protect-windows-devices-with-multi-factor-authentication.md"
+  ],
+  "be5051c46e1ef04ea140c9d440720f570edcbd1e": [
+    "Sonja\\protect-your-devices-with-microsoft-intune.md"
+  ],
+  "ad95830b37d3b83554b64d2f82fa537e603190d6": [
+    "Sonja\\Release-notes-for-Microsoft-Intune.md"
+  ],
+  "afb669f1e867b386bfb5a80bbb4a665be7b71478": [
+    "Sonja\\renew-a-symantec-code-signing-certificate.md"
+  ],
+  "286f159e57820a8c8723004c167ae7296626894c": [
+    "Sonja\\resolve-gpo-and-microsoft-intune-policy-conflicts.md"
+  ],
+  "d4eadb73aac14a375f41c434a4303a885bfbae64": [
+    "Sonja\\restrict-access-based-on-device-network-app-risk.md"
+  ],
+  "875da922b311b06fa8a1eb8ba7207108684825d5": [
+    "Sonja\\restrict-access-to-dynamics-crm-online-with-microsoft-intune.md"
+  ],
+  "6e11d71265f01ae31ab3124a46aaa544ad2f453a": [
+    "Sonja\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
+  ],
+  "dd5ae411cc2541566805131d0076efc15875c988": [
+    "Sonja\\restrict-access-to-exchange-online-with-microsoft-intune.md"
+  ],
+  "cf9a9aae239e4b6feee57dd1bb0ea52ddaed408c": [
+    "Sonja\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+  ],
+  "fa73c5e2b4e6737377acd206807399b31df37364": [
+    "Sonja\\restrict-access-to-networks.md"
+  ],
+  "84c9d355fde49fd18899a43ed0def0c801694291": [
+    "Sonja\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
+  ],
+  "27d993974d71b34b36cbd3216b83a1303689bf15": [
+    "Sonja\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
+  ],
+  "01f93bb8b09d5d6b0708e84c7498cf03e9225880": [
+    "Sonja\\restrict-email-access-example-scenarios.md"
+  ],
+  "33ff2a202a8317319b6f8ef0a0e5fa10b4335ff3": [
+    "Sonja\\retire-apps-using-microsoft-intune.md"
+  ],
+  "93c8c07632c067fdb2eef221bc149fa7f6e9d495": [
+    "Sonja\\retire-devices-from-microsoft-intune-management.md"
+  ],
+  "b807ecdbd132692dc022bfa5f7a9418d3a614dfb": [
+    "Sonja\\secure-resource-access-with-certificate-profiles.md"
+  ],
+  "7a2721fc5d53ab4398fe9b69cc561d85d2c09426": [
+    "Sonja\\set-up-android-management-with-microsoft-intune.md"
+  ],
+  "566a1bbf353921257b4ab7c7c0b73aac987c2085": [
+    "Sonja\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  ],
+  "6b6249c2429af6c9dd85d5044dd8e0cc1f4d9a67": [
+    "Sonja\\set-up-windows-device-management-with-microsoft-intune.md"
+  ],
+  "c6aff6de22c01db680b5a7bb2c6f68e8185b4350": [
+    "Sonja\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  ],
+  "2c3d0b63520b1b49acb29b27d98fd08778e13e62": [
+    "Sonja\\set-up-windows-phone-management-with-microsoft-intune.md"
+  ],
+  "8e2c71127801afc21d52e08d13dd9099b263e801": [
+    "Sonja\\set-up-your-subscription-with-lookout-mtp.md"
+  ],
+  "09902b33cc63b991ec3de3b82860fa93d347f472": [
+    "Sonja\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  ],
+  "912878619cf2573e0678634d8a8a49b34b79f498": [
+    "Sonja\\subscription-might-include-downloadable-software.md"
+  ],
+  "701f6c79b32a3968fd76b441b8f7fd4d9d810df6": [
+    "Sonja\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  ],
+  "caac142f1f13d5a08527a375589db997208551bc": [
+    "Sonja\\TOC.md"
+  ],
+  "c9df7eddbae77e64cc3b0fdf9ddc158ed2ed2860": [
+    "Sonja\\understand-microsoft-intune-operations-by-using-reports.md"
+  ],
+  "a195ca39169d2288d76b1337a003db8a0ae11997": [
+    "Sonja\\understand-your-devices-with-inventory-in-microsoft-intune.md"
+  ],
+  "cefe90cdb0cda5ada259576af7cf477642860446": [
+    "Sonja\\update-apps-using-microsoft-intune.md"
+  ],
+  "76b8ab90974dc258992ed8c660a04fc08872a4ec": [
+    "Sonja\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
+  ],
+  "3a7c87d915abd6ef4090c1773af3e58b81366998": [
+    "Sonja\\use-remote-lock-and-passcode-reset-in-microsoft-intune.md"
+  ],
+  "309f0701426d6ea22c2c9bd1c3a64393b95c4859": [
+    "Sonja\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
+  ],
+  "38e5155ef9167778e82b913d819088409526e27c": [
+    "Sonja\\use-the-sdk-to-enable-apps-for-mobile-application-management.md"
+  ],
+  "dab40df81c26b403aa3f2ae5524ff1297e2a7963": [
+    "Sonja\\validate-mobile-application-management.md"
+  ],
+  "738b7fbda92f24eaeae23638ea49c1c174901e7a": [
+    "Sonja\\vpn-connections-in-microsoft-intune.md"
+  ],
+  "0949172a7b8517b12fb46e8fd1f8a3cd70d93099": [
+    "Sonja\\whats-coming-in-intune.md"
+  ],
+  "3e5ca7345aef574446d437bac25bffc0c3414c68": [
+    "Sonja\\whats-new-archive.md"
+  ],
+  "1d09e5a0adb3ecfa8f2d64f668ea7ff16bdf31fa": [
+    "Sonja\\whats-new-in-microsoft-intune.md"
+  ],
+  "2746f2021757ed335be7958f6e7d59b16a3d7649": [
+    "Sonja\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
+  ],
+  "5bad6dce377bcec66154ecbb4febe5316894402f": [
+    "Sonja\\wi-fi-connections-in-microsoft-intune.md"
+  ],
+  "712883874f022ceb3f38473839fe0d6e4c373164": [
+    "Sonja\\windows-10-policy-settings-in-microsoft-intune.md"
+  ],
+  "12239464012029e3ffff3a9bed4f4ccb2cebe633": [
+    "Sonja\\windows-compliance-policy-settings-in-microsoft-intune.md"
+  ],
+  "b02804f933f8c259ea12efefd0353a7d5ceda25c": [
+    "Sonja\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "315e492b301387c2030440e7188dfdb35a99ddd9": [
+    "Sonja\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
+  ],
+  "a8a6e72468cfabf316cb15b5926841e5308325d5": [
+    "Sonja\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
+  ],
+  "9d16bc6a4c68fbc06691538b4896676ae17ac7a2": [
+    "Sonja\\wipe-for-exchange-managed-mobile-devices.md"
+  ],
+  "111cfe66e3ee6d9238bb885e3be4025a24811369": [
+    "Sonja\\wipe-managed-company-app-data-with-microsoft-intune.md"
   ]
 }
