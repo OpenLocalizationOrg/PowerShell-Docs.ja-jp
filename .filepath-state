@@ -1,4 +1,31 @@
 {
+  "1d4d2d9106ef76d6628f93cf86234807dbb121ed": [
+    "dsc\\archiveResource.md"
+  ],
+  "e04310b8654bab21ba61cb46b1b110b9791b9ffd": [
+    "dsc\\archiveResource.md"
+  ],
+  "ab3dcf116b796f6c2b6f87b99c0fb644fff8cdbe": [
+    "dsc\\archiveResource.md"
+  ],
+  "39649aca9e61d188fb9ad855e4d1b8b63ee6491f": [
+    "dsc\\archiveResource.md"
+  ],
+  "daf17d72ba959743dbd72212e2172f5a60ce5ce5": [
+    "dsc\\archiveResource.md"
+  ],
+  "ffe9d4d734e51f68031e6c7df6068d8dd71e61cb": [
+    "dsc\\archiveResource.md"
+  ],
+  "81efeb79a70df604ef8c126c0ebd17b4f4711a44": [
+    "dsc\\archiveResource.md"
+  ],
+  "d0d36cc79854de58e99c4984ef47dab41a4e7df4": [
+    "dsc\\archiveResource.md"
+  ],
+  "5b43723f7b14eb4bca06d0430b5981c3663c5801": [
+    "dsc\\authoringResource.md"
+  ],
   "1ada9b4a2f68bd37190ee6f46fb01996893115e3": [
     "dsc\\authoringResource.md"
   ],
@@ -20,11 +47,17 @@
   "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": [
     "dsc\\authoringResource.md"
   ],
+  "b5de1100450a89796c20a5bbb2e71f7759374b02": [
+    "dsc\\authoringResourceClass.md"
+  ],
   "ebda397e0970e90e3fcf33218565919bd7e6eb40": [
     "dsc\\authoringResourceClass.md"
   ],
   "565d71def9c15b19f10ec144ff29e82b9e205e31": [
     "dsc\\authoringResourceClass.md"
+  ],
+  "6631d60d7d82e71c315c26a0196aa3e4c1b60b15": [
+    "dsc\\authoringResourceComposite.md"
   ],
   "4af3a1c0d7491552cfa1d22daa6718803e762698": [
     "dsc\\authoringResourceComposite.md"
@@ -32,35 +65,68 @@
   "c7b9c9ffe6a4a82c8d8935ab75d9942bf8b9970d": [
     "dsc\\authoringResourceComposite.md"
   ],
+  "50b99917f15d290db30da1b1b752d668d886ec50": [
+    "dsc\\authoringResourceMOF.md"
+  ],
   "f64cbea29a1e9998b8ade46d69c1ef1c584bd633": [
     "dsc\\authoringResourceMOF.md"
+  ],
+  "991a324945289b2eff0b706d093b2d345352fb15": [
+    "dsc\\authoringResourceMofCS.md"
   ],
   "28a9448f7c815bc154612af16634435b6987b7fc": [
     "dsc\\authoringResourceMofCS.md"
   ],
+  "be2141330dda803a22fdce6d65a1e379adf14fed": [
+    "dsc\\authoringResourceMofDesigner.md"
+  ],
   "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": [
     "dsc\\authoringResourceMofDesigner.md"
+  ],
+  "ea312b4e773cd8b0eceeca123e616957728eb1c6": [
+    "dsc\\builtInResource.md"
   ],
   "e3243caa7ec8682a4010e25a4ae0b2359c2d7866": [
     "dsc\\builtInResource.md"
   ],
+  "8a3ae5fdf5d70de999ca6b992efb14533408c305": [
+    "dsc\\configData.md"
+  ],
   "25ea7bc8b398577cb2916ec833d61c38af812637": [
     "dsc\\configData.md"
+  ],
+  "d84bb35ada3588367436e6f5e3c6696b90c3661b": [
+    "dsc\\configurations.md"
   ],
   "065f423b82d69a7c9dbc6384711d2135a3b7e5ec": [
     "dsc\\configurations.md"
   ],
+  "4c802002c6a03a27d02221dd713677911a77c30b": [
+    "dsc\\enactingConfigurations.md"
+  ],
   "277d3032f45323050e140f466f639e5606fef53a": [
     "dsc\\enactingConfigurations.md"
+  ],
+  "20a7711604033b5ff1484dbb526df2642a9a1738": [
+    "dsc\\environmentResource.md"
   ],
   "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": [
     "dsc\\environmentResource.md"
   ],
+  "8c8fb7a40c066b048e1a54a741f4953e6b5a47b6": [
+    "dsc\\fileResource.md"
+  ],
   "ce115dd79b0793718f8e79bb465f244b7cc725b1": [
     "dsc\\fileResource.md"
   ],
+  "446c9036989c47c03664d978a1dea4e0234ada8d": [
+    "dsc\\groupResource.md"
+  ],
   "bc098355d65bff2203a212f2387be6f79fbb63e8": [
     "dsc\\groupResource.md"
+  ],
+  "2edbc1d11dfc7c84369430688a8b0d773277e864": [
+    "dsc\\lnxArchiveResource.md"
   ],
   "e961fa9fbc9022952ee31b5225dfe5cdd73b3583": [
     "dsc\\lnxArchiveResource.md"
@@ -68,17 +134,29 @@
   "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
     "dsc\\lnxArchiveResource.md"
   ],
+  "6b001c12885022006003ef3ffe91b7aede07bd17": [
+    "dsc\\lnxBuiltInResources.md"
+  ],
   "7e91f5b7b1fd993e6826f8c6a5d55604ffe4e536": [
     "dsc\\lnxBuiltInResources.md"
   ],
   "e4d20bc0f083c463514e2044ce86679041263075": [
     "dsc\\lnxBuiltInResources.md"
   ],
+  "0a7ab24ff278defd7fc0a80f1dbd45bfa0e16427": [
+    "dsc\\lnxEnvironmentResource.md"
+  ],
   "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b": [
     "dsc\\lnxEnvironmentResource.md"
   ],
+  "9196129e79272d8bee717ef8a5d42fb590760a0f": [
+    "dsc\\lnxFileLineResource.md"
+  ],
   "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": [
     "dsc\\lnxFileLineResource.md"
+  ],
+  "2ba44df5dd6c91371cbbfe95d48184a4ff4a7738": [
+    "dsc\\lnxFileResource.md"
   ],
   "334b98afff951cf26494bd07258bb847df727d44": [
     "dsc\\lnxFileResource.md"
@@ -86,14 +164,26 @@
   "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
     "dsc\\lnxFileResource.md"
   ],
+  "2283e797275f426b624119bd1191e58080780c09": [
+    "dsc\\lnxGettingStarted.md"
+  ],
   "ce17b7bb17435cd925f196e4736114982de4e056": [
     "dsc\\lnxGettingStarted.md"
+  ],
+  "2139e4462c0568c30b118ef6cb3ceef1717b52e6": [
+    "dsc\\lnxGroupResource.md"
   ],
   "9bda555be3a52c574eccfa66b114883e2f543c70": [
     "dsc\\lnxGroupResource.md"
   ],
+  "31867cc7af96a3d8d527f5906d77bed5206940b4": [
+    "dsc\\lnxPackageResource.md"
+  ],
   "37c34dfa85386e8d190a5cfd459c3a6885cca838": [
     "dsc\\lnxPackageResource.md"
+  ],
+  "4c575bbf0e0553e19e56bcc6edd605e36586cb94": [
+    "dsc\\lnxScriptResource.md"
   ],
   "7dfbf1a64124900dc17f1c33bada7a3cfae517d9": [
     "dsc\\lnxScriptResource.md"
@@ -101,26 +191,56 @@
   "056b0c86701cfd096c863560836dc129ecefc862": [
     "dsc\\lnxScriptResource.md"
   ],
+  "3835495705297616a41329bcfdaad42b464115d8": [
+    "dsc\\lnxServiceResource.md"
+  ],
   "3d766f5b9e2bb9284e717d5a998b1a7c291221fc": [
     "dsc\\lnxServiceResource.md"
+  ],
+  "edc906b4e9c925320c4ed00c5ab295189066ccb9": [
+    "dsc\\lnxSshAuthorizedKeysResource.md"
   ],
   "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2": [
     "dsc\\lnxSshAuthorizedKeysResource.md"
   ],
+  "7813185313845b74e2a37dfa4ec6bb109f32f0eb": [
+    "dsc\\lnxUserResource.md"
+  ],
   "31eea97ab4912ca241557cddbf59929e085ebe80": [
     "dsc\\lnxUserResource.md"
+  ],
+  "60085295fa7df6179a81cd98859cd33e6923150f": [
+    "dsc\\logResource.md"
   ],
   "0f4922e1df8725aad839211dbe0dfc532692f606": [
     "dsc\\logResource.md"
   ],
+  "5d37938869a71bea0d8a6349e680411b7d0200d9": [
+    "dsc\\metaConfig.md"
+  ],
   "d7b3908ae670a7bcc976f2675834316862a25802": [
     "dsc\\metaConfig.md"
+  ],
+  "25195166f4d9dd668427d6bb5d748ef61273cdee": [
+    "dsc\\metaConfig4.md"
   ],
   "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
     "dsc\\metaConfig4.md"
   ],
+  "1a796658eb30bdf5c37ea3677f94767260a34b45": [
+    "dsc\\overview.md"
+  ],
+  "7f5f99f0f0befde13272221e376006dffbddb994": [
+    "dsc\\overview.md"
+  ],
+  "d07b11c148dfa747b3f9c0157191b83efb6c65df": [
+    "dsc\\packageResource.md"
+  ],
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
+  ],
+  "c5d3cb1045e67d4913fbbad13938e8f95a43cacf": [
+    "dsc\\partialConfigs.md"
   ],
   "17c9149903fd6a7ce6904b03a76619795944554e": [
     "dsc\\partialConfigs.md"
@@ -137,17 +257,32 @@
   "3f1843e8a1335617c562084ce69fc82ae7c2c694": [
     "dsc\\partialConfigs.md"
   ],
+  "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
+    "dsc\\pullClient.md"
+  ],
   "4cb0a0836e56ca31f9e101be81e1427493cbbcd5": [
     "dsc\\pullClient.md"
+  ],
+  "f6569220fbafdba49bac9ac9dca3e6036a7aad08": [
+    "dsc\\pullClientConfigID.md"
   ],
   "54bb78b313c4f0c721862910496c5154ed5444ef": [
     "dsc\\pullClientConfigID.md"
   ],
+  "730f2f26e2811996e79cf0073a4ef65cad390687": [
+    "dsc\\pullClientConfigID4.md"
+  ],
   "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
   ],
+  "02721f0f6f68cc78ae0430205d06f079e3e7465a": [
+    "dsc\\pullClientConfigNames.md"
+  ],
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
+  ],
+  "7bbfc31fdebdde83ac1784373b51af40b1dc9492": [
+    "dsc\\pullServer.md"
   ],
   "f775047bb73ea56ac124df5e1b0c2baa736c9526": [
     "dsc\\pullServer.md"
@@ -155,35 +290,75 @@
   "2668c9aa8c36621eb9797e634354bc7fa285d3b8": [
     "dsc\\pullServer.md"
   ],
+  "02bb8458796d60991a05a8250f3bf8f3261ffce1": [
+    "dsc\\queryServerNodes.md"
+  ],
   "fc1456c57ade6862957e54ee53f18f189785848a": [
     "dsc\\queryServerNodes.md"
+  ],
+  "48b68a99baa489dad38e7072b171db10ee0f7386": [
+    "dsc\\registryResource.md"
   ],
   "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
     "dsc\\registryResource.md"
   ],
+  "0a27a40b995393c41f0496a5f7fa3f56fbd865dd": [
+    "dsc\\resources.md"
+  ],
   "df54abe3d92ffaff2998e9fb3157b42cf83143c2": [
     "dsc\\resources.md"
+  ],
+  "6b060d17fb106089528b0737ab03cc7d592d412a": [
+    "dsc\\scriptResource.md"
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
   ],
+  "f0aed5bb627825b74fe4df29cbe2f0bc53f90c23": [
+    "dsc\\secureMOF.md"
+  ],
   "14cf6c2005eb756200e7fd065b61e4120d84c02e": [
     "dsc\\secureMOF.md"
+  ],
+  "94944d7bd265aa788b77359ad44721f79870bfa0": [
+    "dsc\\secureServer.md"
   ],
   "2290a81a8dbc82b7881d2b6006d70a90578f9a56": [
     "dsc\\secureServer.md"
   ],
+  "10123359213df7180388d9251e032c2bbb673143": [
+    "dsc\\serviceResource.md"
+  ],
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
+  ],
+  "924d5878a6d93e846adbd9cb4c69bea79e104bcd": [
+    "dsc\\TOC.md"
   ],
   "66cefb1620ad412d3f4e041561ae1df356fdb1e6": [
     "dsc\\TOC.md"
   ],
+  "4830be14b105485c50446f06e9d36491b4c4fe44": [
+    "dsc\\troubleshooting.md"
+  ],
+  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
+    "dsc\\troubleshooting.md",
+    "dsc\\move\\rename_troubleshooting.md"
+  ],
+  "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
+    "dsc\\userResource.md"
+  ],
   "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": [
     "dsc\\userResource.md"
   ],
+  "522dbea958a60f76e98abe32e11e6491ea6d457c": [
+    "dsc\\windowsfeatureResource.md"
+  ],
   "1484f03d1d80b73e3131095e3363b246929a0a35": [
     "dsc\\windowsfeatureResource.md"
+  ],
+  "0fe5e7d9679d44bb50c897badf8c6517b95049e2": [
+    "dsc\\windowsProcessResource.md"
   ],
   "47c387c525a58a88f18e61920736a6e0e7f2098d": [
     "dsc\\windowsProcessResource.md"
@@ -206,646 +381,1100 @@
   "2b29976a764a8377742da0a7204dff32f89ef99f": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
   ],
-  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
-    "dsc\\move\\rename_troubleshooting.md"
-  ],
   "e60976865fe9b1b0115509c66b9973dea16992ec": [
     "dsc\\Test1\\MoraviaDemo.md"
-  ],
-  "571e8662abd7ee81907d4982e0cac3398a4eda10": [
-    "albina1\\Include.md"
   ],
   "b94ed3942916030f8c3115c0f7c5baf217dbae4c": [
     "dsc\\Sonja_in_dsc_folder.md"
   ],
-  "7bebdfcb59f464b7ec3e8cc43ea117d631abb9c2": [
-    "albina\\Exclude.md"
+  "ebb7a8a008d55dd4955462d217de6149d786bcb2": [
+    "common-modules\\readme.md"
   ],
-  "cab70a9dd40b81e9f4a46dbba873c2bcfe75ffc6": [
-    "albina\\Garbage.md"
+  "a750fb208e73ce2ebffb2fa86a55c825169d8ad8": [
+    "dsc\\configDataCredentials.md"
   ],
-  "a9ddb1ddcf96b6e5d6c79ef33df841c8bd54a771": [
-    "ATADocsTest\\ata-architecture.md"
+  "becacd2dcbc6fd0edd9154a45342edc5c536935b": [
+    "dsc\\configHelp.md"
   ],
-  "81fb50ee2e1d4841e391a1a0c6f4d3aa02c02618": [
-    "ATADocsTest\\ata-capacity-planning.md"
+  "f4c64d3603fd01f29a63f8b180057714bf3d1197": [
+    "dsc\\crossNodeDependencies.md"
   ],
-  "a6de5f463da5906910470ca54c9bceb4e2954ba8": [
-    "ATADocsTest\\ata-database-management.md"
+  "461cd535bfbdda6cc90364aace9912f713431c21": [
+    "dsc\\debugResource.md"
   ],
-  "2829b11b9d43ad933d08262159f8202bc4cc924d": [
-    "ATADocsTest\\ata-health-center.md"
+  "2d2b142dc862f7655f28aa34e1fd91f63bd6286e": [
+    "dsc\\decisionMaker.md"
   ],
-  "4e4c455f09d5f14e48bcd84c33f375dce325d60b": [
-    "ATADocsTest\\ata-prerequisites.md"
+  "1fe624c2532e44ed675762f3c141934fb4f0b60d": [
+    "dsc\\directCallResource.md"
   ],
-  "b61fda76181a72287d3290dc093732d35164ed96": [
-    "ATADocsTest\\ata-release-notes.md"
+  "c5ee7f7e7678b60700edb1ab1b66139791ea67c6": [
+    "dsc\\gettingStarted.md"
   ],
-  "d4b8e27b2d120d8b01289af1acd903f12f5cc019": [
-    "ATADocsTest\\ata-role-groups.md"
+  "45fe96c43a834566d398820e3d94e3be923bb385": [
+    "dsc\\groupSetResource.md"
   ],
-  "60c22df4e152a452471d2067cbcda32d739e4497": [
-    "ATADocsTest\\ata-silent-installation.md"
+  "865258c0b403d4e7979d7ee32d3f87b63a349f08": [
+    "dsc\\index.md",
+    "jea\\index.md",
+    "wmf\\index.md"
   ],
-  "97a1ceae8453bfd305efeae7cc4760282c962c4c": [
-    "ATADocsTest\\ata-technical-faq.md"
+  "2e2a24000cdb57fcd77fb1c9816300e3c6114f5a": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
   ],
-  "f260740089794b024554d64eeb43477cc1a183d9": [
-    "ATADocsTest\\ata-threats.md"
+  "9fad1b321c56d57e2671636511a15b7ccc640f9c": [
+    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
-  "0ef0b75bc59206390657bdfb923c8462f8a6b786": [
-    "ATADocsTest\\ata-update-1.5-migration-guide.md"
+  "392ad987826dc31ac0f41dc8c7c97ede31310714": [
+    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
-  "cfe7756144a7d9a6a9f225048df620cfe55b4b81": [
-    "ATADocsTest\\ata-update-1.6-migration-guide.md"
+  "80e29fe72d329d343abb68881d8f1e4a2e7810d1": [
+    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
   ],
-  "cf22e9bd54699344c478ab4d169220c93e053f5b": [
-    "ATADocsTest\\ata-update-1.7-migration-guide.md"
+  "b2cee49814fdd66d34c70b845690696d62209591": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
   ],
-  "691c336ddaccfa6ec4e569e74eb799f56f1b5732": [
-    "ATADocsTest\\configure-event-collection.md"
+  "d051fe64665e438af210ea7521b6213acf2ec9e7": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
   ],
-  "9e2f383153bffe521b776962d4be5cb7b0b12066": [
-    "ATADocsTest\\configure-port-mirroring.md"
+  "2451313ce7c9038923a4a8245d6016518fbbae83": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
   ],
-  "a05f2536897cd7d9e3534c0c58165817e0138d45": [
-    "ATADocsTest\\index.md"
+  "04d0d9f02e0016b8b83573c56880261e2cc2b1cc": [
+    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
   ],
-  "3cfc426c089bbf859d0eb603d6a5373e23602c3b": [
-    "ATADocsTest\\install-ata.md"
+  "e1b70e6f6021415d58523476e197ef5463f21322": [
+    "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
   ],
-  "80256eee6e1f7ca899a07d6475836c0e53ef4263": [
-    "ATADocsTest\\install-ata-step1.md"
+  "16f38fece67b3872b4afcdcb6755eecb0a7db3c3": [
+    "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
   ],
-  "de6ea38e89f37364320c250722f7b96781b1629f": [
-    "ATADocsTest\\install-ata-step2.md"
+  "eb01400b1774ce2ef6e7a3476983404c1329081a": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
   ],
-  "c39a9ca7698b6e59529d6fe630866469a843f6ff": [
-    "ATADocsTest\\install-ata-step3.md"
+  "55b25653f17f7e826a5b480080fb6a9c6d653573": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
   ],
-  "0c61b2b322e3b91dcb02f0f400ce94c6d232fb89": [
-    "ATADocsTest\\install-ata-step4.md"
+  "bc8c36b26682bbaaaf00c370217a05feaf22a4ec": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
   ],
-  "25989a6f75058cbd919b12a3e7c05771b164887d": [
-    "ATADocsTest\\install-ata-step5.md"
+  "78876ffd22f5b7a1601be391b9fa86aa3fed6785": [
+    "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
   ],
-  "58135cf04e740998fb837bfbb03a68faeaaf79ed": [
-    "ATADocsTest\\install-ata-step6.md"
+  "e067eb657efce0a190fad9c3dc074b528cd93481": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
   ],
-  "18556032aa7ec7a0f5ae25f1504b31d024f5b52b": [
-    "ATADocsTest\\manage-telemetry-settings.md"
+  "b327736adab5ee9ea8aee0d61f5e46b2ded7a730": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
   ],
-  "880403aa83c470eac15c92a2ec25897a471700f3": [
-    "ATADocsTest\\modifying-ata-config-centercert.md"
+  "9cf01693a668228561c999942b8e66942bfac5fa": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
   ],
-  "137e5feb9e36046193acaf81e7e493a3850a750e": [
-    "ATADocsTest\\modifying-ata-config-centerip.md"
+  "4cf6b6be55140cfc3013821a69abcad4b3f68e86": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
   ],
-  "80ef404fcbea9bd1deea509e3fbb78b2928054a7": [
-    "ATADocsTest\\modifying-ata-config-consoleurl.md"
+  "365ae776cfade1c9b63dfed56f922fd9919f89fd": [
+    "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
   ],
-  "ab209972f0870d05f4e0645c1ab8a4571696d812": [
-    "ATADocsTest\\modifying-ata-config-dcpassword.md"
+  "6ee6189132ff435d3e8a3c93d154bbf301d893c1": [
+    "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
   ],
-  "ed5d084509d718c83b93427000582be54241366e": [
-    "ATADocsTest\\modifying-ata-configuration.md"
+  "962941ba946a67256baf141bd195361c94a68f90": [
+    "dsc\\nanoDsc.md"
   ],
-  "36d0690d47544db542666f785d43ee2a1e7d98d7": [
-    "ATADocsTest\\operate-ata.md"
+  "012a0e5c4f2a1f60ecea869d588b9c54e0567ced": [
+    "dsc\\processSetResource.md"
   ],
-  "b40ffb0a1f8991f40d4f70f8053f2b97323aacdb": [
-    "ATADocsTest\\placeholder.md"
+  "6ab0c155299b2baaf901646f4fdd69133e9ed0ca": [
+    "dsc\\pullServerSMB.md"
   ],
-  "a61d9b776eab87a4005c2b0ad4f33d1f17470fee": [
-    "ATADocsTest\\preinstall-ata.md"
+  "70e0256691416427538ec7e03aa13b739d70bec7": [
+    "dsc\\reportServer.md"
   ],
-  "7568c15906fbdcc2c861cb45d72a49ca6eebe8e3": [
-    "ATADocsTest\\setting-ata-alerts.md"
+  "b2900987b1102cf41880e5af0a0cc44bc6499ef5": [
+    "dsc\\resourceAuthoringChecklist.md"
   ],
-  "a76874be9009cc6ea0880e6dc79ae69369591943": [
-    "ATADocsTest\\setting-syslog-email-server-settings.md"
+  "dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b": [
+    "dsc\\runAsUser.md"
   ],
-  "24b9e0d9bde0e8d7ff9e85f132134c52861b500c": [
-    "ATADocsTest\\TOC.md"
+  "871d697626a0376e8f1f27bdbbf16d8612a56a79": [
+    "dsc\\serviceSetResource.md"
   ],
-  "82e79752689029abd1319aedd1a4b1370e9321bd": [
-    "ATADocsTest\\troubleshooting-ata-known-errors.md"
+  "7c7b9e473dfda7bd56be5b569fdde5b8575417fd": [
+    "dsc\\singleInstance.md"
   ],
-  "aac9d5e74c540c7b28d94235966b06be992153e3": [
-    "ATADocsTest\\troubleshooting-ata-using-ata-database.md"
+  "716ecd9b14976dd70b69a740850ab53670387956": [
+    "dsc\\sxsResource.md"
   ],
-  "7b8805d39c588dc6f680f334af9372a6ed2fec46": [
-    "ATADocsTest\\troubleshooting-ata-using-logs.md"
+  "434ebc17f2bc7b7ee868788e87dc5b34cef61529": [
+    "dsc\\whitepapers.md"
   ],
-  "75646ac1e1c6c11769510119045cd3b20fd01818": [
-    "ATADocsTest\\troubleshooting-ata-using-perf-counters.md"
+  "df6869cdf1d1f6c823704e4de2882e90cb672ad2": [
+    "dsc\\windowsFeatureSetResource.md"
   ],
-  "ea660dbcdf27df63717258136b01e4ba0118542d": [
-    "ATADocsTest\\validate-port-mirroring.md"
+  "1254037b655a3160c90e69971c9faf061f205917": [
+    "dsc\\windowsOptionalFeatureResource.md"
   ],
-  "c83ab31ead73015aa95bf2f252d0a706def0fbab": [
-    "ATADocsTest\\what-is-ata.md"
+  "52eb958e59ecb1d5ae3faf268933bbd544410d47": [
+    "dsc\\windowsOptionalFeatureSetResource.md"
   ],
-  "c3ce91d8d53105e8dae6c437596d6c2b8326f253": [
-    "ATADocsTest\\whats-new-version-1.4.md"
+  "97403b5ae385aa568d0eba44eabac2e10b130a76": [
+    "gallery\\index.md"
   ],
-  "6f443269d36d97fb5f7dae51f6a58890b64e2105": [
-    "ATADocsTest\\whats-new-version-1.5.md"
+  "443d343d6f5c79c562e36ba59cd822d990de8715": [
+    "gallery\\psgallery\\contributing_to_psgallery_documentation.md"
   ],
-  "a2b431308e80dd85e93436a97429f194ae833d27": [
-    "ATADocsTest\\whats-new-version-1.6.md"
+  "9dab14b25815ac7c005b915df421300a1cc72033": [
+    "gallery\\psgallery\\Creating-and-Publishing-an-item.md"
   ],
-  "2b1b8f2c41a9b07992ebcafc8c2daeccf6738ead": [
-    "ATADocsTest\\whats-new-version-1.7.md"
+  "87e99e2735be9d2790dc0d7f75318bafe3bfd4dc": [
+    "gallery\\psgallery\\Deleting-Items.md"
   ],
-  "78430b2743930ec6c5ea66e8ed9eedbd22324870": [
-    "ATADocsTest\\working-with-ata-console.md"
+  "57218c316b6921e2cd61027a2387edc31a2d9471": [
+    "gallery\\psgallery\\Item-Conventions.md",
+    "gallery\\psgallery\\Setting-Up-Local-Gallery.md",
+    "gallery\\psget\\module\\Dependency_Versioning.md",
+    "gallery\\psget\\module\\Module_Versioning.md",
+    "gallery\\psget\\module\\ModuleManifest-Reference.md",
+    "gallery\\psget\\script\\Script_Versioning.md"
   ],
-  "f53ed05e169391b0049b4d108177297e99909113": [
-    "ATADocsTest\\working-with-detection-settings.md"
+  "07164bab5e12283899be2453e644bba1b2d3b40f": [
+    "gallery\\psgallery\\Managing-Item-Owners.md"
   ],
-  "6d488e9956c3ce6f130f00dc3c439fc2c6d460a3": [
-    "ATADocsTest\\working-with-suspicious-activities.md"
+  "de3ce3368ffbeb93bbead9d3665009c0a847feac": [
+    "gallery\\psgallery\\PackageManagement_Architecture .md"
   ],
-  "538a8730a50b0dbe928c79c4620c946ac23f95cd": [
-    "OsmondTest\\art\\a.md"
+  "4f32e7549f71f17125d758704776e75f0ffaaaf1": [
+    "gallery\\psgallery\\psgallery_contacting_administrators.md"
   ],
-  "2b6eeb0c78b71e6819dfa9edf89c53fcc1f803e0": [
-    "OsmondTest\\art\\b.md"
+  "84732e3f6e27904ae4cafae155c10c9eb0851be1": [
+    "gallery\\psgallery\\psgallery_contacting_item_owners.md"
   ],
-  "8edb22eef9b3f1e77a48089a6189110b4c0d82c7": [
-    "OsmondTest\\rename\\2.md"
+  "ee43e20b0f83cef6940e2fb05eae6c1eea9597d6": [
+    "gallery\\psgallery\\psgallery_deploy_to_azure_automation.md"
   ],
-  "fb40b052dd944c3e57a373f4c3681a783fdf51e9": [
-    "OsmondTest\\rename\\3.md"
+  "0870a1ab7d5ce1e2f9fc2896e9078e6eec019850": [
+    "gallery\\psgallery\\psgallery_dispute_resolution.md"
   ],
-  "c34920d6f1dcb400130ef47986f7dd7daf1f6044": [
-    "OsmondTest\\rename1\\1111.md"
+  "754f044d585332a008e2c09a1cba466937f22c59": [
+    "gallery\\psgallery\\psgallery_faqs.md"
   ],
-  "189b5407eb7fa9e21901c1e8197a9b969b8301d9": [
-    "OsmondTest\\rename1\\4.md"
+  "f6f6e5a827e4cd86538d30bd003bca805a1b77eb": [
+    "gallery\\psgallery\\psgallery_filelist_feature.md"
   ],
-  "de5315ca20afe8b44d4fc75fdd4220fb36b0fc6c": [
-    "OsmondTest\\rename1\\7.md"
+  "0047438f30836ed0e0a365c3536803655b5b7f15": [
+    "gallery\\psgallery\\psgallery_gettingstarted.md"
   ],
-  "a60301c98d57790675de409614cde11025cdab81": [
-    "OsmondTest\\rename1\\yuweitest.md"
+  "5dfe29ae2e7d78e014f19b77f65c998bf51ff7eb": [
+    "gallery\\psgallery\\psgallery_items_tab.md"
   ],
-  "dd71038f3463f511ee7403dbcbc87195302d891c": [
-    "OsmondTest\\same\\1.md"
+  "b0e587f6951e31a17fc6c6b32cf935471cd1ebf1": [
+    "gallery\\psgallery\\psgallery_pseditions.md"
   ],
-  "152011552060bd4ec01738a399e284ac94f43e0e": [
-    "OsmondTest\\same\\4.md"
+  "f8d750bc1cbb14385a72863b4f9755f202be7e19": [
+    "gallery\\psgallery\\psgallery_report_abuse.md"
   ],
-  "f1ee5a4e953dd54e61459666b0120354e099f4e7": [
-    "OsmondTest\\same\\6.md"
+  "125d3c7fc9a4035f3b6788bd373a4816fcfde671": [
+    "gallery\\psgallery\\psgallery_scriptanalyzer_rule_profile.md"
   ],
-  "52c92a4abf7ca87ca8f3f9bc60cc6a50c236870f": [
-    "OsmondTest\\test1.md"
+  "9a858cfc303cac6f9f2f23c01c1d8a753a69dc7c": [
+    "gallery\\psgallery\\psgallery_search_syntax.md"
   ],
-  "aebd0387d240dca9ff57538cd85d8e4f4e3b1752": [
-    "OsmondTest\\test2.md"
+  "a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf": [
+    "gallery\\psgallery\\psgallery_status.md"
   ],
-  "0b5755ab12bc76368d62fe26ed909903963a58d7": [
-    "OsmondTest\\test3.md"
+  "fb5220e909dfc76583ab4834f4297b34cf990736": [
+    "gallery\\psgallery\\psgallery_unlist_items.md"
   ],
-  "c97577dee9f517e6c4e444d869aa7542d0418b34": [
-    "OsmondTest\\test4.md"
+  "41905ee6ef4c6b0afc41b1c68c84db27e19df2fd": [
+    "gallery\\psgallery\\psgalleryint_status.md"
   ],
-  "9a6a6a4ea14ff7a5444d702d73827375dc77d44e": [
-    "OsmondTest\\test5.md"
+  "7b8d135889378be56d0d6d5b9dc89c55f2b1e68f": [
+    "gallery\\psget\\module\\modulewithpseditionsupport.md"
   ],
-  "a839fcccf62e9fe680c9a0c2256ed89b9e4d02fb": [
-    "OsmondTest\\token\\a.md"
+  "b28bce839403217ece4edd67d984a282b60d164d": [
+    "gallery\\psget\\module\\psget_find-command.md"
   ],
-  "b1d7a9ff98b6862856884f5ca6904660d59f90cd": [
-    "OsmondTest\\token\\includes\\b-token.md"
+  "37a68f593be6b7b6b97656f84ff7dac034b12a32": [
+    "gallery\\psget\\module\\psget_find-dscresource.md"
   ],
-  "e48f51fab58bf4ad5822617eec045a671b740548": [
-    "Sonja\\account-portal-merged-with-Office-365.md"
+  "169c83a1b2af2131b8c52e36d03563b8ed2bc8fb": [
+    "gallery\\psget\\module\\psget_find-module.md"
   ],
-  "93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d": [
-    "Sonja\\add-apps.md"
+  "34220e3fcf97066fc3c2a1253d98ab5dead14441": [
+    "gallery\\psget\\module\\psget_find-rolecapability.md"
   ],
-  "0951a8c8ae635fed089e7bbf87018282a73daf74": [
-    "Sonja\\add-apps-for-mobile-devices-in-microsoft-intune.md"
+  "53873c0071914bb833bce476a9436a07308ddcf1": [
+    "gallery\\psget\\module\\psget_get-installedmodule.md"
   ],
-  "33ef6a417c38ab04095afc8fb7573ea92253f229": [
-    "Sonja\\add-apps-for-windows-pcs-in-microsoft-intune.md"
+  "f61d83c2cc12babccbdb75e6ae334b1f90de1bd6": [
+    "gallery\\psget\\module\\psget_install-module.md"
   ],
-  "cf1fde5b5ed55552e573c724b6165203033683da": [
-    "Sonja\\android-compliance-policy-settings-in-microsoft-intune.md"
+  "8187835b0b24800dd11656f3d37809d6774985ae": [
+    "gallery\\psget\\module\\psget_module_creation.md"
   ],
-  "652f3aac9bd0925bd8e8718df04c0eb4b5629902": [
-    "Sonja\\android-mam-policy-settings.md"
+  "16a29f1802b653a2eb7daa4ef8cf3f0c0bf4e7b8": [
+    "gallery\\psget\\module\\psget_moduledependencypopulation.md"
   ],
-  "870d735644f08e3eca8c72bca2b156947d798cb5": [
-    "Sonja\\android-policy-settings-in-microsoft-intune.md"
+  "e28f84eefbd5ec1636f93ad736c5a90922c7ed69": [
+    "gallery\\psget\\module\\psget_publish-module.md"
   ],
-  "1ddb7a30a6f23a3f3d754bd18975c50f32662578": [
-    "Sonja\\azure-portal-for-microsoft-intune-mam-policies.md"
+  "07ccbc92a07736d183f22d909031dc21239f5fb0": [
+    "gallery\\psget\\module\\psget_save-module.md"
   ],
-  "ad63978de4b9fdcacc0046fc05202ac7d7e5edd6": [
-    "Sonja\\categorize-devices-with-device-group-mapping-in-microsoft-intune.md"
+  "fd8fb43d6b84930b2f8ed2b38ce624c7c56741f3": [
+    "gallery\\psget\\module\\psget_uninstall-module.md"
   ],
-  "9ef18ee054928fcfb12a36fe8ac3ad3c2909f6c1": [
-    "Sonja\\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md"
+  "e626a05a595a39936fa328ad0ddc750c6626e385": [
+    "gallery\\psget\\module\\psget_update-module.md"
   ],
-  "629836ef006e1c33c240f9daa373817a685c14bc": [
-    "Sonja\\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md"
+  "967d85a99256f5f4347aeec1b5f9dad3eca7a939": [
+    "gallery\\psget\\module\\psget_update-modulemanifest.md"
   ],
-  "c43104ff199e1800bfded35154d2be0cfd0c40f3": [
-    "Sonja\\configure-and-deploy-lookout-for-work-apps.md"
+  "fa82b0da9834e0e9b4f75a1c92cbcbe831a392e3": [
+    "gallery\\psget\\oneget\\PackageManagement_cmdlets.md"
   ],
-  "1584022db4b312919f88ef39dd3912c47b859099": [
-    "Sonja\\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md"
+  "924dbaea9725bed776c7802a78968aafe21b33b8": [
+    "gallery\\psget\\overview.md"
   ],
-  "da988778ab1156597fe19ac40bab155be6046d75": [
-    "Sonja\\Configure-certificate-infrastructure-for-pfx.md"
+  "7c86beac71d47aa2da11691f8c325c3c80d9923d": [
+    "gallery\\psget\\psget_cmdlets_reference.md"
   ],
-  "adef720c31eea978dc899f62e1eef60af2812a3d": [
-    "Sonja\\Configure-certificate-infrastructure-for-scep.md"
+  "6c4cdfdb05233d407d273562eaa751563458a9f8": [
+    "gallery\\psget\\psget_cmdlets_troubleshooting.md"
   ],
-  "e383b39493a7113d4e7c50b16df01d291b45036e": [
-    "Sonja\\Configure-Intune-certificate-profiles.md"
+  "7e2566a7874904e90f6cab47d03d5817a4653ee2": [
+    "gallery\\psget\\psget_oneget_integration.md"
   ],
-  "c7fe00828108ac3f84e91a0eeb3ed4c344228588": [
-    "Sonja\\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md"
+  "5396621599aea3316ac6d32d137ed114db68bbb3": [
+    "gallery\\psget\\repository\\bootstrapping_nuget_proivder_and_exe.md"
   ],
-  "c2c2774dd85d8ce9c056248f801220e06f17063b": [
-    "Sonja\\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md"
+  "df940c200d4099560fdeb24bc471816f576f50db": [
+    "gallery\\psget\\repository\\psget_get-psrepository.md"
   ],
-  "1059aae1c90e3623201281d4cf14d9db442e3f20": [
-    "Sonja\\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md"
+  "da4ab9afac51ec73c80c21bc207726ffb68055d4": [
+    "gallery\\psget\\repository\\psget_register-psrepository.md"
   ],
-  "2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2": [
-    "Sonja\\create-a-device-compliance-policy-in-microsoft-intune.md"
+  "7bf1f63b00e52837ee0a07f8a2e5b48c9153dd8f": [
+    "gallery\\psget\\repository\\psget_set-psrepository.md"
   ],
-  "686610249b35f81e9ad7a87fe20d736a32eafb43": [
-    "Sonja\\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md"
+  "193ea4ff8323f6be045639edfd39b792c1a145ea": [
+    "gallery\\psget\\repository\\psget_unregister-psrepository.md"
   ],
-  "6f6a18318070aa9e7d6dfc27a820d9d8f2054069": [
-    "Sonja\\Custom-configurations-for-VPN-profiles.md"
+  "ad412fd3480d98e660562a27963b45d42afc5737": [
+    "gallery\\psget\\script\\psget_find-script.md"
   ],
-  "937e291f193f61329598395baa63c24d7fefa25f": [
-    "Sonja\\custom-policy-to-allow-and-block-samsung-knox-apps.md"
+  "a96100d0395c6ade2b62951f60c4723a20ae06f6": [
+    "gallery\\psget\\script\\psget_get-installedscript.md"
   ],
-  "0e5761859f4c0c30f1bd818c968bba3a3c6c60b6": [
-    "Sonja\\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md"
+  "bb0f0dc2ad9bafd7ad8a69e93eaf5b187aeb22d7": [
+    "gallery\\psget\\script\\psget_install-script.md"
   ],
-  "8658df1fb9932fb2cab984a13557aad684569df5": [
-    "Sonja\\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md"
+  "dea23041a92ce6082b210bc16f7b765d9e4a424d": [
+    "gallery\\psget\\script\\psget_new-scriptfileinfo.md"
   ],
-  "ef042e24af2300250cf2bd1bf9803678e252b773": [
-    "Sonja\\deploy-apps.md"
+  "e31e2957c1c1ed7b7e72613186a8e4584120ca06": [
+    "gallery\\psget\\script\\psget_publish-script.md"
   ],
-  "904b89a92cef870f4672e5f40e6ac91ece10d3b7": [
-    "Sonja\\deploy-apps-in-microsoft-intune.md"
+  "7f96cee98a933df456df6dda0b6a20a2491bd5bf": [
+    "gallery\\psget\\script\\psget_save-script.md"
   ],
-  "45130e3e12968d9df579a7a9d0cade0343b7c165": [
-    "Sonja\\edition-upgrade-policy-settings-in-microsoft-intune.md"
+  "e36caac37a9d8ebb05fb62cc56054fe2cdc69b0b": [
+    "gallery\\psget\\script\\psget_test-scriptfileinfo.md"
   ],
-  "e5ae5a1d5cb077b88fa73cd2b58cd84144e4a9d3": [
-    "Sonja\\enable-access-to-company-resources-with-microsoft-intune.md"
+  "204b597e19433aeeeef26640ae7b20ed8ad1aa98": [
+    "gallery\\psget\\script\\psget_uninstall-script.md"
   ],
-  "761372b2c8b81699bc2584ab1ef8d0f9d523abe9": [
-    "Sonja\\enable-device-threat-protection-rule-in-compliance-policy.md"
+  "bd31f7cdc1d49ec4eff947545625be6eb822e807": [
+    "gallery\\psget\\script\\psget_update-script.md"
   ],
-  "4ae7d6c571f69c0cc51dc15355e50325afb88694": [
-    "Sonja\\enable-lookout-mtp-connection-in-intune.md"
+  "6da59dbf6f98bb30ae9d57ecb3bace2f42cdf76b": [
+    "gallery\\psget\\script\\psget_update-scriptfileinfo.md"
   ],
-  "48783b21c64c9031b0fbbd58afb8aa0eb911ed6b": [
-    "Sonja\\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md"
+  "8c47b455227ebdc4b955cd0c83c0283781339192": [
+    "gallery\\psget\\script\\scriptwithpseditionsupport.md"
   ],
-  "585ce92b0f0159060d9a8f1960b4c7b05eafdee7": [
-    "Sonja\\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md"
+  "1407b4d2c8c6c246b51ef447284e729811823688": [
+    "gallery\\readme.md"
   ],
-  "7fb28509d78159fa9bec8d12a1cab534a039f328": [
-    "Sonja\\enroll-corporate-owned-ios-devices-in-microsoft-intune.md"
+  "6b33f2d05724ff888f48219135f8d8b88ccb4bc7": [
+    "gallery\\TOC.md"
   ],
-  "4dbf5123fc909d5372a0ca29c22d0df6d0eef26b": [
-    "Sonja\\enroll-devices-in-microsoft-intune.md"
+  "2b2dfd9c39fe5d7bf4a52032653108729715e6bf": [
+    "jea\\common-role-capability-pitfalls.md"
   ],
-  "c40978080967e3fb92aeb905218fd875e61e7efe": [
-    "Sonja\\exchange-access-rules-for-mobile-devices.md"
+  "9f3f79a29e0fb7ec5a5111284bb7985548e17749": [
+    "jea\\considerations-when-limiting-commands.md"
   ],
-  "21f4e16787a3f5aa1970fbf7d22214018bc8c69c": [
-    "Sonja\\exchange-activesync-policy-settings-in-microsoft-intune.md"
+  "8473eb668e4da5bab01c2f2b7647cbced413bd22": [
+    "jea\\creating-a-domain-controller.md"
   ],
-  "194e6e2b20c90cce5adcc684a4674e972d0cdc1b": [
-    "Sonja\\find-a-pfn-for-per-app-vpn.md"
+  "e7ea3957ce3bbd3ce0fc072a82cd108606f05614": [
+    "jea\\end-to-end---active-directory.md"
   ],
-  "da881ccb5ed26fbec77e1964ff85f7adccb48d53": [
-    "Sonja\\get-notified-by-alerts.md"
+  "00d568234b1453b9161b60d20117374ee4111ab3": [
+    "jea\\introduction.md"
   ],
-  "aeaa64124384a71126eeca7339416b80d395d07d": [
-    "Sonja\\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md"
+  "178fea44987b0c457b8e5d23fbe851ee12f03b31": [
+    "jea\\key-concepts-used-throughout-this-guide.md"
   ],
-  "3a58e11c78c25fb2b34c581f3605cbf51e6c1143": [
-    "Sonja\\get-ready-to-enroll-devices-in-microsoft-intune.md"
+  "784806197a64eb30af1ecea4af55575434ce7b87": [
+    "jea\\multi-machine-deployment-and-maintenance.md"
   ],
-  "5cc03b724f8b9b00feb6bf693bd9b420c02e4ed3": [
-    "Sonja\\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md"
+  "8892e5e08a763fbc66d782bbc9252d1f3a7dcfcf": [
+    "jea\\on-blacklisting.md"
   ],
-  "3fde6fb88bd929956d18e4dda502071901e4c4b4": [
-    "Sonja\\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md"
+  "ac9231a475ba84e9051bbd06a65f3f20c9e49846": [
+    "jea\\prerequisites.md"
   ],
-  "8bcc70ba6451f13f80319229b191b6feb2d5664e": [
-    "Sonja\\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md"
+  "7bb5635832e912b39ec387e8ac93ada24a434ff8": [
+    "jea\\README.md"
   ],
-  "d34bdc9839ea7785a429bc70cba15cc85da56ee1": [
-    "Sonja\\how-your-android-users-get-their-apps.md"
+  "acd2cfbd038250a26236c875d0e8b03a32cd84f9": [
+    "jea\\remake-the-demo-endpoint.md"
   ],
-  "e53a94a9da3162908b9bbb3714d64db917c8174b": [
-    "Sonja\\how-your-ios-users-get-their-apps.md"
+  "d867a6462e9fa8b6e16c8c2103899c72b380116c": [
+    "jea\\reporting-on-jea.md"
   ],
-  "3a7ce952923ff69323edd1b3e2a4f6e8a2d4547b": [
-    "Sonja\\how-your-windows-users-get-their-apps.md"
+  "a3dd4a217f5b1fd80e97adf802c65073ca015bbc": [
+    "jea\\role-capabilities.md"
   ],
-  "d59a0a08b6d72d2b2cb9462d99fc8e435fe0fba8": [
-    "Sonja\\install-the-windows-pc-client-with-microsoft-intune.md"
+  "fc3b6d859bf3842a857d9519516ea4e275fa1876": [
+    "jea\\TOC.MD"
   ],
-  "476f44df54fbea5c0fcfe8cf0e3ce4a61bd7c0a0": [
-    "Sonja\\introduction-to-device-compliance-policies-in-microsoft-intune.md"
+  "9db7a5a91d25d459313117da34af63016f03c241": [
+    "jea\\using-jea.md"
   ],
-  "18614cc272323b8031c94b8e582f80aa5c06d9d3": [
-    "Sonja\\intune-on-premises-exchange-connector.md"
+  "c3b263110a908c28569cf3048a94d48da8316684": [
+    "scripting\\core-powershell\\console\\PowerShell.exe-Command-Line-Help.md"
   ],
-  "1aabf820170483eacc83bec5e2b275e84dc07ffd": [
-    "Sonja\\intune-service-to-service-exchange-connector.md"
+  "fd950429d80972b6025e67ea727aa49ef195e882": [
+    "scripting\\core-powershell\\console\\Using-Tab-Expansion.md"
   ],
-  "a2f98bbd34cf8b0c86531ae6ff40b1044c15d8bd": [
-    "Sonja\\ios-compliance-policy-settings-in-microsoft-intune.md"
+  "074f3570e9354f2186be8690744640ea4739ef6e": [
+    "scripting\\core-powershell\\console-guide.md"
   ],
-  "fa02292c2cd6a8b627428752d97cf8a04dcc19b0": [
-    "Sonja\\ios-device-enrollment-program-in-microsoft-intune.md"
+  "3bee547fc53d1164d3cbf17f033083d4f1099ae7": [
+    "scripting\\core-powershell\\core-modules.md"
   ],
-  "17836bc826bc89e3f041f7b369be09c1cce9ea4f": [
-    "Sonja\\ios-direct-enrollment-in-microsoft-intune.md"
+  "249a0ece77a11fd9aa54a6ff4170e44f42b377c9": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Archive-Module.md"
   ],
-  "ba258bfb3140ffc79aa38ef2f46497346cdc6bfa": [
-    "Sonja\\ios-mam-policy-settings.md"
+  "da1ec55f88ece496b8a55d1c1d0ad9bf0052c8fa": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Core-Module.md"
   ],
-  "77b318fc6670fbda59d0cdcac1b0661f6d910142": [
-    "Sonja\\ios-mobile-app-provisioning-profiles.md"
+  "15ffabd2e8c9385990e08ac7311449f000b1302e": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Diagnostics-Module.md"
   ],
-  "24540a74ce98adbf3f908cbea401328f027867ca": [
-    "Sonja\\ios-policy-settings-in-microsoft-intune.md"
+  "10dff4577e717b2c74604515f7fa696dc7fb996b": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Host-Module.md"
   ],
-  "1260001be3e5479ff0758178dc161260d31dcc3e": [
-    "Sonja\\ios-setup-assistant-enrollment-in-microsoft-intune.md"
+  "d62bf183f2b80c8ff7bc279124dc10ef72fdf5ff": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Management-Module.md"
   ],
-  "e26786066b98adf187a6cf3ccbf172e919871f50": [
-    "Sonja\\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md"
+  "ad4433d14277a6e10906ee74a765504cede12587": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.ODataUtils-Module.md"
   ],
-  "c6b010e49b4e581dad056aa6e8bb17123030f7b0": [
-    "Sonja\\mac-os-x-policy-settings-in-microsoft-intune.md"
+  "215d1e2d0eb17967552143635a5413681907fc50": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Utility-Module.md"
   ],
-  "9578d58be2101a2013d5f687800245d5a8b53e01": [
-    "Sonja\\manage-alerts-in-microsoft-intune.md"
+  "de6a4fcc1b07ed1bd41f4b2f6b6cd68e2cd66f84": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.WSMan.Management-Module.md"
   ],
-  "077029a962797a18fab27c3f1f5340eae6edfe04": [
-    "Sonja\\manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md"
+  "dfca9909da78dc45cd72cbfaff5ab4c441762c60": [
+    "scripting\\core-powershell\\core-modules\\PackageManagement-Module.md"
   ],
-  "6c8a658532ba9e7367c12c62581486399ff77840": [
-    "Sonja\\manage-corporate-owned-devices.md"
+  "130368e634668b7229f1c1423c946ae4b0a65466": [
+    "scripting\\core-powershell\\core-modules\\PSLocalAccount5-Module.md"
   ],
-  "1d212dddc1d5665b7badf6cc27b41e012f74d96c": [
-    "Sonja\\manage-data-transfer-between-ios-apps-with-microsoft-intune.md"
+  "483d96a5df9a1bbbbdaa0cb76657a4aba0dafe80": [
+    "scripting\\core-powershell\\core-modules\\PSReadline-Module.md"
   ],
-  "a8cf580a7df1d9c5240fc702107563bc965ce6ad": [
-    "Sonja\\manage-internet-access-using-managed-browser-policies.md"
+  "1583fba47d9a709500e3cd678e2e0c27b2777a7d": [
+    "scripting\\core-powershell\\core-modules\\PSScheduledJob-Module.md"
   ],
-  "a5c37c470f937c682d9138a636d1211f641da784": [
-    "Sonja\\manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md"
+  "3e9ba43162afb7b689bf92883f2347c2c8551ea2": [
+    "scripting\\core-powershell\\core-modules\\PSScriptAnalyzer-Module.md"
   ],
-  "4af08b38716e04766175e2ab55db1a0dba788c20": [
-    "Sonja\\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md"
+  "8adf724740b2f09bff6d5cafb822566f4747780c": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-5.0.md"
   ],
-  "0dc10ea029d078840a584424f7900f340189b960": [
-    "Sonja\\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md"
+  "4d33ebe2a067781d708ca3b0f8dc4dd2848ba4d4": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-About-Topics.md"
   ],
-  "c1d85b399cd78f24d5a08979e11da7fb16c3fb1f": [
-    "Sonja\\manage-volume-purchased-apps-in-microsoft-intune.md"
+  "f6b1ca1a3253c941c76826c6644079a14f19ddcf": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-Providers.md"
   ],
-  "1df2507df6bd3fc7748c10c1f398fbfdb8958a18": [
-    "Sonja\\manage-windows-pcs-with-microsoft-intune.md"
+  "c8f97c3b565e0718b38a8e62a2b9cb9558451fc5": [
+    "scripting\\core-powershell\\core-powershell.md"
   ],
-  "f02400a423e579f89f3b06b17ede83190635592c": [
-    "Sonja\\microsoft-intune-policy-reference.md"
+  "460ab6d82b694266d31b09779866f746b56c9f51": [
+    "scripting\\core-powershell\\ise\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
   ],
-  "b2e4e606327a452a49cd2066a13e030db808836c": [
-    "Sonja\\migrate-to-intune.md"
+  "30cc1671518fe5f134556443dca7ae46e9be3fea": [
+    "scripting\\core-powershell\\ise\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
   ],
-  "3e8ca71a8a7011eb4d2e34c61ef869dbf0abe3b7": [
-    "Sonja\\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md"
+  "3543503655cc506c4c0f8a7f3d1056c05a66ecba": [
+    "scripting\\core-powershell\\ise\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
   ],
-  "04dec6046a54550070b4fec4622d134ec9ff94b3": [
-    "Sonja\\mobile-device-security-policy-settings-in-microsoft-intune.md"
+  "290d9237e20b35ec603f0967854b1e0d193e6cbb": [
+    "scripting\\core-powershell\\ise\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
   ],
-  "d9b0f5ec429ff8da8c6c91109b2ddd2184586763": [
-    "Sonja\\monitor-apps-in-microsoft-intune.md"
+  "4588577c0c05fadee6b443e2fa4c32049cf99ac3": [
+    "scripting\\core-powershell\\ise\\How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md"
   ],
-  "9ba4e31ebfb852ca9c35fdac9ca92791a5b56fd3": [
-    "Sonja\\monitoring-and-reports-with-microsoft-intune.md"
+  "6e58c298725254a84819856070b9702340fcf81d": [
+    "scripting\\core-powershell\\ise\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
   ],
-  "e530960268e8ef7d9c7f5419e7221bec61c0e6ef": [
-    "Sonja\\monitor-mobile-app-management-policies-with-microsoft-intune.md"
+  "07ec87200c8cc2db2c4d5695a2ca32a63bc470c8": [
+    "scripting\\core-powershell\\ise\\Introducing-the-Windows-PowerShell-ISE.md"
   ],
-  "05ae9ad7f4ed13f4fbcdd3ff7d9ad2c22cc8c0ba": [
-    "Sonja\\multi-factor-auth-azure-ad.md"
+  "272371dba97e62f51e352886aa9d33ef22569935": [
+    "scripting\\core-powershell\\ise\\ISE-Module.md"
   ],
-  "90f05f63e5df7776d6c6fde4de60731ccf1cddf0": [
-    "Sonja\\multi-factor-authentication-azure-active-directory.md"
+  "852b927ba0f5edffa5c7943b45e0e7b1bdd273f5": [
+    "scripting\\core-powershell\\ise\\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md"
   ],
-  "c93efd43a85c8046c7cfd6aa8341352b75ab0cfd": [
-    "Sonja\\overview-of-app-lifecycle-in-microsoft-intune.md"
+  "63ea621ed8eb31a3be8394d99fd05dc8f663769f": [
+    "scripting\\core-powershell\\ise\\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md"
   ],
-  "686dc048c8a582ea188c5ab742e94328405f3a29": [
-    "Sonja\\overview-of-device-and-app-lifecycles-in-microsoft-intune.md"
+  "0a8f19693085b9b878fae60953a2cdc358ba8f4c": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnToolCollection-Object.md"
   ],
-  "8e769d5912de0a821add180053034ed14eb58537": [
-    "Sonja\\overview-of-device-lifecycle-in-microsoft-intune.md"
+  "e63809763808836af9f468c2ac55ede42836d6b2": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnTool-Object.md"
   ],
-  "4d5e10ecc50387350eb7f1746603b7b7602190a4": [
-    "Sonja\\overview-of-the-microsoft-intune-app-sdk.md"
+  "020c94511ab5c0b4a19611967071e071242fadad": [
+    "scripting\\core-powershell\\ise\\The-ISEEditor-Object.md"
   ],
-  "743e6734e36c6f9bcfa1a594f46356b96fe0a77e": [
-    "Sonja\\per-app-vpn-for-android-pulse-secure.md"
+  "c334a38d6686be45101f4569f38411e9703c8fea": [
+    "scripting\\core-powershell\\ise\\The-ISEFileCollection-Object.md"
   ],
-  "9fc92c7724a9e1f256faa8b028bcf93e354e7997": [
-    "Sonja\\plan-your-user-and-device-groups.md"
+  "c1744841e23aa9c2fedf3eb92230ef422c36f0cd": [
+    "scripting\\core-powershell\\ise\\The-ISEFile-Object.md"
   ],
-  "f613bacf3505f2a18965e5fa5586acb2aa512aa9": [
-    "Sonja\\policies-to-protect-windows-pcs-in-microsoft-intune.md"
+  "563bfc58e545a9e67eb9dd89d8d28e1aa2a33f1c": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItemCollection-Object.md"
   ],
-  "ea1a6ef60b6a9cdd64559f67276280a4f491e30e": [
-    "Sonja\\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
+  "e067519d58ca381fc4e5c746fe9bbd16bdc68c60": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItem-Object.md"
   ],
-  "a94754404b9ee135642e5683ffa0e4a6351e6830": [
-    "Sonja\\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md"
+  "12a47e57d461f1e57cd9c7b20365627378d7e87a": [
+    "scripting\\core-powershell\\ise\\The-ISE-Object-Model-Hierarchy.md"
   ],
-  "5e94e4efa5a3ecb055ce416c3ee8dd21e56bad65": [
-    "Sonja\\prerequisites-for-enrollment.md"
+  "1aee849dd8b89492a641560ed4ef163c3cb96da4": [
+    "scripting\\core-powershell\\ise\\The-ISEOptions-Object.md"
   ],
-  "14e43dadc0d7bc20238ec87447f311fdc864d891": [
-    "Sonja\\pre-shared-key-wi-fi-profile.md"
+  "d7debb2ca5560839f7fdb986d26255dba930d8f5": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetCollection-Object.md"
   ],
-  "996198a2525dc830d229e7143afda3c71f4276b8": [
-    "Sonja\\previous-intune-releases.md"
+  "4f244b21454c2db929688d11cdf3f46d474ce0db": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetObject.md"
   ],
-  "6163f2b2a1c562e5315785b8b4c486fe2347f89d": [
-    "Sonja\\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md"
+  "5d9b2492dbcade15c91d2b7687f5fc64998e2a9a": [
+    "scripting\\core-powershell\\ise\\The-ObjectModelRoot-Object.md"
   ],
-  "4f2127f50750f5b483bd5d9fa2bed31a63b9d65f": [
-    "Sonja\\protect-apps-and-data-with-microsoft-intune.md"
+  "4456b1e165130fd52249ffdbd7c22ff591061a8e": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTabCollection-Object.md"
   ],
-  "eb04f0e7b9627ad1869ef677f1b32380db868490": [
-    "Sonja\\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md"
+  "f3f2d27c3c82406f8e8967fd1784a6e07579c1fa": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTab-Object.md"
   ],
-  "00d63fa55cd29c938dd082e2eff240f08319e01a": [
-    "Sonja\\protect-windows-devices-with-multi-factor-authentication.md"
+  "e1c4da3865f8c9dd7d2f73b243ac0b0216bd9631": [
+    "scripting\\core-powershell\\ise\\The-Windows-PowerShell-ISE-Scripting-Object-Model.md"
   ],
-  "be5051c46e1ef04ea140c9d440720f570edcbd1e": [
-    "Sonja\\protect-your-devices-with-microsoft-intune.md"
+  "117a7a3e031ffde70ebcbcb5d180c2d7b822ac76": [
+    "scripting\\core-powershell\\ise\\Using-the-Windows-PowerShell-ISE.md"
   ],
-  "ad95830b37d3b83554b64d2f82fa537e603190d6": [
-    "Sonja\\Release-notes-for-Microsoft-Intune.md"
+  "9bfb74ba438dd27fc2799263fc12a20edd2bb8cb": [
+    "scripting\\core-powershell\\ise\\Windows-PowerShell-ISE-Object-Model-Reference.md"
   ],
-  "afb669f1e867b386bfb5a80bbb4a665be7b71478": [
-    "Sonja\\renew-a-symantec-code-signing-certificate.md"
+  "053a4fd734b1e86c5f8ca22c8197ce4e80b6fce6": [
+    "scripting\\core-powershell\\ise-guide.md"
   ],
-  "286f159e57820a8c8723004c167ae7296626894c": [
-    "Sonja\\resolve-gpo-and-microsoft-intune-policy-conflicts.md"
+  "d36a862d27ed4bb8a4bed2ae58f9479ba1b29d21": [
+    "scripting\\core-powershell\\Running-Remote-Commands.md"
   ],
-  "d4eadb73aac14a375f41c434a4303a885bfbae64": [
-    "Sonja\\restrict-access-based-on-device-network-app-risk.md"
+  "bdd57c989f4787e402b0334782db3ab9f5b42161": [
+    "scripting\\core-powershell\\web-access.md"
   ],
-  "875da922b311b06fa8a1eb8ba7207108684825d5": [
-    "Sonja\\restrict-access-to-dynamics-crm-online-with-microsoft-intune.md"
+  "dc50a729855a71d61c187da9d698bd294f740546": [
+    "scripting\\core-powershell\\web-access\\authorization-rules-and-security-features-of-windows-powershell-web-access.md"
   ],
-  "6e11d71265f01ae31ab3124a46aaa544ad2f453a": [
-    "Sonja\\restrict-access-to-email-and-o365-services-with-microsoft-intune.md"
+  "75e9b6525d74a8bc632b9fe2e64183717f59776f": [
+    "scripting\\core-powershell\\web-access\\install-and-use-windows-powershell-web-access.md"
   ],
-  "dd5ae411cc2541566805131d0076efc15875c988": [
-    "Sonja\\restrict-access-to-exchange-online-with-microsoft-intune.md"
+  "df935247806f108705c9528e4c5454ce499becef": [
+    "scripting\\core-powershell\\web-access\\troubleshooting-access-problems-in-windows-powershell-web-access.md"
   ],
-  "cf9a9aae239e4b6feee57dd1bb0ea52ddaed408c": [
-    "Sonja\\restrict-access-to-exchange-onpremises-with-microsoft-intune.md"
+  "d54139714552943901f565a8525bb478ed308f09": [
+    "scripting\\core-powershell\\web-access\\uninstall-windows-powershell-web-access.md"
   ],
-  "fa73c5e2b4e6737377acd206807399b31df37364": [
-    "Sonja\\restrict-access-to-networks.md"
+  "9c633d457db9d15621285b2662244c4190550f63": [
+    "scripting\\core-powershell\\web-access\\use-the-web-based-windows-powershell-console.md"
   ],
-  "84c9d355fde49fd18899a43ed0def0c801694291": [
-    "Sonja\\restrict-access-to-sharepoint-online-with-microsoft-intune.md"
+  "1e30424797ee285e9e4eeae990979e8a1329fd74": [
+    "scripting\\core-powershell\\workflows\\PSWorkflow-Module.md"
   ],
-  "27d993974d71b34b36cbd3216b83a1303689bf15": [
-    "Sonja\\restrict-access-to-skype-for-business-online-with-microsoft-intune.md"
+  "62cb6e90637373791e66ad1f94af085de00e4666": [
+    "scripting\\core-powershell\\workflows\\PSWorkflowUtility-Module.md"
   ],
-  "01f93bb8b09d5d6b0708e84c7498cf03e9225880": [
-    "Sonja\\restrict-email-access-example-scenarios.md"
+  "4cdd2c913eb33d29e9734c3845994d7e776db2b1": [
+    "scripting\\core-powershell\\workflows-guide.md"
   ],
-  "33ff2a202a8317319b6f8ef0a0e5fa10b4335ff3": [
-    "Sonja\\retire-apps-using-microsoft-intune.md"
+  "e1c94c281a39b3ae026bbeea9811ecc71b9cdb1c": [
+    "scripting\\getting-started\\basic-cookbooks.md"
   ],
-  "93c8c07632c067fdb2eef221bc149fa7f6e9d495": [
-    "Sonja\\retire-devices-from-microsoft-intune-management.md"
+  "61eac49bc710a2435117409b74ba02798cf720da": [
+    "scripting\\getting-started\\cookbooks\\Appendix-1---Compatibility-Aliases.md"
   ],
-  "b807ecdbd132692dc022bfa5f7a9418d3a614dfb": [
-    "Sonja\\secure-resource-access-with-certificate-profiles.md"
+  "ceec1038516ddd4c29df770d14981c0a69437498": [
+    "scripting\\getting-started\\cookbooks\\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md"
   ],
-  "7a2721fc5d53ab4398fe9b69cc561d85d2c09426": [
-    "Sonja\\set-up-android-management-with-microsoft-intune.md"
+  "a5bfad60f1cb254f1899723c40751cd8b96ef54e": [
+    "scripting\\getting-started\\cookbooks\\basic-cookbooks-reference.md"
   ],
-  "566a1bbf353921257b4ab7c7c0b73aac987c2085": [
-    "Sonja\\set-up-ios-and-mac-management-with-microsoft-intune.md"
+  "1779b9de13a30a43236e24793e5196261a7db77f": [
+    "scripting\\getting-started\\cookbooks\\Changing-Computer-State.md"
   ],
-  "6b6249c2429af6c9dd85d5044dd8e0cc1f4d9a67": [
-    "Sonja\\set-up-windows-device-management-with-microsoft-intune.md"
+  "96204a0ce674cacd5b830f9f8b820ce3e1cbbc20": [
+    "scripting\\getting-started\\cookbooks\\Collecting-Information-About-Computers.md"
   ],
-  "c6aff6de22c01db680b5a7bb2c6f68e8185b4350": [
-    "Sonja\\set-up-windows-phone-8.0-management-with-microsoft-intune.md"
+  "4c0f405a46e16935211b3886a40c9f7d1afc7260": [
+    "scripting\\getting-started\\cookbooks\\Creating-.NET-and-COM-Objects--New-Object-.md"
   ],
-  "2c3d0b63520b1b49acb29b27d98fd08778e13e62": [
-    "Sonja\\set-up-windows-phone-management-with-microsoft-intune.md"
+  "6c0c1d42dae602a83bbad7a0abe8df1b6435489a": [
+    "scripting\\getting-started\\cookbooks\\Creating-a-Custom-Input-Box.md"
   ],
-  "8e2c71127801afc21d52e08d13dd9099b263e801": [
-    "Sonja\\set-up-your-subscription-with-lookout-mtp.md"
+  "9c232f47eba22790dfc98e4948c71e181616d2ae": [
+    "scripting\\getting-started\\cookbooks\\Creating-a-Graphical-Date-Picker.md"
   ],
-  "09902b33cc63b991ec3de3b82860fa93d347f472": [
-    "Sonja\\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md"
+  "de9e8af7908ac6a72a100fd2c86b52c30c390c39": [
+    "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
   ],
-  "912878619cf2573e0678634d8a8a49b34b79f498": [
-    "Sonja\\subscription-might-include-downloadable-software.md"
+  "97bdd8ed6278fc5d45b34adf50ef8a194966ef0c": [
+    "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
   ],
-  "701f6c79b32a3968fd76b441b8f7fd4d9d810df6": [
-    "Sonja\\terms-and-condition-policy-settings-in-microsoft-intune.md"
+  "5a635485387bb367f4e43982085f9d36765a95e5": [
+    "scripting\\getting-started\\cookbooks\\Managing-Processes-with-Process-Cmdlets.md"
   ],
-  "caac142f1f13d5a08527a375589db997208551bc": [
-    "Sonja\\TOC.md"
+  "66c2a8c8afab49f16e8ef7d0b5ba3a2a65c92490": [
+    "scripting\\getting-started\\cookbooks\\Managing-Services.md"
   ],
-  "c9df7eddbae77e64cc3b0fdf9ddc158ed2ed2860": [
-    "Sonja\\understand-microsoft-intune-operations-by-using-reports.md"
+  "d266a109b1acd97c03594f988ce2fab3c697b80c": [
+    "scripting\\getting-started\\cookbooks\\Managing-Windows-PowerShell-Drives.md"
   ],
-  "a195ca39169d2288d76b1337a003db8a0ae11997": [
-    "Sonja\\understand-your-devices-with-inventory-in-microsoft-intune.md"
+  "b21af4711cc5a846517c3e286c9e90f858612ccb": [
+    "scripting\\getting-started\\cookbooks\\Manipulating-Items-Directly.md"
   ],
-  "cefe90cdb0cda5ada259576af7cf477642860446": [
-    "Sonja\\update-apps-using-microsoft-intune.md"
+  "1adae567893fb5dfcf5b5f675ca587a1d437d39a": [
+    "scripting\\getting-started\\cookbooks\\Multiple-selection-List-Boxes.md"
   ],
-  "76b8ab90974dc258992ed8c660a04fc08872a4ec": [
-    "Sonja\\use-groups-to-manage-users-and-devices-with-microsoft-intune.md"
+  "83aa2ceb63497c7a12ec80d4b1472327284acf5b": [
+    "scripting\\getting-started\\cookbooks\\Other-Useful-Scripting-Objects.md"
   ],
-  "3a7c87d915abd6ef4090c1773af3e58b81366998": [
-    "Sonja\\use-remote-lock-and-passcode-reset-in-microsoft-intune.md"
+  "39266e1e4ae2101de26277c20a98596f62cf223d": [
+    "scripting\\getting-started\\cookbooks\\Performing-Networking-Tasks.md"
   ],
-  "309f0701426d6ea22c2c9bd1c3a64393b95c4859": [
-    "Sonja\\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md"
+  "3093c4c307ff61151946c417d18cde8fe56278bc": [
+    "scripting\\getting-started\\cookbooks\\PowerShellGet-Module.md"
   ],
-  "38e5155ef9167778e82b913d819088409526e27c": [
-    "Sonja\\use-the-sdk-to-enable-apps-for-mobile-application-management.md"
+  "e62ae14e4d7334d0cd42681c7e2591692c089187": [
+    "scripting\\getting-started\\cookbooks\\Redirecting-Data-with-Out---Cmdlets.md"
   ],
-  "dab40df81c26b403aa3f2ae5524ff1297e2a7963": [
-    "Sonja\\validate-mobile-application-management.md"
+  "94117fcf337ecf550d6df1d167e608ba64582c03": [
+    "scripting\\getting-started\\cookbooks\\Removing-Objects-from-the-Pipeline--Where-Object-.md"
   ],
-  "738b7fbda92f24eaeae23638ea49c1c174901e7a": [
-    "Sonja\\vpn-connections-in-microsoft-intune.md"
+  "8dd7904611fb697f9b398161e12765454b4f3441": [
+    "scripting\\getting-started\\cookbooks\\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md"
   ],
-  "0949172a7b8517b12fb46e8fd1f8a3cd70d93099": [
-    "Sonja\\whats-coming-in-intune.md"
+  "7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00": [
+    "scripting\\getting-started\\cookbooks\\Selecting-Items-from-a-List-Box.md"
   ],
-  "3e5ca7345aef574446d437bac25bffc0c3414c68": [
-    "Sonja\\whats-new-archive.md"
+  "463eaa5d27eeb03f232239bc6810ab00d4a1eaf4": [
+    "scripting\\getting-started\\cookbooks\\Selecting-Parts-of-Objects--Select-Object-.md"
   ],
-  "1d09e5a0adb3ecfa8f2d64f668ea7ff16bdf31fa": [
-    "Sonja\\whats-new-in-microsoft-intune.md"
+  "88753c43124cfce3581af2259449be5f01579ae8": [
+    "scripting\\getting-started\\cookbooks\\Sorting-Objects.md"
   ],
-  "2746f2021757ed335be7958f6e7d59b16a3d7649": [
-    "Sonja\\what-to-tell-your-end-users-about-using-microsoft-intune.md"
+  "4d8c2392c6a9f59dc5e601308bc08db8c653760e": [
+    "scripting\\getting-started\\cookbooks\\Using-Format-Commands-to-Change-Output-View.md"
   ],
-  "5bad6dce377bcec66154ecbb4febe5316894402f": [
-    "Sonja\\wi-fi-connections-in-microsoft-intune.md"
+  "28bc665c3ffb1b74a2ff922584c31a8657842a0f": [
+    "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md"
   ],
-  "712883874f022ceb3f38473839fe0d6e4c373164": [
-    "Sonja\\windows-10-policy-settings-in-microsoft-intune.md"
+  "acd52c1271013320dafa7f7bf5c72b752e07574b": [
+    "scripting\\getting-started\\cookbooks\\Viewing-Object-Structure--Get-Member-.md"
   ],
-  "12239464012029e3ffff3a9bed4f4ccb2cebe633": [
-    "Sonja\\windows-compliance-policy-settings-in-microsoft-intune.md"
+  "c3f7c226fcb496e5bb51ba601429c54b43de9d52": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Files-and-Folders.md"
   ],
-  "b02804f933f8c259ea12efefd0353a7d5ceda25c": [
-    "Sonja\\windows-configuration-policy-settings-in-microsoft-intune.md"
+  "3e1bf444d7657b66422dab3eb8dbeef5e4d581b4": [
+    "scripting\\getting-started\\cookbooks\\Working-With-Files-Folders-and-Registry-Keys.md"
   ],
-  "315e492b301387c2030440e7188dfdb35a99ddd9": [
-    "Sonja\\windows-phone-8-1-policy-settings-in-microsoft-intune.md"
+  "e7069571249447bffc587d3665ffdb8f75bd9c25": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Objects.md"
   ],
-  "a8a6e72468cfabf316cb15b5926841e5308325d5": [
-    "Sonja\\windows-team-configuration-policy-settings-in-microsoft-intune.md"
+  "c013124d12a551245152c1703e5f1d8a3f8f5f70": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Printers.md"
   ],
-  "9d16bc6a4c68fbc06691538b4896676ae17ac7a2": [
-    "Sonja\\wipe-for-exchange-managed-mobile-devices.md"
+  "cdc7f45c9fa8a6bf748a52b460a1ac190d283971": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Entries.md"
   ],
-  "111cfe66e3ee6d9238bb885e3be4025a24811369": [
-    "Sonja\\wipe-managed-company-app-data-with-microsoft-intune.md"
+  "4809eb60ba1a5529343c2ab3c88493bf2c32389b": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Keys.md"
+  ],
+  "13fdac5369d70289d7a0b5115a04879f707e47fc": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
+  ],
+  "548cb522ecf8f8f5e82fb43e709c6b8bf3a05096": [
+    "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
+  ],
+  "c1f285a1d1beb35c931c17f5944d7ec697cb152e": [
+    "scripting\\getting-started\\fundamental\\Exploring-the-Windows-PowerShell-ISE.md"
+  ],
+  "423be0f76788fa8f45356ca8446bad6754d38e1a": [
+    "scripting\\getting-started\\fundamental\\Getting-Detailed-Help-Information.md"
+  ],
+  "c60f0f63b0d64c82a3ae0716743087ee2b8740c0": [
+    "scripting\\getting-started\\fundamental\\Getting-Information-About-Commands.md"
+  ],
+  "1dd7dade688b56e3ac544c0562ad6bad4a4284a7": [
+    "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
+  ],
+  "7f4cafad8854c19f733a2672ba6b40834d93aac0": [
+    "scripting\\getting-started\\fundamental\\Object-Pipeline.md"
+  ],
+  "0148f4631e34e65a4336c5d1d50e313fb6639748": [
+    "scripting\\getting-started\\fundamental\\Scripting-with-Windows-PowerShell.md"
+  ],
+  "89634d992eb59650e1f1a6cf89064b477ac4fea9": [
+    "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
+  ],
+  "d90bf940a1047b629f7b59d239aab50a78748251": [
+    "scripting\\getting-started\\fundamental\\Understanding-the-Windows-PowerShell-Pipeline.md"
+  ],
+  "b567510b9a39bfa62e64e62752a1a7d2002cf6b9": [
+    "scripting\\getting-started\\fundamental\\Using-Familiar-Command-Names.md"
+  ],
+  "6216f3e1a766c57a7549a3e3b4fbe76d043a8a41": [
+    "scripting\\getting-started\\fundamental\\Using-Variables-to-Store-Objects.md"
+  ],
+  "994e6c89f6fc20b95691f010deb3c48062cef310": [
+    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell.md"
+  ],
+  "904aff841a50f1599ac29c0408a0af6fa43fe794": [
+    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell-for-Administration.md"
+  ],
+  "6b35f2dd3cf441daa1a92d52435ed0ae350c138a": [
+    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Basics.md"
+  ],
+  "061e22c26853664c89adc023d43802628859b9a6": [
+    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
+  ],
+  "b3b97b9dcf01094fe1fadbac355c92df35feaee2": [
+    "scripting\\getting-started\\fundamental-concepts.md"
+  ],
+  "52d55ff10a9118bea2a34a53452fd252d1e17580": [
+    "scripting\\getting-started\\Getting-Ready-to-Use-Windows-PowerShell.md"
+  ],
+  "a031bad99e8aca1d7598f99e157723bf4360cf56": [
+    "scripting\\getting-started\\Getting-Started-with-Windows-PowerShell.md"
+  ],
+  "05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2": [
+    "scripting\\getting-started\\more-powershell-learning.md"
+  ],
+  "e3cac149d549400b6a180b4a4fd6ff1a13a8130b": [
+    "scripting\\getting-started\\understanding-concepts-reference.md"
+  ],
+  "fc6307be4dafb378350b6d9667b2b6aca0e2e6d4": [
+    "scripting\\PowerShell-Scripting.md"
+  ],
+  "b4d97b1c96a99bcfc43fb20ce9a4ecfa528ea024": [
+    "scripting\\setup\\Accessibility-in-Windows-PowerShell-ISE.md"
+  ],
+  "b6189e43fc9579a29d598deb705bb8e4e32e4a4f": [
+    "scripting\\setup\\Installing-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "7af27dc9bd8e93d1df5258b0d8df8af12726f568": [
+    "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
+  ],
+  "00249ec98e1624a949fe11fee8be9e93018578a9": [
+    "scripting\\setup\\Installing-Windows-PowerShell.md"
+  ],
+  "6bdf3f658ed75b48be6df217b6a0b4ad5951c935": [
+    "scripting\\setup\\security.md"
+  ],
+  "63f7597ba91fb839252de451c6c9380b5b19c0ec": [
+    "scripting\\setup\\setup-reference.md"
+  ],
+  "310f898a471ca60da4d9ebe5234ee86a636e44b5": [
+    "scripting\\setup\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
+  ],
+  "094c3c9f240457fc884031e7d82dcdc1e81e582d": [
+    "scripting\\setup\\Starting-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "f8406a2066ef54ea0fdaaff6e612bb0d43b12ab6": [
+    "scripting\\setup\\Starting-Windows-PowerShell.md"
+  ],
+  "6cdb6bb5d901c9bc7d2b7f5051e372337bbb69f9": [
+    "scripting\\setup\\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md"
+  ],
+  "b5b797ed09f9f43bfd0259e4af8b3754655d7c84": [
+    "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
+  ],
+  "b1addddd50368fadcbb2581673d3ebc7cad8e32a": [
+    "scripting\\setup\\WinRMSecurity.md"
+  ],
+  "7aa350784025dcf92526e50a22daa369c6cd4483": [
+    "scripting\\TOC.md"
+  ],
+  "207792452c563ec6cca5c17fbcd122372442d8ac": [
+    "scripting\\topic\\WinRMSecurity.md"
+  ],
+  "ababa1b3ce913528a3ac7089d91ef74c5eb27737": [
+    "scripting\\whats-new\\What-s-New-in-the-PowerShell-50-ISE.md"
+  ],
+  "666590df32157a7477d385961dd5665094275868": [
+    "scripting\\whats-new\\What-s-New-in-Windows-PowerShell-50.md"
+  ],
+  "edb3be980d23cafb8c9b9923a7153308481e6c67": [
+    "scripting\\whats-new\\What-s-New-With-PowerShell.md"
+  ],
+  "5c6f660f9de9039355f3a991da440b75e97275eb": [
+    "scripting\\Windows-PowerShell-Glossary.md"
+  ],
+  "2160a4b932075c98df6806c61d263d30f650b9f4": [
+    "wmf\\5.0\\audit_cms.md"
+  ],
+  "20e6c97ad5dc845bc0ead973ed8a62b34af3e824": [
+    "wmf\\5.0\\audit_overview.md"
+  ],
+  "654c0d5e83b9832524298b5c96eae094f371330f": [
+    "wmf\\5.0\\audit_script.md"
+  ],
+  "61364255f33378d71724705658d9924a7730b74e": [
+    "wmf\\5.0\\audit_transcript.md"
+  ],
+  "6968ca2fb27c1f300b7b5e5730e358d81fc4c400": [
+    "wmf\\5.0\\class_base.md"
+  ],
+  "a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29": [
+    "wmf\\5.0\\class_baseconstructor.md"
+  ],
+  "09ff4761ecdcf1d4433c4f40701cb7af3be44c8f": [
+    "wmf\\5.0\\class_basemethod.md"
+  ],
+  "31b64b6845c8d6ece8628bd565662525a65353d9": [
+    "wmf\\5.0\\class_interface.md"
+  ],
+  "b91e3bbb40b2b5eddd1e43be568773c850a9b8e0": [
+    "wmf\\5.0\\class_newtype.md"
+  ],
+  "3010b1ce497d8a5e45ada003587d9e104eddd8b1": [
+    "wmf\\5.0\\class_overview.md"
+  ],
+  "0660867e6e7c7a93a8ca80d76f22db7fd86f8826": [
+    "wmf\\5.0\\debug_overview.md"
+  ],
+  "b1cdc60338b2c130dad7d917c8fcec543aafe467": [
+    "wmf\\5.0\\dsc_authoring.md"
+  ],
+  "b4d9889430447d7499075847f8439cc2859f5751": [
+    "wmf\\5.0\\dsc_classbasedresource.md"
+  ],
+  "ad03c24f7cfd141744721b5825c20e8d2f0a00a8": [
+    "wmf\\5.0\\dsc_confighelp.md"
+  ],
+  "6bb220e50bdb77c2a7ffd36ea744aa3fc454dc67": [
+    "wmf\\5.0\\dsc_directaccess.md"
+  ],
+  "be8fdde764d0e3adb9aad50217ebc7c3ea26bbc4": [
+    "wmf\\5.0\\dsc_encryptedmof.md"
+  ],
+  "c858f997c814483a10f5a9d59fb5352c99ac1093": [
+    "wmf\\5.0\\dsc_freqnomultiple.md"
+  ],
+  "9ef3bec301af268ec4f97d881c0efbee71656fa4": [
+    "wmf\\5.0\\dsc_getconfigurationstatus.md"
+  ],
+  "a257f792d39f360a2c9e638f42ffac5fed282b00": [
+    "wmf\\5.0\\dsc_identicalduplicate.md"
+  ],
+  "56ec43a84cfdbceb7633609696ea697c515e2931": [
+    "wmf\\5.0\\dsc_importdscresource.md"
+  ],
+  "336c6bc43b482eda6524ebed0381240868261f64": [
+    "wmf\\5.0\\dsc_improvements.md"
+  ],
+  "648c2106d29749858161b78fb879c514078705d1": [
+    "wmf\\5.0\\dsc_lcmstate.md"
+  ],
+  "695980323cb5d00d5c8f6bbe2d1c1c29ec99f809": [
+    "wmf\\5.0\\dsc_metaconfiguration.md"
+  ],
+  "34c29d88f0676e51c1b8af9d9e65b151eb8a4272": [
+    "wmf\\5.0\\dsc_newresources.md"
+  ],
+  "06790d07e8798b1f263b023d0b231c6d9dd1d061": [
+    "wmf\\5.0\\dsc_nodeid.md"
+  ],
+  "4c8cbbd1f795a7117f049ccd6cbb00abb1127b24": [
+    "wmf\\5.0\\dsc_partialconfig.md"
+  ],
+  "dc5b682e8e6b028c3cc54130e697d67fd4c234d2": [
+    "wmf\\5.0\\dsc_partialconfig_mixedmode.md"
+  ],
+  "fbfae5c87a81bb36e1187a65b2ef7a6a982d99f4": [
+    "wmf\\5.0\\dsc_publishconfig.md"
+  ],
+  "da794b5c2fa3e975a3f39afbac989b2f40b07915": [
+    "wmf\\5.0\\dsc_refreshmode.md"
+  ],
+  "b0fb33b1d5e4ef1b0b9018ec5dd5f88ef5df4719": [
+    "wmf\\5.0\\dsc_removeconfigdoc.md"
+  ],
+  "9111f0ea2e0fc923994055819938fa16dfb0bedf": [
+    "wmf\\5.0\\dsc_reporting.md"
+  ],
+  "3cccbc0ec413b03899ae92e747b8e5828d667b0b": [
+    "wmf\\5.0\\dsc_repository.md"
+  ],
+  "1357bcf47977f6f1bfdc6420851d9f4df3e2b46d": [
+    "wmf\\5.0\\dsc_resourcedebugging.md"
+  ],
+  "0cfda25530705f1c17e72c2e19a5f389d2cb7686": [
+    "wmf\\5.0\\dsc_runas.md"
+  ],
+  "97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04": [
+    "wmf\\5.0\\dsc_setdsclcm.md"
+  ],
+  "98a8a8f27661042bef27d0edceccf9a67c9153d1": [
+    "wmf\\5.0\\dsc_statestatus.md"
+  ],
+  "6338545a3ded859ba9abddaaff768bb89cb2dac0": [
+    "wmf\\5.0\\dsc_sxsresource.md"
+  ],
+  "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": [
+    "wmf\\5.0\\dsc_testconfiguration.md"
+  ],
+  "e3643fd339a0662d87f9532d9c38fd56c7f72333": [
+    "wmf\\5.0\\dsc_updateconfig.md"
+  ],
+  "1050b9c9297adeef0215d706c19aa450fb483d97": [
+    "wmf\\5.0\\dsc_waitfor.md"
+  ],
+  "59206d28411ca6d4591cff5b3f158f4f5b78cc6a": [
+    "wmf\\5.0\\dsc_wow64.md"
+  ],
+  "40b022f369f09df35a4e8b1e675d75410b69dde9": [
+    "wmf\\5.0\\feedback.md"
+  ],
+  "e2d8147c6a85b59f5289f64e068c56593acc0cfc": [
+    "wmf\\5.0\\feedback_archive.md"
+  ],
+  "51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4": [
+    "wmf\\5.0\\feedback_clipboard.md"
+  ],
+  "2e8c46c95663135229a189f4d9c07da362aec299": [
+    "wmf\\5.0\\feedback_cmdlets.md"
+  ],
+  "09741289743ef276e3e94753dcce136193304c65": [
+    "wmf\\5.0\\feedback_convertfromString.md"
+  ],
+  "71e9f46958b59abce912278677217cd632629439": [
+    "wmf\\5.0\\feedback_convertstring.md"
+  ],
+  "aa0991efc9ca39cc0aae39516d4b6cac03c4501a": [
+    "wmf\\5.0\\feedback_fileinfo.md"
+  ],
+  "81803dcb8d5f0fac392cf13883b9240da3321f53": [
+    "wmf\\5.0\\feedback_formathex.md"
+  ],
+  "c3f3f9a8b16731dd1483eb65386ba0422b04370c": [
+    "wmf\\5.0\\feedback_getchilditem.md"
+  ],
+  "f2f968b1cd304009b3b29cdc793b61461e605812": [
+    "wmf\\5.0\\feedback_moduleversionranges.md"
+  ],
+  "5de946e13169ba772ae445fe9d0b73d213fff397": [
+    "wmf\\5.0\\feedback_newguid.md"
+  ],
+  "24969d20cd4500db4e8dc27c16cac84c0f3dc696": [
+    "wmf\\5.0\\feedback_nonewline.md"
+  ],
+  "fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f": [
+    "wmf\\5.0\\feedback_symbolic.md"
+  ],
+  "2741204c16027d7e8e8f785b90b9cc301880a262": [
+    "wmf\\5.0\\feedback_tempfile.md"
+  ],
+  "20254315c2503d46e6160593fb822391c5db2dd4": [
+    "wmf\\5.0\\informationstream_overview.md"
+  ],
+  "91d23a0045c6d7a1200caae6df64368dd8f3ecee": [
+    "wmf\\5.0\\install.md"
+  ],
+  "061fb3a39191f7aaf3f5e51b12f56cac84031f49": [
+    "wmf\\5.0\\jea_endpoint.md"
+  ],
+  "811596d4ad7994a12987ff172e626eac534bdf4d": [
+    "wmf\\5.0\\jea_overview.md"
+  ],
+  "a91b675a4f19306481bb87dc3f3b8cb32ab07e8c": [
+    "wmf\\5.0\\jea_report.md"
+  ],
+  "ad262a8f38b79f748757c1503a5e7173a1010923": [
+    "wmf\\5.0\\limitation_dsc.md"
+  ],
+  "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d": [
+    "wmf\\5.0\\limitation_overview.md"
+  ],
+  "9a9e69d384ffd92e0c26904a176f9954c5815f9a": [
+    "wmf\\5.0\\networkswitch_overview.md"
+  ],
+  "8849fb46853f12318dd34781d07085419737d196": [
+    "wmf\\5.0\\odata_overview.md"
+  ],
+  "75b6354fb83002602ec3d6276246cfa00ce0746a": [
+    "wmf\\5.0\\oneget_cmdlets.md"
+  ],
+  "967366156ab58d16b085a97f9a08169d3bff75c2": [
+    "wmf\\5.0\\oneget_overview.md"
+  ],
+  "5998288f1a82980b5988eb6d4fff1833ba5067e1": [
+    "wmf\\5.0\\productincompat.md"
+  ],
+  "4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed": [
+    "wmf\\5.0\\psget_module_overview.md"
+  ],
+  "809547e4b84077de47f8e9cb8d252b37a26a35e2": [
+    "wmf\\5.0\\psget_modulecmdlets.md"
+  ],
+  "f723a03aa04ea613f28d31c019b0c4d7e8af7f00": [
+    "wmf\\5.0\\psget_moduledependency.md"
+  ],
+  "644781a07bed2df5464d8090155522ae7477a11e": [
+    "wmf\\5.0\\psget_modulesxsinstall.md"
+  ],
+  "972f011c3c9f98b54fb5cc270281cd146eb9ac71": [
+    "wmf\\5.0\\psget_psrepository.md"
+  ],
+  "0569c3ce579db17c228c3410ca6db8a668919b19": [
+    "wmf\\5.0\\psget_script_overview.md"
+  ],
+  "91a4ed1e8912f77e274d64db7873ad56edbbd17b": [
+    "wmf\\5.0\\psget_scriptcmdlets.md"
+  ],
+  "37ba02e8b09b56312fbcf8b031b9ef49a53e5436": [
+    "wmf\\5.0\\releasenotes.md"
+  ],
+  "02ce3d08b01e58d6d9506f90142f92cc16304e64": [
+    "wmf\\5.0\\requirements.md"
+  ],
+  "edc1a0383cebfbe89b18b0238a13bb28e4d25c5a": [
+    "wmf\\5.0\\sil_overview.md"
+  ],
+  "f97722883acccd0addb49cc473fc1cce5300c184": [
+    "wmf\\5.0\\uninstall.md"
+  ],
+  "8a7774b36f15ff790c31d4c1a8bc69be257b8508": [
+    "wmf\\5.1\\bugfixes.md"
+  ],
+  "a1e178e907a9edbe652b5da32ad286550f95076f": [
+    "wmf\\5.1\\community-resources.md"
+  ],
+  "8e7dd69fc5ba29e719aec353afcac2471ecb2352": [
+    "wmf\\5.1\\compatibility.md"
+  ],
+  "2a17fdd4092adf734398f38bec915d53c1b3e566": [
+    "wmf\\5.1\\console-improvements.md"
+  ],
+  "c88c145c3585befcee194499f7e21aaeac67c0f3": [
+    "wmf\\5.1\\DSC-improvements.md"
+  ],
+  "bb7efc55b1c948c349aa778b700e5cb1277b9762": [
+    "wmf\\5.1\\engine-improvements.md"
+  ],
+  "3e5d5e93231b772b65d1913a4dbafc86d4edb950": [
+    "wmf\\5.1\\features-scenarios-cache\\analysis_cache.md"
+  ],
+  "1e422b30ab2471e73123badedf1f10631f9730ed": [
+    "wmf\\5.1\\features-scenarios-cache\\catalog-cmdlets.md"
+  ],
+  "e6653a02421e3aec3910a70c64f7cf7cecd696ab": [
+    "wmf\\5.1\\features-scenarios-cache\\console-enhancements.md"
+  ],
+  "368c26766961e760fd2de8c99057121bea076158": [
+    "wmf\\5.1\\features-scenarios-cache\\DSCPartialConfigNaming.md"
+  ],
+  "7505e063fad84999af786f2af0602d204ed973b7": [
+    "wmf\\5.1\\features-scenarios-cache\\DSCRunAsCredentialCompositeResources.md"
+  ],
+  "817fadb79716e41ce8cc8f4245dedc66347ac413": [
+    "wmf\\5.1\\features-scenarios-cache\\DSCSigningValidations.md"
+  ],
+  "b24e70c1e1aaf71487b00fbccaf6edb0f375b888": [
+    "wmf\\5.1\\features-scenarios-cache\\Improved-dsc-classresource.md"
+  ],
+  "33c3fcffdeb281b205ecc48f7cdd470b79e9e068": [
+    "wmf\\5.1\\features-scenarios-cache\\Improved-dsc-resourcedebugging.md"
+  ],
+  "8bb3f7173559c349d033d175f5784d80b7a16ed0": [
+    "wmf\\5.1\\features-scenarios-cache\\improved-pullclient-security.md"
+  ],
+  "d9f7dea63e6541b673ac6be5ccad59368b301440": [
+    "wmf\\5.1\\features-scenarios-cache\\Improved-PullServer-Registration.md"
+  ],
+  "1d0bd545b52ef56045f2ec740b05c4e0fd93bb67": [
+    "wmf\\5.1\\features-scenarios-cache\\improvements-oneget.md"
+  ],
+  "7d2f293f000d3d82f4a227d3b3760988d9f02be7": [
+    "wmf\\5.1\\features-scenarios-cache\\jea-improvements.md"
+  ],
+  "bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3": [
+    "wmf\\5.1\\features-scenarios-cache\\oneget-improvement.md"
+  ],
+  "dd7905bfd221201919d028ec158cd5ef349335e2": [
+    "wmf\\5.1\\features-scenarios-cache\\PesterUpdates.md"
+  ],
+  "025565404b60cebefac27e51c70d70edb5e47bc9": [
+    "wmf\\5.1\\features-scenarios-cache\\PowerShellGet-Enhancements.md"
+  ],
+  "1b35a25312b44d14ec8771be9e17aaa43e270b61": [
+    "wmf\\5.1\\features-scenarios-cache\\ps-engine-enhancements.md"
+  ],
+  "dfba55f1eae5468df95309e14b3ee256511badf4": [
+    "wmf\\5.1\\features-scenarios-cache\\template.md"
+  ],
+  "e09cfe0994ac523fd10658955731a93b6c176c88": [
+    "wmf\\5.1\\features-scenarios-cache\\using-module.md"
+  ],
+  "30445aecee478d4fceb6cd446f26f00fe2ecc3d8": [
+    "wmf\\5.1\\install-configure.md"
+  ],
+  "d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d": [
+    "wmf\\5.1\\known-issues.md"
+  ],
+  "180158033e0c960f73dba66a3d77b15765e3e382": [
+    "wmf\\5.1\\known-issues-cache\\NetworkingSwitchCmdletInput.md"
+  ],
+  "cfe0a6562743f1df81acb81e33c120cb67f9042c": [
+    "wmf\\5.1\\known-issues-cache\\template.md"
+  ],
+  "615bdf1a82dc5078ee2f37eec70a64e25b42bda2": [
+    "wmf\\5.1\\package-management-improvements.md"
+  ],
+  "83061e651b190bab3e5914bb6270a5857f7aa7a5": [
+    "wmf\\5.1\\release-notes.md"
+  ],
+  "9611a7da48a849b52821ac2890e1ea60441a75e3": [
+    "wmf\\5.1\\scenarios-features.md"
+  ],
+  "a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2": [
+    "wmf\\README.md"
+  ],
+  "274c6dcc36b3baa64d01b5518444c7de3dcc00ee": [
+    "wmf\\TOC.md"
   ]
 }
