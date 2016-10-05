@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b",
+  "LastProcessedCommit": "6617508f720e75cd9a7f49611d9b6a25399f0512",
   "LastTranslatedCommit": "cc25d198f8d10c0cf91c06dc1c7aebfc276d0445",
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
@@ -25548,6 +25548,41 @@
       "BilingualFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\TOC.60497266061c38453b3db893ec675eb65584af89.ja-jp.xlf",
       "BilingualFileCommit": "f8a2be8bd75e46796a0c4194444412cbc426f02a",
       "BilingualDateTime": "2016-10-05T17:50:48.271523Z",
+      "BilingualException": null
+    },
+    "897f751eab3149d2c5de728042148e9d7c0bb1db": {
+      "FileHash": "897f751eab3149d2c5de728042148e9d7c0bb1db",
+      "SourceFileCommit": "6617508f720e75cd9a7f49611d9b6a25399f0512",
+      "SourceFilePath": "Xamarin\\Index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "Xamarin\\Index.md"
+      ],
+      "HasMetadata": false,
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf",
+      "HandoffFileCommit": "ee5ff9a05f935004f89d98ce969aaed1397d11ac",
+      "HandoffDateTime": "2016-10-05T22:49:16.2180603Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
       "BilingualException": null
     }
   }

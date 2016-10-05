@@ -6699,6 +6699,16 @@
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\9a858cfc303cac6f9f2f23c01c1d8a753a69dc7c.8446c36243d93c8fef9f8444b768877d25a70ab3.xml",
       "LocXliff": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\psgallery_search_syntax.2ad9cca6d84dc286f08b0d6be94f966fa217d374.ja-jp.xlf",
       "LocXliffCommit": "f8a2be8bd75e46796a0c4194444412cbc426f02a"
+    },
+    "Xamarin\\Index.md.cfd6c8e51e43b6cf7da74d7c7d1932183049215e.HT": {
+      "SourceFilename": "Xamarin\\Index.md",
+      "XliffHash": "cfd6c8e51e43b6cf7da74d7c7d1932183049215e",
+      "TranslationType": 1,
+      "IsArchived": false,
+      "ArchivedDateTime": "0001-01-01T00:00:00",
+      "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\897f751eab3149d2c5de728042148e9d7c0bb1db.b19f6e560b63c6a3f717457df232d9bc1a8d04f1.xml",
+      "LocXliff": null,
+      "LocXliffCommit": null
     }
   }
 }
