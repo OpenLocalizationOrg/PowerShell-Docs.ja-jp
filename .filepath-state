@@ -2,58 +2,10 @@
   "1d4d2d9106ef76d6628f93cf86234807dbb121ed": [
     "dsc\\archiveResource.md"
   ],
-  "e04310b8654bab21ba61cb46b1b110b9791b9ffd": [
-    "dsc\\archiveResource.md"
-  ],
-  "ab3dcf116b796f6c2b6f87b99c0fb644fff8cdbe": [
-    "dsc\\archiveResource.md"
-  ],
-  "39649aca9e61d188fb9ad855e4d1b8b63ee6491f": [
-    "dsc\\archiveResource.md"
-  ],
-  "daf17d72ba959743dbd72212e2172f5a60ce5ce5": [
-    "dsc\\archiveResource.md"
-  ],
-  "ffe9d4d734e51f68031e6c7df6068d8dd71e61cb": [
-    "dsc\\archiveResource.md"
-  ],
-  "81efeb79a70df604ef8c126c0ebd17b4f4711a44": [
-    "dsc\\archiveResource.md"
-  ],
-  "d0d36cc79854de58e99c4984ef47dab41a4e7df4": [
-    "dsc\\archiveResource.md"
-  ],
   "5b43723f7b14eb4bca06d0430b5981c3663c5801": [
     "dsc\\authoringResource.md"
   ],
-  "1ada9b4a2f68bd37190ee6f46fb01996893115e3": [
-    "dsc\\authoringResource.md"
-  ],
-  "abd70c1285a5f33e209692e746b7971926f54a58": [
-    "dsc\\authoringResource.md"
-  ],
-  "74269f85cf83aab7301e3e2638b3f58ff383aa38": [
-    "dsc\\authoringResource.md"
-  ],
-  "5303ee623330b90ab43c160835ee8b8310a1e4ef": [
-    "dsc\\authoringResource.md"
-  ],
-  "cc492892c7576b015d9853eb28e0d6d2abc282aa": [
-    "dsc\\authoringResource.md"
-  ],
-  "9ea62ec24425a14aae82050e6098e5fe9aef0550": [
-    "dsc\\authoringResource.md"
-  ],
-  "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": [
-    "dsc\\authoringResource.md"
-  ],
   "b5de1100450a89796c20a5bbb2e71f7759374b02": [
-    "dsc\\authoringResourceClass.md"
-  ],
-  "ebda397e0970e90e3fcf33218565919bd7e6eb40": [
-    "dsc\\authoringResourceClass.md"
-  ],
-  "565d71def9c15b19f10ec144ff29e82b9e205e31": [
     "dsc\\authoringResourceClass.md"
   ],
   "6631d60d7d82e71c315c26a0196aa3e4c1b60b15": [
@@ -68,274 +20,124 @@
   "50b99917f15d290db30da1b1b752d668d886ec50": [
     "dsc\\authoringResourceMOF.md"
   ],
-  "f64cbea29a1e9998b8ade46d69c1ef1c584bd633": [
-    "dsc\\authoringResourceMOF.md"
-  ],
   "991a324945289b2eff0b706d093b2d345352fb15": [
-    "dsc\\authoringResourceMofCS.md"
-  ],
-  "28a9448f7c815bc154612af16634435b6987b7fc": [
     "dsc\\authoringResourceMofCS.md"
   ],
   "be2141330dda803a22fdce6d65a1e379adf14fed": [
     "dsc\\authoringResourceMofDesigner.md"
   ],
-  "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": [
-    "dsc\\authoringResourceMofDesigner.md"
-  ],
   "ea312b4e773cd8b0eceeca123e616957728eb1c6": [
-    "dsc\\builtInResource.md"
-  ],
-  "e3243caa7ec8682a4010e25a4ae0b2359c2d7866": [
     "dsc\\builtInResource.md"
   ],
   "8a3ae5fdf5d70de999ca6b992efb14533408c305": [
     "dsc\\configData.md"
   ],
-  "25ea7bc8b398577cb2916ec833d61c38af812637": [
-    "dsc\\configData.md"
-  ],
   "d84bb35ada3588367436e6f5e3c6696b90c3661b": [
-    "dsc\\configurations.md"
-  ],
-  "065f423b82d69a7c9dbc6384711d2135a3b7e5ec": [
     "dsc\\configurations.md"
   ],
   "4c802002c6a03a27d02221dd713677911a77c30b": [
     "dsc\\enactingConfigurations.md"
   ],
-  "277d3032f45323050e140f466f639e5606fef53a": [
-    "dsc\\enactingConfigurations.md"
-  ],
   "20a7711604033b5ff1484dbb526df2642a9a1738": [
-    "dsc\\environmentResource.md"
-  ],
-  "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": [
     "dsc\\environmentResource.md"
   ],
   "8c8fb7a40c066b048e1a54a741f4953e6b5a47b6": [
     "dsc\\fileResource.md"
   ],
-  "ce115dd79b0793718f8e79bb465f244b7cc725b1": [
-    "dsc\\fileResource.md"
-  ],
   "446c9036989c47c03664d978a1dea4e0234ada8d": [
-    "dsc\\groupResource.md"
-  ],
-  "bc098355d65bff2203a212f2387be6f79fbb63e8": [
     "dsc\\groupResource.md"
   ],
   "2edbc1d11dfc7c84369430688a8b0d773277e864": [
     "dsc\\lnxArchiveResource.md"
   ],
-  "e961fa9fbc9022952ee31b5225dfe5cdd73b3583": [
-    "dsc\\lnxArchiveResource.md"
-  ],
-  "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
-    "dsc\\lnxArchiveResource.md"
-  ],
   "6b001c12885022006003ef3ffe91b7aede07bd17": [
-    "dsc\\lnxBuiltInResources.md"
-  ],
-  "7e91f5b7b1fd993e6826f8c6a5d55604ffe4e536": [
-    "dsc\\lnxBuiltInResources.md"
-  ],
-  "e4d20bc0f083c463514e2044ce86679041263075": [
     "dsc\\lnxBuiltInResources.md"
   ],
   "0a7ab24ff278defd7fc0a80f1dbd45bfa0e16427": [
     "dsc\\lnxEnvironmentResource.md"
   ],
-  "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b": [
-    "dsc\\lnxEnvironmentResource.md"
-  ],
   "9196129e79272d8bee717ef8a5d42fb590760a0f": [
-    "dsc\\lnxFileLineResource.md"
-  ],
-  "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": [
     "dsc\\lnxFileLineResource.md"
   ],
   "2ba44df5dd6c91371cbbfe95d48184a4ff4a7738": [
     "dsc\\lnxFileResource.md"
   ],
-  "334b98afff951cf26494bd07258bb847df727d44": [
-    "dsc\\lnxFileResource.md"
-  ],
-  "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
-    "dsc\\lnxFileResource.md"
-  ],
   "2283e797275f426b624119bd1191e58080780c09": [
-    "dsc\\lnxGettingStarted.md"
-  ],
-  "ce17b7bb17435cd925f196e4736114982de4e056": [
     "dsc\\lnxGettingStarted.md"
   ],
   "2139e4462c0568c30b118ef6cb3ceef1717b52e6": [
     "dsc\\lnxGroupResource.md"
   ],
-  "9bda555be3a52c574eccfa66b114883e2f543c70": [
-    "dsc\\lnxGroupResource.md"
-  ],
   "31867cc7af96a3d8d527f5906d77bed5206940b4": [
-    "dsc\\lnxPackageResource.md"
-  ],
-  "37c34dfa85386e8d190a5cfd459c3a6885cca838": [
     "dsc\\lnxPackageResource.md"
   ],
   "4c575bbf0e0553e19e56bcc6edd605e36586cb94": [
     "dsc\\lnxScriptResource.md"
   ],
-  "7dfbf1a64124900dc17f1c33bada7a3cfae517d9": [
-    "dsc\\lnxScriptResource.md"
-  ],
-  "056b0c86701cfd096c863560836dc129ecefc862": [
-    "dsc\\lnxScriptResource.md"
-  ],
   "3835495705297616a41329bcfdaad42b464115d8": [
-    "dsc\\lnxServiceResource.md"
-  ],
-  "3d766f5b9e2bb9284e717d5a998b1a7c291221fc": [
     "dsc\\lnxServiceResource.md"
   ],
   "edc906b4e9c925320c4ed00c5ab295189066ccb9": [
     "dsc\\lnxSshAuthorizedKeysResource.md"
   ],
-  "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2": [
-    "dsc\\lnxSshAuthorizedKeysResource.md"
-  ],
   "7813185313845b74e2a37dfa4ec6bb109f32f0eb": [
-    "dsc\\lnxUserResource.md"
-  ],
-  "31eea97ab4912ca241557cddbf59929e085ebe80": [
     "dsc\\lnxUserResource.md"
   ],
   "60085295fa7df6179a81cd98859cd33e6923150f": [
     "dsc\\logResource.md"
   ],
-  "0f4922e1df8725aad839211dbe0dfc532692f606": [
-    "dsc\\logResource.md"
-  ],
   "5d37938869a71bea0d8a6349e680411b7d0200d9": [
-    "dsc\\metaConfig.md"
-  ],
-  "d7b3908ae670a7bcc976f2675834316862a25802": [
     "dsc\\metaConfig.md"
   ],
   "25195166f4d9dd668427d6bb5d748ef61273cdee": [
     "dsc\\metaConfig4.md"
   ],
-  "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
-    "dsc\\metaConfig4.md"
-  ],
   "1a796658eb30bdf5c37ea3677f94767260a34b45": [
-    "dsc\\overview.md"
-  ],
-  "7f5f99f0f0befde13272221e376006dffbddb994": [
     "dsc\\overview.md"
   ],
   "d07b11c148dfa747b3f9c0157191b83efb6c65df": [
     "dsc\\packageResource.md"
   ],
-  "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
-    "dsc\\packageResource.md"
-  ],
   "c5d3cb1045e67d4913fbbad13938e8f95a43cacf": [
-    "dsc\\partialConfigs.md"
-  ],
-  "17c9149903fd6a7ce6904b03a76619795944554e": [
-    "dsc\\partialConfigs.md"
-  ],
-  "da410bf1b10ae360fda5734aecb19f33331aea47": [
-    "dsc\\partialConfigs.md"
-  ],
-  "4d60df7ffda430acb6b5a48baf09cfa0dc9fc2b8": [
-    "dsc\\partialConfigs.md"
-  ],
-  "127e4f2cb6925f771c7f8695b47d421a7ddad156": [
-    "dsc\\partialConfigs.md"
-  ],
-  "3f1843e8a1335617c562084ce69fc82ae7c2c694": [
     "dsc\\partialConfigs.md"
   ],
   "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
     "dsc\\pullClient.md"
   ],
-  "4cb0a0836e56ca31f9e101be81e1427493cbbcd5": [
-    "dsc\\pullClient.md"
-  ],
   "f6569220fbafdba49bac9ac9dca3e6036a7aad08": [
-    "dsc\\pullClientConfigID.md"
-  ],
-  "54bb78b313c4f0c721862910496c5154ed5444ef": [
     "dsc\\pullClientConfigID.md"
   ],
   "730f2f26e2811996e79cf0073a4ef65cad390687": [
     "dsc\\pullClientConfigID4.md"
   ],
-  "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
-    "dsc\\pullClientConfigID4.md"
-  ],
   "02721f0f6f68cc78ae0430205d06f079e3e7465a": [
-    "dsc\\pullClientConfigNames.md"
-  ],
-  "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
   ],
   "7bbfc31fdebdde83ac1784373b51af40b1dc9492": [
     "dsc\\pullServer.md"
   ],
-  "f775047bb73ea56ac124df5e1b0c2baa736c9526": [
-    "dsc\\pullServer.md"
-  ],
-  "2668c9aa8c36621eb9797e634354bc7fa285d3b8": [
-    "dsc\\pullServer.md"
-  ],
   "02bb8458796d60991a05a8250f3bf8f3261ffce1": [
-    "dsc\\queryServerNodes.md"
-  ],
-  "fc1456c57ade6862957e54ee53f18f189785848a": [
     "dsc\\queryServerNodes.md"
   ],
   "48b68a99baa489dad38e7072b171db10ee0f7386": [
     "dsc\\registryResource.md"
   ],
-  "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
-    "dsc\\registryResource.md"
-  ],
   "0a27a40b995393c41f0496a5f7fa3f56fbd865dd": [
-    "dsc\\resources.md"
-  ],
-  "df54abe3d92ffaff2998e9fb3157b42cf83143c2": [
     "dsc\\resources.md"
   ],
   "6b060d17fb106089528b0737ab03cc7d592d412a": [
     "dsc\\scriptResource.md"
   ],
-  "b081337b68091f95498d23fecbc64701866b2cec": [
-    "dsc\\scriptResource.md"
-  ],
   "f0aed5bb627825b74fe4df29cbe2f0bc53f90c23": [
-    "dsc\\secureMOF.md"
-  ],
-  "14cf6c2005eb756200e7fd065b61e4120d84c02e": [
     "dsc\\secureMOF.md"
   ],
   "94944d7bd265aa788b77359ad44721f79870bfa0": [
     "dsc\\secureServer.md"
   ],
-  "2290a81a8dbc82b7881d2b6006d70a90578f9a56": [
-    "dsc\\secureServer.md"
-  ],
   "10123359213df7180388d9251e032c2bbb673143": [
     "dsc\\serviceResource.md"
   ],
-  "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
-    "dsc\\serviceResource.md"
-  ],
   "924d5878a6d93e846adbd9cb4c69bea79e104bcd": [
-    "dsc\\TOC.md"
-  ],
-  "66cefb1620ad412d3f4e041561ae1df356fdb1e6": [
     "dsc\\TOC.md"
   ],
   "4830be14b105485c50446f06e9d36491b4c4fe44": [
@@ -348,37 +150,19 @@
   "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
     "dsc\\userResource.md"
   ],
-  "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": [
-    "dsc\\userResource.md"
-  ],
   "522dbea958a60f76e98abe32e11e6491ea6d457c": [
-    "dsc\\windowsfeatureResource.md"
-  ],
-  "1484f03d1d80b73e3131095e3363b246929a0a35": [
     "dsc\\windowsfeatureResource.md"
   ],
   "0fe5e7d9679d44bb50c897badf8c6517b95049e2": [
     "dsc\\windowsProcessResource.md"
   ],
-  "47c387c525a58a88f18e61920736a6e0e7f2098d": [
-    "dsc\\windowsProcessResource.md"
-  ],
   "a659f12ae049937714da659dd95d40ea9774222c": [
-    "dsc\\Test1\\SonjaFileToo.md"
-  ],
-  "ae2d778f7f78f6a1f201f033147e44cab18bd49e": [
-    "dsc\\Test1\\SonjaFileToo.md"
-  ],
-  "6c6311c3d6bdafefa766356266b6aa934c84f4c9": [
     "dsc\\Test1\\SonjaFileToo.md"
   ],
   "d4e485c4e2461db1b7cca67d12d1a7dd331996a6": [
     "dsc\\testmove2\\overview-test2.md"
   ],
   "1e97e7496cbb66ff8b8a10b1412383cf9f3f4c34": [
-    "dsc\\Test1\\OpenLoc ROCKS.md"
-  ],
-  "2b29976a764a8377742da0a7204dff32f89ef99f": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
   ],
   "e60976865fe9b1b0115509c66b9973dea16992ec": [
