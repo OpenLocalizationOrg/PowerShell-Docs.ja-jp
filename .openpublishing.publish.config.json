@@ -14,21 +14,6 @@
         "Conceptual": "Content"
       },
       "build_entry_point": "op"
-    },
-    {
-      "docset_name": "olorg-powershell-docs-atatest",
-      "build_source_folder": "ATADocsTest",
-      "build_output_subfolder": "olorg-powershell-docs-atatest",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [
