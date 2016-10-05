@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/dsc/troubleshooting.md) | InSyncHandedBackSuccess | [Details](#4830be14b105485c50446f06e9d36491b4c4fe44105)
 
 ## Item Details
-##### <a name='4830be14b105485c50446f06e9d36491b4c4fe44105'></a> Source: [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/dsc/troubleshooting.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\troubleshooting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/cc25d198f8d10c0cf91c06dc1c7aebfc276d0445/dsc/troubleshooting.md)
-* Handoff File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
-* Handoff Datetime: 2016-10-04 18:00:47
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/1ced4ca7a9b05d7bce8d716835ffe6a54b960397/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
-* Handback Datetime: 2016-10-05 17:59:05
-* Bilingual File: [rename_troubleshooting.4c130a5165c494568ef17f0cc6e7c9fc0caf31bc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/rename_troubleshooting.4c130a5165c494568ef17f0cc6e7c9fc0caf31bc.ja-jp.xlf)
-* Bilingual Datetime: 2016-10-05 17:50:48
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
