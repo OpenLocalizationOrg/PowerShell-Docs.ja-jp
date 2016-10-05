@@ -143,10 +143,6 @@
   "4830be14b105485c50446f06e9d36491b4c4fe44": [
     "dsc\\troubleshooting.md"
   ],
-  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
-    "dsc\\troubleshooting.md",
-    "dsc\\move\\rename_troubleshooting.md"
-  ],
   "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
     "dsc\\userResource.md"
   ],
@@ -164,6 +160,9 @@
   ],
   "1e97e7496cbb66ff8b8a10b1412383cf9f3f4c34": [
     "dsc\\Test1\\OpenLoc ROCKS.md"
+  ],
+  "5ccc3e7d7e0616822fead2254b5393cba0688039": [
+    "dsc\\move\\rename_troubleshooting.md"
   ],
   "e60976865fe9b1b0115509c66b9973dea16992ec": [
     "dsc\\Test1\\MoraviaDemo.md"
