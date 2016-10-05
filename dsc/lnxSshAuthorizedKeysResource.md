@@ -1,8 +1,23 @@
-#DSC Linux nxSshAuthorizedKeys リソース用
+---
+title: "Linux 用 DSC の nxSshAuthorizedKeys リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: edc906b4e9c925320c4ed00c5ab295189066ccb9
 
-**NxAuthorizedKeys** リソース PowerShell 必要な状態 Configuration (DSC) を管理するメカニズム承認 ssh 指定されたユーザーのキーを提供します。
+---
 
-##構文
+# Linux 用 DSC の nxSshAuthorizedKeys リソース
+
+PowerShell Desired State Configuration (DSC) の **nxAuthorizedKeys** リソースは、特定のユーザーの承認された ssh キーを管理するためのメカニズムを備えています。
+
+## 構文
 
 ```
 nxAuthorizedKeys <string> #ResourceName
@@ -16,19 +31,19 @@ nxAuthorizedKeys <string> #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
+|  プロパティ |  説明 | 
 |---|---|
-| KeyComment| キーの一意のコメントです。これについては、キーを一意に識別するために使用されます。|
-| 確認します。| キーが定義されているかどうかを指定します。「ない」、キーが、ユーザーの承認済みキー ファイルには存在しないことを確認するには、このプロパティを設定します。ユーザーの承認済みキー ファイルで、キーが定義されていることを確認するには、"Present"に設定します。|
-| ユーザー名| Ssh を管理するユーザー名には、キーが承認されています。定義されていない場合は、既定のユーザーは"root"です。|
-| キー| キーの内容です。これは、必要な場合 **を確認してください** "Present"に設定されています。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| KeyComment| キーの一意のコメント。 これは、キーを一意に識別するために使用されます。| 
+| Ensure| キーが定義されるかどうかを指定します。 ユーザーの承認されたキー ファイルにキーが存在しないようにするには、このプロパティに "Absent" を設定します。 ユーザーの承認されたキー ファイルにキーが定義されるようにするには、このプロパティに "Present" を設定します。| 
+| Username| 承認された ssh キーを管理するユーザー名。 定義されていない場合、既定のユーザーは "root" です。| 
+| キー| キーの内容。 **Ensure** が "Present" に設定されている場合、これは必須です。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの **ID** が **ResourceName** で、そのタイプが **ResourceType** である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
-##例
+## 例
 
-次の例では、パブリック ssh 承認されたユーザー"monuser"のキー。
+次の例では、ユーザー "monuser" の公開 ssh 承認済みキーを定義しています。
 
 ```
 Import-DSCResource -Module nx 
@@ -46,5 +61,7 @@ nxSshAuthorizedKeys myKey{
 
 
 
+
+<!--HONumber=Oct16_HO1-->
 
 

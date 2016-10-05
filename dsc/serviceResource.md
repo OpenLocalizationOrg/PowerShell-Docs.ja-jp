@@ -1,11 +1,26 @@
-#DSC サービス リソース
+---
+title: "DSC Service リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 10123359213df7180388d9251e032c2bbb673143
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
+
+# DSC Service リソース
+
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
 
-**サービス** リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、ターゲット ノード上のサービスを管理するメカニズムを提供します。
+PowerShell Desired State Configuration (DSC) の **Service** リソースは、ターゲット ノード上でサービスを管理するためのメカニズムを備えています。
 
-##構文
+## 構文
 
 ```
 Service [string] #ResourceName
@@ -16,31 +31,50 @@ Service [string] #ResourceName
     [ DependsOn = [string[]] ]
     [ StartupType = [string] { Automatic | Disabled | Manual }  ]
     [ State = [string] { Running | Stopped }  ]
+    [ Description = [string] ]
+    [ DisplayName = [string] ]
+    [ Ensure = [string] { Absent | Present } ]
+    [ Path = [string] ]
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
-|---|---|
-| Name| サービス名を示します。場合によっては異なる表示名からに注意してください。サービスと、現在の状態とは、Get-service コマンドレットの一覧を取得することができます。|
-| BuiltInAccount| サインインに使用するアカウント、サービスを示します。このプロパティで許可されている値は、: **LocalService**, 、**LocalSystem**, 、および **NetworkService**です。|
-| Credential| サービスを実行するアカウントの資格情報を示します。このプロパティと __BuiltinAccount__ プロパティを一緒に使用することはできません。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
-| StartupType| サービスのスタートアップの種類を示します。このプロパティで許可されている値は、: **自動**, 、**無効になっている**, 、および **手動**|
-| 状態| サービスのことを確認する状態を示します。|
+|  プロパティ  |  説明   | 
+|---|---| 
+| 名前| サービス名を示します。 これは、表示名とは異なることがあります。 Get-Service コマンドレットを使用すると、サービスとその現在の状態の一覧を取得できます。| 
+| BuiltInAccount| サービスに使用するサインイン アカウントを示します。 このプロパティに許容される値は、**LocalService**、**LocalSystem**、および **NetworkService** です。| 
+| Credential| サービスを実行するアカウントの資格情報を示します。 このプロパティおよび __BuiltinAccount__ プロパティを同時に使用することはできません。| 
+| DependsOn| このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が __ResourceName__ で、そのタイプが __ResourceType__ である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
+| StartupType| サービスのスタートアップの種類を示します。 このプロパティに許容される値は、**Automatic**、**Disabled**、および **Manual** です。| 
+| State| サービスに対して保証する状態を示します。| 
+| 説明 | ターゲット サービスの説明を示します。| 
+| 表示名 | ターゲット サービスの表示名を示します。| 
+| Ensure | ターゲット サービスがシステムに存在するかどうかを示します。 ターゲット サービスが存在しないようにするには、このプロパティを **[Absent]** に設定します。 ターゲットが存在するようにするには、**[Present]** (既定値) に設定します。|
+| パス | 新しいサービスのバイナリ ファイルのパスを示します。| 
 
-##例
+## 例
 
 ```powershell
-Service ServiceExample
+configuration ServiceTest
 {
-    Name = "TermService"
-    StartupType = "Manual"
-    State = "Running"
-} 
+    Import-DscResource -ModuleName PSDesiredStateConfiguration
+    Node localhost
+    {
+
+        Service ServiceExample
+        {
+            Name        = "TermService"
+            StartupType = "Manual"
+            State       = "Running"
+        } 
+    }
+}
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

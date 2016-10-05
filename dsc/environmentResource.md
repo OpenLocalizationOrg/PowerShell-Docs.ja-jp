@@ -1,11 +1,25 @@
-#DSC 環境のリソース
+---
+title: "DSC 環境リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 20a7711604033b5ff1484dbb526df2642a9a1738
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-__環境__ リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、システム環境変数を管理するメカニズムを提供します。
+# DSC 環境リソース
 
-##構文
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
+Windows PowerShell Desired State Configuration (DSC) の __Environment__ リソースは、システム環境変数を管理するためのメカニズムを備えています。
+
+## 構文
 ``` mof
 Environment [string] #ResourceName
 {
@@ -17,19 +31,19 @@ Environment [string] #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
-|---|---|
-| Name| 特定の状態を保証する環境変数の名前を示します。|
-| 確認します。| 変数が存在するかどうかを示します。このプロパティを設定 __存在__ が存在しない場合は、環境変数を作成する、またはその値は、を通じて提供されているものと一致することを確認する、 __値__ プロパティ、変数が既に存在する場合。設定 __存在しない__ して存在する場合は、変数を削除します。|
-| パス| 構成されている環境変数を定義します。このプロパティを設定 __$true__ 変数の場合、 __パス__ 変数、それ以外に設定 __$false__です。既定値は __$false__です。変数のように構成されている場合は、 __パス__ を通じて提供される値を変数、 __値__ プロパティは、既存の値に追加されます。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
-| 値| 環境変数に代入する値。|
+|  プロパティ  |  説明   | 
+|---|---| 
+| 名前| 特定の状態を保証する環境変数の名前を示します。| 
+| Ensure| 変数が存在するかどうかを示します。 環境変数が存在しない場合に作成する場合、または環境変数が既に存在する場合にその値が __Value__ プロパティによって提供される値と一致することを保証するには、このプロパティを __Present__ に設定します。 環境変数が存在する場合に削除するには、__Absent__ に設定します。| 
+| パス| 構成されている環境変数を定義します。 環境変数が __Path__ 変数である場合は、このプロパティを __$true__ に設定します。それ以外の場合は、__$false__ に設定します。 既定値は __$false__ です。 構成されている変数が __Path__ 変数である場合は、__Value__ プロパティによって提供される値が既存の値に追加されます。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が __ResourceName__ で、そのタイプが __ResourceType__ である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
+| 値| 環境変数に割り当てる値。| 
 
-##例
+## 例
 
-次の例は、確実 __TestEnvironmentVariable__ が存在し、値がある __TestValue__です。 存在しない場合を作成します。
+次の例では、__TestEnvironmentVariable__ が存在し、その値が __TestValue__ であることを保証します。 この環境変数が存在しない場合は、作成されます。
 
 ```powershell
 Environment EnvironmentExample
@@ -41,5 +55,8 @@ Environment EnvironmentExample
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

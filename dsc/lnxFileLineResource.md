@@ -1,8 +1,23 @@
-#DSC Linux nxFileLine リソース用
+---
+title: "Linux 用 DSC の nxFileLine リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 9196129e79272d8bee717ef8a5d42fb590760a0f
 
-**NxFileLine** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上の構成ファイル内の行を管理するメカニズムを提供します。
+---
 
-##構文
+# Linux 用 DSC の nxFileLine リソース
+
+PowerShell Desired State Configuration (DSC) の **nxFileLine** リソースは、Linux ノード上で構成ファイルの行を管理するためのメカニズムを備えています。
+
+## 構文
 
 ```
 nxFileLine <string> #ResourceName
@@ -15,18 +30,18 @@ nxFileLine <string> #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
+|  プロパティ |  説明 | 
 |---|---|
-| ファイル パス| ターゲット ノード上での行を管理するファイルの完全パス。|
-| ContainsLine| 確認するための行は、ファイルに存在します。ファイルにも存在しない場合、この行がファイルに追加されます。**ContainsLine** は必須では、空の文字列に設定することができますが、('ContainsLine = ' ') は必要ない場合。|
-| DoesNotContainPattern| ファイル内に存在する必要がある行の正規表現パターン。ファイル内に存在したこの正規表現に一致する行、ファイルから、行は削除します。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| ファイル パス| ターゲット ノード上の行を管理するファイルの完全パス。| 
+| ContainsLine| ファイルに行が存在するようにします。 ファイルに行が存在しない場合、この行がファイルに追加されます。 **ContainsLine** は必須ですが、必要ない場合は空の文字列 (`ContainsLine = ‘’``) に設定することができます。| 
+| DoesNotContainPattern| ファイルに存在することができない行の正規表現パターン。 ファイルに存在する行のうち、この正規表現に一致する行は、ファイルから削除されます。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの **ID** が **ResourceName** で、そのタイプが **ResourceType** である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
-##例
+## 例
 
-この例では、使用方法を示します、 **nxFileLine** を構成するのにはリソース、 `など/sudoers` ことを確認する、ユーザーのファイル: monuser がいない requiretty に構成されています。
+この例では、**nxFileLine** リソースを使用して、ユーザー monuser が not requiretty に構成されるように `/etc/sudoers` ファイルを構成しています。
 
 ```
 Import-DSCResource -Module nx 
@@ -41,5 +56,7 @@ nxFileLine DoNotRequireTTY
 
 
 
+
+<!--HONumber=Oct16_HO1-->
 
 

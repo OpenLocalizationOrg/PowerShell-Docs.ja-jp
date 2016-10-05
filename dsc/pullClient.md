@@ -1,14 +1,35 @@
-#DSC プル クライアントを設定します。
+---
+title: "DSC プル クライアントのセットアップ"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 95f49fecdf13a54049caf27345d2a48c98b8f09b
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-対象の各ノードでは、プル モードを使用するように指示して、構成を取得するプルのサーバーと通信できる URL を指定します。 次のトピックでは、クライアントのプルを設定する方法について説明します。
+# DSC プル クライアントのセットアップ
 
-* [構成名を使用してクライアントをプルの設定](pullClientConfigNames.md)
-* [構成の ID を使用してプル クライアントを設定します。](pullClientConfigID.md)
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
-> **注**。 これらのトピックは、PowerShell 5.0 に適用します。 PowerShell 4.0 でプルのクライアントを設定するを参照してください。 [プルを PowerShell 4.0 での構成の ID を使用してクライアントを設定](pullClientConfigID4.md)です。
+各ターゲット ノードに対し、プル モードを使用するように指示する必要があります。また、プル サーバーに接続して構成とリソースを取得し、レポート データの送信先にするための URL またはファイルの場所を指定する必要があります。
 
 
+次のトピックでは、プル クライアントをセットアップする方法について説明します。
+
+* [構成名を使用したプル クライアントのセットアップ](pullClientConfigNames.md)
+* [構成 ID を使用したプル クライアントのセットアップ](pullClientConfigID.md)
+
+> **注**: これらのトピックは、PowerShell 5.0 に適用されます。 PowerShell 4.0 でのプル クライアントのセットアップについては、「[PowerShell 4.0 での構成 ID を使用したプル クライアントのセットアップ](pullClientConfigID4.md)」を参照してください。
+
+
+
+
+<!--HONumber=Oct16_HO1-->
 
 

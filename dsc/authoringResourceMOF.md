@@ -1,19 +1,34 @@
-#MOF を持つカスタム DSC リソースの作成
+---
+title: "MOF を使用したカスタム DSC リソースの記述"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 50b99917f15d290db30da1b1b752d668d886ec50
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-このトピックでは、MOF ファイルでは、Windows PowerShell 必要な状態 Configuration (DSC) のカスタム リソースのスキーマを定義し、Windows PowerShell スクリプト ファイルにリソースを実装おはします。 このカスタムのリソースでは、作成、および web サイトを維持するためです。
+# MOF を使用したカスタム DSC リソースの記述
 
-##MOF のスキーマの作成
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
-スキーマでは、DSC 構成のスクリプトによって構成可能なリソースのプロパティを定義します。
+このトピックでは、MOF ファイルで Windows PowerShell Desired State Configuration (DSC) カスタム リソースのスキーマを定義し、Windows PowerShell スクリプト ファイルでリソースを実装します。 このカスタム リソースは、Web サイトを作成および保守するためのものです。
 
-###MOF リソース用のフォルダー構造
+## MOF スキーマの作成
 
-MOF のスキーマを持つ DSC カスタム リソースを実装するのには、次のフォルダー構造を作成します。 ファイルのデモで MOF のスキーマが定義されている_IISWebsite.schema.mof、およびリソースのスクリプトがデモで定義されている_IISWebsite.ps1 です。 必要に応じて、モジュール マニフェスト (psd1) ファイルを作成することができます。
+スキーマでは、DSC 構成スクリプトによって構成できるリソースのプロパティを定義します。
+
+### MOF リソースのフォルダー構造
+
+MOF スキーマを使用して DSC カスタム リソースを実装するには、次のフォルダー構造を作成します。 MOF スキーマは Demo_IISWebsite.schema.mof ファイルで定義し、リソース スクリプトは Demo_IISWebsite.psm1 で定義します。 必要に応じて、モジュール マニフェスト (psd1) ファイルを作成できます。
 
 ```
-$env: psmodulepath (folder)
+$env:ProgramFiles\WindowsPowerShell\Modules (folder)
     |- MyDscResources (folder)
         |- DSCResources (folder)
             |- Demo_IISWebsite (folder)
@@ -22,11 +37,11 @@ $env: psmodulepath (folder)
                 |- Demo_IISWebsite.schema.mof (file, required)
 ```
 
-DSCResources を最上位のフォルダーの下にあるという名前のフォルダーを作成する必要があると、各リソースのフォルダーは、リソースと同じ名前である必要がありますに注意してください。
+最上位のフォルダーの下に DSCResources という名前のフォルダーを作成し、各リソースのフォルダーにリソースと同じ名前を付ける必要があります。
 
-###MOF ファイルの内容
+### MOF ファイルの内容
 
-カスタム web サイトのリソースに対して使用できる MOF ファイルの例を次に示します。 この例に従って操作、このスキーマをファイルに保存し、ファイルを呼び出す *Demo_IISWebsite.schema.mof*です。
+カスタム Web サイト リソースに使用できる MOF ファイルの例を次に示します。 この例に従うには、このスキーマをファイルに保存し、ファイルの名前は *Demo_IISWebsite.schema.mof* にします。
 
 ```
 [ClassVersion("1.0.0"), FriendlyName("Website")] 
@@ -43,24 +58,24 @@ class Demo_IISWebsite : OMI_BaseResource
 };
 ```
 
-前のコードについては、次に注意してください。
+前のコードについて、次のことに注意してください。
 
-* `FriendlyName` DSC 構成スクリプトでこのカスタムのリソースを参照する際の名前を定義します。 この例で `web サイト` はフレンドリ名に相当 `アーカイブ` のアーカイブの組み込みのリソース。
-* クラス定義から、カスタムのリソースが派生する必要があります `OMI_BaseResource`です。
-* 型修飾子、 `[キー]`, のプロパティでは、このプロパティのリソースのインスタンスを一意に識別することを示します。 A `[キー]` プロパティも必要です。
-* `[必須]` 修飾子は、プロパティが必要であることを示します (このリソースを使用するすべての構成スクリプトの値を指定する必要があります)。
-* `[書き込み]` 修飾子では、このプロパティを構成スクリプトでカスタムのリソースを使用する場合は省略可能なことを示します。  `[読み取り]` 修飾子は、プロパティは構成では、設定することはできませんし、レポート目的でのみことを示します。
-* `値` で定義された値の一覧のプロパティに割り当てることができる値を制限して `ValueMap`です。 詳細については、次を参照してください。 [ValueMap と値の修飾子を組み合わせて](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)です。
-* 呼ばれるプロパティを含む `を確認してください` DSC の組み込みのリソースとの一貫性のあるスタイルを維持する方法として、リソースにはお勧めします。
-* 次のように、カスタムのリソースのスキーマ ファイルの名前を付けます: `classname.schema.mof`, ここで、 `classname` に続く識別子を指定します、 `クラス` 、スキーマ定義内のキーワードです。
+* `FriendlyName` では、DSC 構成スクリプトでこのカスタム リソースを参照するために使用できる名前を定義します。 この例では、`Website` は、組み込みのアーカイブ リソースのフレンドリ名 `Archive` に相当します。
+* カスタム リソース用に定義するクラスは、`OMI_BaseResource` から派生する必要があります。
+* プロパティの型修飾子 `[Key]` は、このプロパティがリソース インスタンスを一意に識別することを示します。 1 つ以上の `[Key]` プロパティが必要です。
+* `[Required]` 修飾子は、プロパティが必須であることを示します (このリソースを使用する構成スクリプトで値を指定する必要があります)。
+* `[write]` 修飾子は、構成スクリプトでカスタム リソースを使用するときにこのプロパティが省略可能であることを示します。 `[read]` 修飾子は、プロパティが構成では設定できず、報告のみを目的とするとを示します。
+* `Values` は、プロパティに割り当てることのできる値を `ValueMap` で定義されている値の一覧に制限します。 詳細については、「[ValueMap and Value Qualifiers (ValueMap 修飾子と Value 修飾子)](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx)」を参照してください。
+* 組み込みの DSC リソースとの一貫したスタイルを維持する方法として、値 `Present` と `Absent` を持つ `Ensure` というプロパティをリソースに含めることをお勧めします。
+* カスタム リソースのスキーマ ファイルには、`classname.schema.mof` のように名前を付けます。ここで、`classname` はスキーマ定義内の `class` キーワードに続く識別子です。
 
-###リソースのスクリプトの記述
+### リソース スクリプトの作成
 
-リソースのスクリプトでは、リソースのロジックを実装します。この章では、呼び出された 3 つの関数を含める必要があります **Get TargetResource**, 、**セット TargetResource**, 、および **テスト TargetResource**です。3 つの関数には、一連のプロパティは、リソースの作成した MOF スキーマで定義されているのと同じであるパラメーターのセットを考慮する必要があります。このドキュメントでは、このプロパティのセットと呼びます [リソースのプロパティ]これら 3 つの関数で、ファイルと呼ばれるストア <ResourceName>.psm1 します。次の例では、関数は Demo_IISWebsite.psm1 をという名前のファイルに格納されます。
+リソース スクリプトでは、リソースのロジックを実装します。 このモジュールでは、**Get-TargetResource**、**Set-TargetResource**、および **Test-TargetResource** という 3 つの関数を含める必要があります。 3 つのすべての関数は、リソース用に作成した MOF スキーマで定義されている一連のプロパティと同じパラメーター セットを受け取る必要があります。 このドキュメントでは、この一連のプロパティを "リソース プロパティ" と呼びます。 これらの 3 つの関数は、<ResourceName>.psm1 というファイルに格納します。 次の例では、関数は Demo_IISWebsite.psm1 というファイルに格納されます。
 
-> **注**: と、リソースで、同じ構成スクリプトを複数回実行し、エラーは発生しませんされ、リソースが、スクリプトを 1 回実行すると同じ状態に保持します。 これを実現することを確認、 **Get TargetResource** と **テスト TargetResource** 変更せずに、リソース、関数のままにし、その呼び出し、 **セット TargetResource** 1 回で同じパラメーターを持つ一連の値は常に、1 回の呼び出しに相当するよりも多くの機能です。
+> **注**: リソースに対して同じ構成スクリプトを複数回実行する場合は、エラーが発生しないこと、および、リソースの状態が、スクリプトを 1 回実行したときと同じに保たれることが必要となります。 これを実現するには、**Get-TargetResource** と **Test-TargetResource** 関数によってリソースが変更されないようにし、シーケンス内で同じパラメーター値を使用して **Set-TargetResource** 関数を複数回呼び出した場合に、1 回呼び出した場合と常に同じ結果になるようにします。
 
-**Get TargetResource** 実装の関数を指定したリソースのインスタンスの状態を確認する、パラメーターとして提供される主要なリソースのプロパティ値を使用します。 この関数では、キーと、対応する値としてこれらのプロパティの実際の値として、すべてのリソース プロパティを表示するハッシュ テーブルを返す必要があります。 次のコードでは、例を示します。
+**Get-TargetResource** 関数の実装では、パラメーターとして指定されたキー リソース プロパティ値を使用して、指定されたリソース インスタンスの状態を確認します。 この関数は、キーとしてすべてのリソース プロパティを、対応する値としてこれらのプロパティの実際の値を一覧表示するハッシュ テーブルを返す必要があります。 コードの例は次のとおりです。
 
 ```powershell
 # DSC uses the Get-TargetResource function to fetch the status of the resource instance specified in the parameters for the target machine
@@ -106,18 +121,18 @@ function Get-TargetResource
                                         Protocol = $Website.bindings.Collection.protocol;
                                         Binding = $Website.bindings.Collection.bindingInformation;
                                     }
-
+  
         $getTargetResourceResult;
 }
 ```
 
-構成のスクリプトでは、リソースのプロパティで指定されている値によって、 **セット TargetResource** 、次のいずれかを実行する必要があります。
+構成スクリプトでリソース プロパティに指定されている値に応じて、**Set-TargetResource** は次のいずれかを実行する必要があります。
 
-* 新しい web サイトを作成します。
-* 既存の web サイトを更新します。
-* 既存の web サイトを削除します。
+* 新しい Web サイトの作成
+* 既存の Web サイトの更新
+* 既存の Web サイトの削除
 
-次の例では、これを示しています。
+これを次の例に示します。
 
 ```powershell
 # The Set-TargetResource function is used to create, delete or configure a website on the target machine. 
@@ -146,7 +161,7 @@ function Set-TargetResource
 
         [string[]]$Protocol
     )
-
+ 
     <# If Ensure is set to "Present" and the website specified in the mandatory input parameters does not exist, then create it using the specified parameter values #>
     <# Else, if Ensure is set to "Present" and the website does exist, then update its properties to match the values provided in the non-mandatory parameter values #>
     <# Else, if Ensure is set to "Absent" and the website does not exist, then do nothing #>
@@ -154,9 +169,9 @@ function Set-TargetResource
 }
 ```
 
-最後に、 **テスト TargetResource** 関数として設定する同じパラメーターを受け取る必要があります **Get TargetResource** と **セット TargetResource**です。 実装で **テスト TargetResource**, 、キーのパラメーターで指定されているリソースのインスタンスの状態を確認します。 リソースのインスタンスの実際の状態で、パラメーター セットで指定された値が一致しない場合は、返す **$false**です。 それ以外の場合、返す **$true**です。
+最後に、**Test-TargetResource** 関数は、**Get-TargetResource** および **Set-TargetResource** と同じパラメーター セットを受け取る必要があります。 **Test-TargetResource** の実装で、キー パラメーターで指定されているリソース インスタンスの状態を確認します。 リソース インスタンスの実際の状態がパラメーター セットで指定された値と一致しない場合は、**$false** を返します。 それ以外の場合は、**$true ** を返します。
 
-次のコードを実装して、 **テスト TargetResource** 関数。
+次のコードでは、**Test-TargetResource** 関数を実装します。
 
 ```powershell
 function Test-TargetResource
@@ -203,11 +218,11 @@ $result
 }
 ```
 
-**注**。 簡単にデバッグでは、次のように使用します。、 **書き込み-詳細** 前の 3 つの関数の実装でのコマンドレットです。 このコマンドレットでは、詳細メッセージのストリームにテキストを書き込みます。 既定では、詳細メッセージのストリームが表示されないの値を変更することで、これを表示することが、 **$VerbosePreference** 変数またはを使用して、 **Verbose** DSC コマンドレットのパラメーター = new します。
+**注**: 簡単にデバッグするには、前の 3 つの関数の実装で **Write-Verbose** コマンドレットを使用します。 このコマンドレットは、テキストを詳細メッセージ ストリームに書き込みます。 既定では、詳細メッセージ ストリームは表示されません。表示するには、**$VerbosePreference** 変数の値を変更するか、DSC コマンドレットで **Verbose** パラメーターを使用します。
 
-###モジュール マニフェストを作成します。
+### モジュール マニフェストの作成
 
-最後に、使用して、 **New-modulemanifest** を定義するコマンドレット、 <ResourceName>、カスタムのリソース モジュール .psd1 ファイルです。このコマンドレットを呼び出すときは、前のセクションで説明されているスクリプト モジュール (.psm1) ファイルを参照します。含める **Get TargetResource**, 、**セット TargetResource**, と **テスト TargetResource** をエクスポートする関数の一覧にします。マニフェスト ファイルの例を次に示します。
+最後に、**New-ModuleManifest** コマンドレットを使用して、カスタム リソース モジュールの <ResourceName>.psd1 ファイルを定義します。 このコマンドレットを呼び出すときに、前のセクションで説明したスクリプト モジュール (.psm1) ファイルを参照します。 **Get-TargetResource**、**Set-TargetResource**、および **Test-TargetResource** をエクスポートする関数の一覧に含めます。 マニフェスト ファイルの例を次に示します。
 
 ```powershell
 # Module manifest for module 'Demo.IIS.Website'
@@ -261,5 +276,9 @@ FunctionsToExport = @("Get-TargetResource", "Set-TargetResource", "Test-TargetRe
 }
 ```
 
+
+
+
+<!--HONumber=Oct16_HO1-->
 
 

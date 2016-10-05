@@ -1,18 +1,31 @@
-#PowerShell の必要な状態の構成部分の構成
+---
+title: "PowerShell Desired State Configuration の部分構成"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: c5d3cb1045e67d4913fbbad13938e8f95a43cacf
 
-> 5.0 Windows PowerShell に適用されます。
+---
 
-PowerShell の 5.0 では、必要な状態 Configuration (DSC) はフラグメントでは複数のソースからの配信に構成を使用できます。 ターゲット ノード上のローカル構成マネージャー (LCM) は、1 つの構成として適用する前にまとめて、フラグメントを配置します。 この機能により、チームまたは個人の間の構成の制御を共有します。 たとえば場合は、サービスでは、次の 2 つまたは複数の開発者のチームが共同作業、各作成することも、サービスの一部を管理するための構成。 プルの別のサーバーからプルされ、これらの構成の可能性があり、開発のさまざまな段階でそれらを追加することができます。 部分的な構成では、1 つの構成ドキュメントの編集を調整することがなく、ノードを構成するさまざまな側面を制御するには、さまざまな担当者やチームのこともできます。 たとえば、1 つのチーム別のチームが他のアプリケーションおよびその VM 上のサービス展開中に、VM とオペレーティング システムの展開を担当する場合があります。 部分的な構成では、各チームはされている、不必要に複雑なそれらのいずれかのことがなく、独自の構成を作成できます。
+# PowerShell Desired State Configuration の部分構成
 
-プッシュ モード、プル モード、または 2 つの組み合わせで部分の構成を使用することができます。
+>適用先: Windows PowerShell 5.0
 
-##プッシュ モードでの部分の構成
+PowerShell 5.0 では、Desired State Configuration (DSC) によって、複数のソースからフラグメントで構成を配信できます。 ターゲット ノード上のローカル構成マネージャー (LCM) によって、フラグメントがまとめられ、1 つの構成として適用されます。 この機能により、チームまたは個人間で構成の制御を共有できます。 たとえば、2 つ以上開発者のチームがサービスで共同作業を行っている場合、それぞれがサービスの自身の一部を管理する構成を作成する可能性があります。 これらの構成は、それぞれ異なるプル サーバーからプルされ、開発の異なる段階で追加される可能性があります。 部分構成では、1 つの構成ドキュメントの編集を調整することなく、さまざまな個人またはチームが構成ノードのさまざまな側面を制御することもできます。 たとえば、1 つのチームが VM とオペレーティング システムの展開を担当し、別のチームがその VM に別のアプリケーションとサービスを展開する場合があります。 部分構成を使用すると、各チームが、不必要に複雑になることなく、独自の構成を作成できます。
 
-部分的な構成をプッシュ モードを使用するのには、一部の構成を受信するターゲット ノードで、LCM を構成します。 各部分の構成は、発行 DSCConfiguration コマンドレットを使用して、ターゲットにプッシュする必要があります。 ターゲット ノードがし、部分の構成には、1 つの構成を結合し、呼び出すことによって、構成を適用する、 [開始 DscConfigurationxt](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットです。
+プッシュ モード、プル モード、または 2 つの組み合わせで部分構成を使用することができます。
 
-###部分の構成をプッシュ モード LCM を構成します。
+## プッシュ モードでの部分構成
+部分構成をプッシュ モードで使用するには、ターゲット ノードで、部分構成を受信する LCM を構成します。 各部分構成は、Publish-DSCConfiguration cmdlet を使用して、ターゲットにプッシュされる必要があります。 その後、ターゲット ノードによって、部分構成が 1 つの構成に結合されます。また、[Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx) コマンドレットを呼び出して、構成を適用することができます。
 
-作成する部分の構成の LCM をプッシュ モードを構成するのには **DSCLocalConfigurationManager** いずれかで構成 **PartialConfiguration** の各部分の構成ブロック。 LCM を構成する方法の詳細については、次を参照してください。 [Windows のローカルの Configuration Manager の構成](https://technet.microsoft.com/en-us/library/mt421188.aspx)です。 次の例では、2 つの部分的な構成が必要とする LCM 構成 —、OS を展開してする展開し、SharePoint を構成します。
+### プッシュ モードの部分構成用の LCM の構成
+プッシュ モードの部分構成用の LCM を構成するには、各部分構成に 1 つの **PartialConfiguration** ブロックを使用して **DSCLocalConfigurationManager** 構成を作成します。 LCM の構成の詳細については、「[ローカル構成マネージャーの構成](https://technet.microsoft.com/en-us/library/mt421188.aspx)」をご覧ください。 次の例では、OS を展開する部分構成と SharePoint を展開および構成する部分構成の 2 つの部分構成が必要な LCM 構成を示しています。
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -20,10 +33,10 @@ configuration PartialConfigDemo
 {
     Node localhost
     {
-
-           PartialConfiguration OSInstall
+        
+           PartialConfiguration ServiceAccountConfig
         {
-            Description = 'Configuration for the Base OS'
+            Description = 'Configuration to add the SharePoint service account to the Administrators group.'
             RefreshMode = 'Push'
         }
            PartialConfiguration SharePointConfig
@@ -36,21 +49,176 @@ configuration PartialConfigDemo
 PartialConfigDemo 
 ```
 
-**RefreshMode** 各部分の構成を「プッシュ」に設定します。 名前、 **PartialConfiguration** (ここでは、"OSInstall"と"SharePointConfig") のブロックはターゲット ノードにプッシュするための構成の名前を正確に一致する必要があります。
+各部分構成の **RefreshMode** は、"Push" に設定されています。 **PartialConfiguration** ブロックの名前 (この例では "ServiceAccountConfig" と "SharePointConfig") はターゲット ノードにプッシュされる構成の名前と正確に一致する必要があります。
 
-###公開して、一部の構成をプッシュ モードの開始
-
+### プッシュ モードの部分構成の公開および開始
 ![PartialConfig フォルダー構造](./images/PartialConfig1.jpg)
 
-次に呼び出し、 **発行 DSCConfiguration** 構成ごとに、パスのパラメーターとして構成ドキュメントの格納フォルダーを渡します。 両方の構成を公開するには、後に呼び出すことができます `開始 DSCConfiguration – 既存` のターゲット ノード上。
+次に構成ごとに **Publish-DSCConfiguration** を呼び出して、構成ドキュメントを含むフォルダーを Path パラメーターとして渡します。 両方の構成の発行後に、ターゲット ノードで `Start-DSCConfiguration –UseExisting` を呼び出すことができます。
 
-##プル モードでの部分の構成
+## プル モードでの部分構成
 
-一部の構成は、1 つまたは複数のプル サーバーから取得できます (プル サーバーに関する詳細については、次を参照してください。 [Windows PowerShell 必要な状態の構成プル サーバー](pullServer.md)です。 これを行うには、ターゲット ノードが、一部の構成を取得し、名前をプル サーバーで正しく構成ドキュメントを見つけることで、LCM を構成する必要があります。
+部分構成は、1 つ以上のプル サーバーからプルできます。プル サーバーの詳細については、「[DSC Web プル サーバーのセットアップ](pullServer.md)」をご覧ください。 これを行うには、ターゲット ノードで、部分構成をプルし、プル サーバーで構成ドキュメントを適切に名前付けおよび配置する LCM を構成する必要があります。
 
-###プル ノードの構成の LCM を構成します。
+### プル ノード構成用の LCM の構成
 
-プル サーバーからの部分的な構成をプルする LCM を構成するには、いずれかでプルのサーバーを定義する、 **ConfigurationRepositoryWeb** (HTTP プル サーバーの場合は) 用または **ConfigurationRepositoryShare** (SMB プル サーバー) をブロックします。 次に、作成 **PartialConfiguration** ブロックを使用して、プル サーバーを参照している、 **ConfigurationSource** プロパティです。 また、LCM がプル モードを使用することを指定してプルのサーバーとリンク先ノードが、構成を識別するために使用する ConfigurationID を指定する設定のブロックを作成する必要があります。 次のメタ構成が CONTOSO PullSrv をという名前の HTTP プルのサーバーを定義し、2 つの部分的な構成を使用するサーバーを取得します。
+プル サーバーから部分構成をプルする LCM を構成するには、**ConfigurationRepositoryWeb** (HTTP プル サーバーの場合) または **ConfigurationRepositoryShare** (SMB プル サーバーの場合) ブロックのいずれかでプル サーバーを定義します。 その後、**ConfigurationSource** プロパティを使用して、プル サーバーを参照する **PartialConfiguration** ブロックを作成します。 また、LCM がプル モードを使用することを指定する **Settings** ブロックを作成し、プル サーバーとターゲット ノードで構成の識別に使用される **ConfigurationNames** または **ConfigurationID** を指定する必要もあります。 次のメタ構成では、CONTOSO-PullSrv という HTTP プル サーバーとこのプル サーバーを使用する 2 つの部分構成が定義されています。
+
+**ConfigurationNames** を使用した LCM の構成については、「[構成名を使用したプル クライアントのセットアップ](pullClientConfigNames.md)」をご覧ください。 **ConfigurationID** を使用した LCM の構成については、「[構成 ID を使用したプル クライアントのセットアップ](pullClientConfigID.md)」をご覧ください。
+
+#### 構成名を使用したプル モードの構成用の LCM の構成
+
+```powershell
+[DscLocalConfigurationManager()]
+Configuration PartialConfigDemoConfigNames
+{
+        Settings
+        {
+            RefreshFrequencyMins            = 30;
+            RefreshMode                     = "PULL";
+            ConfigurationMode               ="ApplyAndAutocorrect";
+            AllowModuleOverwrite            = $true;
+            RebootNodeIfNeeded              = $true;
+            ConfigurationModeFrequencyMins  = 60;
+        }
+        ConfigurationRepositoryWeb CONTOSO-PullSrv
+        {
+            ServerURL                       = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'    
+            RegistrationKey                 = 5b41f4e6-5e6d-45f5-8102-f2227468ef38     
+            ConfigurationNames              = @("ServiceAccountConfig", "SharePointConfig")
+        }     
+        
+        PartialConfiguration ServiceAccountConfig 
+        {
+            Description                     = "ServiceAccountConfig"
+            ConfigurationSource             = @("[ConfigurationRepositoryWeb]CONTOSO-PullSrv") 
+        }
+ 
+        PartialConfiguration SharePointConfig
+        {
+            Description                     = "SharePointConfig"
+            ConfigurationSource             = @("[ConfigurationRepositoryWeb]CONTOSO-PullSrv")
+            DependsOn                       = '[PartialConfiguration]ServiceAccountConfig'
+        }
+   
+}
+``` 
+
+#### 構成 ID を使用したプル モードの構成用の LCM の構成
+
+```powershell
+[DSCLocalConfigurationManager()]
+configuration PartialConfigDemoConfigID
+{
+    Node localhost
+    {
+        Settings
+        {
+            RefreshMode                     = 'Pull'
+            ConfigurationID                 = '1d545e3b-60c3-47a0-bf65-5afc05182fd0'
+            RefreshFrequencyMins            = 30 
+            RebootNodeIfNeeded              = $true
+        }
+        ConfigurationRepositoryWeb CONTOSO-PullSrv
+        {
+            ServerURL                       = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'
+            
+        }
+        
+           PartialConfiguration ServiceAccountConfig
+        {
+            Description                     = 'Configuration for the Base OS'
+            ConfigurationSource             = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
+            RefreshMode                     = 'Pull'
+        }
+           PartialConfiguration SharePointConfig
+        {
+            Description                     = 'Configuration for the Sharepoint Server'
+            ConfigurationSource             = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
+            DependsOn                       = '[PartialConfiguration]ServiceAccountConfig'
+            RefreshMode                     = 'Pull'
+        }
+    }
+}
+PartialConfigDemo 
+```
+
+複数のプル サーバーから部分構成をプルすることができます。このためには、各プル サーバーを定義し、各 **PartialConfiguration** ブロックで適切なプル サーバーを参照することのみが必要となります。
+
+メタ構成を作成したら、実行して、構成ドキュメント (MOF ファイル) を作成し、[Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621(v=wps.630).aspx) を呼び出して LCM を構成する必要があります。
+
+### プル サーバーでの構成ドキュメントの名前付けおよび配置 (ConfigurationNames)
+
+部分構成ドキュメントは、プル サーバーの `web.config` ファイルで **ConfigurationPath** として指定されたフォルダーに配置する必要があります (通常 `C:\Program Files\WindowsPowerShell\DscService\Configuration`)。 構成ドキュメントは次のように名前を付ける必要があります。_ConfigurationName_ が部分構成の名前である場合、`ConfigurationName.mof` です。 この例では、構成ドキュメントの名前は次のようになります。
+
+```
+ServiceAccountConfig.mof
+ServiceAccountConfig.mof.checksum
+SharePointConfig.mof
+SharePointConfig.mof.checksum
+```
+
+### プル サーバーでの構成ドキュメントの名前付けおよび配置 (ConfigurationID)
+
+部分構成ドキュメントは、プル サーバーの `web.config` ファイルで **ConfigurationPath** として指定されたフォルダーに配置する必要があります (通常 `C:\Program Files\WindowsPowerShell\DscService\Configuration`)。 構成ドキュメントは次のように名前を付ける必要があります。_ConfigurationName_. _ConfigurationID_`.mof`。ここで _ConfigurationName_ は部分構成の名前であり、_ConfigurationID_ はターゲット ノードの LCM で定義されている構成 ID です。 この例では、構成ドキュメントの名前は次のようになります。
+
+```
+ServiceAccountConfig.1d545e3b-60c3-47a0-bf65-5afc05182fd0.mof
+ServiceAccountConfig.1d545e3b-60c3-47a0-bf65-5afc05182fd0.mof.checksum
+SharePointConfig.1d545e3b-60c3-47a0-bf65-5afc05182fd0.mof
+SharePointConfig.1d545e3b-60c3-47a0-bf65-5afc05182fd0.mof.checksum
+```
+
+
+### プル サーバーからの部分構成の実行
+
+ターゲット ノードで LCM を構成し、プル サーバーで構成ドキュメントを作成して適切に名前を付けた後に、ターゲット ノードによって、部分構成がプルされ、それらが結合されて、LCM の **RefreshFrequencyMins** プロパティによって指定されているように定期的に結果の構成が適用されます。 強制的に更新する場合は、[Update-DscConfiguration](https://technet.microsoft.com/en-us/library/mt143541.aspx) コマンドレットを呼び出して、構成をプルし、`Start-DSCConfiguration –UseExisting` を呼び出して、その構成を適用することができます。
+
+
+## プッシュとプルの混在モードでの部分構成
+
+部分構成のプッシュ モードとプル モードを混在させることができます。 つまり、プル サーバーからプルされた部分構成とプッシュされた別の部分構成を持つことができます。 それぞれの部分構成は、前のセクションで説明したように、更新モードに応じて扱います。 たとえば、次のメタ構成では、プル モードのサービス アカウントの部分構成とプッシュ モードの SharePoint 部分構成がある同じ例が記述されています。
+
+### ConfigurationNames を使用したプッシュとプルの混在モード
+
+```powershell
+[DscLocalConfigurationManager()]
+Configuration PartialConfigDemoConfigNames
+{
+        Settings
+        {
+            RefreshFrequencyMins            = 30;
+            RefreshMode                     = "PULL";
+            ConfigurationMode               = "ApplyAndAutocorrect";
+            AllowModuleOverwrite            = $true;
+            RebootNodeIfNeeded              = $true;
+            ConfigurationModeFrequencyMins  = 60;
+        }
+        ConfigurationRepositoryWeb CONTOSO-PullSrv
+        {
+            ServerURL                       = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'    
+            RegistrationKey                 = 5b41f4e6-5e6d-45f5-8102-f2227468ef38     
+            ConfigurationNames              = @("ServiceAccountConfig", "SharePointConfig")
+        }     
+        
+        PartialConfiguration ServiceAccountConfig 
+        {
+            Description                     = "ServiceAccountConfig"
+            ConfigurationSource             = @("[ConfigurationRepositoryWeb]CONTOSO-PullSrv")
+            RefreshMode                     = 'Pull' 
+        }
+ 
+        PartialConfiguration SharePointConfig
+        {
+            Description                     = "SharePointConfig"
+            DependsOn                       = '[PartialConfiguration]ServiceAccountConfig'
+            RefreshMode                     = 'Push'
+        }
+   
+}
+``` 
+
+### ConfigurationID を使用したプッシュとプルの混在モード
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -60,98 +228,109 @@ configuration PartialConfigDemo
     {
         Settings
         {
-            RefreshMode = 'Pull'
-            ConfigurationID = '1d545e3b-60c3-47a0-bf65-5afc05182fd0'
-            RefreshFrequencyMins = 30 
-            RebootNodeIfNeeded = $true
+            RefreshMode             = 'Pull'
+            ConfigurationID         = '1d545e3b-60c3-47a0-bf65-5afc05182fd0'
+            RefreshFrequencyMins    = 30 
+            RebootNodeIfNeeded      = $true
         }
         ConfigurationRepositoryWeb CONTOSO-PullSrv
         {
-            ServerURL = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'
-
+            ServerURL               = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'
+            
         }
-
-           PartialConfiguration OSInstall
+        
+           PartialConfiguration ServiceAccountConfig
         {
-            Description = 'Configuration for the Base OS'
-            ConfigurationSource = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
-            RefreshMode = 'Pull'
+            Description             = 'Configuration for the Base OS'
+            ConfigurationSource     = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
+            RefreshMode             = 'Pull'
         }
            PartialConfiguration SharePointConfig
         {
-            Description = 'Configuration for the Sharepoint Server'
-            ConfigurationSource = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
-            DependsOn = [PartialConfiguration]OSInstall
-            RefreshMode = 'Pull'
+            Description             = 'Configuration for the Sharepoint Server'
+            DependsOn               = '[PartialConfiguration]ServiceAccountConfig'
+            RefreshMode             = 'Push'
         }
     }
 }
 PartialConfigDemo 
 ```
 
-プルの 2 つ以上のサーバーからの部分的な構成をプルすることができます: だけ必要になりますを各プルのサーバーを定義し、各 PartialConfiguration ブロックのプルを適切なサーバーを参照してください。
+なお、Settings ブロックで指定されている **RefreshMode** は "Pull" ですが、SharePointConfig 部分構成の **RefreshMode** は "Push" です。
 
-メタ構成を作成した後、構成のドキュメント (MOF ファイル) を作成し、[セット DscLocalConfigurationManager] (https://technet.microsoft.com/en-us/library/dn521621、LCM を構成するには、(v=wps.630).aspx) を呼び出すを実行する必要があります。
+それぞれの更新モードの前述の説明に従って、構成 MOF ファイルの名前付けおよび配置を行います。 **Publish-DSCConfiguration** を呼び出して、`SharePointConfig`部分構成を公開し、`ServiceAccountConfig`構成がプル サーバーからプルされることを待機するか、または [Update-DscConfiguration](https://technet.microsoft.com/en-us/library/mt143541(v=wps.630).aspx) を呼び出して強制的に更新します。
 
-###名前付けとプルのサーバー上の構成ドキュメントを配置します。
-
-構成の部分的なドキュメントは、として指定されたフォルダーに配置する必要があります、 **ConfigurationPath** で、 `web.config` プル サーバーのファイル (通常 `C:\Program Files\WindowsPowerShell\DscService\Configuration`)。 構成のドキュメントを次のように名前必要があります。 _ConfigurationName_です。 _ConfigurationID_`.mof`, ここで、 _ConfigurationName_ 部分の構成の名前を指定し、 _ConfigurationID_ は、ターゲット ノードで LCM で定義された構成の ID。 例では、構成のドキュメントは次のように名前をする必要があります。
-![プル サーバー上の PartialConfig 名](images/PartialConfigPullServer.jpg)
-
-###プル サーバーから部分的な構成を実行しています。
-
-ターゲット ノードの電源は部分の構成を取得いること、結合、および一定の間隔で指定したとおりで、結果の構成を適用のターゲット ノード上の LCM が構成されているを後の構成ドキュメントを作成およびプルのサーバーで正しくという名前の **RefreshFrequencyMins** 、LCM のプロパティです。 強制的に更新する場合を構成を取得して、更新 DscConfiguration コマンドレットを呼び出すことができ、 `開始 DSCConfiguration – 既存` に適用するようにします。
-
-##プッシュおよびプルの混在モードでの部分の構成
-
-プッシュを混在させるし、部分的な構成のモードを取得できます。 つまり、他の部分の構成がプッシュされたときに、プル サーバーからを取得する 1 つの部分的な構成ができます。 によっては、前のセクションで説明するように、更新モードのと同様に、各部分の構成を処理します。 たとえば、次のメタ構成では、同じ例では、プル モードでオペレーティング システムの一部の構成とプッシュ モードで SharePoint の部分的な構成について説明します。
+## ServiceAccountConfig 部分構成の例
 
 ```powershell
-[DSCLocalConfigurationManager()]
-configuration PartialConfigDemo
+Configuration ServiceAccountConfig
 {
+    Param (
+        [Parameter(Mandatory,
+                   HelpMessage="Domain credentials required to add domain\sharepoint_svc to the local Administrators group.")]
+        [ValidateNotNullOrEmpty()]
+        [pscredential]$Credential
+    )
+
+    Import-DscResource -ModuleName PSDesiredStateConfiguration
+
+
     Node localhost
     {
-        Settings
+        Group LocalAdmins
         {
-            RefreshMode = 'Pull'
-            ConfigurationID = '1d545e3b-60c3-47a0-bf65-5afc05182fd0'
-            RefreshFrequencyMins = 30 
-            RebootNodeIfNeeded = $true
-        }
-        ConfigurationRepositoryWeb CONTOSO-PullSrv
-        {
-            ServerURL = 'https://CONTOSO-PullSrv:8080/PSDSCPullServer.svc'
-
+            GroupName           = 'Administrators'
+            MembersToInclude    = 'domain\sharepoint_svc',
+                                  'admins@example.domain'
+            Ensure              = 'Present'
+            Credential          = $Credential
+            
         }
 
-           PartialConfiguration OSInstall
+        WindowsFeature Telnet
         {
-            Description = 'Configuration for the Base OS'
-            ConfigurationSource = '[ConfigurationRepositoryWeb]CONTOSO-PullSrv'
-            RefreshMode = 'Pull'
-        }
-           PartialConfiguration SharePointConfig
-        {
-            Description = 'Configuration for the Sharepoint Server'
-            DependsOn = [PartialConfiguration]OSInstall
-            RefreshMode = 'Push'
+            Name                = 'Telnet-Server'
+            Ensure              = 'Absent'
         }
     }
 }
-PartialConfigDemo 
+ServiceAccountConfig
+
 ```
+## SharePointConfig 部分構成の例
+```powershell
+Configuration SharePointConfig
+{
+    Param (
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [pscredential]$ProductKey
+    )
 
-なお、 **RefreshMode** 「プル」は、設定のブロックで指定しますが、 **RefreshMode** 、OSInstall 部分の構成は「プッシュ」です。
+    Import-DscResource -ModuleName xSharePoint
 
-名前をそれぞれの更新モードを上記のように構成ドキュメントを検索するとします。 呼び出します。 **発行 DSCConfiguration** 、SharePointInstall を発行すると部分的な構成では、待機するサーバーから取得した、プル、または、[更新 DscConfiguration] (https://technet.microsoft.com/en-us/library/mt143541 (v=wps.630).aspx) を呼び出すことによって強制的に更新するには、OSInstall 構成。
-
-##関連項目
+    Node localhost
+    {
+        xSPInstall SharePointDefault
+        {
+            Ensure      = 'Present'
+            BinaryDir   = '\\FileServer\Installers\Sharepoint\'
+            ProductKey  = $ProductKey
+        }
+    }
+}
+SharePointConfig
+```
+##参照 
 
 **概念**
-[Windows PowerShell の必要なプル サーバーの状態の構成](pullServer.md) 
-[Windows のローカルの Configuration Manager の構成](https://technet.microsoft.com/en-us/library/mt421188.aspx)
+[Windows PowerShell Desired State Configuration プル サーバー](pullServer.md) 
+
+[ローカル構成マネージャーの構成](https://technet.microsoft.com/en-us/library/mt421188.aspx) 
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,10 +1,25 @@
-#DSC WindowsProcess リソース
+---
+title: "DSC WindowsProcess リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 0fe5e7d9679d44bb50c897badf8c6517b95049e2
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-**WindowsProcess** リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、ターゲット ノード上のプロセスを構成するメカニズムを提供します。
+# DSC WindowsProcess リソース
 
-##構文
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
+
+Windows PowerShell Desired State Configuration (DSC) の **WindowsProcess** リソースは、ターゲット ノードにプロセスを構成するためのメカニズムを備えています。
+
+## 構文
 
 ```
 WindowsProcess [string] #ResourceName
@@ -21,20 +36,22 @@ WindowsProcess [string] #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
+|  プロパティ  |  説明   | 
+|---|---| 
+| 引数| プロセスに渡す引数の文字列をそのまま示します。 複数の引数を渡す必要がある場合は、そのすべてをこの文字列内に配置します。| 
+| パス| プロセスの実行可能ファイルのパス。 これが実行可能ファイルの名前の場合 (完全修飾パスではない)、DSC リソースは環境**パス**変数 (`$env:Path`) を検索し、ファイルを見つけます。 このプロパティの値が完全修飾パスの場合、DSC は**パス**環境変数でファイルを探すことはせず、パスが存在しない場合はエラーをスローします。 相対パスは指定できません。| 
+| Credential| プロセスを開始するための資格情報を示します。| 
+| Ensure| プロセスが存在するかどうかを示します。 プロセスが存在することを保証するには、このプロパティを "Present" に設定します。 それ以外の場合は、"Absent" に設定します。 既定は "Present" です。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が __ResourceName__ で、そのタイプが __ResourceType__ である場合、このプロパティを使用する構文は DependsOn = "[ResourceType]ResourceName" になります。| 
+| StandardErrorPath| 標準エラーを書き込むディレクトリ パスを示します。 既存のファイルは上書きされます。| 
+| StandardInputPath| 標準入力の場所を示します。| 
+| StandardOutputPath| 標準出力の書き込み場所を示します。 既存のファイルは上書きされます。| 
+| WorkingDirectory| プロセスの現在の作業ディレクトリとして使用される場所を示します。| 
 
-| プロパティ| 説明|
-|---|---|
-| 引数| プロセスに渡す引数の文字列を示すは。いくつかの引数を渡す必要がある場合は、この文字列のすべてに配置します。|
-| パス| プロセスの実行可能ファイルへのパスを示します。DSC で表示される実行可能ファイルの名前にこのプロパティを設定する場合、 __パス__ 変数です。DSC はチェックされないために、プロセスの存在する必要がありますが設定完全修飾ドメイン名を指定する場合、 __パス__ ここでは変数。|
-| Credential| プロセスを起動するための資格情報を示します。|
-| 確認します。| プロセスが存在するかどうかを示します。プロセスが存在することを確認するには、"Present"には、このプロパティを設定します。それ以外の場合、「ない」に設定します。既定では"Present です"。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は、' DependsOn ="[リソースの種類] ResourceName"' です。|
-| StandardErrorPath| 標準的なエラーを記述するディレクトリ パスを示します。既存のファイルがありますが上書きされます。|
-| StandardInputPath| 標準の入力場所を示します。|
-| StandardOutputPath| 標準の出力を書き込む場所を示します。既存のファイルがありますが上書きされます。|
-| WorkingDirectory| プロセスの現在の作業ディレクトリとして使用される場所を示します。|
 
 
+
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,4 +1,19 @@
-#DSC プル サーバーからには、ノードの情報を照会する関数。
+---
+title: "プル サーバーからノード情報を照会するための DSC 関数"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 02bb8458796d60991a05a8250f3bf8f3261ffce1
+
+---
+
+# プル サーバーからノード情報を照会するための DSC 関数
 
 ```powershell
 function QueryNodeInformation
@@ -27,9 +42,9 @@ Param (
 }
 ```
 
-置換、 `Uri` プル サーバーの URI を持つパラメーター。 XML 形式でノードの情報を実行する場合に、設定 `ContentType` に `アプリケーションおよび xml`です。
+`Uri` パラメーターをプル サーバーの URI に置き換えます。 ノードの情報を XML 形式にする場合は、`ContentType` を `application/xml` に設定します。
 
-ノード情報を取得する、 `$json` パラメーターでは、次を使用します。
+`$json` パラメーターからノード情報を取得するには、以下を使用します。
 
 ```powershell
 $json = QueryNodeInformation –Uri http://localhost:7070/PSDSCComplianceServer.svc/Status 
@@ -38,5 +53,8 @@ $json.value | Format-Table TargetName, ConfigurationId, ServerChecksum, NodeComp
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

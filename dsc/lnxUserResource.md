@@ -1,8 +1,23 @@
-#DSC Linux nxUser リソース用
+---
+title: "Linux 用 DSC の nxUser リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 7813185313845b74e2a37dfa4ec6bb109f32f0eb
 
-**NxUser** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上のローカル ユーザーを管理するメカニズムを提供します。
+---
 
-##構文
+# Linux 用 DSC の nxUser リソース
+
+PowerShell Desired State Configuration (DSC) の **nxUser** リソースは、Linux ノード上でローカル ユーザーを管理するためのメカニズムを備えています。
+
+## 構文
 
 ```
 nxUser <string> #ResourceName
@@ -22,24 +37,24 @@ nxUser <string> #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 特定の状態を保証するアカウント名を示します。|
+|  プロパティ |  特定の状態を保証するアカウント名を示します。 | 
 |---|---|
-| UserName| ファイルまたはディレクトリの状態を保証する場所を指定します。|
-| 確認します。| アカウントが存在するかどうかを指定します。アカウントが存在することを確認するには、"Present"には、このプロパティを設定し、アカウントが存在しないことを確認する「ない」に設定します。|
-| FullName| ユーザー アカウントを使用する完全な名前を文字列。|
-| 説明| ユーザー アカウントの説明です。|
-| Password| Linux コンピューター用の適切な形式でユーザーのパスワードのハッシュです。通常、これは、sha-256 ソルト処理、または sha-512 ハッシュです。Debian および Ubuntu Linux では、この値は、mkpasswd コマンドを使用して生成できます。その他の Linux ディストリビューションでは、Python の Crypt ライブラリの crypt メソッドはハッシュの生成に使用できます。|
-| 無効になっています。| アカウントが有効になっているかどうかを示します。このプロパティを設定 **$true** このアカウントが無効にするとに設定することを確認する **$false** を有効になっていることを確認します。|
-| PasswordChangeRequired| ユーザーがパスワードを変更するかどうかを示します。このプロパティを設定 **$true** 、ユーザーがパスワードを変更できないかどうか、およびに設定ことを確認に **$false** パスワードを変更するユーザーを許可します。既定値は **$false**です。このプロパティは、ユーザー アカウントは、以前に存在しなかったし、が作成される場合にのみ評価されます。|
-| HomeDirectory| ユーザーのホーム ディレクトリ。|
-| GroupID| ユーザーのプライマリ グループの ID です。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば、実行するリソースの構成スクリプト ブロックの ID は、「リソース名」を最初は、その型は、「リソースの種類」場合は、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| UserName| ファイルまたはディレクトリの状態を保証する場所を指定します。| 
+| Ensure| アカウントが存在するかどうかを指定します。 このアカウントが存在することを保証するには、このプロパティを "Present" に設定し、アカウントが存在しないことを保証するには、"Absent" に設定します。| 
+| FullName| ユーザー アカウントに使用するフルネームを表す文字列。| 
+| 説明| ユーザー アカウントの説明。| 
+| Password| Linux コンピューターの適切な形式でのユーザー パスワードのハッシュ。 通常、これはソルト化ハッシュ SHA-256 または SHA-512 です。 Debian および Ubuntu Linux では、この値は、mkpasswd コマンドを使用して生成できます。 他の Linux ディストリビューションの場合は、Python の暗号ライブラリの crypt メソッドを使用してハッシュを生成できます。| 
+| 無効| アカウントが有効かどうかを示します。 このアカウントを無効にするには、このプロパティを **$true** に設定し、有効にするには **$false** に設定します。| 
+| PasswordChangeRequired| ユーザーがパスワードを変更できるかどうかを示します。 ユーザーがパスワードを変更できないようにするには、このプロパティを **$true** に設定し、ユーザーがパスワードを変更できるようにするには、**$false** に設定します。 既定値は **$false** です。 このプロパティは、以前存在しなかったユーザー アカウントを作成するときにのみ評価されます。| 
+| HomeDirectory| ユーザーのホーム ディレクトリ。| 
+| GroupID| ユーザーのプライマリ グループ ID。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が "ResourceName" で、そのタイプが "ResourceType" である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
-##例
+## 例
 
-次の例では、"monuser"ユーザーが存在し、"DBusers"のグループのメンバーであることをようにします。
+次の例は、ユーザー "monuser" が存在し、グループ "DBusers" のメンバーであることを保証しています。
 
 ```
 Import-DSCResource -Module nx 
@@ -52,7 +67,7 @@ nxUser UserExample{
    Ensure = "Present"
    HomeDirectory = "/home/monuser"
 }
-
+ 
 nxGroup GroupExample{
    GroupName = "DBusers"
    Ensure = "Present"
@@ -63,5 +78,8 @@ nxGroup GroupExample{
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,22 +1,40 @@
-#組み込みの Windows PowerShell の必要なリソースの状態の構成
+---
+title: "Windows PowerShell Desired State Configuration の組み込みリソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: ea312b4e773cd8b0eceeca123e616957728eb1c6
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-Windows PowerShell 必要な状態 Configuration (DSC) 一連の組み込みの構成のリソースが付属します。 次の表では、これらのリソースや詳細を説明するトピックへのリンクのアルファベット順の一覧を提供します。 その他のリソースを作成する必要がある場合は、次を参照してください [ビルド カスタム Windows PowerShell 必要な状態の構成に関するリソース](authoringResource.md)。
+# Windows PowerShell Desired State Configuration の組み込みリソース
 
-* [アーカイブのリソース](archiveResource.md)
-* [環境のリソース](environmentResource.md)
-* [ファイルのリソース](fileResource.md)
-* [グループのリソース](groupResource.md)
-* [ログのリソース](logResource.md)
-* [パッケージのリソース](PackageResource.md)
-* [レジストリのリソース](registryResource.md)
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
+
+Windows PowerShell Desired State Configuration (DSC) には、一連の組み込み構成リソースが付属しています。 次の表は、これらのリソースや詳細を説明するトピックへのリンクのアルファベット順の一覧を示します。 追加のリソースを作成する必要がある場合は、「[カスタム Windows PowerShell Desired State Configuration のビルド](authoringResource.md)」を参照してください。
+
+* [アーカイブ リソース](archiveResource.md)
+* [環境リソース](environmentResource.md)
+* [ファイル リソース](fileResource.md)
+* [グループ リソース](groupResource.md)
+* [ログ リソース](logResource.md)
+* [パッケージ リソース](packageResource.md)
+* [レジストリ リソース](registryResource.md)
 * [スクリプト リソース](scriptResource.md)
-* [サービスのリソース](serviceResource.md)
+* [サービス リソース](serviceResource.md)
 * [ユーザー リソース](userResource.md)
-* [Windows の機能のリソース](windowsFeatureResource.md)
-* [Windows プロセスのリソース](windowsProcessResource.md)
+* [WindowsFeature リソース](windowsfeatureResource.md)
+* [WindowsProcess リソース](windowsProcessResource.md)
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,8 +1,23 @@
-#DSC Linux nxPackage リソース用
+---
+title: "Linux 用 DSC の nxPackage リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 31867cc7af96a3d8d527f5906d77bed5206940b4
 
-**NxPackage** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux のノード上でパッケージを管理するメカニズムを提供します。
+---
 
-##構文
+# Linux 用 DSC の nxPackage リソース
+
+PowerShell Desired State Configuration (DSC) の **nxPackage** リソースは、Linux ノード上でパッケージを管理するためのメカニズムを備えています。
+
+## 構文
 
 ```
 nxPackage <string> #ResourceName
@@ -15,26 +30,26 @@ nxPackage <string> #ResourceName
     [ ReturnCode = <uint32> ]
     [ LogPath = <string> ]
     [ DependsOn = <string[]> ]
-
+    
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
+|  プロパティ |  説明 | 
 |---|---|
-| Name| 特定の状態を保証するパッケージの名前。|
-| 確認します。| パッケージが存在するかどうかを確認するかどうかを判断します。パッケージが存在することを確認するには、"Present"には、このプロパティを設定します。パッケージが存在しないことを確認する「ない」に設定します。既定値は、"Present"です。|
-| PackageManager| サポートされている値は"yum"、「適切」、および"zypper"です。パッケージをインストールするときに使用するパッケージ マネージャーを指定します。場合 **FilePath** が指定されている、指定したパスは、パッケージをインストールするために使用されます。それ以外の場合、パッケージ マネージャーが使用して事前に構成されているリポジトリからパッケージをインストールします。どちらの場合 **PackageManager** も **FilePath** 入力については、既定のパッケージ マネージャー、システムが使用されます。|
-| ファイル パス| パッケージが存在するファイルのパス|
-| PackageGroup| 場合 **$true**, 、 **名前** で使用するためのパッケージのグループの名前を指定する必要が、 **PackageManager**です。**PacakgeGroup** を提供する場合は無効にする **FilePath**です。|
-| 引数| 提供されたとおり、パッケージに渡される引数の文字列。|
-| リターン コード| 予期されるには、コードが返されます。実際にコードを返す場合に、予期される値の提供をここでは、構成には、エラーが返されますと一致しないはしません。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| 名前| 特定の状態を保証するパッケージの名前。| 
+| Ensure| パッケージが存在するかどうかを決定します。 パッケージが存在することを保証するには、このプロパティを "Present" に設定します。 パッケージが存在しないことを保証するには、"Absent" に設定します。 既定値は "Present" です。|  
+| PackageManager| サポートされている値は、"yum"、"apt"、および "zypper" です。 パッケージのインストール時に使用するパッケージ マネージャーを指定します。 **FilePath** を指定した場合、その指定したパスを使用してパッケージがインストールされます。 それ以外の場合、パッケージ マネージャーを使用して、事前に構成されているリポジトリからパッケージがインストールされます。 **PackageManager** も **FilePath** も指定しない場合は、システムの既定のパッケージ マネージャーが使用されます。| 
+| ファイル パス| パッケージが存在するファイル パス| 
+| PackageGroup| **$true** の場合、**Name** は **PackageManager** で使用されるパッケージ グループの名前であるものとみなされます。 **PacakgeGroup** は、**FilePath** を指定したときには使用できません。| 
+| 引数| 指定されたとおりにパッケージに渡される引数の文字列。| 
+| ReturnCode| 想定されるリターン コード。 実際のリターン コードがここで指定される想定される値と一致しない場合、構成はエラーを返します。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの **ID** が **ResourceName** で、そのタイプが **ResourceType** である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
-##例
+## 例
 
-次の例では、"Yum"パッケージ マネージャーを使用して、Linux コンピューターで"httpd"をという名前のパッケージがインストールされていることを確認します。
+次の例では、"Yum" パッケージ マネージャーを使用して、Linux コンピューターに "httpd" という名前のパッケージがインストールされるようにしています。
 
 ```
 Import-DSCResource -Module nx 
@@ -50,5 +65,8 @@ nxPackage httpd
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

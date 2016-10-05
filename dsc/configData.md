@@ -1,26 +1,41 @@
-#構成および環境データを分離すること
+---
+title: "構成データと環境データの分離"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 8a3ae5fdf5d70de999ca6b992efb14533408c305
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-Windows PowerShell 必要な状態 Configuration (DSC)、構成データを構成のロジックから分離することができます。 構造型の構成を検討するのには、これを確認する方法 (たとえば、構成必要があります IIS をインストールする) 環境の構成とは別に (つまり状況がいずれかの運用環境とテスト環境はかどうか、異なりますが、ノード名になりますが、それらに適用される構成は同じになります)。 これは、次の利点があります。
+# 構成データと環境データの分離
 
-* さまざまなリソース、ノード、および構成の構成データを再利用することができます。
-* 構成のロジックは、ハード コーディングされたデータが含まれていない場合は、再利用可能です。 これは、機能は、関数の適切なスクリプト作成のガイドラインに似ています。
-* データの一部を変更する必要がある場合、することができます、変更、1 つの場所に時間を節約し、エラーを減らすためです。
+>適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
-##基本的な概念と例
+Windows PowerShell Desired State Configuration (DSC) では、構成のロジックから構成データを分離することができます。 見方を変えると、このことは、構造の構成 (たとえば、IIS がインストールされていることが必要な構成) と環境の構成を切り離して考えることに相当します。つまり、テスト環境の場合と、運用環境の場合とで、ノード名が異なっても、適用される構成は同じになります。 このことには次の利点があります。
 
-DSC は、構成の環境の一部を指定する、 **ConfigurationData** パラメーター、これは、ハッシュ テーブル (または、ハッシュ テーブルを含む .psd1 ファイルがかかることができます)。 このハッシュ テーブルに少なくとも 1 つのキーが必要 **AllNodes**, を持つ、構造化された値。 たとえば、次のように入力します。
+* さまざまなリソース、ノード、および構成の構成データを再利用できます。
+* 構成ロジックは、ハード コードされたデータが含まれていないと、再利用可能性が高くなります。 これは、関数の適切なスクリプト作成のガイドラインに似ています。
+* 一部のデータを変更する必要がある場合は、1 つの場所で変更を加えることができるため、時間を節約し、エラーを削減できます。
+
+## 基本的な概念と例
+
+構成の環境部分を指定するには、DSC で **ConfigurationData** パラメーターを使用します。これは、ハッシュ テーブルです (またはハッシュ テーブルを含む .psd1 ファイルを指定できます)。 このハッシュ テーブルには、少なくとも、構造化された値を持つ 1 つのキー **AllNodes** が必要です。 たとえば、次のように入力します。
 
 ```powershell
 $MyData = 
 @{
-    AllNodes = @();
+    AllNodes = @()
     NonNodeData = ""   
 }
 ```
 
-AllNodes キーは、ある値が配列に注意してください。 この配列の各要素は、キーとしてのノード名を必要とするハッシュ テーブルもです。
+値が配列である AllNodes キーに注意してください。 この配列の各要素も、キーとして NodeName を必要とするハッシュ テーブルです。
 
 ```powershell
 $MyData = 
@@ -31,12 +46,12 @@ $MyData =
             NodeName = "VM-1"
         },
 
-
+ 
         @{
             NodeName = "VM-2"
         },
 
-
+ 
         @{
             NodeName = "VM-3"
         }
@@ -46,7 +61,7 @@ $MyData =
 }
 ```
 
-AllNodes で各ハッシュ テーブルのエントリは、構成データを構成内のノードに対応します。 だけでなく、必要なノード名のキーを追加することも他のキー、ハッシュ テーブルの。
+AllNodes の各ハッシュ テーブル エントリは、構成内のノードの構成データに対応します。 必要な NodeName キーに加えて、他のキーをハッシュ テーブルに追加することもできます。次に例を示します。
 
 ```powershell
 $MyData = 
@@ -54,19 +69,19 @@ $MyData =
     AllNodes = 
     @(
         @{
-            NodeName = "VM-1";
-
+            NodeName = "VM-1"
+            Role     = "WebServer"
         },
 
-
+ 
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
 
-
+ 
         @{
-            NodeName = "VM-3";
+            NodeName = "VM-3"
             Role     = "WebServer"
         }
     );
@@ -75,9 +90,9 @@ $MyData =
 }
 ```
 
-DSC には、構成のスクリプトで使用する 3 つの特殊な変数が用意されています。
+DSC には、構成スクリプトで使用する 3 つの特殊な変数が用意されています。
 
-* **$AllNodes**: すべてのノードを参照します。 によるフィルター処理を行うこともできます **です。Where()** と **です。ForEach()**, ので、アクションの特定のノードを選択するハード コーディング ノード名の代わりに、上記の例では、VM および VM 3 を選択する次のように何かを記述できます。
+* **$AllNodes**: すべてのノードを参照します。 **.Where()** および **.ForEach()** によるフィルター処理を使用できます。このため、ノード名ハード コードしてアクション用の特定のノードを選択する代わりに、次のように記述して上記の例の VM 1 および VM 3 を選択できます。
 
 ```powershell
 configuration MyConfiguration
@@ -88,7 +103,7 @@ configuration MyConfiguration
 }
 ```
 
-* **$Node**: 後、ノードのセットをフィルター選択すると、特定のエントリを参照する $Node を行うこともできます。 たとえば、次のように入力します。
+* **$Node**: ノードのセットがフィルター処理された後、$Node を使用して特定のエントリを参照できます。 たとえば、次のように入力します。
 
 ```powershell
 configuration MyConfiguration
@@ -106,7 +121,7 @@ configuration MyConfiguration
 }
 ```
 
-すべてのノードには、プロパティを適用するには、ノード名を設定することができます ="*"です。 たとえばにすべてのノードを LogPath プロパティに与えるには、こうとでした。
+すべてのノードにプロパティを適用するには、NodeName = "*" を設定します。 たとえば、すべてのノードに LogPath プロパティを適用するには、次のように入力します。
 
 ```
 $MyData = 
@@ -118,24 +133,24 @@ $MyData =
             LogPath            = "C:\Logs"
         },
 
-
+ 
         @{
-            NodeName = "VM-1";
+            NodeName = "VM-1"
             Role     = "WebServer"
             SiteContents = "C:\Site1"
             SiteName = "Website1"
         },
 
-
+ 
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
 
-
+ 
         @{
-            NodeName = "VM-3";
-            Role     = "WebServer";
+            NodeName = "VM-3"
+            Role     = "WebServer"
             SiteContents = "C:\Site2"
             SiteName = "Website3"
         }
@@ -143,7 +158,7 @@ $MyData =
 }
 ```
 
-* **$ConfigurationData**: パラメーターとして渡された構成データのハッシュ テーブルにアクセスする、構成内には、この変数を使用することができます。 たとえば、次のように入力します。
+* **$ConfigurationData**: 構成内でこの変数を使用して、パラメーターとして渡された構成データのハッシュ テーブルにアクセスすることができます。 たとえば、次のように入力します。
 
 ```powershell
 $MyData = 
@@ -155,24 +170,24 @@ $MyData =
             LogPath            = "C:\Logs"
         },
 
-
+ 
         @{
-            NodeName = "VM-1";
+            NodeName = "VM-1"
             Role     = "WebServer"
             SiteContents = "C:\Site1"
             SiteName = "Website1"
         },
 
-
+ 
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
-
+ 
 
         @{
-            NodeName = "VM-3";
-            Role     = "WebServer";
+            NodeName = "VM-3"
+            Role     = "WebServer"
             SiteContents = "C:\Site2"
             SiteName = "Website3"
         }
@@ -206,7 +221,11 @@ configuration MyConfiguration
 }
 ```
 
-含まれる完全な例を見つけることができます、 [xWebAdministration モジュール](https://powershellgallery.com/packages/xWebAdministration)です。
+含まれる完全な例は、[xWebAdministration module (xWebAdministration モジュール)](https://powershellgallery.com/packages/xWebAdministration) にあります。
 
+
+
+
+<!--HONumber=Oct16_HO1-->
 
 

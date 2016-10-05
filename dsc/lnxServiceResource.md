@@ -1,39 +1,53 @@
-#DSC Linux nxService リソース用
+---
+title: "Linux 用 DSC の nxService リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 3835495705297616a41329bcfdaad42b464115d8
 
-**NxService** リソース PowerShell 必要な状態 Configuration (DSC) では、Linux ノード上のサービスを管理するメカニズムを提供します。
+---
 
-##構文
+# Linux 用 DSC の nxService リソース
+
+PowerShell Desired State Configuration (DSC) の **nxService** リソースは、Linux ノード上でサービスを管理するためのメカニズムを備えています。
+
+## 構文
 
 ```
 nxService <string> #ResourceName
 {
     Name = <string>
     [ Controller = <string> { init | upstart | system }  ]
-    [ Enambled = <bool> ]
+    [ Enabled = <bool> ]
     [ State = <string> { Running | Stopped } ]
     [ DependsOn = <string[]> ]
 
 }
 ```
 
-##プロパティ
-
-| プロパティ| 説明|
+## プロパティ
+|  プロパティ |  説明 | 
 |---|---|
-| Name| 構成するサービス/デーモンの名前。|
-| コント ローラー| サービスを構成するときに使用するサービスのコント ローラーの型。|
-| Enabled| 起動時にサービスを開始するかどうかを示します。|
-| 状態| サービスが実行されているかどうかを示します。サービスが実行されていないことを確認するには、"Stopped"には、このプロパティを設定します。サービスが実行されていないことを確認するには「実行中」に設定します。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。たとえば場合、 **ID** を実行する構成スクリプトのブロックの最初は、リソースの **ResourceName** あり、型が **リソースの種類**, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
+| 名前| 構成するサービス/デーモンの名前。| 
+| コントローラー| サービスを構成するときに使用するサービス コントローラーの種類。| 
+| Enabled| ブート時にサービスを開始するかどうかを示します。| 
+| State| サービスが実行されるかどうかを示します。 サービスが実行されないようにするには、このプロパティを "Stopped" に設定します。 サービスが実行されないようにするには、このプロパティを "Running" に設定します。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの **ID** が **ResourceName** で、そのタイプが **ResourceType** である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
 
-##追加情報
+## 追加情報
 
-**NxService** リソースは作成できません、サービスの定義や、サービスのスクリプトが存在しない場合。 PowerShell の [状態の必要な構成を使用する **nxFile** 存在または、サービス定義ファイルまたはスクリプトの内容を管理するリソースです。
+**nxService** リソースでは、サービス定義やサービスのスクリプトが存在しない場合、これらは作成されません。 PowerShell Desired State Configuration の **nxFile** リソースを使用して、サービス定義ファイルやスクリプトの存在または内容を管理できます。
 
-##例
+## 例
 
-次の例では、サービスの構成、"httpd"(Apache HTTP Server) 用に登録されている、 **SystemD** サービス コント ローラーです。
+次の例では、**SystemD** サービス コントローラーを使用して登録された "httpd" サービス (Apache HTTP Server の場合) の構成を示します。
 
 ```
 Import-DSCResource -Module nx 
@@ -51,5 +65,8 @@ Controller = "systemd"
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

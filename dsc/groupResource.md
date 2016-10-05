@@ -1,11 +1,25 @@
-#DSC グループ リソース
+---
+title: "DSC グループ リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 446c9036989c47c03664d978a1dea4e0234ada8d
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
 
-グループのリソースで Windows PowerShell 必要な状態 Configuration (DSC) では、ターゲット ノード上のローカル グループを管理するためのメカニズムを提供します。
+# DSC グループ リソース
 
-##構文
+> 適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
+PowerShell Desired State Configuration (DSC) の Group リソースは、ターゲット ノード上でローカル グループを管理するためのメカニズムを備えています。
+
+##構文##
 ```
 Group [string] #ResourceName
 {
@@ -20,22 +34,22 @@ Group [string] #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
 
-| プロパティ| 説明|
-|---|---|
-| グループ名| 特定の状態を確認するグループの名前を示します。|
-| Credential| リモート リソースにアクセスするために必要な資格情報を示します。**注**: このアカウントは、グループにすべての非ローカル アカウントを追加する適切な Active Directory のアクセス許可が必要があります。 それ以外の場合、エラーが発生します。
-| 説明| グループの説明を示します。|
-| 確認します。| グループが存在するかどうかを示します。「すべて」をグループが存在しないことを確認するには、このプロパティを設定します。(既定値) の「表示」するには、次のように設定とは、グループが存在することを確認します。|
-| メンバー| これらのメンバー グループを形成することを確認することを示します。|
-| MembersToExclude| データ型は、このグループのメンバーを確認しユーザーではないことを示します。|
-| MembersToInclude| 確認するユーザーには、グループのメンバーを示します。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は、' DependsOn ="[リソースの種類] ResourceName"' です。|
+|  プロパティ  |  説明   | 
+|---|---| 
+| GroupName| 特定の状態を保証するグループの名前です。| 
+| Credential| リモート リソースにアクセスするために必要な資格情報です **注**: このアカウントには、ローカル以外のすべてのアカウントをグループに追加する適切な Active Directory アクセス許可が必要です。このアクセス許可がない場合、エラーが発生します。
+| 説明| グループの説明です。| 
+| Ensure| グループが存在するかどうかを示します。 グループが存在しないことを保証するには、このプロパティを "Absent" に設定します。 グループが存在することを保証するには、"Present" (既定値) に設定します。| 
+| [メンバー]| このプロパティは、現在のグループ メンバーシップを指定したメンバーで置き換えるために使用します。 このプロパティの値は、*Domain*\\*UserName* 形式の文字列の配列です。 構成でこのプロパティを設定する場合、**MembersToExclude** プロパティおよび **MembersToInclude** プロパティは併用しないでください。 併用した場合、エラーが発生します。| 
+| MembersToExclude| このプロパティは、グループの既存のメンバーシップからメンバーを削除するために使用します。 このプロパティの値は、*Domain*\\*UserName* 形式の文字列の配列です。 構成でこのプロパティを設定する場合、**Members** プロパティは使用しないでください。 併用した場合、エラーが発生します。| 
+| MembersToInclude| このプロパティは、グループの既存のメンバーシップにメンバーを追加するために使用します。 このプロパティの値は、*Domain*\\*UserName* 形式の文字列の配列です。 構成でこのプロパティを設定する場合、**Members** プロパティは使用しないでください。 併用した場合、エラーが発生します。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が __ResourceName__ で、そのタイプが __ResourceType__ である場合、このプロパティを使用する構文は DependsOn = "[ResourceType]ResourceName" になります。| 
 
-##例
+## 例 1
 
-次の例では、その後 TestGroup をという名前のグループが存在しないことを確認する方法を示します。
+次の例では、"TestGroup" という名前のグループが存在しないことを保証する方法を示します。 
 
 ```powershell
 Group GroupExample
@@ -46,7 +60,39 @@ Group GroupExample
     GroupName = "TestGroup"
 }
 ```
+## 例 2
+次の例では、Multi-Machine Lab ビルドの一部として Active Directory ユーザーをローカルの Administrators グループに追加する方法を示します。このビルドでは、ローカル管理者アカウントの PSCredential を既に使用しています。 また、これは (ドメインの昇格後) ドメイン管理者アカウントにも使用されるため、この既存の PSCredential はドメインで利用しやすい資格情報に変換して、ドメイン ユーザーをメンバー サーバー上のローカルの Administrators グループに追加できるようにする必要があります。
+
+```powershell
+@{
+    AllNodes = @(
+        @{
+            NodeName = '*';
+            DomainName = 'SubTest.contoso.com';
+         }
+     @{
+            NodeName = 'Box2';
+            AdminAccount = 'Admin-Dave_Alexanderson'   
+      }    
+    )
+}
+                  
+$domain = $node.DomainName.split('.')[0]
+$DCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList ("$domain\$($credential.Username)", $Credential.Password)
+
+Group AddADUserToLocalAdminGroup
+        {
+            GroupName='Administrators'   
+            Ensure= 'Present'             
+            MembersToInclude= "$domain\$($Node.AdminAccount)"
+            Credential = $dCredential    
+            PsDscRunAsCredential = $DCredential
+        }
+```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 

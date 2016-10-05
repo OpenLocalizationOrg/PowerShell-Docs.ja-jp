@@ -1,12 +1,28 @@
-#DSC ユーザー リソース
+---
+title: "DSC User リソース"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c
 
-> Windows PowerShell 4.0 では、Windows PowerShell 5.0 の適用対象:
+---
+
+#DSC User リソース#
+
+ 
+>適用先: Windows PowerShell 4.0、Windows PowerShell 5.0
 
 
-__ユーザー__ リソースで Windows PowerShell 必要な状態 Configuration (DSC) は、ターゲット ノード上のローカル ユーザー アカウントを管理するメカニズムを提供します。
+PowerShell Desired State Configuration (DSC) の __User__ リソースは、ターゲット ノード上でローカル ユーザー アカウントを管理するためのメカニズムを備えています。
 
 
-##構文
+##構文##
 
 ```
 User [string] #ResourceName
@@ -24,22 +40,21 @@ User [string] #ResourceName
 }
 ```
 
-##プロパティ
+## プロパティ
+|  プロパティ  |  説明   | 
+|---|---| 
+| UserName| 特定の状態を保証するアカウント名を示します。| 
+| 説明| ユーザー アカウントのために使用する説明を示します。| 
+| 無効| アカウントが有効になっているかどうかを示します。 このアカウントを無効にするには、このプロパティを __$true__ に設定し、有効にするには __$false__ に設定します。| 
+| Ensure| アカウントが存在するかどうかを示します。 このアカウントが存在することを保証するには、このプロパティを "Present" に設定し、アカウントが存在しないことを保証するには、"Absent" に設定します。| 
+| FullName| ユーザー アカウントのために使用する完全名の文字列を表します。| 
+| Password| このアカウントに使用するパスワードを示します。 | 
+| PasswordChangeNotAllowed| ユーザーがパスワードを変更できるかどうかを示します。 ユーザーがパスワードを変更できないようにするには、このプロパティを __$true__ に設定し、ユーザーがパスワードを変更できるようにするには、__$false__ に設定します。 既定値は __$false__ です。| 
+| PasswordChangeRequired| ユーザーが次回ログオンしたときにパスワードを変更する必要があるかどうかを示します。 ユーザーがパスワードを変更する必要がある場合は、このプロパティを __$true__ に設定します。 既定値は __$true__ です。| 
+| PasswordNeverExpires| パスワードの有効期限が切れるかどうかを示します。 このアカウントのパスワードの有効期限が切れないようにするにはこのプロパティを __$true__ に設定し、パスワードの有効期限が切れるようにする場合は __$false__ を設定します。 既定値は __$false__ です。| 
+| DependsOn | このリソースを構成する前に、他のリソースの構成を実行する必要があることを示します。 たとえば、最初に実行するリソース構成スクリプト ブロックの ID が __ResourceName__ で、そのタイプが __ResourceType__ である場合、このプロパティを使用する構文は `DependsOn = "[ResourceType]ResourceName"` になります。| 
 
-| プロパティ| 説明|
-|---|---|
-| UserName| 特定の状態を保証するアカウント名を示します。|
-| 説明| ユーザー アカウントを使用する場合の説明を示します。|
-| 無効になっています。| アカウントが有効になっているかどうかを示します。このプロパティを設定 __$true__ このアカウントが無効にするとに設定することを確認する __$false__ を有効になっていることを確認します。|
-| 確認します。| アカウントが存在するかどうかを示します。アカウントが存在することを確認するには、"Present"には、このプロパティを設定し、アカウントが存在しないことを確認する「ない」に設定します。|
-| FullName| ユーザー アカウントを使用する場合、完全名の文字列を表します。|
-| Password| このアカウントを使用するパスワードを示します。|
-| PasswordChangeNotAllowed| かどうか、ユーザーがパスワードを変更できることを示します。このプロパティを設定 __$true__ 、ユーザーがパスワードを変更できないかどうか、およびに設定ことを確認に __$false__ パスワードを変更するユーザーを許可します。既定値は __$false__です。|
-| PasswordChangeRequired| かどうか、ユーザーは次回のサインイン時にパスワードを変更する必要がありますを示します。このプロパティを設定 __$true__ 場合は、ユーザーがパスワードを変更する必要があります。既定値は __$true__です。|
-| PasswordNeverExpires| パスワードの有効期限が切れることを示します。パスワードのこのアカウントは有効期限が切れることはありません、このプロパティに設定する __$true__, に設定して __$false__ パスワードの有効期限が切れる場合。既定値は __$false__です。|
-| DependsOn| このリソースを構成する前に別のリソースの構成を実行する必要があることを示します。リソースの構成の ID はスクリプト ブロックを実行する場合が最初はたとえば、 __ResourceName__ あり、型が __リソースの種類__, 、このプロパティを使用するための構文は `DependsOn ="[リソースの種類] ResourceName"`です。|
-
-##例
+## 例
 
 ```powershell
 User UserExample
@@ -52,5 +67,8 @@ User UserExample
 ```
 
 
+
+
+<!--HONumber=Oct16_HO1-->
 
 
