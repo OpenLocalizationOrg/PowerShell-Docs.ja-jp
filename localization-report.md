@@ -1962,8 +1962,8 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/1ced4ca7a9b05d7bce8d716835ffe6a54b960397/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
 * Handback Datetime: 2016-10-05 17:59:05
-* Bilingual File: [rename_troubleshooting.4c130a5165c494568ef17f0cc6e7c9fc0caf31bc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/rename_troubleshooting.4c130a5165c494568ef17f0cc6e7c9fc0caf31bc.ja-jp.xlf)
-* Bilingual Datetime: 2016-10-05 17:50:48
+* Bilingual File: [troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/1ced4ca7a9b05d7bce8d716835ffe6a54b960397/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-05 17:59:27
 * [Back to Top](#report-top)
 
 ##### <a name='5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c106'></a> Source: [dsc\userResource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/dsc/userResource.md)

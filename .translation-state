@@ -34,7 +34,7 @@
       "ArchiveException": null,
       "BilingualFilePath": null,
       "BilingualFileCommit": null,
-      "BilingualDateTime": "2016-10-05T17:50:48.2871395Z",
+      "BilingualDateTime": "2016-10-05T17:59:27.1681427Z",
       "BilingualException": {
         "internal_error_code": "bilingual_uploading_failed",
         "internal_error_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\CONTRIBUTING.3f454a98e586d1aa0d322e19afd5e67e08f2d3c8.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
@@ -206,7 +206,7 @@
       "ArchiveException": null,
       "BilingualFilePath": null,
       "BilingualFileCommit": null,
-      "BilingualDateTime": "2016-10-05T17:50:48.2871395Z",
+      "BilingualDateTime": "2016-10-05T17:59:27.1681427Z",
       "BilingualException": {
         "internal_error_code": "bilingual_uploading_failed",
         "internal_error_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
@@ -14133,9 +14133,9 @@
       "ArchiveFileCommit": null,
       "ArchiveFileDateTime": "0001-01-01T00:00:00",
       "ArchiveException": null,
-      "BilingualFilePath": null,
-      "BilingualFileCommit": null,
-      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualFilePath": "ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\troubleshooting.bcb1039de4ec46bfb0ab2d224be50829d0891e7d.ja-jp.xlf",
+      "BilingualFileCommit": "1ced4ca7a9b05d7bce8d716835ffe6a54b960397",
+      "BilingualDateTime": "2016-10-05T17:59:27.1681427Z",
       "BilingualException": null
     },
     "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": {
