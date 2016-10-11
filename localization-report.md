@@ -3,7 +3,7 @@
 ## Summary
  Property | Value 
  -------- | ----- 
- Total Files | 469
+ Total Files | 470
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 2
 [ Archive Failed Files ](#archive-failed-list)| 0
@@ -11,7 +11,7 @@
 [ Handback Failed Files ](#handback-failed-list)| 7
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 419
-[ Ignored Files ](#ignored-list)| 41
+[ Ignored Files ](#ignored-list)| 42
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -19,7 +19,7 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [dsc\images\Pull1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/d8673d1d50c12395eab9b9aff5bc57189f5ce80b/dsc/images/Pull1.png) | HandedOffSuccess | [Details](#a20dd5927999cbb3c1125bd4ff8944954abc84a935)
- [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md) | HandedOffSuccess | [Details](#897f751eab3149d2c5de728042148e9d7c0bb1db468)
+ [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md) | HandedOffSuccess | [Details](#897f751eab3149d2c5de728042148e9d7c0bb1db469)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -31,10 +31,10 @@
  [dsc\authoringResourceComposite.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/dsc/authoringResourceComposite.md) | HandedBackFailed | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b1511)
  [dsc\images\PartialConfig1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/PartialConfig1.jpg) | HandedBackFailed | [Details](#3e61149f7b05f74d662d3038233013ffdcbed1a332)
  [dsc\images\PartialConfigPullServer.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/36b7625bf81bb4eac9d5c2cdcd410514dd367101/dsc/images/PartialConfigPullServer.jpg) | HandedBackFailed | [Details](#1ba842005c2b1ce80a3670429b3e010c7b1c1f5933)
- [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedBackFailed | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed423)
- [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md) | HandedBackFailed | [Details](#7505e063fad84999af786f2af0602d204ed973b7427)
- [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improved-pullclient-security.md) | HandedBackFailed | [Details](#8bb3f7173559c349d033d175f5784d80b7a16ed0431)
- [wmf\5.1\features-scenarios-cache\PesterUpdates.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PesterUpdates.md) | HandedBackFailed | [Details](#dd7905bfd221201919d028ec158cd5ef349335e2436)
+ [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md) | HandedBackFailed | [Details](#1e422b30ab2471e73123badedf1f10631f9730ed424)
+ [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md) | HandedBackFailed | [Details](#7505e063fad84999af786f2af0602d204ed973b7428)
+ [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improved-pullclient-security.md) | HandedBackFailed | [Details](#8bb3f7173559c349d033d175f5784d80b7a16ed0432)
+ [wmf\5.1\features-scenarios-cache\PesterUpdates.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PesterUpdates.md) | HandedBackFailed | [Details](#dd7905bfd221201919d028ec158cd5ef349335e2437)
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
 
@@ -161,10 +161,10 @@
  [gallery\psgallery\psgallery_status.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psgallery/psgallery_status.md) | InSyncHandedBackSuccess | [Details](#a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf138)
  [gallery\psgallery\psgallery_unlist_items.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psgallery/psgallery_unlist_items.md) | InSyncHandedBackSuccess | [Details](#fb5220e909dfc76583ab4834f4297b34cf990736139)
  [gallery\psgallery\psgalleryint_status.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psgallery/psgalleryint_status.md) | InSyncHandedBackSuccess | [Details](#41905ee6ef4c6b0afc41b1c68c84db27e19df2fd140)
- [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Setting-Up-Local-Gallery.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471141)
- [gallery\psget\module\Dependency_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/Dependency_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471142)
- [gallery\psget\module\Module_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/Module_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471143)
- [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/ModuleManifest-Reference.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471144)
+ [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Setting-Up-Local-Gallery.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471141)
+ [gallery\psget\module\Dependency_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/Dependency_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471142)
+ [gallery\psget\module\Module_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/Module_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471143)
+ [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/ModuleManifest-Reference.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471144)
  [gallery\psget\module\modulewithpseditionsupport.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/module/modulewithpseditionsupport.md) | InSyncHandedBackSuccess | [Details](#7b8d135889378be56d0d6d5b9dc89c55f2b1e68f145)
  [gallery\psget\module\psget_find-command.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/module/psget_find-command.md) | InSyncHandedBackSuccess | [Details](#b28bce839403217ece4edd67d984a282b60d164d146)
  [gallery\psget\module\psget_find-dscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/module/psget_find-dscresource.md) | InSyncHandedBackSuccess | [Details](#37a68f593be6b7b6b97656f84ff7dac034b12a32147)
@@ -199,7 +199,7 @@
  [gallery\psget\script\psget_uninstall-script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/script/psget_uninstall-script.md) | InSyncHandedBackSuccess | [Details](#204b597e19433aeeeef26640ae7b20ed8ad1aa98176)
  [gallery\psget\script\psget_update-script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/script/psget_update-script.md) | InSyncHandedBackSuccess | [Details](#bd31f7cdc1d49ec4eff947545625be6eb822e807177)
  [gallery\psget\script\psget_update-scriptfileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/script/psget_update-scriptfileinfo.md) | InSyncHandedBackSuccess | [Details](#6da59dbf6f98bb30ae9d57ecb3bace2f42cdf76b178)
- [gallery\psget\script\Script_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/script/Script_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471179)
+ [gallery\psget\script\Script_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/script/Script_Versioning.md) | InSyncHandedBackSuccess | [Details](#57218c316b6921e2cd61027a2387edc31a2d9471179)
  [gallery\psget\script\scriptwithpseditionsupport.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/psget/script/scriptwithpseditionsupport.md) | InSyncHandedBackSuccess | [Details](#8c47b455227ebdc4b955cd0c83c0283781339192180)
  [gallery\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/readme.md) | InSyncHandedBackSuccess | [Details](#1407b4d2c8c6c246b51ef447284e729811823688181)
  [gallery\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/gallery/TOC.md) | InSyncHandedBackSuccess | [Details](#6b33f2d05724ff888f48219135f8d8b88ccb4bc7182)
@@ -207,7 +207,7 @@
  [jea\considerations-when-limiting-commands.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/considerations-when-limiting-commands.md) | InSyncHandedBackSuccess | [Details](#9f3f79a29e0fb7ec5a5111284bb7985548e17749184)
  [jea\creating-a-domain-controller.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/creating-a-domain-controller.md) | InSyncHandedBackSuccess | [Details](#8473eb668e4da5bab01c2f2b7647cbced413bd22185)
  [jea\end-to-end---active-directory.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/end-to-end---active-directory.md) | InSyncHandedBackSuccess | [Details](#e7ea3957ce3bbd3ce0fc072a82cd108606f05614187)
- [jea\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/jea/index.md) | InSyncHandedBackSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08188)
+ [jea\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/jea/index.md) | InSyncHandedBackSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08188)
  [jea\introduction.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/introduction.md) | InSyncHandedBackSuccess | [Details](#00d568234b1453b9161b60d20117374ee4111ab3189)
  [jea\key-concepts-used-throughout-this-guide.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/key-concepts-used-throughout-this-guide.md) | InSyncHandedBackSuccess | [Details](#178fea44987b0c457b8e5d23fbe851ee12f03b31190)
  [jea\multi-machine-deployment-and-maintenance.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/jea/multi-machine-deployment-and-maintenance.md) | InSyncHandedBackSuccess | [Details](#784806197a64eb30af1ecea4af55575434ce7b87191)
@@ -352,162 +352,163 @@
  [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#666590df32157a7477d385961dd5665094275868335)
  [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/whats-new/What-s-New-With-PowerShell.md) | InSyncHandedBackSuccess | [Details](#edb3be980d23cafb8c9b9923a7153308481e6c67336)
  [scripting\Windows-PowerShell-Glossary.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/Windows-PowerShell-Glossary.md) | InSyncHandedBackSuccess | [Details](#5c6f660f9de9039355f3a991da440b75e97275eb337)
- [wmf\5.0\audit_cms.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f4338)
- [wmf\5.0\audit_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e824339)
- [wmf\5.0\audit_script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_script.md) | InSyncHandedBackSuccess | [Details](#654c0d5e83b9832524298b5c96eae094f371330f340)
- [wmf\5.0\audit_transcript.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_transcript.md) | InSyncHandedBackSuccess | [Details](#61364255f33378d71724705658d9924a7730b74e341)
- [wmf\5.0\class_base.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_base.md) | InSyncHandedBackSuccess | [Details](#6968ca2fb27c1f300b7b5e5730e358d81fc4c400342)
- [wmf\5.0\class_baseconstructor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_baseconstructor.md) | InSyncHandedBackSuccess | [Details](#a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29343)
- [wmf\5.0\class_basemethod.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_basemethod.md) | InSyncHandedBackSuccess | [Details](#09ff4761ecdcf1d4433c4f40701cb7af3be44c8f344)
- [wmf\5.0\class_interface.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_interface.md) | InSyncHandedBackSuccess | [Details](#31b64b6845c8d6ece8628bd565662525a65353d9345)
- [wmf\5.0\class_newtype.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_newtype.md) | InSyncHandedBackSuccess | [Details](#b91e3bbb40b2b5eddd1e43be568773c850a9b8e0346)
- [wmf\5.0\class_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_overview.md) | InSyncHandedBackSuccess | [Details](#3010b1ce497d8a5e45ada003587d9e104eddd8b1347)
- [wmf\5.0\debug_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/debug_overview.md) | InSyncHandedBackSuccess | [Details](#0660867e6e7c7a93a8ca80d76f22db7fd86f8826348)
- [wmf\5.0\dsc_authoring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_authoring.md) | InSyncHandedBackSuccess | [Details](#b1cdc60338b2c130dad7d917c8fcec543aafe467349)
- [wmf\5.0\dsc_classbasedresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_classbasedresource.md) | InSyncHandedBackSuccess | [Details](#b4d9889430447d7499075847f8439cc2859f5751350)
- [wmf\5.0\dsc_confighelp.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_confighelp.md) | InSyncHandedBackSuccess | [Details](#ad03c24f7cfd141744721b5825c20e8d2f0a00a8351)
- [wmf\5.0\dsc_directaccess.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_directaccess.md) | InSyncHandedBackSuccess | [Details](#6bb220e50bdb77c2a7ffd36ea744aa3fc454dc67352)
- [wmf\5.0\dsc_encryptedmof.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_encryptedmof.md) | InSyncHandedBackSuccess | [Details](#be8fdde764d0e3adb9aad50217ebc7c3ea26bbc4353)
- [wmf\5.0\dsc_freqnomultiple.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_freqnomultiple.md) | InSyncHandedBackSuccess | [Details](#c858f997c814483a10f5a9d59fb5352c99ac1093354)
- [wmf\5.0\dsc_getconfigurationstatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_getconfigurationstatus.md) | InSyncHandedBackSuccess | [Details](#9ef3bec301af268ec4f97d881c0efbee71656fa4355)
- [wmf\5.0\dsc_identicalduplicate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_identicalduplicate.md) | InSyncHandedBackSuccess | [Details](#a257f792d39f360a2c9e638f42ffac5fed282b00356)
- [wmf\5.0\dsc_importdscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_importdscresource.md) | InSyncHandedBackSuccess | [Details](#56ec43a84cfdbceb7633609696ea697c515e2931357)
- [wmf\5.0\dsc_improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_improvements.md) | InSyncHandedBackSuccess | [Details](#336c6bc43b482eda6524ebed0381240868261f64358)
- [wmf\5.0\dsc_lcmstate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_lcmstate.md) | InSyncHandedBackSuccess | [Details](#648c2106d29749858161b78fb879c514078705d1359)
- [wmf\5.0\dsc_metaconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_metaconfiguration.md) | InSyncHandedBackSuccess | [Details](#695980323cb5d00d5c8f6bbe2d1c1c29ec99f809360)
- [wmf\5.0\dsc_newresources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_newresources.md) | InSyncHandedBackSuccess | [Details](#34c29d88f0676e51c1b8af9d9e65b151eb8a4272361)
- [wmf\5.0\dsc_nodeid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_nodeid.md) | InSyncHandedBackSuccess | [Details](#06790d07e8798b1f263b023d0b231c6d9dd1d061362)
- [wmf\5.0\dsc_partialconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig.md) | InSyncHandedBackSuccess | [Details](#4c8cbbd1f795a7117f049ccd6cbb00abb1127b24363)
- [wmf\5.0\dsc_partialconfig_mixedmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig_mixedmode.md) | InSyncHandedBackSuccess | [Details](#dc5b682e8e6b028c3cc54130e697d67fd4c234d2364)
- [wmf\5.0\dsc_publishconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_publishconfig.md) | InSyncHandedBackSuccess | [Details](#fbfae5c87a81bb36e1187a65b2ef7a6a982d99f4365)
- [wmf\5.0\dsc_refreshmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_refreshmode.md) | InSyncHandedBackSuccess | [Details](#da794b5c2fa3e975a3f39afbac989b2f40b07915366)
- [wmf\5.0\dsc_removeconfigdoc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_removeconfigdoc.md) | InSyncHandedBackSuccess | [Details](#b0fb33b1d5e4ef1b0b9018ec5dd5f88ef5df4719367)
- [wmf\5.0\dsc_reporting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_reporting.md) | InSyncHandedBackSuccess | [Details](#9111f0ea2e0fc923994055819938fa16dfb0bedf368)
- [wmf\5.0\dsc_repository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_repository.md) | InSyncHandedBackSuccess | [Details](#3cccbc0ec413b03899ae92e747b8e5828d667b0b369)
- [wmf\5.0\dsc_resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_resourcedebugging.md) | InSyncHandedBackSuccess | [Details](#1357bcf47977f6f1bfdc6420851d9f4df3e2b46d370)
- [wmf\5.0\dsc_runas.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_runas.md) | InSyncHandedBackSuccess | [Details](#0cfda25530705f1c17e72c2e19a5f389d2cb7686371)
- [wmf\5.0\dsc_setdsclcm.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_setdsclcm.md) | InSyncHandedBackSuccess | [Details](#97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04372)
- [wmf\5.0\dsc_statestatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_statestatus.md) | InSyncHandedBackSuccess | [Details](#98a8a8f27661042bef27d0edceccf9a67c9153d1373)
- [wmf\5.0\dsc_sxsresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_sxsresource.md) | InSyncHandedBackSuccess | [Details](#6338545a3ded859ba9abddaaff768bb89cb2dac0374)
- [wmf\5.0\dsc_testconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_testconfiguration.md) | InSyncHandedBackSuccess | [Details](#df6b5db79c8c165e7fb3c1570838ac7a696b5a55375)
- [wmf\5.0\dsc_updateconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_updateconfig.md) | InSyncHandedBackSuccess | [Details](#e3643fd339a0662d87f9532d9c38fd56c7f72333376)
- [wmf\5.0\dsc_waitfor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_waitfor.md) | InSyncHandedBackSuccess | [Details](#1050b9c9297adeef0215d706c19aa450fb483d97377)
- [wmf\5.0\dsc_wow64.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_wow64.md) | InSyncHandedBackSuccess | [Details](#59206d28411ca6d4591cff5b3f158f4f5b78cc6a378)
- [wmf\5.0\feedback.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback.md) | InSyncHandedBackSuccess | [Details](#40b022f369f09df35a4e8b1e675d75410b69dde9379)
- [wmf\5.0\feedback_archive.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_archive.md) | InSyncHandedBackSuccess | [Details](#e2d8147c6a85b59f5289f64e068c56593acc0cfc380)
- [wmf\5.0\feedback_clipboard.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_clipboard.md) | InSyncHandedBackSuccess | [Details](#51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4381)
- [wmf\5.0\feedback_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_cmdlets.md) | InSyncHandedBackSuccess | [Details](#2e8c46c95663135229a189f4d9c07da362aec299382)
- [wmf\5.0\feedback_convertfromString.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertfromString.md) | InSyncHandedBackSuccess | [Details](#09741289743ef276e3e94753dcce136193304c65383)
- [wmf\5.0\feedback_convertstring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertstring.md) | InSyncHandedBackSuccess | [Details](#71e9f46958b59abce912278677217cd632629439384)
- [wmf\5.0\feedback_fileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_fileinfo.md) | InSyncHandedBackSuccess | [Details](#aa0991efc9ca39cc0aae39516d4b6cac03c4501a385)
- [wmf\5.0\feedback_formathex.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_formathex.md) | InSyncHandedBackSuccess | [Details](#81803dcb8d5f0fac392cf13883b9240da3321f53386)
- [wmf\5.0\feedback_getchilditem.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_getchilditem.md) | InSyncHandedBackSuccess | [Details](#c3f3f9a8b16731dd1483eb65386ba0422b04370c387)
- [wmf\5.0\feedback_moduleversionranges.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_moduleversionranges.md) | InSyncHandedBackSuccess | [Details](#f2f968b1cd304009b3b29cdc793b61461e605812388)
- [wmf\5.0\feedback_newguid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_newguid.md) | InSyncHandedBackSuccess | [Details](#5de946e13169ba772ae445fe9d0b73d213fff397389)
- [wmf\5.0\feedback_nonewline.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_nonewline.md) | InSyncHandedBackSuccess | [Details](#24969d20cd4500db4e8dc27c16cac84c0f3dc696390)
- [wmf\5.0\feedback_symbolic.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_symbolic.md) | InSyncHandedBackSuccess | [Details](#fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f391)
- [wmf\5.0\feedback_tempfile.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_tempfile.md) | InSyncHandedBackSuccess | [Details](#2741204c16027d7e8e8f785b90b9cc301880a262392)
- [wmf\5.0\informationstream_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/informationstream_overview.md) | InSyncHandedBackSuccess | [Details](#20254315c2503d46e6160593fb822391c5db2dd4393)
- [wmf\5.0\install.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/install.md) | InSyncHandedBackSuccess | [Details](#91d23a0045c6d7a1200caae6df64368dd8f3ecee394)
- [wmf\5.0\jea_endpoint.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_endpoint.md) | InSyncHandedBackSuccess | [Details](#061fb3a39191f7aaf3f5e51b12f56cac84031f49395)
- [wmf\5.0\jea_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_overview.md) | InSyncHandedBackSuccess | [Details](#811596d4ad7994a12987ff172e626eac534bdf4d396)
- [wmf\5.0\jea_report.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_report.md) | InSyncHandedBackSuccess | [Details](#a91b675a4f19306481bb87dc3f3b8cb32ab07e8c397)
- [wmf\5.0\limitation_dsc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_dsc.md) | InSyncHandedBackSuccess | [Details](#ad262a8f38b79f748757c1503a5e7173a1010923398)
- [wmf\5.0\limitation_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_overview.md) | InSyncHandedBackSuccess | [Details](#35cdbfab22a0fa00480012fed0a2cf32ffa11f8d399)
- [wmf\5.0\networkswitch_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/networkswitch_overview.md) | InSyncHandedBackSuccess | [Details](#9a9e69d384ffd92e0c26904a176f9954c5815f9a400)
- [wmf\5.0\odata_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/odata_overview.md) | InSyncHandedBackSuccess | [Details](#8849fb46853f12318dd34781d07085419737d196401)
- [wmf\5.0\oneget_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_cmdlets.md) | InSyncHandedBackSuccess | [Details](#75b6354fb83002602ec3d6276246cfa00ce0746a402)
- [wmf\5.0\oneget_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_overview.md) | InSyncHandedBackSuccess | [Details](#967366156ab58d16b085a97f9a08169d3bff75c2403)
- [wmf\5.0\productincompat.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/productincompat.md) | InSyncHandedBackSuccess | [Details](#5998288f1a82980b5988eb6d4fff1833ba5067e1404)
- [wmf\5.0\psget_module_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_module_overview.md) | InSyncHandedBackSuccess | [Details](#4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed405)
- [wmf\5.0\psget_modulecmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulecmdlets.md) | InSyncHandedBackSuccess | [Details](#809547e4b84077de47f8e9cb8d252b37a26a35e2406)
- [wmf\5.0\psget_moduledependency.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_moduledependency.md) | InSyncHandedBackSuccess | [Details](#f723a03aa04ea613f28d31c019b0c4d7e8af7f00407)
- [wmf\5.0\psget_modulesxsinstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulesxsinstall.md) | InSyncHandedBackSuccess | [Details](#644781a07bed2df5464d8090155522ae7477a11e408)
- [wmf\5.0\psget_psrepository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_psrepository.md) | InSyncHandedBackSuccess | [Details](#972f011c3c9f98b54fb5cc270281cd146eb9ac71409)
- [wmf\5.0\psget_script_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_script_overview.md) | InSyncHandedBackSuccess | [Details](#0569c3ce579db17c228c3410ca6db8a668919b19410)
- [wmf\5.0\psget_scriptcmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_scriptcmdlets.md) | InSyncHandedBackSuccess | [Details](#91a4ed1e8912f77e274d64db7873ad56edbbd17b411)
- [wmf\5.0\releasenotes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/releasenotes.md) | InSyncHandedBackSuccess | [Details](#37ba02e8b09b56312fbcf8b031b9ef49a53e5436412)
- [wmf\5.0\requirements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/requirements.md) | InSyncHandedBackSuccess | [Details](#02ce3d08b01e58d6d9506f90142f92cc16304e64413)
- [wmf\5.0\sil_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/sil_overview.md) | InSyncHandedBackSuccess | [Details](#edc1a0383cebfbe89b18b0238a13bb28e4d25c5a414)
- [wmf\5.0\uninstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/uninstall.md) | InSyncHandedBackSuccess | [Details](#f97722883acccd0addb49cc473fc1cce5300c184415)
- [wmf\5.1\bugfixes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/bugfixes.md) | InSyncHandedBackSuccess | [Details](#8a7774b36f15ff790c31d4c1a8bc69be257b8508416)
- [wmf\5.1\community-resources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/community-resources.md) | InSyncHandedBackSuccess | [Details](#a1e178e907a9edbe652b5da32ad286550f95076f417)
- [wmf\5.1\compatibility.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/compatibility.md) | InSyncHandedBackSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352418)
- [wmf\5.1\console-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/console-improvements.md) | InSyncHandedBackSuccess | [Details](#2a17fdd4092adf734398f38bec915d53c1b3e566419)
- [wmf\5.1\DSC-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/DSC-improvements.md) | InSyncHandedBackSuccess | [Details](#c88c145c3585befcee194499f7e21aaeac67c0f3420)
- [wmf\5.1\engine-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/engine-improvements.md) | InSyncHandedBackSuccess | [Details](#bb7efc55b1c948c349aa778b700e5cb1277b9762421)
- [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/analysis_cache.md) | InSyncHandedBackSuccess | [Details](#3e5d5e93231b772b65d1913a4dbafc86d4edb950422)
- [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/console-enhancements.md) | InSyncHandedBackSuccess | [Details](#e6653a02421e3aec3910a70c64f7cf7cecd696ab424)
- [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md) | InSyncHandedBackSuccess | [Details](#368c26766961e760fd2de8c99057121bea076158426)
- [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md) | InSyncHandedBackSuccess | [Details](#817fadb79716e41ce8cc8f4245dedc66347ac413428)
- [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md) | InSyncHandedBackSuccess | [Details](#b24e70c1e1aaf71487b00fbccaf6edb0f375b888429)
- [wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-resourcedebugging.md) | InSyncHandedBackSuccess | [Details](#33c3fcffdeb281b205ecc48f7cdd470b79e9e068430)
- [wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-PullServer-Registration.md) | InSyncHandedBackSuccess | [Details](#d9f7dea63e6541b673ac6be5ccad59368b301440432)
- [wmf\5.1\features-scenarios-cache\improvements-oneget.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improvements-oneget.md) | InSyncHandedBackSuccess | [Details](#1d0bd545b52ef56045f2ec740b05c4e0fd93bb67433)
- [wmf\5.1\features-scenarios-cache\jea-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/jea-improvements.md) | InSyncHandedBackSuccess | [Details](#7d2f293f000d3d82f4a227d3b3760988d9f02be7434)
- [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/oneget-improvement.md) | InSyncHandedBackSuccess | [Details](#bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3435)
- [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md) | InSyncHandedBackSuccess | [Details](#025565404b60cebefac27e51c70d70edb5e47bc9437)
- [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md) | InSyncHandedBackSuccess | [Details](#1b35a25312b44d14ec8771be9e17aaa43e270b61438)
- [wmf\5.1\features-scenarios-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/template.md) | InSyncHandedBackSuccess | [Details](#dfba55f1eae5468df95309e14b3ee256511badf4439)
- [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/using-module.md) | InSyncHandedBackSuccess | [Details](#e09cfe0994ac523fd10658955731a93b6c176c88440)
- [wmf\5.1\install-configure.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/install-configure.md) | InSyncHandedBackSuccess | [Details](#30445aecee478d4fceb6cd446f26f00fe2ecc3d8441)
- [wmf\5.1\known-issues.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues.md) | InSyncHandedBackSuccess | [Details](#d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d444)
- [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md) | InSyncHandedBackSuccess | [Details](#180158033e0c960f73dba66a3d77b15765e3e382442)
- [wmf\5.1\known-issues-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/template.md) | InSyncHandedBackSuccess | [Details](#cfe0a6562743f1df81acb81e33c120cb67f9042c443)
- [wmf\5.1\package-management-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/package-management-improvements.md) | InSyncHandedBackSuccess | [Details](#615bdf1a82dc5078ee2f37eec70a64e25b42bda2445)
- [wmf\5.1\release-notes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/release-notes.md) | InSyncHandedBackSuccess | [Details](#83061e651b190bab3e5914bb6270a5857f7aa7a5446)
- [wmf\5.1\scenarios-features.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/scenarios-features.md) | InSyncHandedBackSuccess | [Details](#9611a7da48a849b52821ac2890e1ea60441a75e3447)
- [wmf\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/index.md) | InSyncHandedBackSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08464)
- [wmf\README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/README.md) | InSyncHandedBackSuccess | [Details](#a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2466)
- [wmf\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/TOC.md) | InSyncHandedBackSuccess | [Details](#274c6dcc36b3baa64d01b5518444c7de3dcc00ee467)
+ [wmf\5.0\audit_cms.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f4339)
+ [wmf\5.0\audit_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_overview.md) | InSyncHandedBackSuccess | [Details](#20e6c97ad5dc845bc0ead973ed8a62b34af3e824340)
+ [wmf\5.0\audit_script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_script.md) | InSyncHandedBackSuccess | [Details](#654c0d5e83b9832524298b5c96eae094f371330f341)
+ [wmf\5.0\audit_transcript.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_transcript.md) | InSyncHandedBackSuccess | [Details](#61364255f33378d71724705658d9924a7730b74e342)
+ [wmf\5.0\class_base.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_base.md) | InSyncHandedBackSuccess | [Details](#6968ca2fb27c1f300b7b5e5730e358d81fc4c400343)
+ [wmf\5.0\class_baseconstructor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_baseconstructor.md) | InSyncHandedBackSuccess | [Details](#a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29344)
+ [wmf\5.0\class_basemethod.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_basemethod.md) | InSyncHandedBackSuccess | [Details](#09ff4761ecdcf1d4433c4f40701cb7af3be44c8f345)
+ [wmf\5.0\class_interface.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_interface.md) | InSyncHandedBackSuccess | [Details](#31b64b6845c8d6ece8628bd565662525a65353d9346)
+ [wmf\5.0\class_newtype.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_newtype.md) | InSyncHandedBackSuccess | [Details](#b91e3bbb40b2b5eddd1e43be568773c850a9b8e0347)
+ [wmf\5.0\class_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_overview.md) | InSyncHandedBackSuccess | [Details](#3010b1ce497d8a5e45ada003587d9e104eddd8b1348)
+ [wmf\5.0\debug_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/debug_overview.md) | InSyncHandedBackSuccess | [Details](#0660867e6e7c7a93a8ca80d76f22db7fd86f8826349)
+ [wmf\5.0\dsc_authoring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_authoring.md) | InSyncHandedBackSuccess | [Details](#b1cdc60338b2c130dad7d917c8fcec543aafe467350)
+ [wmf\5.0\dsc_classbasedresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_classbasedresource.md) | InSyncHandedBackSuccess | [Details](#b4d9889430447d7499075847f8439cc2859f5751351)
+ [wmf\5.0\dsc_confighelp.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_confighelp.md) | InSyncHandedBackSuccess | [Details](#ad03c24f7cfd141744721b5825c20e8d2f0a00a8352)
+ [wmf\5.0\dsc_directaccess.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_directaccess.md) | InSyncHandedBackSuccess | [Details](#6bb220e50bdb77c2a7ffd36ea744aa3fc454dc67353)
+ [wmf\5.0\dsc_encryptedmof.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_encryptedmof.md) | InSyncHandedBackSuccess | [Details](#be8fdde764d0e3adb9aad50217ebc7c3ea26bbc4354)
+ [wmf\5.0\dsc_freqnomultiple.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_freqnomultiple.md) | InSyncHandedBackSuccess | [Details](#c858f997c814483a10f5a9d59fb5352c99ac1093355)
+ [wmf\5.0\dsc_getconfigurationstatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_getconfigurationstatus.md) | InSyncHandedBackSuccess | [Details](#9ef3bec301af268ec4f97d881c0efbee71656fa4356)
+ [wmf\5.0\dsc_identicalduplicate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_identicalduplicate.md) | InSyncHandedBackSuccess | [Details](#a257f792d39f360a2c9e638f42ffac5fed282b00357)
+ [wmf\5.0\dsc_importdscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_importdscresource.md) | InSyncHandedBackSuccess | [Details](#56ec43a84cfdbceb7633609696ea697c515e2931358)
+ [wmf\5.0\dsc_improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_improvements.md) | InSyncHandedBackSuccess | [Details](#336c6bc43b482eda6524ebed0381240868261f64359)
+ [wmf\5.0\dsc_lcmstate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_lcmstate.md) | InSyncHandedBackSuccess | [Details](#648c2106d29749858161b78fb879c514078705d1360)
+ [wmf\5.0\dsc_metaconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_metaconfiguration.md) | InSyncHandedBackSuccess | [Details](#695980323cb5d00d5c8f6bbe2d1c1c29ec99f809361)
+ [wmf\5.0\dsc_newresources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_newresources.md) | InSyncHandedBackSuccess | [Details](#34c29d88f0676e51c1b8af9d9e65b151eb8a4272362)
+ [wmf\5.0\dsc_nodeid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_nodeid.md) | InSyncHandedBackSuccess | [Details](#06790d07e8798b1f263b023d0b231c6d9dd1d061363)
+ [wmf\5.0\dsc_partialconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig.md) | InSyncHandedBackSuccess | [Details](#4c8cbbd1f795a7117f049ccd6cbb00abb1127b24364)
+ [wmf\5.0\dsc_partialconfig_mixedmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig_mixedmode.md) | InSyncHandedBackSuccess | [Details](#dc5b682e8e6b028c3cc54130e697d67fd4c234d2365)
+ [wmf\5.0\dsc_publishconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_publishconfig.md) | InSyncHandedBackSuccess | [Details](#fbfae5c87a81bb36e1187a65b2ef7a6a982d99f4366)
+ [wmf\5.0\dsc_refreshmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_refreshmode.md) | InSyncHandedBackSuccess | [Details](#da794b5c2fa3e975a3f39afbac989b2f40b07915367)
+ [wmf\5.0\dsc_removeconfigdoc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_removeconfigdoc.md) | InSyncHandedBackSuccess | [Details](#b0fb33b1d5e4ef1b0b9018ec5dd5f88ef5df4719368)
+ [wmf\5.0\dsc_reporting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_reporting.md) | InSyncHandedBackSuccess | [Details](#9111f0ea2e0fc923994055819938fa16dfb0bedf369)
+ [wmf\5.0\dsc_repository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_repository.md) | InSyncHandedBackSuccess | [Details](#3cccbc0ec413b03899ae92e747b8e5828d667b0b370)
+ [wmf\5.0\dsc_resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_resourcedebugging.md) | InSyncHandedBackSuccess | [Details](#1357bcf47977f6f1bfdc6420851d9f4df3e2b46d371)
+ [wmf\5.0\dsc_runas.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_runas.md) | InSyncHandedBackSuccess | [Details](#0cfda25530705f1c17e72c2e19a5f389d2cb7686372)
+ [wmf\5.0\dsc_setdsclcm.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_setdsclcm.md) | InSyncHandedBackSuccess | [Details](#97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04373)
+ [wmf\5.0\dsc_statestatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_statestatus.md) | InSyncHandedBackSuccess | [Details](#98a8a8f27661042bef27d0edceccf9a67c9153d1374)
+ [wmf\5.0\dsc_sxsresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_sxsresource.md) | InSyncHandedBackSuccess | [Details](#6338545a3ded859ba9abddaaff768bb89cb2dac0375)
+ [wmf\5.0\dsc_testconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_testconfiguration.md) | InSyncHandedBackSuccess | [Details](#df6b5db79c8c165e7fb3c1570838ac7a696b5a55376)
+ [wmf\5.0\dsc_updateconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_updateconfig.md) | InSyncHandedBackSuccess | [Details](#e3643fd339a0662d87f9532d9c38fd56c7f72333377)
+ [wmf\5.0\dsc_waitfor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_waitfor.md) | InSyncHandedBackSuccess | [Details](#1050b9c9297adeef0215d706c19aa450fb483d97378)
+ [wmf\5.0\dsc_wow64.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_wow64.md) | InSyncHandedBackSuccess | [Details](#59206d28411ca6d4591cff5b3f158f4f5b78cc6a379)
+ [wmf\5.0\feedback.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback.md) | InSyncHandedBackSuccess | [Details](#40b022f369f09df35a4e8b1e675d75410b69dde9380)
+ [wmf\5.0\feedback_archive.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_archive.md) | InSyncHandedBackSuccess | [Details](#e2d8147c6a85b59f5289f64e068c56593acc0cfc381)
+ [wmf\5.0\feedback_clipboard.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_clipboard.md) | InSyncHandedBackSuccess | [Details](#51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4382)
+ [wmf\5.0\feedback_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_cmdlets.md) | InSyncHandedBackSuccess | [Details](#2e8c46c95663135229a189f4d9c07da362aec299383)
+ [wmf\5.0\feedback_convertfromString.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertfromString.md) | InSyncHandedBackSuccess | [Details](#09741289743ef276e3e94753dcce136193304c65384)
+ [wmf\5.0\feedback_convertstring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertstring.md) | InSyncHandedBackSuccess | [Details](#71e9f46958b59abce912278677217cd632629439385)
+ [wmf\5.0\feedback_fileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_fileinfo.md) | InSyncHandedBackSuccess | [Details](#aa0991efc9ca39cc0aae39516d4b6cac03c4501a386)
+ [wmf\5.0\feedback_formathex.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_formathex.md) | InSyncHandedBackSuccess | [Details](#81803dcb8d5f0fac392cf13883b9240da3321f53387)
+ [wmf\5.0\feedback_getchilditem.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_getchilditem.md) | InSyncHandedBackSuccess | [Details](#c3f3f9a8b16731dd1483eb65386ba0422b04370c388)
+ [wmf\5.0\feedback_moduleversionranges.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_moduleversionranges.md) | InSyncHandedBackSuccess | [Details](#f2f968b1cd304009b3b29cdc793b61461e605812389)
+ [wmf\5.0\feedback_newguid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_newguid.md) | InSyncHandedBackSuccess | [Details](#5de946e13169ba772ae445fe9d0b73d213fff397390)
+ [wmf\5.0\feedback_nonewline.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_nonewline.md) | InSyncHandedBackSuccess | [Details](#24969d20cd4500db4e8dc27c16cac84c0f3dc696391)
+ [wmf\5.0\feedback_symbolic.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_symbolic.md) | InSyncHandedBackSuccess | [Details](#fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f392)
+ [wmf\5.0\feedback_tempfile.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_tempfile.md) | InSyncHandedBackSuccess | [Details](#2741204c16027d7e8e8f785b90b9cc301880a262393)
+ [wmf\5.0\informationstream_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/informationstream_overview.md) | InSyncHandedBackSuccess | [Details](#20254315c2503d46e6160593fb822391c5db2dd4394)
+ [wmf\5.0\install.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/install.md) | InSyncHandedBackSuccess | [Details](#91d23a0045c6d7a1200caae6df64368dd8f3ecee395)
+ [wmf\5.0\jea_endpoint.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_endpoint.md) | InSyncHandedBackSuccess | [Details](#061fb3a39191f7aaf3f5e51b12f56cac84031f49396)
+ [wmf\5.0\jea_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_overview.md) | InSyncHandedBackSuccess | [Details](#811596d4ad7994a12987ff172e626eac534bdf4d397)
+ [wmf\5.0\jea_report.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_report.md) | InSyncHandedBackSuccess | [Details](#a91b675a4f19306481bb87dc3f3b8cb32ab07e8c398)
+ [wmf\5.0\limitation_dsc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_dsc.md) | InSyncHandedBackSuccess | [Details](#ad262a8f38b79f748757c1503a5e7173a1010923399)
+ [wmf\5.0\limitation_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_overview.md) | InSyncHandedBackSuccess | [Details](#35cdbfab22a0fa00480012fed0a2cf32ffa11f8d400)
+ [wmf\5.0\networkswitch_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/networkswitch_overview.md) | InSyncHandedBackSuccess | [Details](#9a9e69d384ffd92e0c26904a176f9954c5815f9a401)
+ [wmf\5.0\odata_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/odata_overview.md) | InSyncHandedBackSuccess | [Details](#8849fb46853f12318dd34781d07085419737d196402)
+ [wmf\5.0\oneget_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_cmdlets.md) | InSyncHandedBackSuccess | [Details](#75b6354fb83002602ec3d6276246cfa00ce0746a403)
+ [wmf\5.0\oneget_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_overview.md) | InSyncHandedBackSuccess | [Details](#967366156ab58d16b085a97f9a08169d3bff75c2404)
+ [wmf\5.0\productincompat.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/productincompat.md) | InSyncHandedBackSuccess | [Details](#5998288f1a82980b5988eb6d4fff1833ba5067e1405)
+ [wmf\5.0\psget_module_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_module_overview.md) | InSyncHandedBackSuccess | [Details](#4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed406)
+ [wmf\5.0\psget_modulecmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulecmdlets.md) | InSyncHandedBackSuccess | [Details](#809547e4b84077de47f8e9cb8d252b37a26a35e2407)
+ [wmf\5.0\psget_moduledependency.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_moduledependency.md) | InSyncHandedBackSuccess | [Details](#f723a03aa04ea613f28d31c019b0c4d7e8af7f00408)
+ [wmf\5.0\psget_modulesxsinstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulesxsinstall.md) | InSyncHandedBackSuccess | [Details](#644781a07bed2df5464d8090155522ae7477a11e409)
+ [wmf\5.0\psget_psrepository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_psrepository.md) | InSyncHandedBackSuccess | [Details](#972f011c3c9f98b54fb5cc270281cd146eb9ac71410)
+ [wmf\5.0\psget_script_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_script_overview.md) | InSyncHandedBackSuccess | [Details](#0569c3ce579db17c228c3410ca6db8a668919b19411)
+ [wmf\5.0\psget_scriptcmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_scriptcmdlets.md) | InSyncHandedBackSuccess | [Details](#91a4ed1e8912f77e274d64db7873ad56edbbd17b412)
+ [wmf\5.0\releasenotes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/releasenotes.md) | InSyncHandedBackSuccess | [Details](#37ba02e8b09b56312fbcf8b031b9ef49a53e5436413)
+ [wmf\5.0\requirements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/requirements.md) | InSyncHandedBackSuccess | [Details](#02ce3d08b01e58d6d9506f90142f92cc16304e64414)
+ [wmf\5.0\sil_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/sil_overview.md) | InSyncHandedBackSuccess | [Details](#edc1a0383cebfbe89b18b0238a13bb28e4d25c5a415)
+ [wmf\5.0\uninstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/uninstall.md) | InSyncHandedBackSuccess | [Details](#f97722883acccd0addb49cc473fc1cce5300c184416)
+ [wmf\5.1\bugfixes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/bugfixes.md) | InSyncHandedBackSuccess | [Details](#8a7774b36f15ff790c31d4c1a8bc69be257b8508417)
+ [wmf\5.1\community-resources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/community-resources.md) | InSyncHandedBackSuccess | [Details](#a1e178e907a9edbe652b5da32ad286550f95076f418)
+ [wmf\5.1\compatibility.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/compatibility.md) | InSyncHandedBackSuccess | [Details](#8e7dd69fc5ba29e719aec353afcac2471ecb2352419)
+ [wmf\5.1\console-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/console-improvements.md) | InSyncHandedBackSuccess | [Details](#2a17fdd4092adf734398f38bec915d53c1b3e566420)
+ [wmf\5.1\DSC-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/DSC-improvements.md) | InSyncHandedBackSuccess | [Details](#c88c145c3585befcee194499f7e21aaeac67c0f3421)
+ [wmf\5.1\engine-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/engine-improvements.md) | InSyncHandedBackSuccess | [Details](#bb7efc55b1c948c349aa778b700e5cb1277b9762422)
+ [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/analysis_cache.md) | InSyncHandedBackSuccess | [Details](#3e5d5e93231b772b65d1913a4dbafc86d4edb950423)
+ [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/console-enhancements.md) | InSyncHandedBackSuccess | [Details](#e6653a02421e3aec3910a70c64f7cf7cecd696ab425)
+ [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md) | InSyncHandedBackSuccess | [Details](#368c26766961e760fd2de8c99057121bea076158427)
+ [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md) | InSyncHandedBackSuccess | [Details](#817fadb79716e41ce8cc8f4245dedc66347ac413429)
+ [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md) | InSyncHandedBackSuccess | [Details](#b24e70c1e1aaf71487b00fbccaf6edb0f375b888430)
+ [wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-resourcedebugging.md) | InSyncHandedBackSuccess | [Details](#33c3fcffdeb281b205ecc48f7cdd470b79e9e068431)
+ [wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-PullServer-Registration.md) | InSyncHandedBackSuccess | [Details](#d9f7dea63e6541b673ac6be5ccad59368b301440433)
+ [wmf\5.1\features-scenarios-cache\improvements-oneget.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improvements-oneget.md) | InSyncHandedBackSuccess | [Details](#1d0bd545b52ef56045f2ec740b05c4e0fd93bb67434)
+ [wmf\5.1\features-scenarios-cache\jea-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/jea-improvements.md) | InSyncHandedBackSuccess | [Details](#7d2f293f000d3d82f4a227d3b3760988d9f02be7435)
+ [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/oneget-improvement.md) | InSyncHandedBackSuccess | [Details](#bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3436)
+ [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md) | InSyncHandedBackSuccess | [Details](#025565404b60cebefac27e51c70d70edb5e47bc9438)
+ [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md) | InSyncHandedBackSuccess | [Details](#1b35a25312b44d14ec8771be9e17aaa43e270b61439)
+ [wmf\5.1\features-scenarios-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/template.md) | InSyncHandedBackSuccess | [Details](#dfba55f1eae5468df95309e14b3ee256511badf4440)
+ [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/using-module.md) | InSyncHandedBackSuccess | [Details](#e09cfe0994ac523fd10658955731a93b6c176c88441)
+ [wmf\5.1\install-configure.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/install-configure.md) | InSyncHandedBackSuccess | [Details](#30445aecee478d4fceb6cd446f26f00fe2ecc3d8442)
+ [wmf\5.1\known-issues.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues.md) | InSyncHandedBackSuccess | [Details](#d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d445)
+ [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md) | InSyncHandedBackSuccess | [Details](#180158033e0c960f73dba66a3d77b15765e3e382443)
+ [wmf\5.1\known-issues-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/template.md) | InSyncHandedBackSuccess | [Details](#cfe0a6562743f1df81acb81e33c120cb67f9042c444)
+ [wmf\5.1\package-management-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/package-management-improvements.md) | InSyncHandedBackSuccess | [Details](#615bdf1a82dc5078ee2f37eec70a64e25b42bda2446)
+ [wmf\5.1\release-notes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/release-notes.md) | InSyncHandedBackSuccess | [Details](#83061e651b190bab3e5914bb6270a5857f7aa7a5447)
+ [wmf\5.1\scenarios-features.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/scenarios-features.md) | InSyncHandedBackSuccess | [Details](#9611a7da48a849b52821ac2890e1ea60441a75e3448)
+ [wmf\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/index.md) | InSyncHandedBackSuccess | [Details](#865258c0b403d4e7979d7ee32d3f87b63a349f08465)
+ [wmf\README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/README.md) | InSyncHandedBackSuccess | [Details](#a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2467)
+ [wmf\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/TOC.md) | InSyncHandedBackSuccess | [Details](#274c6dcc36b3baa64d01b5518444c7de3dcc00ee468)
 
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.gitignore) | Ignored | [Details](#4a6be79ee23699c14dbdae55a52db3b096d2cdcc0)
- [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.localization-config) | Ignored | [Details](#68abe973d27e8fa3b38f6db5fe613f7eea31aa121)
- [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.openpublishing.build.mdproj) | Ignored | [Details](#ea7542a1cc208464193da9503160bbb41d54856c2)
- [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.openpublishing.publish.config.json) | Ignored | [Details](#8d82385b0d2a38e30f607bf841c712f023ee8d853)
- [article-osmond1.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/article-osmond1.md) | Ignored | [Details](#d9d06f4994fe826dab0c58e8084f729bef909a1b4)
- [article-osmond2.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/article-osmond2.md) | Ignored | [Details](#140a591cad3c15e3872197a229d9662a3f5e1e9d5)
- [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1224)
- [dsc\images\CredentialEncryptionDiagram1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/CredentialEncryptionDiagram1.png) | Ignored | [Details](#d9f53a805041164f5070845c0fd216b63d17ae5831)
- [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/Pull.png) | Ignored | [Details](#7766a7ed7faad8f162557a30e644f43960f1859f34)
- [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/Push.png) | Ignored | [Details](#e1328ad8ccef4cc3b5e333cfc2550a870b4bf16236)
- [dsc\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda51)
- [gallery\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/docfx.json) | Ignored | [Details](#3276c3869fe976285a2c1b6321a02a0440bc304b113)
- [gallery\psgallery\Images\DeployToAzureAutomationButton.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/DeployToAzureAutomationButton.png) | Ignored | [Details](#e6fc038839f9b4a84ad8e001058cdfa8df3c4177118)
- [gallery\psgallery\Images\ItemDisplayPageWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/ItemDisplayPageWithPSEditions.PNG) | Ignored | [Details](#5bad28435adc94c36d1eddd84f42f9af2baebd79119)
- [gallery\psgallery\Images\powershellgetArchitecture.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/powershellgetArchitecture.png) | Ignored | [Details](#24fdfd0cc2fa8c22d57d2c2407ea06685a701dc0120)
- [gallery\psgallery\Images\SearchResultsWithPSEdition_Desktop.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/SearchResultsWithPSEdition_Desktop.PNG) | Ignored | [Details](#d35a7f3fa31a72ac3fcd02e8a8329d50faa563ce121)
- [gallery\psgallery\Images\SearchResultsWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/SearchResultsWithPSEditions.PNG) | Ignored | [Details](#6e17f4151dbfc56ef9af9ed79b385f675057cb58122)
- [jea\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/jea/docfx.json) | Ignored | [Details](#fa5ac04e8f04a6f033fbb4726f384a693551251e186)
- [OsmondTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/OsmondTest.md) | Ignored | [Details](#d76d15500a9cc7363a3fa3bbf23962af505f3f07200)
- [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/packages.config) | Ignored | [Details](#27554498f63fbe896c2dad68b61f4dde8478ba31201)
- [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/README.md) | Ignored | [Details](#c2b08fc096d0255147ef5b42858f33932d7eec7c202)
- [scripting\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/scripting/docfx.json) | Ignored | [Details](#9c38507d64e79807091da129978f4ef71091d946262)
- [scripting\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/scripting/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda318)
- [wmf\5.1\features-scenarios-cache\console-improvements](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/5.1/features-scenarios-cache/console-improvements) | Ignored | [Details](#221b8095c15a810c032bd93aafe8ec886af233d9425)
- [wmf\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/docfx.json) | Ignored | [Details](#90e6537c69b63c19d38e53440bb0982e01600134448)
- [wmf\images\CatalogFile1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/CatalogFile1.jpg) | Ignored | [Details](#e4ee3e2aa0624ac60c9669581fab767fec5097c0449)
- [wmf\images\CatalogFile2.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/CatalogFile2.jpg) | Ignored | [Details](#4a10c9aaa7c9ce8d049548b711831cb0718307e3450)
- [wmf\images\DscResourceDebugging.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/DscResourceDebugging.jpg) | Ignored | [Details](#ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d451)
- [wmf\images\Import-DscResource-Modversion.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/Import-DscResource-Modversion.jpg) | Ignored | [Details](#e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc452)
- [wmf\images\MetaConfigPartialOne.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/MetaConfigPartialOne.png) | Ignored | [Details](#fe58526eb9e55d83fa9eb21563443117a6902aa0453)
- [wmf\images\MOF_Encryption.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/MOF_Encryption.jpg) | Ignored | [Details](#9a44a53029d37d4165bbffbdcaa79d9be76e5fac454)
- [wmf\images\NewFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/NewFileCatalog.jpg) | Ignored | [Details](#a2ae4fa2f4b6602830972bddf4430f4f6505520f455)
- [wmf\images\PartialGeneratedMof.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PartialGeneratedMof.png) | Ignored | [Details](#a05a5b737a08368968cfd0183c14db8cdcfe2f8c456)
- [wmf\images\PartialInConfigRepository.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PartialInConfigRepository.png) | Ignored | [Details](#99a5b10f8cc127cec79a1143db5826574ebfbd64457)
- [wmf\images\PullUnisgnedCatalog.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PullUnisgnedCatalog.PNG) | Ignored | [Details](#a4be2daf505060635a78de3eb6ac273755f05676458)
- [wmf\images\PullUnsignedConfigFail.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PullUnsignedConfigFail.PNG) | Ignored | [Details](#83fae01e6d44ef867ae8868c022376211c22d01e459)
- [wmf\images\PushSignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PushSignedMof.PNG) | Ignored | [Details](#ac6c4586d916fbbd888f73d39201d82da6da8873460)
- [wmf\images\PushUnsignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PushUnsignedMof.PNG) | Ignored | [Details](#9bce54791cd28520e9812b1fd8daa42dfbe56c64461)
- [wmf\images\SignMofFile.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/SignMofFile.PNG) | Ignored | [Details](#6290a872ef2ee8882895f6245e6dc7a7f20ecdf4462)
- [wmf\images\TestFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/TestFileCatalog.jpg) | Ignored | [Details](#2a797c88dc4d945e346bc20711f7586163e9edfb463)
- [wmf\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda465)
+ [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.gitignore) | Ignored | [Details](#4a6be79ee23699c14dbdae55a52db3b096d2cdcc0)
+ [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.localization-config) | Ignored | [Details](#68abe973d27e8fa3b38f6db5fe613f7eea31aa121)
+ [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.openpublishing.build.mdproj) | Ignored | [Details](#ea7542a1cc208464193da9503160bbb41d54856c2)
+ [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.openpublishing.publish.config.json) | Ignored | [Details](#8d82385b0d2a38e30f607bf841c712f023ee8d853)
+ [article-osmond1.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/article-osmond1.md) | Ignored | [Details](#d9d06f4994fe826dab0c58e8084f729bef909a1b4)
+ [article-osmond2.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/article-osmond2.md) | Ignored | [Details](#140a591cad3c15e3872197a229d9662a3f5e1e9d5)
+ [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1224)
+ [dsc\images\CredentialEncryptionDiagram1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/CredentialEncryptionDiagram1.png) | Ignored | [Details](#d9f53a805041164f5070845c0fd216b63d17ae5831)
+ [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/Pull.png) | Ignored | [Details](#7766a7ed7faad8f162557a30e644f43960f1859f34)
+ [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/Push.png) | Ignored | [Details](#e1328ad8ccef4cc3b5e333cfc2550a870b4bf16236)
+ [dsc\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda51)
+ [gallery\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/docfx.json) | Ignored | [Details](#3276c3869fe976285a2c1b6321a02a0440bc304b113)
+ [gallery\psgallery\Images\DeployToAzureAutomationButton.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/DeployToAzureAutomationButton.png) | Ignored | [Details](#e6fc038839f9b4a84ad8e001058cdfa8df3c4177118)
+ [gallery\psgallery\Images\ItemDisplayPageWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/ItemDisplayPageWithPSEditions.PNG) | Ignored | [Details](#5bad28435adc94c36d1eddd84f42f9af2baebd79119)
+ [gallery\psgallery\Images\powershellgetArchitecture.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/powershellgetArchitecture.png) | Ignored | [Details](#24fdfd0cc2fa8c22d57d2c2407ea06685a701dc0120)
+ [gallery\psgallery\Images\SearchResultsWithPSEdition_Desktop.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/SearchResultsWithPSEdition_Desktop.PNG) | Ignored | [Details](#d35a7f3fa31a72ac3fcd02e8a8329d50faa563ce121)
+ [gallery\psgallery\Images\SearchResultsWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/SearchResultsWithPSEditions.PNG) | Ignored | [Details](#6e17f4151dbfc56ef9af9ed79b385f675057cb58122)
+ [jea\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/jea/docfx.json) | Ignored | [Details](#fa5ac04e8f04a6f033fbb4726f384a693551251e186)
+ [OsmondTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/OsmondTest.md) | Ignored | [Details](#d76d15500a9cc7363a3fa3bbf23962af505f3f07200)
+ [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/packages.config) | Ignored | [Details](#27554498f63fbe896c2dad68b61f4dde8478ba31201)
+ [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/README.md) | Ignored | [Details](#c2b08fc096d0255147ef5b42858f33932d7eec7c202)
+ [scripting\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/scripting/docfx.json) | Ignored | [Details](#9c38507d64e79807091da129978f4ef71091d946262)
+ [scripting\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/scripting/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda318)
+ [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/Testing%20by%20Jason) | Ignored | [Details](#89a3d4320f255075a88ee3aea2564ad03b508796338)
+ [wmf\5.1\features-scenarios-cache\console-improvements](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/5.1/features-scenarios-cache/console-improvements) | Ignored | [Details](#221b8095c15a810c032bd93aafe8ec886af233d9426)
+ [wmf\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/docfx.json) | Ignored | [Details](#90e6537c69b63c19d38e53440bb0982e01600134449)
+ [wmf\images\CatalogFile1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/CatalogFile1.jpg) | Ignored | [Details](#e4ee3e2aa0624ac60c9669581fab767fec5097c0450)
+ [wmf\images\CatalogFile2.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/CatalogFile2.jpg) | Ignored | [Details](#4a10c9aaa7c9ce8d049548b711831cb0718307e3451)
+ [wmf\images\DscResourceDebugging.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/DscResourceDebugging.jpg) | Ignored | [Details](#ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d452)
+ [wmf\images\Import-DscResource-Modversion.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/Import-DscResource-Modversion.jpg) | Ignored | [Details](#e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc453)
+ [wmf\images\MetaConfigPartialOne.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/MetaConfigPartialOne.png) | Ignored | [Details](#fe58526eb9e55d83fa9eb21563443117a6902aa0454)
+ [wmf\images\MOF_Encryption.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/MOF_Encryption.jpg) | Ignored | [Details](#9a44a53029d37d4165bbffbdcaa79d9be76e5fac455)
+ [wmf\images\NewFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/NewFileCatalog.jpg) | Ignored | [Details](#a2ae4fa2f4b6602830972bddf4430f4f6505520f456)
+ [wmf\images\PartialGeneratedMof.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PartialGeneratedMof.png) | Ignored | [Details](#a05a5b737a08368968cfd0183c14db8cdcfe2f8c457)
+ [wmf\images\PartialInConfigRepository.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PartialInConfigRepository.png) | Ignored | [Details](#99a5b10f8cc127cec79a1143db5826574ebfbd64458)
+ [wmf\images\PullUnisgnedCatalog.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PullUnisgnedCatalog.PNG) | Ignored | [Details](#a4be2daf505060635a78de3eb6ac273755f05676459)
+ [wmf\images\PullUnsignedConfigFail.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PullUnsignedConfigFail.PNG) | Ignored | [Details](#83fae01e6d44ef867ae8868c022376211c22d01e460)
+ [wmf\images\PushSignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PushSignedMof.PNG) | Ignored | [Details](#ac6c4586d916fbbd888f73d39201d82da6da8873461)
+ [wmf\images\PushUnsignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PushUnsignedMof.PNG) | Ignored | [Details](#9bce54791cd28520e9812b1fd8daa42dfbe56c64462)
+ [wmf\images\SignMofFile.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/SignMofFile.PNG) | Ignored | [Details](#6290a872ef2ee8882895f6245e6dc7a7f20ecdf4463)
+ [wmf\images\TestFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/TestFileCatalog.jpg) | Ignored | [Details](#2a797c88dc4d945e346bc20711f7586163e9edfb464)
+ [wmf\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda466)
 
 ## Item Details
-##### <a name='4a6be79ee23699c14dbdae55a52db3b096d2cdcc0'></a> Source: [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.gitignore)
+##### <a name='4a6be79ee23699c14dbdae55a52db3b096d2cdcc0'></a> Source: [.gitignore](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.gitignore)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -519,7 +520,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='68abe973d27e8fa3b38f6db5fe613f7eea31aa121'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.localization-config)
+##### <a name='68abe973d27e8fa3b38f6db5fe613f7eea31aa121'></a> Source: [.localization-config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.localization-config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -531,7 +532,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ea7542a1cc208464193da9503160bbb41d54856c2'></a> Source: [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.openpublishing.build.mdproj)
+##### <a name='ea7542a1cc208464193da9503160bbb41d54856c2'></a> Source: [.openpublishing.build.mdproj](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.openpublishing.build.mdproj)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -543,7 +544,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='8d82385b0d2a38e30f607bf841c712f023ee8d853'></a> Source: [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/.openpublishing.publish.config.json)
+##### <a name='8d82385b0d2a38e30f607bf841c712f023ee8d853'></a> Source: [.openpublishing.publish.config.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/.openpublishing.publish.config.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -555,7 +556,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='d9d06f4994fe826dab0c58e8084f729bef909a1b4'></a> Source: [article-osmond1.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/article-osmond1.md)
+##### <a name='d9d06f4994fe826dab0c58e8084f729bef909a1b4'></a> Source: [article-osmond1.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/article-osmond1.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -567,7 +568,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='140a591cad3c15e3872197a229d9662a3f5e1e9d5'></a> Source: [article-osmond2.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/article-osmond2.md)
+##### <a name='140a591cad3c15e3872197a229d9662a3f5e1e9d5'></a> Source: [article-osmond2.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/article-osmond2.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -830,7 +831,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1224'></a> Source: [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/docfx.json)
+##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1224'></a> Source: [dsc\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -926,7 +927,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='d9f53a805041164f5070845c0fd216b63d17ae5831'></a> Source: [dsc\images\CredentialEncryptionDiagram1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/CredentialEncryptionDiagram1.png)
+##### <a name='d9f53a805041164f5070845c0fd216b63d17ae5831'></a> Source: [dsc\images\CredentialEncryptionDiagram1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/CredentialEncryptionDiagram1.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -966,7 +967,7 @@
 * Handback Error: [handback_type_is_mismatch_with_handoff_type](#1ba842005c2b1ce80a3670429b3e010c7b1c1f5933handback_type_is_mismatch_with_handoff_type)
 * [Back to Top](#report-top)
 
-##### <a name='7766a7ed7faad8f162557a30e644f43960f1859f34'></a> Source: [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/Pull.png)
+##### <a name='7766a7ed7faad8f162557a30e644f43960f1859f34'></a> Source: [dsc\images\Pull.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/Pull.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -991,7 +992,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e1328ad8ccef4cc3b5e333cfc2550a870b4bf16236'></a> Source: [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/images/Push.png)
+##### <a name='e1328ad8ccef4cc3b5e333cfc2550a870b4bf16236'></a> Source: [dsc\images\Push.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/images/Push.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -1199,7 +1200,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda51'></a> Source: [dsc\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/dsc/md.style)
+##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda51'></a> Source: [dsc\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/dsc/md.style)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2065,7 +2066,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='3276c3869fe976285a2c1b6321a02a0440bc304b113'></a> Source: [gallery\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/docfx.json)
+##### <a name='3276c3869fe976285a2c1b6321a02a0440bc304b113'></a> Source: [gallery\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2133,7 +2134,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='e6fc038839f9b4a84ad8e001058cdfa8df3c4177118'></a> Source: [gallery\psgallery\Images\DeployToAzureAutomationButton.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/DeployToAzureAutomationButton.png)
+##### <a name='e6fc038839f9b4a84ad8e001058cdfa8df3c4177118'></a> Source: [gallery\psgallery\Images\DeployToAzureAutomationButton.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/DeployToAzureAutomationButton.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2145,7 +2146,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='5bad28435adc94c36d1eddd84f42f9af2baebd79119'></a> Source: [gallery\psgallery\Images\ItemDisplayPageWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/ItemDisplayPageWithPSEditions.PNG)
+##### <a name='5bad28435adc94c36d1eddd84f42f9af2baebd79119'></a> Source: [gallery\psgallery\Images\ItemDisplayPageWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/ItemDisplayPageWithPSEditions.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2157,7 +2158,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='24fdfd0cc2fa8c22d57d2c2407ea06685a701dc0120'></a> Source: [gallery\psgallery\Images\powershellgetArchitecture.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/powershellgetArchitecture.png)
+##### <a name='24fdfd0cc2fa8c22d57d2c2407ea06685a701dc0120'></a> Source: [gallery\psgallery\Images\powershellgetArchitecture.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/powershellgetArchitecture.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2169,7 +2170,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='d35a7f3fa31a72ac3fcd02e8a8329d50faa563ce121'></a> Source: [gallery\psgallery\Images\SearchResultsWithPSEdition_Desktop.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/SearchResultsWithPSEdition_Desktop.PNG)
+##### <a name='d35a7f3fa31a72ac3fcd02e8a8329d50faa563ce121'></a> Source: [gallery\psgallery\Images\SearchResultsWithPSEdition_Desktop.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/SearchResultsWithPSEdition_Desktop.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2181,7 +2182,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6e17f4151dbfc56ef9af9ed79b385f675057cb58122'></a> Source: [gallery\psgallery\Images\SearchResultsWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Images/SearchResultsWithPSEditions.PNG)
+##### <a name='6e17f4151dbfc56ef9af9ed79b385f675057cb58122'></a> Source: [gallery\psgallery\Images\SearchResultsWithPSEditions.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Images/SearchResultsWithPSEditions.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -2445,7 +2446,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471141'></a> Source: [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psgallery/Setting-Up-Local-Gallery.md)
+##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471141'></a> Source: [gallery\psgallery\Setting-Up-Local-Gallery.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psgallery/Setting-Up-Local-Gallery.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf)
@@ -2459,7 +2460,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471142'></a> Source: [gallery\psget\module\Dependency_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/Dependency_Versioning.md)
+##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471142'></a> Source: [gallery\psget\module\Dependency_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/Dependency_Versioning.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf)
@@ -2473,7 +2474,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471143'></a> Source: [gallery\psget\module\Module_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/Module_Versioning.md)
+##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471143'></a> Source: [gallery\psget\module\Module_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/Module_Versioning.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf)
@@ -2487,7 +2488,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471144'></a> Source: [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/module/ModuleManifest-Reference.md)
+##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471144'></a> Source: [gallery\psget\module\ModuleManifest-Reference.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/module/ModuleManifest-Reference.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf)
@@ -2977,7 +2978,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471179'></a> Source: [gallery\psget\script\Script_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/gallery/psget/script/Script_Versioning.md)
+##### <a name='57218c316b6921e2cd61027a2387edc31a2d9471179'></a> Source: [gallery\psget\script\Script_Versioning.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/gallery/psget/script/Script_Versioning.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [gallery\psgallery\Item-Conventions.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/gallery/psgallery/Item-Conventions.md)
 * Handoff File: [Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Item-Conventions.0b4ea1accc4e55f573635809d84bd7ff26d817bb.ja-jp.xlf)
@@ -3075,7 +3076,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='fa5ac04e8f04a6f033fbb4726f384a693551251e186'></a> Source: [jea\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/jea/docfx.json)
+##### <a name='fa5ac04e8f04a6f033fbb4726f384a693551251e186'></a> Source: [jea\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/jea/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -3101,7 +3102,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='865258c0b403d4e7979d7ee32d3f87b63a349f08188'></a> Source: [jea\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/jea/index.md)
+##### <a name='865258c0b403d4e7979d7ee32d3f87b63a349f08188'></a> Source: [jea\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/jea/index.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [dsc\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/dsc/index.md)
 * Handoff File: [index.087529cd8972c61293d437c5b3a72507e4d1e1d9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/index.087529cd8972c61293d437c5b3a72507e4d1e1d9.ja-jp.xlf)
@@ -3269,7 +3270,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='d76d15500a9cc7363a3fa3bbf23962af505f3f07200'></a> Source: [OsmondTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/OsmondTest.md)
+##### <a name='d76d15500a9cc7363a3fa3bbf23962af505f3f07200'></a> Source: [OsmondTest.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/OsmondTest.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -3281,7 +3282,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='27554498f63fbe896c2dad68b61f4dde8478ba31201'></a> Source: [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/packages.config)
+##### <a name='27554498f63fbe896c2dad68b61f4dde8478ba31201'></a> Source: [packages.config](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/packages.config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -3293,7 +3294,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='c2b08fc096d0255147ef5b42858f33932d7eec7c202'></a> Source: [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/README.md)
+##### <a name='c2b08fc096d0255147ef5b42858f33932d7eec7c202'></a> Source: [README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/README.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -4131,7 +4132,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='9c38507d64e79807091da129978f4ef71091d946262'></a> Source: [scripting\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/scripting/docfx.json)
+##### <a name='9c38507d64e79807091da129978f4ef71091d946262'></a> Source: [scripting\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/scripting/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -4913,7 +4914,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda318'></a> Source: [scripting\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/scripting/md.style)
+##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda318'></a> Source: [scripting\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/scripting/md.style)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -5191,7 +5192,19 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='2160a4b932075c98df6806c61d263d30f650b9f4338'></a> Source: [wmf\5.0\audit_cms.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_cms.md)
+##### <a name='89a3d4320f255075a88ee3aea2564ad03b508796338'></a> Source: [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/Testing%20by%20Jason)
+* Status: Ignored
+* Target File: 
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='2160a4b932075c98df6806c61d263d30f650b9f4339'></a> Source: [wmf\5.0\audit_cms.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_cms.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\audit_cms.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/audit_cms.md)
 * Handoff File: [audit_cms.1a4620c3522dc041191724aaba92897a08d4f2cc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/audit_cms.1a4620c3522dc041191724aaba92897a08d4f2cc.ja-jp.xlf)
@@ -5205,7 +5218,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='20e6c97ad5dc845bc0ead973ed8a62b34af3e824339'></a> Source: [wmf\5.0\audit_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_overview.md)
+##### <a name='20e6c97ad5dc845bc0ead973ed8a62b34af3e824340'></a> Source: [wmf\5.0\audit_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\audit_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/audit_overview.md)
 * Handoff File: [audit_overview.92ad34c8060616c8b797a90e6812159e2418ad20.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/audit_overview.92ad34c8060616c8b797a90e6812159e2418ad20.ja-jp.xlf)
@@ -5219,7 +5232,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='654c0d5e83b9832524298b5c96eae094f371330f340'></a> Source: [wmf\5.0\audit_script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_script.md)
+##### <a name='654c0d5e83b9832524298b5c96eae094f371330f341'></a> Source: [wmf\5.0\audit_script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_script.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\audit_script.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/audit_script.md)
 * Handoff File: [audit_script.ccd77e9c7f4781d90d16930be2e2e2005ff14222.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/audit_script.ccd77e9c7f4781d90d16930be2e2e2005ff14222.ja-jp.xlf)
@@ -5233,7 +5246,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='61364255f33378d71724705658d9924a7730b74e341'></a> Source: [wmf\5.0\audit_transcript.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_transcript.md)
+##### <a name='61364255f33378d71724705658d9924a7730b74e342'></a> Source: [wmf\5.0\audit_transcript.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/audit_transcript.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\audit_transcript.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/audit_transcript.md)
 * Handoff File: [audit_transcript.742defa1fc2c40092f068aecc8c8eb1036f2c66f.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/audit_transcript.742defa1fc2c40092f068aecc8c8eb1036f2c66f.ja-jp.xlf)
@@ -5247,7 +5260,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='6968ca2fb27c1f300b7b5e5730e358d81fc4c400342'></a> Source: [wmf\5.0\class_base.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_base.md)
+##### <a name='6968ca2fb27c1f300b7b5e5730e358d81fc4c400343'></a> Source: [wmf\5.0\class_base.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_base.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_base.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_base.md)
 * Handoff File: [class_base.4cc8998d2f276a57fa965a488e963ba42771d5b8.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_base.4cc8998d2f276a57fa965a488e963ba42771d5b8.ja-jp.xlf)
@@ -5261,7 +5274,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29343'></a> Source: [wmf\5.0\class_baseconstructor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_baseconstructor.md)
+##### <a name='a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29344'></a> Source: [wmf\5.0\class_baseconstructor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_baseconstructor.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_baseconstructor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_baseconstructor.md)
 * Handoff File: [class_baseconstructor.7fe6ee1dd851ef4aa67d9e97f707b2aee2fecef0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_baseconstructor.7fe6ee1dd851ef4aa67d9e97f707b2aee2fecef0.ja-jp.xlf)
@@ -5275,7 +5288,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='09ff4761ecdcf1d4433c4f40701cb7af3be44c8f344'></a> Source: [wmf\5.0\class_basemethod.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_basemethod.md)
+##### <a name='09ff4761ecdcf1d4433c4f40701cb7af3be44c8f345'></a> Source: [wmf\5.0\class_basemethod.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_basemethod.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_basemethod.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_basemethod.md)
 * Handoff File: [class_basemethod.196d5316eaf1e61bbb5e5dd6a8449e57e8fc8ab0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_basemethod.196d5316eaf1e61bbb5e5dd6a8449e57e8fc8ab0.ja-jp.xlf)
@@ -5289,7 +5302,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='31b64b6845c8d6ece8628bd565662525a65353d9345'></a> Source: [wmf\5.0\class_interface.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_interface.md)
+##### <a name='31b64b6845c8d6ece8628bd565662525a65353d9346'></a> Source: [wmf\5.0\class_interface.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_interface.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_interface.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_interface.md)
 * Handoff File: [class_interface.9f3079ca5e797498f02f8747c04250b1f4f3043f.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_interface.9f3079ca5e797498f02f8747c04250b1f4f3043f.ja-jp.xlf)
@@ -5303,7 +5316,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='b91e3bbb40b2b5eddd1e43be568773c850a9b8e0346'></a> Source: [wmf\5.0\class_newtype.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_newtype.md)
+##### <a name='b91e3bbb40b2b5eddd1e43be568773c850a9b8e0347'></a> Source: [wmf\5.0\class_newtype.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_newtype.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_newtype.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_newtype.md)
 * Handoff File: [class_newtype.9ab827c0184e4434bea8e35d941675ccca6c487d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_newtype.9ab827c0184e4434bea8e35d941675ccca6c487d.ja-jp.xlf)
@@ -5317,7 +5330,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='3010b1ce497d8a5e45ada003587d9e104eddd8b1347'></a> Source: [wmf\5.0\class_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_overview.md)
+##### <a name='3010b1ce497d8a5e45ada003587d9e104eddd8b1348'></a> Source: [wmf\5.0\class_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/class_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\class_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/class_overview.md)
 * Handoff File: [class_overview.47b2db18ab277465532501bdd9ec704e75ef939d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/class_overview.47b2db18ab277465532501bdd9ec704e75ef939d.ja-jp.xlf)
@@ -5331,7 +5344,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='0660867e6e7c7a93a8ca80d76f22db7fd86f8826348'></a> Source: [wmf\5.0\debug_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/debug_overview.md)
+##### <a name='0660867e6e7c7a93a8ca80d76f22db7fd86f8826349'></a> Source: [wmf\5.0\debug_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/debug_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\debug_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/debug_overview.md)
 * Handoff File: [debug_overview.1dc7b5c9880c61726d759a20f5756d7c955759a7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/debug_overview.1dc7b5c9880c61726d759a20f5756d7c955759a7.ja-jp.xlf)
@@ -5345,7 +5358,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='b1cdc60338b2c130dad7d917c8fcec543aafe467349'></a> Source: [wmf\5.0\dsc_authoring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_authoring.md)
+##### <a name='b1cdc60338b2c130dad7d917c8fcec543aafe467350'></a> Source: [wmf\5.0\dsc_authoring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_authoring.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_authoring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_authoring.md)
 * Handoff File: [dsc_authoring.c549b1f0b83923af0cbc07bbf3754a486f8b4303.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_authoring.c549b1f0b83923af0cbc07bbf3754a486f8b4303.ja-jp.xlf)
@@ -5359,7 +5372,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='b4d9889430447d7499075847f8439cc2859f5751350'></a> Source: [wmf\5.0\dsc_classbasedresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_classbasedresource.md)
+##### <a name='b4d9889430447d7499075847f8439cc2859f5751351'></a> Source: [wmf\5.0\dsc_classbasedresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_classbasedresource.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_classbasedresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_classbasedresource.md)
 * Handoff File: [dsc_classbasedresource.5c3f03799c95e04a59b065d6f8922d74f341a15c.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_classbasedresource.5c3f03799c95e04a59b065d6f8922d74f341a15c.ja-jp.xlf)
@@ -5373,7 +5386,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='ad03c24f7cfd141744721b5825c20e8d2f0a00a8351'></a> Source: [wmf\5.0\dsc_confighelp.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_confighelp.md)
+##### <a name='ad03c24f7cfd141744721b5825c20e8d2f0a00a8352'></a> Source: [wmf\5.0\dsc_confighelp.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_confighelp.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_confighelp.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_confighelp.md)
 * Handoff File: [dsc_confighelp.f820ac9bca8e0dc5c00c6a8fca928469a7bf501b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_confighelp.f820ac9bca8e0dc5c00c6a8fca928469a7bf501b.ja-jp.xlf)
@@ -5387,7 +5400,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='6bb220e50bdb77c2a7ffd36ea744aa3fc454dc67352'></a> Source: [wmf\5.0\dsc_directaccess.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_directaccess.md)
+##### <a name='6bb220e50bdb77c2a7ffd36ea744aa3fc454dc67353'></a> Source: [wmf\5.0\dsc_directaccess.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_directaccess.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_directaccess.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_directaccess.md)
 * Handoff File: [dsc_directaccess.7a6b66fb5d0c51e4c69ed337e09c14a8a76e9ff4.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_directaccess.7a6b66fb5d0c51e4c69ed337e09c14a8a76e9ff4.ja-jp.xlf)
@@ -5401,7 +5414,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='be8fdde764d0e3adb9aad50217ebc7c3ea26bbc4353'></a> Source: [wmf\5.0\dsc_encryptedmof.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_encryptedmof.md)
+##### <a name='be8fdde764d0e3adb9aad50217ebc7c3ea26bbc4354'></a> Source: [wmf\5.0\dsc_encryptedmof.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_encryptedmof.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_encryptedmof.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_encryptedmof.md)
 * Handoff File: [dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.ja-jp.xlf)
@@ -5415,7 +5428,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='c858f997c814483a10f5a9d59fb5352c99ac1093354'></a> Source: [wmf\5.0\dsc_freqnomultiple.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_freqnomultiple.md)
+##### <a name='c858f997c814483a10f5a9d59fb5352c99ac1093355'></a> Source: [wmf\5.0\dsc_freqnomultiple.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_freqnomultiple.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_freqnomultiple.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_freqnomultiple.md)
 * Handoff File: [dsc_freqnomultiple.24a510bddeb0893246c680375a783ba9be7c648b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_freqnomultiple.24a510bddeb0893246c680375a783ba9be7c648b.ja-jp.xlf)
@@ -5429,7 +5442,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='9ef3bec301af268ec4f97d881c0efbee71656fa4355'></a> Source: [wmf\5.0\dsc_getconfigurationstatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_getconfigurationstatus.md)
+##### <a name='9ef3bec301af268ec4f97d881c0efbee71656fa4356'></a> Source: [wmf\5.0\dsc_getconfigurationstatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_getconfigurationstatus.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_getconfigurationstatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_getconfigurationstatus.md)
 * Handoff File: [dsc_getconfigurationstatus.6dbd8b8c78c8ec42545c0e351d242cfdaa1d7eef.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_getconfigurationstatus.6dbd8b8c78c8ec42545c0e351d242cfdaa1d7eef.ja-jp.xlf)
@@ -5443,7 +5456,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='a257f792d39f360a2c9e638f42ffac5fed282b00356'></a> Source: [wmf\5.0\dsc_identicalduplicate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_identicalduplicate.md)
+##### <a name='a257f792d39f360a2c9e638f42ffac5fed282b00357'></a> Source: [wmf\5.0\dsc_identicalduplicate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_identicalduplicate.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_identicalduplicate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_identicalduplicate.md)
 * Handoff File: [dsc_identicalduplicate.5d2a56666d6760f99354e53bd0572bed6f5327a9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_identicalduplicate.5d2a56666d6760f99354e53bd0572bed6f5327a9.ja-jp.xlf)
@@ -5457,7 +5470,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='56ec43a84cfdbceb7633609696ea697c515e2931357'></a> Source: [wmf\5.0\dsc_importdscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_importdscresource.md)
+##### <a name='56ec43a84cfdbceb7633609696ea697c515e2931358'></a> Source: [wmf\5.0\dsc_importdscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_importdscresource.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_importdscresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_importdscresource.md)
 * Handoff File: [dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.ja-jp.xlf)
@@ -5471,7 +5484,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='336c6bc43b482eda6524ebed0381240868261f64358'></a> Source: [wmf\5.0\dsc_improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_improvements.md)
+##### <a name='336c6bc43b482eda6524ebed0381240868261f64359'></a> Source: [wmf\5.0\dsc_improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_improvements.md)
 * Handoff File: [dsc_improvements.ef97b488849556e2b3c44d95f49f5b63fa3153bd.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_improvements.ef97b488849556e2b3c44d95f49f5b63fa3153bd.ja-jp.xlf)
@@ -5485,7 +5498,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='648c2106d29749858161b78fb879c514078705d1359'></a> Source: [wmf\5.0\dsc_lcmstate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_lcmstate.md)
+##### <a name='648c2106d29749858161b78fb879c514078705d1360'></a> Source: [wmf\5.0\dsc_lcmstate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_lcmstate.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_lcmstate.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_lcmstate.md)
 * Handoff File: [dsc_lcmstate.cd64c6e3e1e836262b70ece11b130e06b6f3bad0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_lcmstate.cd64c6e3e1e836262b70ece11b130e06b6f3bad0.ja-jp.xlf)
@@ -5499,7 +5512,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='695980323cb5d00d5c8f6bbe2d1c1c29ec99f809360'></a> Source: [wmf\5.0\dsc_metaconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_metaconfiguration.md)
+##### <a name='695980323cb5d00d5c8f6bbe2d1c1c29ec99f809361'></a> Source: [wmf\5.0\dsc_metaconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_metaconfiguration.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_metaconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_metaconfiguration.md)
 * Handoff File: [dsc_metaconfiguration.35d6b407146eac14a3a7029b9de7033c38a22bb9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_metaconfiguration.35d6b407146eac14a3a7029b9de7033c38a22bb9.ja-jp.xlf)
@@ -5513,7 +5526,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='34c29d88f0676e51c1b8af9d9e65b151eb8a4272361'></a> Source: [wmf\5.0\dsc_newresources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_newresources.md)
+##### <a name='34c29d88f0676e51c1b8af9d9e65b151eb8a4272362'></a> Source: [wmf\5.0\dsc_newresources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_newresources.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_newresources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_newresources.md)
 * Handoff File: [dsc_newresources.ab9c09459bc25b3931945d9d404f4599a48be7e0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_newresources.ab9c09459bc25b3931945d9d404f4599a48be7e0.ja-jp.xlf)
@@ -5527,7 +5540,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='06790d07e8798b1f263b023d0b231c6d9dd1d061362'></a> Source: [wmf\5.0\dsc_nodeid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_nodeid.md)
+##### <a name='06790d07e8798b1f263b023d0b231c6d9dd1d061363'></a> Source: [wmf\5.0\dsc_nodeid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_nodeid.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_nodeid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_nodeid.md)
 * Handoff File: [dsc_nodeid.d5c351f720310ee08eb5cc0449bcd89fc6c828b1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_nodeid.d5c351f720310ee08eb5cc0449bcd89fc6c828b1.ja-jp.xlf)
@@ -5541,7 +5554,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='4c8cbbd1f795a7117f049ccd6cbb00abb1127b24363'></a> Source: [wmf\5.0\dsc_partialconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig.md)
+##### <a name='4c8cbbd1f795a7117f049ccd6cbb00abb1127b24364'></a> Source: [wmf\5.0\dsc_partialconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_partialconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_partialconfig.md)
 * Handoff File: [dsc_partialconfig.7a57fc67534f25ae1cee47917aa5f48c9fe07fe2.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_partialconfig.7a57fc67534f25ae1cee47917aa5f48c9fe07fe2.ja-jp.xlf)
@@ -5555,7 +5568,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='dc5b682e8e6b028c3cc54130e697d67fd4c234d2364'></a> Source: [wmf\5.0\dsc_partialconfig_mixedmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig_mixedmode.md)
+##### <a name='dc5b682e8e6b028c3cc54130e697d67fd4c234d2365'></a> Source: [wmf\5.0\dsc_partialconfig_mixedmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_partialconfig_mixedmode.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_partialconfig_mixedmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_partialconfig_mixedmode.md)
 * Handoff File: [dsc_partialconfig_mixedmode.589a3de34413ae3f13f49ff83861189d47e231b2.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_partialconfig_mixedmode.589a3de34413ae3f13f49ff83861189d47e231b2.ja-jp.xlf)
@@ -5569,7 +5582,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='fbfae5c87a81bb36e1187a65b2ef7a6a982d99f4365'></a> Source: [wmf\5.0\dsc_publishconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_publishconfig.md)
+##### <a name='fbfae5c87a81bb36e1187a65b2ef7a6a982d99f4366'></a> Source: [wmf\5.0\dsc_publishconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_publishconfig.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_publishconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_publishconfig.md)
 * Handoff File: [dsc_publishconfig.d1e8983bf865e4d34049ce85fe6bc796ca7f6c92.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_publishconfig.d1e8983bf865e4d34049ce85fe6bc796ca7f6c92.ja-jp.xlf)
@@ -5583,7 +5596,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='da794b5c2fa3e975a3f39afbac989b2f40b07915366'></a> Source: [wmf\5.0\dsc_refreshmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_refreshmode.md)
+##### <a name='da794b5c2fa3e975a3f39afbac989b2f40b07915367'></a> Source: [wmf\5.0\dsc_refreshmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_refreshmode.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_refreshmode.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_refreshmode.md)
 * Handoff File: [dsc_refreshmode.aae04d9212e4bdfa064262dbc13ff73f67d28fc3.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_refreshmode.aae04d9212e4bdfa064262dbc13ff73f67d28fc3.ja-jp.xlf)
@@ -5597,7 +5610,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='b0fb33b1d5e4ef1b0b9018ec5dd5f88ef5df4719367'></a> Source: [wmf\5.0\dsc_removeconfigdoc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_removeconfigdoc.md)
+##### <a name='b0fb33b1d5e4ef1b0b9018ec5dd5f88ef5df4719368'></a> Source: [wmf\5.0\dsc_removeconfigdoc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_removeconfigdoc.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_removeconfigdoc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_removeconfigdoc.md)
 * Handoff File: [dsc_removeconfigdoc.83ad29516446e4b7390a6cacef8d0de31bb735a3.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_removeconfigdoc.83ad29516446e4b7390a6cacef8d0de31bb735a3.ja-jp.xlf)
@@ -5611,7 +5624,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='9111f0ea2e0fc923994055819938fa16dfb0bedf368'></a> Source: [wmf\5.0\dsc_reporting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_reporting.md)
+##### <a name='9111f0ea2e0fc923994055819938fa16dfb0bedf369'></a> Source: [wmf\5.0\dsc_reporting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_reporting.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_reporting.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_reporting.md)
 * Handoff File: [dsc_reporting.3683c7c2b6af9827ef59d833315a1fe1753f4724.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_reporting.3683c7c2b6af9827ef59d833315a1fe1753f4724.ja-jp.xlf)
@@ -5625,7 +5638,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='3cccbc0ec413b03899ae92e747b8e5828d667b0b369'></a> Source: [wmf\5.0\dsc_repository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_repository.md)
+##### <a name='3cccbc0ec413b03899ae92e747b8e5828d667b0b370'></a> Source: [wmf\5.0\dsc_repository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_repository.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_repository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_repository.md)
 * Handoff File: [dsc_repository.deb1b97eeef91cd16ea753a88765f7e6c8f61292.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_repository.deb1b97eeef91cd16ea753a88765f7e6c8f61292.ja-jp.xlf)
@@ -5639,7 +5652,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='1357bcf47977f6f1bfdc6420851d9f4df3e2b46d370'></a> Source: [wmf\5.0\dsc_resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_resourcedebugging.md)
+##### <a name='1357bcf47977f6f1bfdc6420851d9f4df3e2b46d371'></a> Source: [wmf\5.0\dsc_resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_resourcedebugging.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_resourcedebugging.md)
 * Handoff File: [dsc_resourcedebugging.094cf92c8661eb6bf762a1e58fc19a5166ae2104.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_resourcedebugging.094cf92c8661eb6bf762a1e58fc19a5166ae2104.ja-jp.xlf)
@@ -5653,7 +5666,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='0cfda25530705f1c17e72c2e19a5f389d2cb7686371'></a> Source: [wmf\5.0\dsc_runas.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_runas.md)
+##### <a name='0cfda25530705f1c17e72c2e19a5f389d2cb7686372'></a> Source: [wmf\5.0\dsc_runas.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_runas.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_runas.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_runas.md)
 * Handoff File: [dsc_runas.1962ecfa965fe6bb030c6cf8ceb5aa07252b3126.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_runas.1962ecfa965fe6bb030c6cf8ceb5aa07252b3126.ja-jp.xlf)
@@ -5667,7 +5680,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04372'></a> Source: [wmf\5.0\dsc_setdsclcm.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_setdsclcm.md)
+##### <a name='97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04373'></a> Source: [wmf\5.0\dsc_setdsclcm.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_setdsclcm.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_setdsclcm.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_setdsclcm.md)
 * Handoff File: [dsc_setdsclcm.ef6c7d4888ecc43581b14aae37e8323a0436d5cc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_setdsclcm.ef6c7d4888ecc43581b14aae37e8323a0436d5cc.ja-jp.xlf)
@@ -5681,7 +5694,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='98a8a8f27661042bef27d0edceccf9a67c9153d1373'></a> Source: [wmf\5.0\dsc_statestatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_statestatus.md)
+##### <a name='98a8a8f27661042bef27d0edceccf9a67c9153d1374'></a> Source: [wmf\5.0\dsc_statestatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_statestatus.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_statestatus.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_statestatus.md)
 * Handoff File: [dsc_statestatus.e27c3bcf9358f0bcde16f5f499fcbd4c43622786.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_statestatus.e27c3bcf9358f0bcde16f5f499fcbd4c43622786.ja-jp.xlf)
@@ -5695,7 +5708,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='6338545a3ded859ba9abddaaff768bb89cb2dac0374'></a> Source: [wmf\5.0\dsc_sxsresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_sxsresource.md)
+##### <a name='6338545a3ded859ba9abddaaff768bb89cb2dac0375'></a> Source: [wmf\5.0\dsc_sxsresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_sxsresource.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_sxsresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_sxsresource.md)
 * Handoff File: [dsc_sxsresource.d69876c715c1fdad209db88936b87f8e2b29f24c.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_sxsresource.d69876c715c1fdad209db88936b87f8e2b29f24c.ja-jp.xlf)
@@ -5709,7 +5722,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='df6b5db79c8c165e7fb3c1570838ac7a696b5a55375'></a> Source: [wmf\5.0\dsc_testconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_testconfiguration.md)
+##### <a name='df6b5db79c8c165e7fb3c1570838ac7a696b5a55376'></a> Source: [wmf\5.0\dsc_testconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_testconfiguration.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_testconfiguration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_testconfiguration.md)
 * Handoff File: [dsc_testconfiguration.80d6e6c713d3c87ea98a35ea9a2b1ecdf85d9b68.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_testconfiguration.80d6e6c713d3c87ea98a35ea9a2b1ecdf85d9b68.ja-jp.xlf)
@@ -5723,7 +5736,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='e3643fd339a0662d87f9532d9c38fd56c7f72333376'></a> Source: [wmf\5.0\dsc_updateconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_updateconfig.md)
+##### <a name='e3643fd339a0662d87f9532d9c38fd56c7f72333377'></a> Source: [wmf\5.0\dsc_updateconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_updateconfig.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_updateconfig.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_updateconfig.md)
 * Handoff File: [dsc_updateconfig.b3842fd986f3d536d3f4449fb960724b496517d9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_updateconfig.b3842fd986f3d536d3f4449fb960724b496517d9.ja-jp.xlf)
@@ -5737,7 +5750,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='1050b9c9297adeef0215d706c19aa450fb483d97377'></a> Source: [wmf\5.0\dsc_waitfor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_waitfor.md)
+##### <a name='1050b9c9297adeef0215d706c19aa450fb483d97378'></a> Source: [wmf\5.0\dsc_waitfor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_waitfor.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_waitfor.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_waitfor.md)
 * Handoff File: [dsc_waitfor.48580aa1828047d340b5e5c526709461d5ebe255.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_waitfor.48580aa1828047d340b5e5c526709461d5ebe255.ja-jp.xlf)
@@ -5751,7 +5764,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='59206d28411ca6d4591cff5b3f158f4f5b78cc6a378'></a> Source: [wmf\5.0\dsc_wow64.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_wow64.md)
+##### <a name='59206d28411ca6d4591cff5b3f158f4f5b78cc6a379'></a> Source: [wmf\5.0\dsc_wow64.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/dsc_wow64.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\dsc_wow64.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/dsc_wow64.md)
 * Handoff File: [dsc_wow64.c734644e88e00205f45013bd4b2341f7df609095.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/dsc_wow64.c734644e88e00205f45013bd4b2341f7df609095.ja-jp.xlf)
@@ -5765,7 +5778,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='40b022f369f09df35a4e8b1e675d75410b69dde9379'></a> Source: [wmf\5.0\feedback.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback.md)
+##### <a name='40b022f369f09df35a4e8b1e675d75410b69dde9380'></a> Source: [wmf\5.0\feedback.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback.md)
 * Handoff File: [feedback.143816a6c4b84d9da34b8073d5cc6c72a028e551.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback.143816a6c4b84d9da34b8073d5cc6c72a028e551.ja-jp.xlf)
@@ -5779,7 +5792,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='e2d8147c6a85b59f5289f64e068c56593acc0cfc380'></a> Source: [wmf\5.0\feedback_archive.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_archive.md)
+##### <a name='e2d8147c6a85b59f5289f64e068c56593acc0cfc381'></a> Source: [wmf\5.0\feedback_archive.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_archive.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_archive.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_archive.md)
 * Handoff File: [feedback_archive.3381bea4a70c6c2b6f28cb1c554c19b458f13d1b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_archive.3381bea4a70c6c2b6f28cb1c554c19b458f13d1b.ja-jp.xlf)
@@ -5793,7 +5806,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4381'></a> Source: [wmf\5.0\feedback_clipboard.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_clipboard.md)
+##### <a name='51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4382'></a> Source: [wmf\5.0\feedback_clipboard.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_clipboard.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_clipboard.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_clipboard.md)
 * Handoff File: [feedback_clipboard.84e163db6285a65adaadcceb579060323e57f5c1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_clipboard.84e163db6285a65adaadcceb579060323e57f5c1.ja-jp.xlf)
@@ -5807,7 +5820,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='2e8c46c95663135229a189f4d9c07da362aec299382'></a> Source: [wmf\5.0\feedback_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_cmdlets.md)
+##### <a name='2e8c46c95663135229a189f4d9c07da362aec299383'></a> Source: [wmf\5.0\feedback_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_cmdlets.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_cmdlets.md)
 * Handoff File: [feedback_cmdlets.b67689cce17c378dad22880611f703622d92b4ad.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_cmdlets.b67689cce17c378dad22880611f703622d92b4ad.ja-jp.xlf)
@@ -5821,7 +5834,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='09741289743ef276e3e94753dcce136193304c65383'></a> Source: [wmf\5.0\feedback_convertfromString.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertfromString.md)
+##### <a name='09741289743ef276e3e94753dcce136193304c65384'></a> Source: [wmf\5.0\feedback_convertfromString.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertfromString.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_convertfromString.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_convertfromString.md)
 * Handoff File: [feedback_convertfromString.109a190f24e69d8fe8d9b7d1fb090ce4f9a5267d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_convertfromString.109a190f24e69d8fe8d9b7d1fb090ce4f9a5267d.ja-jp.xlf)
@@ -5835,7 +5848,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='71e9f46958b59abce912278677217cd632629439384'></a> Source: [wmf\5.0\feedback_convertstring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertstring.md)
+##### <a name='71e9f46958b59abce912278677217cd632629439385'></a> Source: [wmf\5.0\feedback_convertstring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_convertstring.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_convertstring.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_convertstring.md)
 * Handoff File: [feedback_convertstring.bc59fc0bc4dcce51a1f6f58584cc6a8fc654bd47.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_convertstring.bc59fc0bc4dcce51a1f6f58584cc6a8fc654bd47.ja-jp.xlf)
@@ -5849,7 +5862,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='aa0991efc9ca39cc0aae39516d4b6cac03c4501a385'></a> Source: [wmf\5.0\feedback_fileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_fileinfo.md)
+##### <a name='aa0991efc9ca39cc0aae39516d4b6cac03c4501a386'></a> Source: [wmf\5.0\feedback_fileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_fileinfo.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_fileinfo.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_fileinfo.md)
 * Handoff File: [feedback_fileinfo.e03f597cbd149812b9f543125711d0c2ac066301.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_fileinfo.e03f597cbd149812b9f543125711d0c2ac066301.ja-jp.xlf)
@@ -5863,7 +5876,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='81803dcb8d5f0fac392cf13883b9240da3321f53386'></a> Source: [wmf\5.0\feedback_formathex.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_formathex.md)
+##### <a name='81803dcb8d5f0fac392cf13883b9240da3321f53387'></a> Source: [wmf\5.0\feedback_formathex.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_formathex.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_formathex.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_formathex.md)
 * Handoff File: [feedback_formathex.b7985634766247ec982733c5aa0a82e79780d00e.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_formathex.b7985634766247ec982733c5aa0a82e79780d00e.ja-jp.xlf)
@@ -5877,7 +5890,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='c3f3f9a8b16731dd1483eb65386ba0422b04370c387'></a> Source: [wmf\5.0\feedback_getchilditem.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_getchilditem.md)
+##### <a name='c3f3f9a8b16731dd1483eb65386ba0422b04370c388'></a> Source: [wmf\5.0\feedback_getchilditem.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_getchilditem.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_getchilditem.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_getchilditem.md)
 * Handoff File: [feedback_getchilditem.799596155029a30f1298c5144b0cb113af2b2bed.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_getchilditem.799596155029a30f1298c5144b0cb113af2b2bed.ja-jp.xlf)
@@ -5891,7 +5904,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='f2f968b1cd304009b3b29cdc793b61461e605812388'></a> Source: [wmf\5.0\feedback_moduleversionranges.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_moduleversionranges.md)
+##### <a name='f2f968b1cd304009b3b29cdc793b61461e605812389'></a> Source: [wmf\5.0\feedback_moduleversionranges.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_moduleversionranges.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_moduleversionranges.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_moduleversionranges.md)
 * Handoff File: [feedback_moduleversionranges.6fba6bc01ecc078ab098b4cca47890fc7d1c3e36.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_moduleversionranges.6fba6bc01ecc078ab098b4cca47890fc7d1c3e36.ja-jp.xlf)
@@ -5905,7 +5918,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='5de946e13169ba772ae445fe9d0b73d213fff397389'></a> Source: [wmf\5.0\feedback_newguid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_newguid.md)
+##### <a name='5de946e13169ba772ae445fe9d0b73d213fff397390'></a> Source: [wmf\5.0\feedback_newguid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_newguid.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_newguid.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_newguid.md)
 * Handoff File: [feedback_newguid.56818e4e062722ce589308307f208042aa0f493d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_newguid.56818e4e062722ce589308307f208042aa0f493d.ja-jp.xlf)
@@ -5919,7 +5932,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='24969d20cd4500db4e8dc27c16cac84c0f3dc696390'></a> Source: [wmf\5.0\feedback_nonewline.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_nonewline.md)
+##### <a name='24969d20cd4500db4e8dc27c16cac84c0f3dc696391'></a> Source: [wmf\5.0\feedback_nonewline.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_nonewline.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_nonewline.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_nonewline.md)
 * Handoff File: [feedback_nonewline.011fc617cd5977a94aba667ba59ba06e9121de5f.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_nonewline.011fc617cd5977a94aba667ba59ba06e9121de5f.ja-jp.xlf)
@@ -5933,7 +5946,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f391'></a> Source: [wmf\5.0\feedback_symbolic.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_symbolic.md)
+##### <a name='fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f392'></a> Source: [wmf\5.0\feedback_symbolic.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_symbolic.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_symbolic.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_symbolic.md)
 * Handoff File: [feedback_symbolic.2a9a5acdc77b4047244ecc185a2d34209c6a9ca7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_symbolic.2a9a5acdc77b4047244ecc185a2d34209c6a9ca7.ja-jp.xlf)
@@ -5947,7 +5960,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='2741204c16027d7e8e8f785b90b9cc301880a262392'></a> Source: [wmf\5.0\feedback_tempfile.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_tempfile.md)
+##### <a name='2741204c16027d7e8e8f785b90b9cc301880a262393'></a> Source: [wmf\5.0\feedback_tempfile.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/feedback_tempfile.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\feedback_tempfile.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/feedback_tempfile.md)
 * Handoff File: [feedback_tempfile.ae7dfa32b29a84b34de0ca2cbad4b7a147828ca7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/feedback_tempfile.ae7dfa32b29a84b34de0ca2cbad4b7a147828ca7.ja-jp.xlf)
@@ -5961,7 +5974,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='20254315c2503d46e6160593fb822391c5db2dd4393'></a> Source: [wmf\5.0\informationstream_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/informationstream_overview.md)
+##### <a name='20254315c2503d46e6160593fb822391c5db2dd4394'></a> Source: [wmf\5.0\informationstream_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/informationstream_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\informationstream_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/informationstream_overview.md)
 * Handoff File: [informationstream_overview.2a7cf6cc8c38f66d757db9737aba17961b59dd48.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/informationstream_overview.2a7cf6cc8c38f66d757db9737aba17961b59dd48.ja-jp.xlf)
@@ -5975,7 +5988,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='91d23a0045c6d7a1200caae6df64368dd8f3ecee394'></a> Source: [wmf\5.0\install.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/install.md)
+##### <a name='91d23a0045c6d7a1200caae6df64368dd8f3ecee395'></a> Source: [wmf\5.0\install.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/install.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\install.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/install.md)
 * Handoff File: [install.299002dd28808701e6fba3662bcf3fa7bfd0afcd.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/install.299002dd28808701e6fba3662bcf3fa7bfd0afcd.ja-jp.xlf)
@@ -5989,7 +6002,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='061fb3a39191f7aaf3f5e51b12f56cac84031f49395'></a> Source: [wmf\5.0\jea_endpoint.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_endpoint.md)
+##### <a name='061fb3a39191f7aaf3f5e51b12f56cac84031f49396'></a> Source: [wmf\5.0\jea_endpoint.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_endpoint.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\jea_endpoint.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/jea_endpoint.md)
 * Handoff File: [jea_endpoint.cb08c9d0f8049659e6507d3de1d0a8c36b60990f.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/jea_endpoint.cb08c9d0f8049659e6507d3de1d0a8c36b60990f.ja-jp.xlf)
@@ -6003,7 +6016,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='811596d4ad7994a12987ff172e626eac534bdf4d396'></a> Source: [wmf\5.0\jea_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_overview.md)
+##### <a name='811596d4ad7994a12987ff172e626eac534bdf4d397'></a> Source: [wmf\5.0\jea_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\jea_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/jea_overview.md)
 * Handoff File: [jea_overview.658a52745f6cffa61c193add5b15d6ed92ae05f2.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/jea_overview.658a52745f6cffa61c193add5b15d6ed92ae05f2.ja-jp.xlf)
@@ -6017,7 +6030,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='a91b675a4f19306481bb87dc3f3b8cb32ab07e8c397'></a> Source: [wmf\5.0\jea_report.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_report.md)
+##### <a name='a91b675a4f19306481bb87dc3f3b8cb32ab07e8c398'></a> Source: [wmf\5.0\jea_report.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/jea_report.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\jea_report.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/jea_report.md)
 * Handoff File: [jea_report.fbb80f728acef34b319fa10333051f0c1fbe68f3.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/jea_report.fbb80f728acef34b319fa10333051f0c1fbe68f3.ja-jp.xlf)
@@ -6031,7 +6044,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='ad262a8f38b79f748757c1503a5e7173a1010923398'></a> Source: [wmf\5.0\limitation_dsc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_dsc.md)
+##### <a name='ad262a8f38b79f748757c1503a5e7173a1010923399'></a> Source: [wmf\5.0\limitation_dsc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_dsc.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\limitation_dsc.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/limitation_dsc.md)
 * Handoff File: [limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/limitation_dsc.84393b9f829dc3ec01781af7ab4702c88eefacce.ja-jp.xlf)
@@ -6045,7 +6058,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='35cdbfab22a0fa00480012fed0a2cf32ffa11f8d399'></a> Source: [wmf\5.0\limitation_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_overview.md)
+##### <a name='35cdbfab22a0fa00480012fed0a2cf32ffa11f8d400'></a> Source: [wmf\5.0\limitation_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/limitation_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\limitation_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/limitation_overview.md)
 * Handoff File: [limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/limitation_overview.4c88716fba1165ec8c8f879705c3e1ac3be95c3b.ja-jp.xlf)
@@ -6059,7 +6072,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='9a9e69d384ffd92e0c26904a176f9954c5815f9a400'></a> Source: [wmf\5.0\networkswitch_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/networkswitch_overview.md)
+##### <a name='9a9e69d384ffd92e0c26904a176f9954c5815f9a401'></a> Source: [wmf\5.0\networkswitch_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/networkswitch_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\networkswitch_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/networkswitch_overview.md)
 * Handoff File: [networkswitch_overview.f76fbd99321e35e96ca483cf3029400cffc3cbbb.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/networkswitch_overview.f76fbd99321e35e96ca483cf3029400cffc3cbbb.ja-jp.xlf)
@@ -6073,7 +6086,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='8849fb46853f12318dd34781d07085419737d196401'></a> Source: [wmf\5.0\odata_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/odata_overview.md)
+##### <a name='8849fb46853f12318dd34781d07085419737d196402'></a> Source: [wmf\5.0\odata_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/odata_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\odata_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/odata_overview.md)
 * Handoff File: [odata_overview.8e2a9a6439fd99d29ee8bbf95227a47facf1d339.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/odata_overview.8e2a9a6439fd99d29ee8bbf95227a47facf1d339.ja-jp.xlf)
@@ -6087,7 +6100,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='75b6354fb83002602ec3d6276246cfa00ce0746a402'></a> Source: [wmf\5.0\oneget_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_cmdlets.md)
+##### <a name='75b6354fb83002602ec3d6276246cfa00ce0746a403'></a> Source: [wmf\5.0\oneget_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_cmdlets.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\oneget_cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/oneget_cmdlets.md)
 * Handoff File: [oneget_cmdlets.c8461a017b340ba6823a21ea09e5526755f42d8e.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/oneget_cmdlets.c8461a017b340ba6823a21ea09e5526755f42d8e.ja-jp.xlf)
@@ -6101,7 +6114,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='967366156ab58d16b085a97f9a08169d3bff75c2403'></a> Source: [wmf\5.0\oneget_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_overview.md)
+##### <a name='967366156ab58d16b085a97f9a08169d3bff75c2404'></a> Source: [wmf\5.0\oneget_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/oneget_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\oneget_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/oneget_overview.md)
 * Handoff File: [oneget_overview.faa23864a561cf547935d85ec8b89e6f418a9d84.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/oneget_overview.faa23864a561cf547935d85ec8b89e6f418a9d84.ja-jp.xlf)
@@ -6115,7 +6128,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='5998288f1a82980b5988eb6d4fff1833ba5067e1404'></a> Source: [wmf\5.0\productincompat.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/productincompat.md)
+##### <a name='5998288f1a82980b5988eb6d4fff1833ba5067e1405'></a> Source: [wmf\5.0\productincompat.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/productincompat.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\productincompat.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/productincompat.md)
 * Handoff File: [productincompat.0a6cf726af5908329b3844a4dac896cc5058dc98.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/productincompat.0a6cf726af5908329b3844a4dac896cc5058dc98.ja-jp.xlf)
@@ -6129,7 +6142,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed405'></a> Source: [wmf\5.0\psget_module_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_module_overview.md)
+##### <a name='4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed406'></a> Source: [wmf\5.0\psget_module_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_module_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_module_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_module_overview.md)
 * Handoff File: [psget_module_overview.d0f01deb0c90b20ae7155756cfab78da00060dcf.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_module_overview.d0f01deb0c90b20ae7155756cfab78da00060dcf.ja-jp.xlf)
@@ -6143,7 +6156,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='809547e4b84077de47f8e9cb8d252b37a26a35e2406'></a> Source: [wmf\5.0\psget_modulecmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulecmdlets.md)
+##### <a name='809547e4b84077de47f8e9cb8d252b37a26a35e2407'></a> Source: [wmf\5.0\psget_modulecmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulecmdlets.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_modulecmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_modulecmdlets.md)
 * Handoff File: [psget_modulecmdlets.78c6b2d8b0135ba8453b9ae6962c8e814209c764.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_modulecmdlets.78c6b2d8b0135ba8453b9ae6962c8e814209c764.ja-jp.xlf)
@@ -6157,7 +6170,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='f723a03aa04ea613f28d31c019b0c4d7e8af7f00407'></a> Source: [wmf\5.0\psget_moduledependency.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_moduledependency.md)
+##### <a name='f723a03aa04ea613f28d31c019b0c4d7e8af7f00408'></a> Source: [wmf\5.0\psget_moduledependency.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_moduledependency.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_moduledependency.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_moduledependency.md)
 * Handoff File: [psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_moduledependency.b230bb725b1be8352ddbb06879144284e90d1972.ja-jp.xlf)
@@ -6171,7 +6184,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='644781a07bed2df5464d8090155522ae7477a11e408'></a> Source: [wmf\5.0\psget_modulesxsinstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulesxsinstall.md)
+##### <a name='644781a07bed2df5464d8090155522ae7477a11e409'></a> Source: [wmf\5.0\psget_modulesxsinstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_modulesxsinstall.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_modulesxsinstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_modulesxsinstall.md)
 * Handoff File: [psget_modulesxsinstall.71b85a56e418b7a114d7c8203c6786139ab70334.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_modulesxsinstall.71b85a56e418b7a114d7c8203c6786139ab70334.ja-jp.xlf)
@@ -6185,7 +6198,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='972f011c3c9f98b54fb5cc270281cd146eb9ac71409'></a> Source: [wmf\5.0\psget_psrepository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_psrepository.md)
+##### <a name='972f011c3c9f98b54fb5cc270281cd146eb9ac71410'></a> Source: [wmf\5.0\psget_psrepository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_psrepository.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_psrepository.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_psrepository.md)
 * Handoff File: [psget_psrepository.27f467ad15827a2688770cde9903a76243c9c757.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_psrepository.27f467ad15827a2688770cde9903a76243c9c757.ja-jp.xlf)
@@ -6199,7 +6212,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='0569c3ce579db17c228c3410ca6db8a668919b19410'></a> Source: [wmf\5.0\psget_script_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_script_overview.md)
+##### <a name='0569c3ce579db17c228c3410ca6db8a668919b19411'></a> Source: [wmf\5.0\psget_script_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_script_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_script_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_script_overview.md)
 * Handoff File: [psget_script_overview.4be11aa863936c9d1e99cc85da3635bbb3108ba6.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_script_overview.4be11aa863936c9d1e99cc85da3635bbb3108ba6.ja-jp.xlf)
@@ -6213,7 +6226,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='91a4ed1e8912f77e274d64db7873ad56edbbd17b411'></a> Source: [wmf\5.0\psget_scriptcmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_scriptcmdlets.md)
+##### <a name='91a4ed1e8912f77e274d64db7873ad56edbbd17b412'></a> Source: [wmf\5.0\psget_scriptcmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/psget_scriptcmdlets.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\psget_scriptcmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/psget_scriptcmdlets.md)
 * Handoff File: [psget_scriptcmdlets.4171680ef59ddc646eaa180bd30d8394276c46a3.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/psget_scriptcmdlets.4171680ef59ddc646eaa180bd30d8394276c46a3.ja-jp.xlf)
@@ -6227,7 +6240,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='37ba02e8b09b56312fbcf8b031b9ef49a53e5436412'></a> Source: [wmf\5.0\releasenotes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/releasenotes.md)
+##### <a name='37ba02e8b09b56312fbcf8b031b9ef49a53e5436413'></a> Source: [wmf\5.0\releasenotes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/releasenotes.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\releasenotes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/releasenotes.md)
 * Handoff File: [releasenotes.6b2452476cc52d490ab786e75fe7920d8690e7c0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/releasenotes.6b2452476cc52d490ab786e75fe7920d8690e7c0.ja-jp.xlf)
@@ -6241,7 +6254,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='02ce3d08b01e58d6d9506f90142f92cc16304e64413'></a> Source: [wmf\5.0\requirements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/requirements.md)
+##### <a name='02ce3d08b01e58d6d9506f90142f92cc16304e64414'></a> Source: [wmf\5.0\requirements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/requirements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\requirements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/requirements.md)
 * Handoff File: [requirements.599400d9bdc5e69c1c16cb37cbc687bae515c330.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/requirements.599400d9bdc5e69c1c16cb37cbc687bae515c330.ja-jp.xlf)
@@ -6255,7 +6268,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='edc1a0383cebfbe89b18b0238a13bb28e4d25c5a414'></a> Source: [wmf\5.0\sil_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/sil_overview.md)
+##### <a name='edc1a0383cebfbe89b18b0238a13bb28e4d25c5a415'></a> Source: [wmf\5.0\sil_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/sil_overview.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\sil_overview.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/sil_overview.md)
 * Handoff File: [sil_overview.1e7d998d82630c51f69b098a2c2b893451c419e5.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/sil_overview.1e7d998d82630c51f69b098a2c2b893451c419e5.ja-jp.xlf)
@@ -6269,7 +6282,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='f97722883acccd0addb49cc473fc1cce5300c184415'></a> Source: [wmf\5.0\uninstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/uninstall.md)
+##### <a name='f97722883acccd0addb49cc473fc1cce5300c184416'></a> Source: [wmf\5.0\uninstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.0/uninstall.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.0\uninstall.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.0/uninstall.md)
 * Handoff File: [uninstall.98be0e2c383d10711000c737c3984097ed45c695.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/uninstall.98be0e2c383d10711000c737c3984097ed45c695.ja-jp.xlf)
@@ -6283,7 +6296,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='8a7774b36f15ff790c31d4c1a8bc69be257b8508416'></a> Source: [wmf\5.1\bugfixes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/bugfixes.md)
+##### <a name='8a7774b36f15ff790c31d4c1a8bc69be257b8508417'></a> Source: [wmf\5.1\bugfixes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/bugfixes.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\bugfixes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/bugfixes.md)
 * Handoff File: [bugfixes.9ac3235fa7ee0f522e47993290af882a3a4a26f7.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/bugfixes.9ac3235fa7ee0f522e47993290af882a3a4a26f7.ja-jp.xlf)
@@ -6297,7 +6310,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='a1e178e907a9edbe652b5da32ad286550f95076f417'></a> Source: [wmf\5.1\community-resources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/community-resources.md)
+##### <a name='a1e178e907a9edbe652b5da32ad286550f95076f418'></a> Source: [wmf\5.1\community-resources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/community-resources.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\community-resources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/community-resources.md)
 * Handoff File: [community-resources.29f3e6ec9661c97589a0cc8652b4d1c7917aa57d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/community-resources.29f3e6ec9661c97589a0cc8652b4d1c7917aa57d.ja-jp.xlf)
@@ -6311,7 +6324,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='8e7dd69fc5ba29e719aec353afcac2471ecb2352418'></a> Source: [wmf\5.1\compatibility.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/compatibility.md)
+##### <a name='8e7dd69fc5ba29e719aec353afcac2471ecb2352419'></a> Source: [wmf\5.1\compatibility.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/compatibility.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\compatibility.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/compatibility.md)
 * Handoff File: [compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/compatibility.c48662c8b1c8f8765c91c89c348a9a64174fcb50.ja-jp.xlf)
@@ -6325,7 +6338,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='2a17fdd4092adf734398f38bec915d53c1b3e566419'></a> Source: [wmf\5.1\console-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/console-improvements.md)
+##### <a name='2a17fdd4092adf734398f38bec915d53c1b3e566420'></a> Source: [wmf\5.1\console-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/console-improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\console-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/console-improvements.md)
 * Handoff File: [console-improvements.1e8be4b16ba9b1a7df66013c3107d42521f009d8.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/console-improvements.1e8be4b16ba9b1a7df66013c3107d42521f009d8.ja-jp.xlf)
@@ -6339,7 +6352,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='c88c145c3585befcee194499f7e21aaeac67c0f3420'></a> Source: [wmf\5.1\DSC-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/DSC-improvements.md)
+##### <a name='c88c145c3585befcee194499f7e21aaeac67c0f3421'></a> Source: [wmf\5.1\DSC-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/DSC-improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\DSC-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/DSC-improvements.md)
 * Handoff File: [DSC-improvements.34bcd4169d438016a90bb7d385251ff174844f98.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/DSC-improvements.34bcd4169d438016a90bb7d385251ff174844f98.ja-jp.xlf)
@@ -6353,7 +6366,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='bb7efc55b1c948c349aa778b700e5cb1277b9762421'></a> Source: [wmf\5.1\engine-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/engine-improvements.md)
+##### <a name='bb7efc55b1c948c349aa778b700e5cb1277b9762422'></a> Source: [wmf\5.1\engine-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/engine-improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\engine-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/engine-improvements.md)
 * Handoff File: [engine-improvements.c5dd46175ad980e169540bcebd2cac560021ece6.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/engine-improvements.c5dd46175ad980e169540bcebd2cac560021ece6.ja-jp.xlf)
@@ -6367,7 +6380,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='3e5d5e93231b772b65d1913a4dbafc86d4edb950422'></a> Source: [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/analysis_cache.md)
+##### <a name='3e5d5e93231b772b65d1913a4dbafc86d4edb950423'></a> Source: [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/analysis_cache.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\analysis_cache.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/analysis_cache.md)
 * Handoff File: [analysis_cache.ebd5d54252739ef057bf5e6146bcf8d8131dab36.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/analysis_cache.ebd5d54252739ef057bf5e6146bcf8d8131dab36.ja-jp.xlf)
@@ -6381,7 +6394,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed423'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md)
+##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed424'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/catalog-cmdlets.md)
 * Status: HandedBackFailed
 * Target File: 
 * Handoff File: [catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf)
@@ -6391,10 +6404,10 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 2016-10-05 17:49:22
-* Handback Error: [handback_transform_failed](#1e422b30ab2471e73123badedf1f10631f9730ed423handback_transform_failed)
+* Handback Error: [handback_transform_failed](#1e422b30ab2471e73123badedf1f10631f9730ed424handback_transform_failed)
 * [Back to Top](#report-top)
 
-##### <a name='e6653a02421e3aec3910a70c64f7cf7cecd696ab424'></a> Source: [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/console-enhancements.md)
+##### <a name='e6653a02421e3aec3910a70c64f7cf7cecd696ab425'></a> Source: [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/console-enhancements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\console-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/console-enhancements.md)
 * Handoff File: [console-enhancements.3c888b1935faa7ae4eb59ba6845eb7d78cd60ecc.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/console-enhancements.3c888b1935faa7ae4eb59ba6845eb7d78cd60ecc.ja-jp.xlf)
@@ -6408,7 +6421,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='221b8095c15a810c032bd93aafe8ec886af233d9425'></a> Source: [wmf\5.1\features-scenarios-cache\console-improvements](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/5.1/features-scenarios-cache/console-improvements)
+##### <a name='221b8095c15a810c032bd93aafe8ec886af233d9426'></a> Source: [wmf\5.1\features-scenarios-cache\console-improvements](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/5.1/features-scenarios-cache/console-improvements)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6420,7 +6433,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='368c26766961e760fd2de8c99057121bea076158426'></a> Source: [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md)
+##### <a name='368c26766961e760fd2de8c99057121bea076158427'></a> Source: [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/DSCPartialConfigNaming.md)
 * Handoff File: [DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/DSCPartialConfigNaming.0fa686a40e3e562fa831fc87a2ac2b8b81cfba33.ja-jp.xlf)
@@ -6434,7 +6447,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='7505e063fad84999af786f2af0602d204ed973b7427'></a> Source: [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md)
+##### <a name='7505e063fad84999af786f2af0602d204ed973b7428'></a> Source: [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCRunAsCredentialCompositeResources.md)
 * Status: HandedBackFailed
 * Target File: 
 * Handoff File: [DSCRunAsCredentialCompositeResources.f65c22955818dede6f97031e1a087a8a60d20d6c.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/DSCRunAsCredentialCompositeResources.f65c22955818dede6f97031e1a087a8a60d20d6c.ja-jp.xlf)
@@ -6444,10 +6457,10 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 2016-10-05 17:49:22
-* Handback Error: [handback_transform_failed](#7505e063fad84999af786f2af0602d204ed973b7427handback_transform_failed)
+* Handback Error: [handback_transform_failed](#7505e063fad84999af786f2af0602d204ed973b7428handback_transform_failed)
 * [Back to Top](#report-top)
 
-##### <a name='817fadb79716e41ce8cc8f4245dedc66347ac413428'></a> Source: [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md)
+##### <a name='817fadb79716e41ce8cc8f4245dedc66347ac413429'></a> Source: [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\DSCSigningValidations.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/DSCSigningValidations.md)
 * Handoff File: [DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/DSCSigningValidations.9fb5f7c90060737d46691c9c29429a9e500a99db.ja-jp.xlf)
@@ -6461,7 +6474,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='b24e70c1e1aaf71487b00fbccaf6edb0f375b888429'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md)
+##### <a name='b24e70c1e1aaf71487b00fbccaf6edb0f375b888430'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/Improved-dsc-classresource.md)
 * Handoff File: [Improved-dsc-classresource.2098c3839949d3dc2fb34849ee53df99fdeaf052.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Improved-dsc-classresource.2098c3839949d3dc2fb34849ee53df99fdeaf052.ja-jp.xlf)
@@ -6475,7 +6488,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='33c3fcffdeb281b205ecc48f7cdd470b79e9e068430'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-resourcedebugging.md)
+##### <a name='33c3fcffdeb281b205ecc48f7cdd470b79e9e068431'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-dsc-resourcedebugging.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/Improved-dsc-resourcedebugging.md)
 * Handoff File: [Improved-dsc-resourcedebugging.0f92046f690e1bab0e838d53b3c92087667cbfa9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Improved-dsc-resourcedebugging.0f92046f690e1bab0e838d53b3c92087667cbfa9.ja-jp.xlf)
@@ -6489,7 +6502,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='8bb3f7173559c349d033d175f5784d80b7a16ed0431'></a> Source: [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improved-pullclient-security.md)
+##### <a name='8bb3f7173559c349d033d175f5784d80b7a16ed0432'></a> Source: [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improved-pullclient-security.md)
 * Status: HandedBackFailed
 * Target File: 
 * Handoff File: [improved-pullclient-security.cf456de8ef304f3ca033ba4bc6092fd1be84dc09.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/improved-pullclient-security.cf456de8ef304f3ca033ba4bc6092fd1be84dc09.ja-jp.xlf)
@@ -6499,10 +6512,10 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 2016-10-05 17:49:22
-* Handback Error: [handback_transform_failed](#8bb3f7173559c349d033d175f5784d80b7a16ed0431handback_transform_failed)
+* Handback Error: [handback_transform_failed](#8bb3f7173559c349d033d175f5784d80b7a16ed0432handback_transform_failed)
 * [Back to Top](#report-top)
 
-##### <a name='d9f7dea63e6541b673ac6be5ccad59368b301440432'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-PullServer-Registration.md)
+##### <a name='d9f7dea63e6541b673ac6be5ccad59368b301440433'></a> Source: [wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/Improved-PullServer-Registration.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/Improved-PullServer-Registration.md)
 * Handoff File: [Improved-PullServer-Registration.d7a4fcccff45351d621c096800df507ce7913764.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Improved-PullServer-Registration.d7a4fcccff45351d621c096800df507ce7913764.ja-jp.xlf)
@@ -6516,7 +6529,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='1d0bd545b52ef56045f2ec740b05c4e0fd93bb67433'></a> Source: [wmf\5.1\features-scenarios-cache\improvements-oneget.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improvements-oneget.md)
+##### <a name='1d0bd545b52ef56045f2ec740b05c4e0fd93bb67434'></a> Source: [wmf\5.1\features-scenarios-cache\improvements-oneget.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/improvements-oneget.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\improvements-oneget.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/improvements-oneget.md)
 * Handoff File: [improvements-oneget.c8c4d33b77e464fe53344366059ee41c9a3b5fce.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/improvements-oneget.c8c4d33b77e464fe53344366059ee41c9a3b5fce.ja-jp.xlf)
@@ -6530,7 +6543,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='7d2f293f000d3d82f4a227d3b3760988d9f02be7434'></a> Source: [wmf\5.1\features-scenarios-cache\jea-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/jea-improvements.md)
+##### <a name='7d2f293f000d3d82f4a227d3b3760988d9f02be7435'></a> Source: [wmf\5.1\features-scenarios-cache\jea-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/jea-improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\jea-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/jea-improvements.md)
 * Handoff File: [jea-improvements.7d497b331a525c0e4042c5417438af356075d0e5.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/jea-improvements.7d497b331a525c0e4042c5417438af356075d0e5.ja-jp.xlf)
@@ -6544,7 +6557,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3435'></a> Source: [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/oneget-improvement.md)
+##### <a name='bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3436'></a> Source: [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/oneget-improvement.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\oneget-improvement.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/oneget-improvement.md)
 * Handoff File: [oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/oneget-improvement.5f280305f3daa37cb51ab01097cd9282a4fef551.ja-jp.xlf)
@@ -6558,7 +6571,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='dd7905bfd221201919d028ec158cd5ef349335e2436'></a> Source: [wmf\5.1\features-scenarios-cache\PesterUpdates.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PesterUpdates.md)
+##### <a name='dd7905bfd221201919d028ec158cd5ef349335e2437'></a> Source: [wmf\5.1\features-scenarios-cache\PesterUpdates.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PesterUpdates.md)
 * Status: HandedBackFailed
 * Target File: 
 * Handoff File: [PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.ja-jp.xlf)
@@ -6568,10 +6581,10 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 2016-10-05 17:49:22
-* Handback Error: [handback_transform_failed](#dd7905bfd221201919d028ec158cd5ef349335e2436handback_transform_failed)
+* Handback Error: [handback_transform_failed](#dd7905bfd221201919d028ec158cd5ef349335e2437handback_transform_failed)
 * [Back to Top](#report-top)
 
-##### <a name='025565404b60cebefac27e51c70d70edb5e47bc9437'></a> Source: [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md)
+##### <a name='025565404b60cebefac27e51c70d70edb5e47bc9438'></a> Source: [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/PowerShellGet-Enhancements.md)
 * Handoff File: [PowerShellGet-Enhancements.cd4664568a0aea25a6d3edac2f9934255e20fc3d.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/PowerShellGet-Enhancements.cd4664568a0aea25a6d3edac2f9934255e20fc3d.ja-jp.xlf)
@@ -6585,7 +6598,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='1b35a25312b44d14ec8771be9e17aaa43e270b61438'></a> Source: [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md)
+##### <a name='1b35a25312b44d14ec8771be9e17aaa43e270b61439'></a> Source: [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\ps-engine-enhancements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/ps-engine-enhancements.md)
 * Handoff File: [ps-engine-enhancements.51ba717e1fb1db2a8fb647083ba968b9f58c4a82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/ps-engine-enhancements.51ba717e1fb1db2a8fb647083ba968b9f58c4a82.ja-jp.xlf)
@@ -6599,7 +6612,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='dfba55f1eae5468df95309e14b3ee256511badf4439'></a> Source: [wmf\5.1\features-scenarios-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/template.md)
+##### <a name='dfba55f1eae5468df95309e14b3ee256511badf4440'></a> Source: [wmf\5.1\features-scenarios-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/template.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/template.md)
 * Handoff File: [template.041b21bf6b803f46c15437198c5b452c28cfb564.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/template.041b21bf6b803f46c15437198c5b452c28cfb564.ja-jp.xlf)
@@ -6613,7 +6626,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='e09cfe0994ac523fd10658955731a93b6c176c88440'></a> Source: [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/using-module.md)
+##### <a name='e09cfe0994ac523fd10658955731a93b6c176c88441'></a> Source: [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/features-scenarios-cache/using-module.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\features-scenarios-cache\using-module.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/features-scenarios-cache/using-module.md)
 * Handoff File: [using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/using-module.dfdedb618ec7d188918f7f3f705c8c39bbb26521.ja-jp.xlf)
@@ -6627,7 +6640,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='30445aecee478d4fceb6cd446f26f00fe2ecc3d8441'></a> Source: [wmf\5.1\install-configure.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/install-configure.md)
+##### <a name='30445aecee478d4fceb6cd446f26f00fe2ecc3d8442'></a> Source: [wmf\5.1\install-configure.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/install-configure.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\install-configure.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/install-configure.md)
 * Handoff File: [install-configure.d23935c7edf43234f7208217daa4ff7870a16d7c.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/install-configure.d23935c7edf43234f7208217daa4ff7870a16d7c.ja-jp.xlf)
@@ -6641,7 +6654,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d444'></a> Source: [wmf\5.1\known-issues.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues.md)
+##### <a name='d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d445'></a> Source: [wmf\5.1\known-issues.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\known-issues.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/known-issues.md)
 * Handoff File: [known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/known-issues.7fc7aa932b574dc3cc428850a7fbc702d58225ff.ja-jp.xlf)
@@ -6655,7 +6668,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='180158033e0c960f73dba66a3d77b15765e3e382442'></a> Source: [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md)
+##### <a name='180158033e0c960f73dba66a3d77b15765e3e382443'></a> Source: [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/known-issues-cache/NetworkingSwitchCmdletInput.md)
 * Handoff File: [NetworkingSwitchCmdletInput.eed91b2188e6217c0c49c260c2510c33d4434177.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/NetworkingSwitchCmdletInput.eed91b2188e6217c0c49c260c2510c33d4434177.ja-jp.xlf)
@@ -6669,7 +6682,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='cfe0a6562743f1df81acb81e33c120cb67f9042c443'></a> Source: [wmf\5.1\known-issues-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/template.md)
+##### <a name='cfe0a6562743f1df81acb81e33c120cb67f9042c444'></a> Source: [wmf\5.1\known-issues-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/known-issues-cache/template.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\known-issues-cache\template.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/known-issues-cache/template.md)
 * Handoff File: [template.f5eecaf481ada681f07bf33f2cc24cafd45f0083.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/template.f5eecaf481ada681f07bf33f2cc24cafd45f0083.ja-jp.xlf)
@@ -6683,7 +6696,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='615bdf1a82dc5078ee2f37eec70a64e25b42bda2445'></a> Source: [wmf\5.1\package-management-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/package-management-improvements.md)
+##### <a name='615bdf1a82dc5078ee2f37eec70a64e25b42bda2446'></a> Source: [wmf\5.1\package-management-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/package-management-improvements.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\package-management-improvements.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/package-management-improvements.md)
 * Handoff File: [package-management-improvements.81c1bcda67908dcb003110be1bfb73a016cee225.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/package-management-improvements.81c1bcda67908dcb003110be1bfb73a016cee225.ja-jp.xlf)
@@ -6697,7 +6710,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='83061e651b190bab3e5914bb6270a5857f7aa7a5446'></a> Source: [wmf\5.1\release-notes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/release-notes.md)
+##### <a name='83061e651b190bab3e5914bb6270a5857f7aa7a5447'></a> Source: [wmf\5.1\release-notes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/release-notes.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\release-notes.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/release-notes.md)
 * Handoff File: [release-notes.218509b1bab21c093b32cb5d4953c42d1cb90cb4.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/release-notes.218509b1bab21c093b32cb5d4953c42d1cb90cb4.ja-jp.xlf)
@@ -6711,7 +6724,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='9611a7da48a849b52821ac2890e1ea60441a75e3447'></a> Source: [wmf\5.1\scenarios-features.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/scenarios-features.md)
+##### <a name='9611a7da48a849b52821ac2890e1ea60441a75e3448'></a> Source: [wmf\5.1\scenarios-features.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/5.1/scenarios-features.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\5.1\scenarios-features.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/5.1/scenarios-features.md)
 * Handoff File: [scenarios-features.88cb2bdf7b7e45a4af286640d319a76b1f602647.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/scenarios-features.88cb2bdf7b7e45a4af286640d319a76b1f602647.ja-jp.xlf)
@@ -6725,7 +6738,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='90e6537c69b63c19d38e53440bb0982e01600134448'></a> Source: [wmf\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/docfx.json)
+##### <a name='90e6537c69b63c19d38e53440bb0982e01600134449'></a> Source: [wmf\docfx.json](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6737,7 +6750,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e4ee3e2aa0624ac60c9669581fab767fec5097c0449'></a> Source: [wmf\images\CatalogFile1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/CatalogFile1.jpg)
+##### <a name='e4ee3e2aa0624ac60c9669581fab767fec5097c0450'></a> Source: [wmf\images\CatalogFile1.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/CatalogFile1.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6749,7 +6762,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='4a10c9aaa7c9ce8d049548b711831cb0718307e3450'></a> Source: [wmf\images\CatalogFile2.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/CatalogFile2.jpg)
+##### <a name='4a10c9aaa7c9ce8d049548b711831cb0718307e3451'></a> Source: [wmf\images\CatalogFile2.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/CatalogFile2.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6761,7 +6774,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d451'></a> Source: [wmf\images\DscResourceDebugging.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/DscResourceDebugging.jpg)
+##### <a name='ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d452'></a> Source: [wmf\images\DscResourceDebugging.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/DscResourceDebugging.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6773,7 +6786,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc452'></a> Source: [wmf\images\Import-DscResource-Modversion.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/Import-DscResource-Modversion.jpg)
+##### <a name='e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc453'></a> Source: [wmf\images\Import-DscResource-Modversion.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/Import-DscResource-Modversion.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6785,7 +6798,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='fe58526eb9e55d83fa9eb21563443117a6902aa0453'></a> Source: [wmf\images\MetaConfigPartialOne.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/MetaConfigPartialOne.png)
+##### <a name='fe58526eb9e55d83fa9eb21563443117a6902aa0454'></a> Source: [wmf\images\MetaConfigPartialOne.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/MetaConfigPartialOne.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6797,7 +6810,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9a44a53029d37d4165bbffbdcaa79d9be76e5fac454'></a> Source: [wmf\images\MOF_Encryption.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/MOF_Encryption.jpg)
+##### <a name='9a44a53029d37d4165bbffbdcaa79d9be76e5fac455'></a> Source: [wmf\images\MOF_Encryption.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/MOF_Encryption.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6809,7 +6822,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a2ae4fa2f4b6602830972bddf4430f4f6505520f455'></a> Source: [wmf\images\NewFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/NewFileCatalog.jpg)
+##### <a name='a2ae4fa2f4b6602830972bddf4430f4f6505520f456'></a> Source: [wmf\images\NewFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/NewFileCatalog.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6821,7 +6834,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a05a5b737a08368968cfd0183c14db8cdcfe2f8c456'></a> Source: [wmf\images\PartialGeneratedMof.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PartialGeneratedMof.png)
+##### <a name='a05a5b737a08368968cfd0183c14db8cdcfe2f8c457'></a> Source: [wmf\images\PartialGeneratedMof.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PartialGeneratedMof.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6833,7 +6846,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='99a5b10f8cc127cec79a1143db5826574ebfbd64457'></a> Source: [wmf\images\PartialInConfigRepository.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PartialInConfigRepository.png)
+##### <a name='99a5b10f8cc127cec79a1143db5826574ebfbd64458'></a> Source: [wmf\images\PartialInConfigRepository.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PartialInConfigRepository.png)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6845,7 +6858,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a4be2daf505060635a78de3eb6ac273755f05676458'></a> Source: [wmf\images\PullUnisgnedCatalog.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PullUnisgnedCatalog.PNG)
+##### <a name='a4be2daf505060635a78de3eb6ac273755f05676459'></a> Source: [wmf\images\PullUnisgnedCatalog.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PullUnisgnedCatalog.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6857,7 +6870,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='83fae01e6d44ef867ae8868c022376211c22d01e459'></a> Source: [wmf\images\PullUnsignedConfigFail.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PullUnsignedConfigFail.PNG)
+##### <a name='83fae01e6d44ef867ae8868c022376211c22d01e460'></a> Source: [wmf\images\PullUnsignedConfigFail.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PullUnsignedConfigFail.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6869,7 +6882,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='ac6c4586d916fbbd888f73d39201d82da6da8873460'></a> Source: [wmf\images\PushSignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PushSignedMof.PNG)
+##### <a name='ac6c4586d916fbbd888f73d39201d82da6da8873461'></a> Source: [wmf\images\PushSignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PushSignedMof.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6881,7 +6894,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='9bce54791cd28520e9812b1fd8daa42dfbe56c64461'></a> Source: [wmf\images\PushUnsignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/PushUnsignedMof.PNG)
+##### <a name='9bce54791cd28520e9812b1fd8daa42dfbe56c64462'></a> Source: [wmf\images\PushUnsignedMof.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/PushUnsignedMof.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6893,7 +6906,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='6290a872ef2ee8882895f6245e6dc7a7f20ecdf4462'></a> Source: [wmf\images\SignMofFile.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/SignMofFile.PNG)
+##### <a name='6290a872ef2ee8882895f6245e6dc7a7f20ecdf4463'></a> Source: [wmf\images\SignMofFile.PNG](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/SignMofFile.PNG)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6905,7 +6918,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='2a797c88dc4d945e346bc20711f7586163e9edfb463'></a> Source: [wmf\images\TestFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/images/TestFileCatalog.jpg)
+##### <a name='2a797c88dc4d945e346bc20711f7586163e9edfb464'></a> Source: [wmf\images\TestFileCatalog.jpg](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/images/TestFileCatalog.jpg)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6917,7 +6930,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='865258c0b403d4e7979d7ee32d3f87b63a349f08464'></a> Source: [wmf\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/index.md)
+##### <a name='865258c0b403d4e7979d7ee32d3f87b63a349f08465'></a> Source: [wmf\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/index.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [dsc\index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/dsc/index.md)
 * Handoff File: [index.087529cd8972c61293d437c5b3a72507e4d1e1d9.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/index.087529cd8972c61293d437c5b3a72507e4d1e1d9.ja-jp.xlf)
@@ -6931,7 +6944,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda465'></a> Source: [wmf\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/wmf/md.style)
+##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda466'></a> Source: [wmf\md.style](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/478cd15d13621ccb9eea25dda6390033130ac22a/wmf/md.style)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -6943,7 +6956,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2466'></a> Source: [wmf\README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/README.md)
+##### <a name='a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2467'></a> Source: [wmf\README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/README.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\README.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/README.md)
 * Handoff File: [README.3f33d618813a6a11bfd02271ad6bb9c112763721.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/README.3f33d618813a6a11bfd02271ad6bb9c112763721.ja-jp.xlf)
@@ -6957,7 +6970,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='274c6dcc36b3baa64d01b5518444c7de3dcc00ee467'></a> Source: [wmf\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/TOC.md)
+##### <a name='274c6dcc36b3baa64d01b5518444c7de3dcc00ee468'></a> Source: [wmf\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/wmf/TOC.md)
 * Status: InSyncHandedBackSuccess
 * Target File: [wmf\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/wmf/TOC.md)
 * Handoff File: [TOC.60497266061c38453b3db893ec675eb65584af89.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f3493e3399bd34da10bfec98d471243de31eee39/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/TOC.60497266061c38453b3db893ec675eb65584af89.ja-jp.xlf)
@@ -6971,7 +6984,7 @@
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
-##### <a name='897f751eab3149d2c5de728042148e9d7c0bb1db468'></a> Source: [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md)
+##### <a name='897f751eab3149d2c5de728042148e9d7c0bb1db469'></a> Source: [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md)
 * Status: HandedOffSuccess
 * Target File: 
 * Handoff File: [Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/ee5ff9a05f935004f89d98ce969aaed1397d11ac/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf)
@@ -7003,25 +7016,25 @@
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_type_is_mismatch_with_handoff_type","internal_error_message":"The handback type archive is not match with handoff type null.","internal_error_retriable":false,"exception_message":"The handback type archive is not match with handoff type null.","exception_type":"Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException","stack_trace":null,"extended_information":null}
 
-##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed423handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](#1e422b30ab2471e73123badedf1f10631f9730ed423)
+##### <a name='1e422b30ab2471e73123badedf1f10631f9730ed424handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\catalog-cmdlets.md](#1e422b30ab2471e73123badedf1f10631f9730ed424)
 * Error Code: handback_transform_failed
 * Error Message: Handback file: C:\gittest\master\OpenLocalizationOrg\PSD.handback\dd1fa2\ol-handback\OpenLocalizationOrg\PowerShell-Docs.ja-jp\master\catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\gittest\\master\\OpenLocalizationOrg\\PSD.handback\\dd1fa2\\ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\catalog-cmdlets.3fb2b42ac619c6fd99ffe4114805b65c71476b3b.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\nタイトル: カタログ コマンドレット作成者: jaimeo 共同作成者: ?\nError message: (Line: 1, Col: 22, Idx: 21) - (Line: 1, Col: 22, Idx: 21): Mapping values are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
 
-##### <a name='7505e063fad84999af786f2af0602d204ed973b7427handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](#7505e063fad84999af786f2af0602d204ed973b7427)
+##### <a name='7505e063fad84999af786f2af0602d204ed973b7428handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\DSCRunAsCredentialCompositeResources.md](#7505e063fad84999af786f2af0602d204ed973b7428)
 * Error Code: handback_transform_failed
 * Error Message: Handback file: C:\gittest\master\OpenLocalizationOrg\PSD.handback\dd1fa2\ol-handback\OpenLocalizationOrg\PowerShell-Docs.ja-jp\master\DSCRunAsCredentialCompositeResources.f65c22955818dede6f97031e1a087a8a60d20d6c.ja-jp.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\gittest\\master\\OpenLocalizationOrg\\PSD.handback\\dd1fa2\\ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\DSCRunAsCredentialCompositeResources.f65c22955818dede6f97031e1a087a8a60d20d6c.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitle: \"PsDscRunAsCredential と DSC 複合リソース\"\nauthor:  jaimeo\ncontributor: ?\nError message: (Line: 3, Col: 14, Idx: 72) - (Line: 3, Col: 14, Idx: 72): Mapping keys are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
 
-##### <a name='8bb3f7173559c349d033d175f5784d80b7a16ed0431handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](#8bb3f7173559c349d033d175f5784d80b7a16ed0431)
+##### <a name='8bb3f7173559c349d033d175f5784d80b7a16ed0432handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\improved-pullclient-security.md](#8bb3f7173559c349d033d175f5784d80b7a16ed0432)
 * Error Code: handback_transform_failed
 * Error Message: Handback file: C:\gittest\master\OpenLocalizationOrg\PSD.handback\dd1fa2\ol-handback\OpenLocalizationOrg\PowerShell-Docs.ja-jp\master\improved-pullclient-security.cf456de8ef304f3ca033ba4bc6092fd1be84dc09.ja-jp.xlf failed.
 * Retriable: False
 * Error Details: {"internal_error_code":"handback_transform_failed","internal_error_message":"Handback file: C:\\gittest\\master\\OpenLocalizationOrg\\PSD.handback\\dd1fa2\\ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\improved-pullclient-security.cf456de8ef304f3ca033ba4bc6092fd1be84dc09.ja-jp.xlf failed.","internal_error_retriable":false,"exception_message":"Fail to transform from xliff to markdown with invalid metadata: Invalid yaml header when parsing:\ntitle:  \"DSC プル クライアントは TLS1.1 と TLS1.2 をサポート\"\nauthor:  jaimeo\ncontributor: ?\nError message: (Line: 3, Col: 14, Idx: 76) - (Line: 3, Col: 14, Idx: 76): Mapping keys are not allowed in this context.","exception_type":"System.IO.InvalidDataException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 94\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass7_0.<GetHandbackFiles>b__1(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 442","extended_information":null}
 
-##### <a name='dd7905bfd221201919d028ec158cd5ef349335e2436handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\PesterUpdates.md](#dd7905bfd221201919d028ec158cd5ef349335e2436)
+##### <a name='dd7905bfd221201919d028ec158cd5ef349335e2437handback_transform_failed'></a> Source: [wmf\5.1\features-scenarios-cache\PesterUpdates.md](#dd7905bfd221201919d028ec158cd5ef349335e2437)
 * Error Code: handback_transform_failed
 * Error Message: Handback file: C:\gittest\master\OpenLocalizationOrg\PSD.handback\dd1fa2\ol-handback\OpenLocalizationOrg\PowerShell-Docs.ja-jp\master\PesterUpdates.1e4976b79d08b1906a0f335de1892decc168f7a5.ja-jp.xlf failed.
 * Retriable: False

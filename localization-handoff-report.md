@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md) | HandedOffSuccess | [Details](#897f751eab3149d2c5de728042148e9d7c0bb1db468)
 
 ## Item Details
-##### <a name='897f751eab3149d2c5de728042148e9d7c0bb1db468'></a> Source: [Xamarin\Index.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/6617508f720e75cd9a7f49611d9b6a25399f0512/Xamarin/Index.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/ee5ff9a05f935004f89d98ce969aaed1397d11ac/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf)
-* Handoff Datetime: 2016-10-05 22:49:16
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
