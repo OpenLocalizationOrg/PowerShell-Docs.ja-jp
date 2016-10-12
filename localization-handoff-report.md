@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/dsc/Jason_in_dsc_folder.md) | HandedOffSuccess | [Details](#89a3d4320f255075a88ee3aea2564ad03b50879638)
+ [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/Testing%20by%20Jason) | HandedOffSuccess | [Details](#89a3d4320f255075a88ee3aea2564ad03b508796339)
 
 ## Item Details
+##### <a name='89a3d4320f255075a88ee3aea2564ad03b50879638'></a> Source: [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/dsc/Jason_in_dsc_folder.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/c88a548faa7c753ebc20517a6d15b7a198619383/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf)
+* Handoff Datetime: 2016-10-12 17:58:26
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
+##### <a name='89a3d4320f255075a88ee3aea2564ad03b508796339'></a> Source: [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/Testing%20by%20Jason)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/c88a548faa7c753ebc20517a6d15b7a198619383/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf)
+* Handoff Datetime: 2016-10-12 17:58:26
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

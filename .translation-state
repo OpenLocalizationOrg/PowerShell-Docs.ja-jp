@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "478cd15d13621ccb9eea25dda6390033130ac22a",
+  "LastProcessedCommit": "a89a5954e4d1d2f8028b0c8e16b974cefbee2410",
   "LastTranslatedCommit": "cc25d198f8d10c0cf91c06dc1c7aebfc276d0445",
   "Items": {
     "c3b8854dbecd4ab03e46c51a23ac00461bdd7014": {
@@ -25565,6 +25565,41 @@
       "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\Index.e91feffba67618796babf7f7c4ac867ead922d70.ja-jp.xlf",
       "HandoffFileCommit": "ee5ff9a05f935004f89d98ce969aaed1397d11ac",
       "HandoffDateTime": "2016-10-05T22:49:16.2180603Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualException": null
+    },
+    "89a3d4320f255075a88ee3aea2564ad03b508796": {
+      "FileHash": "89a3d4320f255075a88ee3aea2564ad03b508796",
+      "SourceFileCommit": "a89a5954e4d1d2f8028b0c8e16b974cefbee2410",
+      "SourceFilePath": "dsc\\Jason_in_dsc_folder.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\Jason_in_dsc_folder.md"
+      ],
+      "HasMetadata": false,
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf",
+      "HandoffFileCommit": "c88a548faa7c753ebc20517a6d15b7a198619383",
+      "HandoffDateTime": "2016-10-12T17:58:26.6914541Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
