@@ -36,14 +36,14 @@
       "ArchiveException": null,
       "BilingualFilePath": null,
       "BilingualFileCommit": null,
-      "BilingualDateTime": "2016-10-05T17:59:27.1681427Z",
+      "BilingualDateTime": "2016-11-09T09:22:27.9394595Z",
       "BilingualException": {
         "internal_error_code": "bilingual_uploading_failed",
         "internal_error_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\CONTRIBUTING.3f454a98e586d1aa0d322e19afd5e67e08f2d3c8.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
         "internal_error_retriable": false,
-        "exception_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\CONTRIBUTING.3f454a98e586d1aa0d322e19afd5e67e08f2d3c8.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
-        "exception_type": "Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException",
-        "stack_trace": null,
+        "exception_message": "bilingual file:ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\CONTRIBUTING.3f454a98e586d1aa0d322e19afd5e67e08f2d3c8.ja-jp.xlf with commit:a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c canot be found",
+        "exception_type": "System.IO.FileNotFoundException",
+        "stack_trace": "   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass33_0.<UploadBilingualFiles>b__0(Tuple`3 fileToBeUpload) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\LocalizationCore.cs:line 493",
         "extended_information": null
       }
     },
@@ -212,14 +212,14 @@
       "ArchiveException": null,
       "BilingualFilePath": null,
       "BilingualFileCommit": null,
-      "BilingualDateTime": "2016-10-05T17:59:27.1681427Z",
+      "BilingualDateTime": "2016-11-09T09:22:27.9394595Z",
       "BilingualException": {
         "internal_error_code": "bilingual_uploading_failed",
         "internal_error_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
         "internal_error_retriable": false,
-        "exception_message": "Bilingual file: ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf with commit: a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c failed.",
-        "exception_type": "Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException",
-        "stack_trace": null,
+        "exception_message": "bilingual file:ol-handback\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.ja-jp.xlf with commit:a6e39e2a7ae2a42c97c92a8b2e74ea4120dda01c canot be found",
+        "exception_type": "System.IO.FileNotFoundException",
+        "stack_trace": "   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass33_0.<UploadBilingualFiles>b__0(Tuple`3 fileToBeUpload) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\LocalizationCore.cs:line 493",
         "extended_information": null
       }
     },
