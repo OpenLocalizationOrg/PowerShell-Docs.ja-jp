@@ -6,15 +6,15 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/dsc/Jason_in_dsc_folder.md) | HandedOffSuccess | [Details](#89a3d4320f255075a88ee3aea2564ad03b50879638)
- [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/Testing%20by%20Jason) | HandedOffSuccess | [Details](#89a3d4320f255075a88ee3aea2564ad03b508796339)
+ [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/565fa792c0ec30d9c35536b25d6336c905f7af66/dsc/Jason_in_dsc_folder.md) | HandedOffSuccess | [Details](#05c43e68978034622fab8e2b0c8bab1291130a8338)
+ [dsc\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a03b2266c1279c4c6d6297d4917ecbffad6b9f92/dsc/TOC.md) | HandedOffSuccess | [Details](#1191c9c796a820af4e4e7bea32b5ebe07d0465ca105)
 
 ## Item Details
-##### <a name='89a3d4320f255075a88ee3aea2564ad03b50879638'></a> Source: [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/dsc/Jason_in_dsc_folder.md)
+##### <a name='05c43e68978034622fab8e2b0c8bab1291130a8338'></a> Source: [dsc\Jason_in_dsc_folder.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/565fa792c0ec30d9c35536b25d6336c905f7af66/dsc/Jason_in_dsc_folder.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/c88a548faa7c753ebc20517a6d15b7a198619383/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf)
-* Handoff Datetime: 2016-10-12 17:58:26
+* Handoff File: [Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/103fd2c988b7576e4315a08e14830453c760fe3f/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf)
+* Handoff Datetime: 2016-11-09 07:41:46
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -22,16 +22,21 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='89a3d4320f255075a88ee3aea2564ad03b508796339'></a> Source: [Testing by Jason](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a89a5954e4d1d2f8028b0c8e16b974cefbee2410/Testing%20by%20Jason)
+##### <a name='1191c9c796a820af4e4e7bea32b5ebe07d0465ca105'></a> Source: [dsc\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a03b2266c1279c4c6d6297d4917ecbffad6b9f92/dsc/TOC.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/c88a548faa7c753ebc20517a6d15b7a198619383/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Jason_in_dsc_folder.44b508b72458543d467873ed4f58e9679bd069d1.ja-jp.xlf)
-* Handoff Datetime: 2016-10-12 17:58:26
+* Handoff File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/103fd2c988b7576e4315a08e14830453c760fe3f/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf)
+* Handoff Datetime: 2016-11-09 07:41:46
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [dsc\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/dsc/TOC.md)
+* Current Handback File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf)
+* Current Handback Datetime: 2016-10-05 17:49:22
+* Bilingual File: [TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/TOC.b2a7935bce42ebc7e43bfe65f3058900e2942427.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 
 

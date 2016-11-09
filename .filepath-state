@@ -137,6 +137,9 @@
   "10123359213df7180388d9251e032c2bbb673143": [
     "dsc\\serviceResource.md"
   ],
+  "1191c9c796a820af4e4e7bea32b5ebe07d0465ca": [
+    "dsc\\TOC.md"
+  ],
   "924d5878a6d93e846adbd9cb4c69bea79e104bcd": [
     "dsc\\TOC.md"
   ],
@@ -1262,6 +1265,9 @@
   ],
   "897f751eab3149d2c5de728042148e9d7c0bb1db": [
     "Xamarin\\Index.md"
+  ],
+  "05c43e68978034622fab8e2b0c8bab1291130a83": [
+    "dsc\\Jason_in_dsc_folder.md"
   ],
   "89a3d4320f255075a88ee3aea2564ad03b508796": [
     "dsc\\Jason_in_dsc_folder.md"
