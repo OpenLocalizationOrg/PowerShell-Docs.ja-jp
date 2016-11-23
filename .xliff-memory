@@ -6724,8 +6724,8 @@
       "SourceFilename": "dsc\\Jason_in_dsc_folder.md",
       "XliffHash": "8e523b46461943759d3bced79bc826450a68586d",
       "TranslationType": 1,
-      "IsArchived": false,
-      "ArchivedDateTime": "0001-01-01T00:00:00",
+      "IsArchived": true,
+      "ArchivedDateTime": "2016-11-23T22:34:18.4370026Z",
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\05c43e68978034622fab8e2b0c8bab1291130a83.341c0b7a38ea1b0c15ac15c7ed32e02e41c880d0.xml",
       "LocXliff": null,
       "LocXliffCommit": null
@@ -6734,8 +6734,8 @@
       "SourceFilename": "dsc\\TOC.md",
       "XliffHash": "ffa9fc26a7cfd76409e5f97e267b3683ce0a5e3a",
       "TranslationType": 1,
-      "IsArchived": false,
-      "ArchivedDateTime": "0001-01-01T00:00:00",
+      "IsArchived": true,
+      "ArchivedDateTime": "2016-11-23T22:34:18.4213796Z",
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\1191c9c796a820af4e4e7bea32b5ebe07d0465ca.7e632a8612135ed17bc7ac4adbce935792e5f396.xml",
       "LocXliff": null,
       "LocXliffCommit": null
