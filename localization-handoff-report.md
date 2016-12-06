@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | HandedOffSuccess | [Details](#52d55ff10a9118bea2a34a53452fd252d1e17580317)
 
 ## Item Details
-##### <a name='52d55ff10a9118bea2a34a53452fd252d1e17580317'></a> Source: [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md)
-* Status: HandedOffSuccess
-* Target File: [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md)
-* Handoff File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f4afe85a00f7a077b688ccc63718f8b2cd545627/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Handoff Datetime: 2016-12-02 01:38:12
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Handback Datetime: 2016-10-05 17:49:22
-* Bilingual File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Bilingual Datetime: 2016-10-05 17:50:48
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
