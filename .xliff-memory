@@ -6749,6 +6749,16 @@
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\52d55ff10a9118bea2a34a53452fd252d1e17580.7fea1e6d7bf310b59cf546a2f00a45985a36ad0c.xml",
       "LocXliff": null,
       "LocXliffCommit": null
+    },
+    "common-modules\\readme.md.3a17aa8e48046a07bd3177ef77ffc95fd2298214.HT": {
+      "SourceFilename": "common-modules\\readme.md",
+      "XliffHash": "3a17aa8e48046a07bd3177ef77ffc95fd2298214",
+      "TranslationType": 1,
+      "IsArchived": false,
+      "ArchivedDateTime": "0001-01-01T00:00:00",
+      "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\ed7de439cf1b40224e8d4589159749902fce1b5c.f41f01f5e76f0111872c0911449674bbc356df59.xml",
+      "LocXliff": null,
+      "LocXliffCommit": null
     }
   }
 }

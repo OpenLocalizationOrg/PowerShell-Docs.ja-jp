@@ -1,11 +1,33 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md) | HandedOffSuccess | [Details](#ed7de439cf1b40224e8d4589159749902fce1b5c6)
 
 ## Item Details
+##### <a name='ed7de439cf1b40224e8d4589159749902fce1b5c6'></a> Source: [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/5abf2bf64c03dacdc4dd1559cf138bca9c81fde5/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Handoff Datetime: 2017-01-04 03:34:13
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Handback Name: 
+* Current Target File: [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/common-modules/readme.md)
+* Current Handback File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Current Handback Datetime: 2016-10-05 17:49:22
+* Bilingual File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Bilingual Datetime: 2016-10-05 17:50:48
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
