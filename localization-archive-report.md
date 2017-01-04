@@ -6,20 +6,25 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | ArchivedSuccess | [Details](#52d55ff10a9118bea2a34a53452fd252d1e17580315)
+ [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md) | ArchivedSuccess | [Details](#ed7de439cf1b40224e8d4589159749902fce1b5c6)
 
 ## Item Details
-##### <a name='52d55ff10a9118bea2a34a53452fd252d1e17580315'></a> Source: [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md)
+##### <a name='ed7de439cf1b40224e8d4589159749902fce1b5c6'></a> Source: [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md)
 * Status: ArchivedSuccess
-* Target File: [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md)
-* Handoff File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/f4afe85a00f7a077b688ccc63718f8b2cd545627/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Handoff Datetime: 2016-12-02 01:38:12
+* Target File: 
+* Handoff File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/5abf2bf64c03dacdc4dd1559cf138bca9c81fde5/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Handoff Datetime: 2017-01-04 03:34:13
 * Handoff Reason: Include
-* Archive File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/7619496d61369f10912672b93061666cb2f26bd3/ol-archive/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Archive Datetime: 2016-12-13 01:11:54
-* Handback File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
-* Handback Datetime: 2016-10-05 17:49:22
-* Bilingual File: [Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/Getting-Ready-to-Use-Windows-PowerShell.672757f96d6f3590bcbf857fbd689a13c0162f82.ja-jp.xlf)
+* Handoff Name: TestHandoffName_20170104
+* Archive File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/ed5e8ccea76e91557fbf5c74150b33aaa9026e69/ol-archive/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Archive Datetime: 2017-01-04 03:55:15
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Handback Name: 
+* Current Target File: [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs.ja-jp/blob/7673d6e7e5c4fc11f1f329c3060f3d7ac53b8db9/common-modules/readme.md)
+* Current Handback File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Current Handback Datetime: 2016-10-05 17:49:22
+* Bilingual File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handback/blob/f8a2be8bd75e46796a0c4194444412cbc426f02a/ol-handback/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
 * Bilingual Datetime: 2016-10-05 17:50:48
 * [Back to Top](#report-top)
 

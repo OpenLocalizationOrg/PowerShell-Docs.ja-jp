@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 470
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 2
+[ Handoff Success Files ](#handoff-success-list)| 1
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 9
+[ Archive Success Files ](#archive-success-list)| 10
 [ Handback Failed Files ](#handback-failed-list)| 2
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 416
@@ -18,7 +18,6 @@
 ## <a name='handoff-success-list'></a> Handoff Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md) | HandedOffSuccess | [Details](#ed7de439cf1b40224e8d4589159749902fce1b5c6)
  [dsc\images\Pull1.png](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/d8673d1d50c12395eab9b9aff5bc57189f5ce80b/dsc/images/Pull1.png) | HandedOffSuccess | [Details](#a20dd5927999cbb3c1125bd4ff8944954abc84a935)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
@@ -26,6 +25,7 @@
 ## <a name='archive-success-list'></a> Archive Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
+ [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md) | ArchivedSuccess | [Details](#ed7de439cf1b40224e8d4589159749902fce1b5c6)
  [dsc\authoringResourceComposite.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/dsc/authoringResourceComposite.md) | ArchivedSuccess | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b1511)
  [dsc\TOC.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a03b2266c1279c4c6d6297d4917ecbffad6b9f92/dsc/TOC.md) | ArchivedSuccess | [Details](#1191c9c796a820af4e4e7bea32b5ebe07d0465ca104)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | ArchivedSuccess | [Details](#52d55ff10a9118bea2a34a53452fd252d1e17580314)
@@ -595,14 +595,14 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ed7de439cf1b40224e8d4589159749902fce1b5c6'></a> Source: [common-modules\readme.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/0b9da41bca1ba05e725a2a0ee7ccdd25bc909901/common-modules/readme.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/5abf2bf64c03dacdc4dd1559cf138bca9c81fde5/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
 * Handoff Datetime: 2017-01-04 03:34:13
 * Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Handoff Name: TestHandoffName_20170104
+* Archive File: [readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/ed5e8ccea76e91557fbf5c74150b33aaa9026e69/ol-archive/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/readme.c819820f6c0c5977f6238fc1bf8c76ffe64464ec.ja-jp.xlf)
+* Archive Datetime: 2017-01-04 03:55:15
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Handback Name: 

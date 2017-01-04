@@ -6754,8 +6754,8 @@
       "SourceFilename": "common-modules\\readme.md",
       "XliffHash": "3a17aa8e48046a07bd3177ef77ffc95fd2298214",
       "TranslationType": 1,
-      "IsArchived": false,
-      "ArchivedDateTime": "0001-01-01T00:00:00",
+      "IsArchived": true,
+      "ArchivedDateTime": "2017-01-04T03:55:15.7247917Z",
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\ed7de439cf1b40224e8d4589159749902fce1b5c.f41f01f5e76f0111872c0911449674bbc356df59.xml",
       "LocXliff": null,
       "LocXliffCommit": null
