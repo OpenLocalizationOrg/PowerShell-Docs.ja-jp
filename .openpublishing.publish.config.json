@@ -7,11 +7,11 @@
       "docset_name": "PowerShell_PowerShell-docs_dsc",
       "build_output_subfolder": "dsc",
       "locale": "ja-jp",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
-      }
+      },
+      "version": 0
     }
   ],
   "notification_subscribers": [
@@ -22,5 +22,7 @@
     "master-oldev",
     "live-oldev"
   ],
-  "skip_source_output_uploading": false
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_generate_pdf_url_template": false
 }
