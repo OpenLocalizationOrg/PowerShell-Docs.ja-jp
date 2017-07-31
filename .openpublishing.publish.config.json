@@ -10,19 +10,27 @@
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
-      },
-      "version": 0
+      }
     }
   ],
   "notification_subscribers": [
-    "fenxu@microsoft.com",
-    "alsobole@microsoft.com"
+    ""
   ],
   "branches_to_filter": [
     "master-oldev",
     "live-oldev"
   ],
-  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/OpenLocalizationOrg/PowerShell-Docs",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
   "need_generate_pdf_url_template": false
 }
