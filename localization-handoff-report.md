@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/078e52df388003dc17f5839dcf60f0fe29d533f1/ecmaxml/test.xml) | HandedOffSuccess | [Details](#c279faa1a40e03cfdd2ee2740aec192bae2a3a5a113)
 
 ## Item Details
+##### <a name='c279faa1a40e03cfdd2ee2740aec192bae2a3a5a113'></a> Source: [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/078e52df388003dc17f5839dcf60f0fe29d533f1/ecmaxml/test.xml)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [test.9b04275df1462dbc8fc1f6c79aa1a113fa6ea898.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/e5f7a3ffff67a3cef815fe000ba8f017bd516ac5/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/test.9b04275df1462dbc8fc1f6c79aa1a113fa6ea898.ja-jp.xlf)
+* Handoff Datetime: 2017-08-14 11:53:23
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Handback Name: 
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
