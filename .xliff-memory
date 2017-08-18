@@ -4911,6 +4911,12 @@
       "XliffHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "TranslationType": 1,
       "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\c279faa1a40e03cfdd2ee2740aec192bae2a3a5a.c5974d81a253955c52a10d2d33ee61bdc0674922.xml"
+    },
+    "ecmaxml\\empty.md.da39a3ee5e6b4b0d3255bfef95601890afd80709.HT": {
+      "SourceFilename": "ecmaxml\\empty.md",
+      "XliffHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "TranslationType": 1,
+      "SkeletonFile": "ol-xliffcache\\OpenLocalizationOrg\\PowerShell-Docs.ja-jp\\master\\1f42e5b4020c93cad1681a64d8f899953311d180.792c7c12f5dd89a7e28c0ac3416a801302d48c1c.xml"
     }
   }
 }

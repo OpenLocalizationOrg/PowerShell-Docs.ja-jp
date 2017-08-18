@@ -1,22 +1,37 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/13408e4b3b4f739047ff06d0a42c391980325c42/ecmaxml/test.xml) | HandedOffFailed | [Details](#ffec0a6010257a592816856fd1893dc4fd465bee113)
+ [ecmaxml\empty.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/e04cefa43c1ca3f66f02be58c9fe1ff36ced6a82/ecmaxml/empty.md) | HandedOffSuccess | [Details](#1f42e5b4020c93cad1681a64d8f899953311d180113)
+ [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/13408e4b3b4f739047ff06d0a42c391980325c42/ecmaxml/test.xml) | HandedOffFailed | [Details](#ffec0a6010257a592816856fd1893dc4fd465bee114)
 
 ## Item Details
-##### <a name='ffec0a6010257a592816856fd1893dc4fd465bee113'></a> Source: [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/13408e4b3b4f739047ff06d0a42c391980325c42/ecmaxml/test.xml)
+##### <a name='1f42e5b4020c93cad1681a64d8f899953311d180113'></a> Source: [ecmaxml\empty.md](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/e04cefa43c1ca3f66f02be58c9fe1ff36ced6a82/ecmaxml/empty.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [empty.56d352f82d56331786e77a1200c1dae78cfe6ef0.ja-jp.xlf](https://github.com/OpenLocalizationOrg/PowerShell-Docs.handoff/blob/9bc28a4dfe6c360be18a2438d042ea66ff6a593f/ol-handoff/OpenLocalizationOrg/PowerShell-Docs.ja-jp/master/empty.56d352f82d56331786e77a1200c1dae78cfe6ef0.ja-jp.xlf)
+* Handoff Datetime: 2017-08-18 09:04:54
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Handback Name: 
+* [Back to Top](#report-top)
+
+##### <a name='ffec0a6010257a592816856fd1893dc4fd465bee114'></a> Source: [ecmaxml\test.xml](https://github.com/OpenLocalizationOrg/PowerShell-Docs/blob/13408e4b3b4f739047ff06d0a42c391980325c42/ecmaxml/test.xml)
 * Status: HandedOffFailed
 * Target File: 
 * Handoff File: 
-* Handoff Datetime: 2017-08-14 16:46:31
+* Handoff Datetime: 2017-08-18 09:04:54
 * Handoff Reason: Ignored
 * Handoff Name: 
-* Handoff Error: [handoff_transform_failed](#ffec0a6010257a592816856fd1893dc4fd465bee113handoff_transform_failed)
+* Handoff Error: [handoff_transform_failed](#ffec0a6010257a592816856fd1893dc4fd465bee114handoff_transform_failed)
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
@@ -26,11 +41,11 @@
 
 
 ## Error Details
-##### <a name='ffec0a6010257a592816856fd1893dc4fd465bee113handoff_transform_failed'></a> Source: [ecmaxml\test.xml](#ffec0a6010257a592816856fd1893dc4fd465bee113)
+##### <a name='ffec0a6010257a592816856fd1893dc4fd465bee114handoff_transform_failed'></a> Source: [ecmaxml\test.xml](#ffec0a6010257a592816856fd1893dc4fd465bee114)
 * Error Code: handoff_transform_failed
 * Error Message: Handoff source file: ecmaxml\test.xml transformed failed.
 * Retriable: False
-* Error Details: {"internal_error_code":"handoff_transform_failed","internal_error_message":"Handoff source file: ecmaxml\\test.xml transformed failed.","internal_error_retriable":false,"exception_message":"Internal Server Error\n","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.ContentToXliffCore(Stream sourceStream, Stream xliffStream, Stream skeletonStream, String srcLocale, String targetLocale, IReadOnlyDictionary`2 transformerOptions, String sourcePath, String format) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 67\r\n   at Microsoft.OpenLocalization.Transformer.TransformerClient.ContentToXliff(Stream sourceStream, Stream xliffStream, Stream skeletonStream, String srcLocale, String targetLocale, String xliffVersion, IReadOnlyDictionary`2 options, String sourcePath, String format) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 227\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.ContentToXliff(String mdfile, String xliffFile, String skeletonFile, String sourceLocale, String targetLocale, String xliffVersion, IReadOnlyDictionary`2 transformerOptions, String souurceRelativePath) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 63\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass28_0.<CreateHandoffFiles>b__0(Tuple`5 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 295","extended_information":null}
+* Error Details: {"internal_error_code":"handoff_transform_failed","internal_error_message":"Handoff source file: ecmaxml\\test.xml transformed failed.","internal_error_retriable":false,"exception_message":"Internal Server Error\n","exception_type":"System.Net.Http.HttpRequestException","stack_trace":"   at Microsoft.OpenLocalization.Transformer.MarkdownJavascriptTransformer.ContentToXliffCore(Stream sourceStream, Stream xliffStream, Stream skeletonStream, String srcLocale, String targetLocale, IReadOnlyDictionary`2 transformerOptions, String sourcePath, String format) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\Transformer\\MarkdownJavascriptTransformer.cs:line 67\r\n   at Microsoft.OpenLocalization.Transformer.TransformerClient.ContentToXliff(Stream sourceStream, Stream xliffStream, Stream skeletonStream, String srcLocale, String targetLocale, String xliffVersion, IReadOnlyDictionary`2 options, String sourcePath, String format) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 229\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.ContentToXliff(String mdfile, String xliffFile, String skeletonFile, String sourceLocale, String targetLocale, String xliffVersion, IReadOnlyDictionary`2 transformerOptions, String souurceRelativePath) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 63\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass28_0.<CreateHandoffFiles>b__0(Tuple`5 handoff) in C:\\Jenkins\\workspace\\OpenLocalization-Sandbox\\src\\OpenLocalization\\Localization\\HandoffCore.cs:line 294","extended_information":null}
 
 
 Generated by OpenLocalization.
