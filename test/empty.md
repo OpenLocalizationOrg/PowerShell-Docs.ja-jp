@@ -1,6 +1,6 @@
 ---
 author: alexchen2016
-ms.author: v-junlch!!!!!!
+ms.author: v-junlch???
 manager: digimobile
 origin.date: 04/10/2017
 ms.date: 08/08/2017
@@ -10,8 +10,8 @@ ms.topic: article
 ms.service: Azure
 ms.technology: Azure
 ms.translationtype: MT
-ms.sourcegitcommit: 1b901393eb419c2b6c804781a96f75862af10e11
-ms.openlocfilehash: 6075a76af06b1fbe98759a752100f3d82cad6015
+ms.sourcegitcommit: 1cc7082ffc28d8c0370b5cdc0eb435eb557a30d7
+ms.openlocfilehash: 69cc42589c74f7a2100c1ba6e33dd1b2157c741e
 ms.contentlocale: ja-jp
 ms.lasthandoff: 08/18/2017
 
